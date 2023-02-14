@@ -44,16 +44,18 @@ reload: 45
 recoil: 3
 shootSound: bang
 ejectEffect: none
-bullet: {
-type: SapBulletType
-sapStrength: 0.5
-width: 10
-height: 14
-damage: 15
-lifetime: 65
-knockback: -1
-backColor: 51e1e8
-frontColor: cdf8fa
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.5
+    length: 135
+    damage: 50
+    shootEffect: shootSmall
+    hitColor: 03e3fc
+    color: 03e3fc
+    despawnEffect: none
+    width: 1
+    lifetime: 40
+    knockback: -1
 status: freezing
 statusDuration: 180
 }

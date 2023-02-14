@@ -29,9 +29,9 @@
 	],
 weapons: [
 {
-name: cryospider2-gun
+name: cryospider3-gun
 x: 8
-y: 0
+y: 2
 mirror: true
 shoot: {
 type: ShootPattern
@@ -42,17 +42,16 @@ top: false
 rotate: false
 reload: 45
 recoil: 3
-
 shootSound: bang
 ejectEffect: none
 bullet: {
+type: SapBulletType
+sapStrength: 0.5
 width: 10
 height: 14
 damage: 15
-splashDamage: 25
-splashDamageRadius: 25
-speed: 5
 lifetime: 65
+knockback: -1
 backColor: 51e1e8
 frontColor: cdf8fa
 status: freezing

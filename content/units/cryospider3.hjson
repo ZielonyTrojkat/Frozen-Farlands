@@ -35,27 +35,27 @@ y: 2
 mirror: true
 shoot: {
 type: ShootPattern
-shots: 2
+shots: 1
 shotDelay: 4
 }
 top: false
-rotate: false
-reload: 45
+rotate: true
+reload: 25
 recoil: 3
 shootSound: bang
 ejectEffect: none
   bullet: {
     type: SapBulletType
     sapStrength: 0.5
-    length: 135
+    length: 70
     damage: 50
     shootEffect: shootSmall
     hitColor: 03e3fc
     color: 03e3fc
     despawnEffect: none
     width: 1
-    lifetime: 40
-    knockback: -1
+    lifetime: 20
+    knockback: -1.5
 status: freezing
 statusDuration: 180
 }

@@ -1,0 +1,13 @@
+type: item
+name: Ruda tlenu
+description: Tak.
+  "cost": 197.5,
+  "color": "23ff75",
+  "flammability": 69,
+  "explosiveness": 420,
+  "radioactivity": 2137,
+research: core-3
+researchCost: [
+    yttrium/1
+  ]
+  "alwaysUnlocked": true

@@ -1,0 +1,29 @@
+"type": PowerTurret,
+"size": 1,
+"health": 500,
+range: 100,
+rotateSpeed: 5,
+reload: 10
+burstSpacing: 1
+shots: 1
+xRand: 1
+powerUse: 75
+recoilAmount: 3
+shootSound: PikeSound
+shootType: {
+  type: BasicBulletType,
+  height: 10
+  width: 2
+  damage: 7
+  speed: 7
+  frontColor: 03f8fc
+  backColor: ffffff
+}
+category: turret
+requirements: [
+  yttrium/1
+]
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

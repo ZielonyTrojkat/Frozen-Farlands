@@ -1,0 +1,12 @@
+Type: UnitAssemblerModule
+health: 475
+size: 3
+consumes: {
+power: 5
+}
+category: units
+research: Rereconstructor
+researchCostMultiplier: 4
+requirements: [
+  yttrium/1
+]

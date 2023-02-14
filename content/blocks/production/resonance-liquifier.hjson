@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+	 "researchCostMultiplier": 0.5,
+  "description": "Creates liquid resonance with the use of water and resonance ore",
+  "health": 5,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 28,
+  "craftEffect": "none",
+  "drawer": {
+  "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+	   },
+        {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "liquid-resonance",
+        "suffix": "-liquid"
+        },
+        {	
+        "type": "DrawDefault"
+	  }
+    ]
+    },
+  "hasPower": true,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 0.70,
+    "items": [
+      "resonance/1"
+    ],
+    "liquids": [
+    "water/0.15"
+    ]
+  },
+  "requirements": [
+    "lead/50",
+    "graphite/40",
+    "resonance/80"
+  ],
+  "category": "crafting",
+  "research": "lead",
+  "outputLiquid": "liquid-resonance/0.15"
+}

@@ -1,0 +1,11 @@
+type: Pump
+health: 65
+pumpAmount: 0.1
+category: liquid
+requirements: [
+  yttrium/1
+]
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

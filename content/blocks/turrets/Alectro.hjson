@@ -1,0 +1,39 @@
+"type": PowerTurret,
+"size": 3,
+"health": 1500,
+range: 500
+rotateSpeed: 4.5
+reload: 60
+burstSpacing: 3
+shots: 1
+xRand: 1
+powerUse: 1000
+recoilAmount: 3
+shootSound: AlectroSound
+shootType: {
+  type: LaserBulletType
+  length: 500
+  damage: 2000
+},
+
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "66B1FF",
+                "colorTo": "000000",
+                "sizeFrom": 1,
+                "sizeTo": 1000,
+                "lifetime": 500
+            }
+        ]
+    },
+category: turret
+requirements: [
+  yttrium/1
+]
+research: Defragmentation
+researchCost: [
+    yttrium/1
+  ]

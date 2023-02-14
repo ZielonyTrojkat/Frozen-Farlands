@@ -1,0 +1,29 @@
+"type": ContinuousTurret,
+"size": 2,
+"health": 1200,
+targetHealing: true
+range: 300
+rotateSpeed: 4.5
+reload: 6
+burstSpacing: 3
+shots: 1
+xRand: 1
+recoilAmount: 3
+consumes : {
+  power: 5
+}
+loopSound: LeechSound
+shootType: {
+  type: PointLaserBulletType
+  length: 140
+  width: 24
+  damage: 100
+}
+category: turret
+requirements: [
+  yttrium/1
+]
+research: Pike
+researchCost: [
+    yttrium/1
+  ]

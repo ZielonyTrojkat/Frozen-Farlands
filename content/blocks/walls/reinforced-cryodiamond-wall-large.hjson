@@ -1,0 +1,21 @@
+    "type": "ShieldWall",
+    "buildCostMultiplier": 0.1,
+    "lightningSound": "spark",
+    "lightningChance": 6.60,
+    "lightningColor": "F3E979FF",
+    "lightningDamage": 48,
+    "lightningLength":28,
+    "health": 10080,
+    "size": 2,
+hasPower: false
+shieldHealth: 12000
+breakCooldown: 120
+regenSpeed: 250
+    "requirements": [
+        {"item": "obsidian", "amount": 1}
+    ],
+    "category": "defense",
+research: reinforced-cryodiamond-wall
+researchCost: [
+    yttrium/1
+  ]

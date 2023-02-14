@@ -1,0 +1,22 @@
+
+  "type": "WallCrafter",
+  "localizedName": "Ice Crusher",
+  "description": "Ice Crusher.",
+  "size": 2,
+  "category": "production",
+  "requirements": [
+    "yttrium/4",
+  ],
+  "drillTime": 80,
+  "attribute": ice,
+  "output": "ice-shard",
+  "fogRadius": 2,
+  "consumes": {
+    "power": 0.2,
+  },
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.06
+research: micro-drill
+researchCost: [
+    yttrium/1
+  ]

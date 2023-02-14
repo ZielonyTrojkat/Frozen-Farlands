@@ -1,0 +1,34 @@
+Type: UnitAssembler
+health: 2500
+size: 6
+plans: [
+  {
+  unit: cryospider4
+  requirements: [
+    moon-mod-cryospider2/8
+    moon-mod-cryoflare3/4
+    moon-mod-large-obsidian-wall/10
+  ]
+  time: 1000
+  }
+  {
+  unit: cryospider5
+  requirements: [
+    moon-mod-cryospider2/8
+    moon-mod-cryoflare3/4
+    moon-mod-large-obsidian-wall/10
+  ]
+  time: 1000
+  }
+]
+areaSize: 8
+dronesCreated: 4
+consumes: {
+power: 5
+}
+category: units
+research: Rereconstructor
+researchCostMultiplier: 2
+requirements: [
+  yttrium/1
+]

@@ -1,0 +1,71 @@
+  "type": "GenericCrafter",
+  "description": "Creates liquid resonance with the use of water and resonance ore",
+  "health": 5,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 28,
+  "craftEffect": "none",
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+         "type": "DrawFlame",
+    "flameRadius": 2.2,
+    "flameRadiusIn": 1.0,
+    "flameRadiusScl": 3.5,
+    "flameRadiusMag": 2.0,
+    "flameRadiusInMag": 1.0,
+	"flameColor": "74C2E8FF"
+	  },
+    {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+    "alpha": 0.4,
+    "blending": "additive",
+    "particleSize": 2,
+    "reverse": true,
+    "particleRad": 23,
+    "particles": 22,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 60
+    },
+    {
+    "type": "DrawParticles",
+    "color": "66B1FFFF",
+    "alpha": 0.4,
+    "reverse": true,
+    "blending": "additive",
+    "particleSize": 3,
+    "particleRad": 12,
+    "particles": 22,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 80
+     },
+      {
+       "type": "DrawGlowRegion",
+       "suffix": "-top", 
+       "glowScale": 10,
+       "color": "66B1FF90"
+     }
+    ]
+    },
+  "hasPower": true,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 1.70
+  },
+  "requirements": [
+    yttrium/1
+  ],
+  "category": "crafting",
+  "outputLiquid": "xenon/0.15"
+  research: cryogenium-extractor
+researchCost: [
+    yttrium/1
+  ]

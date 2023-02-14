@@ -1,0 +1,22 @@
+
+  "type": "WallCrafter",
+  "localizedName": "Bauxite Crusher",
+  "description": "Bauxite Crusher.",
+  "size": 2,
+  "category": "production",
+ requirements: [
+    yttrium/1
+  ]
+  "drillTime": 80,
+  "attribute": bauxite,
+  "output": "bauxite",
+  "fogRadius": 2,
+  "consumes": {
+    "power": 0.2,
+  },
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.06
+research: micro-drill
+researchCost: [
+    yttrium/1
+  ]

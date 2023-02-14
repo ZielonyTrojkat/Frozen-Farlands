@@ -1,0 +1,11 @@
+type: PowerNode
+size: 1
+maxNodes: 10
+laserRange: 10
+laserColor1: a1fffc
+laserColor2: 00fff7
+category: power
+research: core-2
+requirements: [
+  yttrium/1
+]

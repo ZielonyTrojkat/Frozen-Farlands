@@ -1,0 +1,29 @@
+type: Reconstructor
+size: 4
+constructTime: 2400
+liquidCapacity: 60
+consumes: {
+  power: 8
+    items: {
+      items: [
+        yttrium/10
+      ]
+    }
+  liquid: {
+    liquid: water
+    amount: 0.6
+  }
+}
+upgrades: [
+  [cryospider, cryospider2]
+  [cryoflare, cryoflare2]
+  [axo, axo2]
+]
+requirements: [
+  yttrium/1
+]
+category: units
+research: Constructor
+researchCost: [
+    yttrium/1
+  ]

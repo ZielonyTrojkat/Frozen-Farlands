@@ -1,0 +1,15 @@
+{
+    sector: 0,
+    planet: "Zilo",
+    research: {
+        parent: "core-2",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "grota_pustki"
+            }
+        ]
+    },
+    difficulty: 0,
+    alwaysUnlocked: true
+}

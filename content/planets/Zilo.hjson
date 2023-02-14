@@ -1,0 +1,32 @@
+{
+    "generator": PlanetGenerator,
+    "parent": serpulo ,
+    "name": Zilo,
+    "accesible": true,
+    "hasAtmosphere": true,
+    "iconColor": 10d7e6,
+    "orbitRadius": 10,
+    "atmosphereRadIn": 1,
+    "atmosphereRadOut": 1,
+    "atmosphereColor": 323636,
+    "alwaysUnlocked": true,
+    "defaultCore": core-nucleus,
+    "visible": true,
+    "startSector": 0, 
+    "sectorSize": 1,
+    "getSize": 0.5,
+    "sectorSeed": 69,
+    "mesh": {
+      "type": "NoiseMesh",
+      "planet": "Zilo",
+      "seed": 69,
+      "color1": " ffffff",
+      "color2": "498a8a",
+      "divisions": 4,
+      "radius": 0.8,
+      "octaves": 2,
+      "persistence": 1,
+      "scale": 2,
+      "mag": 1
+    }
+  }

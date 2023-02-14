@@ -1,0 +1,10 @@
+type: item
+name: Arcanthium
+description: Compressed arcanite mixed with a bit of other metals. Has very high electric and elektromagnetic capabilities, can release powerful lighnings when damaged.
+  "cost": 5,
+  "color": "00eeff",
+  "flammability": 0.25,
+  "explosiveness": 0.5,
+  "radioactivity": 0,
+  "charge": 1.0
+  research: arcanite

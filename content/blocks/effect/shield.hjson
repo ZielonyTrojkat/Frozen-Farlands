@@ -1,0 +1,18 @@
+type: BaseShield
+health: 1000
+size: 2
+radius: 70
+itemCapacity: 30
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      yttrium/20
+    ]
+  }
+}
+requirements: [
+  yttrium/1
+]
+category: effect
+research: yttrium

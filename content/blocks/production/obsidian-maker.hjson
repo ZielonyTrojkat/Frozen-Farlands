@@ -1,0 +1,27 @@
+  "type": "GenericCrafter",
+	"researchCostMultiplier": 0.5,
+  "description": "Makes obs studios",
+  "health": 5,
+  "size": 3,
+  "hasItems": true,
+  "craftTime": 28,
+  "craftEffect": "none",
+  "hasPower": true,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 0.70,
+    "liquids": [
+      "water/0.75",
+      "slag/0.35"
+    ],
+  },
+  "requirements": [
+    yttrium/1
+  ],
+  "category": "crafting",
+  "outputItem": "obsidian/1"
+research: aerogel-factory
+researchCost: [
+    yttrium/1
+  ]

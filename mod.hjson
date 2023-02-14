@@ -1,0 +1,32 @@
+name: "moon mod"
+displayName: "The Farlands of Frostbite"
+author: StarkillerTheGreat & Zielony Trójkąt
+description: "Welcome to The Farlands of frostbite mod made by Zielony Trójkąt and StarkillerTheGreat (also konown as CY4N)
+This mod Adds A lot of new content for example...
+A whole new Tech tree that includes:
+new turrets
+new units
+New resources
+new factories
+And new blocks
+And the best of all...
+A New planet.
+Zilo is Serpulo's little brother and It got colonized by your enemies.
+Defeat The evil Bushark team and take the control of Zilo's resources
+inside the greatest depths of Zilo, your enemies have created one of the strongest sectors you will probably ever encounter.
+The fortress is an extremly protected main base of Bushark... if you will really manage to capture this sector then i can call you a mindustry pro player with full confidence.
+We have aslo created an asteroid that orbits near Zilo.
+Gheţar is the moon of both planets
+It is one-sectored place that you can capture anytime and take a break form taking over Zilo
+We hope that you will enjoy our mod and please... don't break your keybord while playing
+CREDITS:
+Programming: Zielony Trójkąt
+textures: StarkillerTheGreat and Zielony Trójkąt
+Sounds: StarkillerTheGreat
+Concepts: StarkillerTheGreat and Zielony Trójkąt
+Also huge thanks to Świrek for helping us with code.
+"
+version: "1.00"
+minGameVersion: "141.2"
+dependencies:["multi-crafter"]
+hidden: false

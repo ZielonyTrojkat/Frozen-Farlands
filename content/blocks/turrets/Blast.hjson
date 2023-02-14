@@ -1,0 +1,44 @@
+"type": ItemTurret,
+"size": 2,
+"health": 100,
+range: 100
+rotateSpeed: 4.5
+reload: 1
+burstSpacing: 3
+shots: 10
+xRand: 0
+recoilAmount: 30
+shootSound: BlastSound
+shoot: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 10
+    barrelOffset: 0
+}
+ammoTypes: {
+  blast-compound: {
+    speed: 7
+    lifetime: 60
+    damage: 5
+    width: 20
+    height: 25
+    frontColor: b04c45
+    backColor: 734744
+    shootEffect: "shootSmall"        
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: false
+    explodeRange: 90
+    splashDamageRadius: 90
+    splashDamage: 24
+    hitEffect: flakExplosionBig
+  }
+}
+category: turret
+requirements: [
+  yttrium/1
+]
+research: Pike
+researchCost: [
+    yttrium/1
+  ]

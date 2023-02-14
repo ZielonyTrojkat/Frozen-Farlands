@@ -1,0 +1,36 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: cryospider
+    time: 200
+    requirements: [
+      yttrium/1
+    ]
+  }
+  {
+    unit: cryoflare
+    time: 200
+    requirements: [
+      yttrium/1
+    ]
+  }
+  {
+    unit: axo
+    time: 200
+    requirements: [
+      yttrium/1
+    ]
+  }
+]
+requirements: [
+  yttrium/1
+]
+category: units
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

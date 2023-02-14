@@ -1,0 +1,10 @@
+type: item
+name: Aluminium
+description: A metal that is smelted from bauxite ores, is used in many mid-game blocks and units.
+  "cost": 2,
+  "color": "00eeff",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0
+  research: bauxite

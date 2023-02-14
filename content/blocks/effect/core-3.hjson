@@ -1,0 +1,16 @@
+	"type": "CoreBlock",
+	"health": 6870,
+	"size": 5,
+	"category": effect
+	"absorbLasers": true,
+	"itemCapacity": 25000,
+	"unitCapModifier": 32,
+    "researchCostMultiplier": 0.06,
+    "unitType": "mega",
+	"requirements": [
+		{ "item": "yttrium", "amount": 1 }
+	],
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

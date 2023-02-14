@@ -1,0 +1,11 @@
+type: item
+name: Yttrium
+description: A very common ore appearing on Zilo, is used in nearly all buildings.
+  "cost": 1,
+  "color": "ff1100",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+	"research": "core-2"
+  "alwaysUnlocked": true

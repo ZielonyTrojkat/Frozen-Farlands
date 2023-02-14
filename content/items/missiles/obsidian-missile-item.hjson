@@ -1,0 +1,13 @@
+type: item
+name: Obsidian missile
+description: hfsaufwfhnuijijiefibh
+  "cost": 10,
+  "color": "05deff",
+  "flammability": -1,
+  "explosiveness": 0.5,
+  "radioactivity": 0,
+  "charge": 0
+research: missile-assembler
+researchCost: [
+    obsidian/1
+  ]

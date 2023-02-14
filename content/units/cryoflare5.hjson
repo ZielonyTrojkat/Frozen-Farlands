@@ -1,0 +1,68 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 2,
+    "accel": 0.1,
+    "drag": 0.02,
+    "flying": true,
+    "health": 300,
+    "hitSize": 12,
+    "armor": 1,
+    "itemCapacity": 10,
+  "outlineColor": "36363c",
+    "engineOffset": 8,
+    "faceTarget": true,
+weapons: [
+{
+name: cryoflare2-gun
+mirror: false
+x: 0
+y: 4
+top: false
+rotate: false
+reload: 120
+recoil: 3
+shootSound: railgun
+ejectEffect: none
+    "bullet": { 
+    "colors":["00eeff", "00eeff", "FFFFFFF"],
+      "type": "LaserBulletType",
+      "length": 80,
+      "width": 15,
+      "damage": 20,
+      "recoil": 0.25,
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
+                "sizeFrom": 1,
+                "sizeTo": 20,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 10
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: adfaff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    }
+}
+}
+ ] 
+research: cryoflare4
+researchCost: [
+    yttrium/1
+  ]

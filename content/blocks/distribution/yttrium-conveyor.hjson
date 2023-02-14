@@ -1,0 +1,10 @@
+type: Conveyor
+hasShadow: true
+health: 80
+speed: 0.1
+displayedSpeed: 4
+requirements: [
+  yttrium/2
+]
+category: distribution
+research: core-2

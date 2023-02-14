@@ -1,0 +1,94 @@
+
+	"outlineColor": "36363c",
+  "type": "legs",
+	"speed": 0.7,
+	"hitSize": 10,
+	"health": 360,
+	"faceTarget": true,
+	"armor": 2,
+	"range": 180,
+	"targetAir": false,
+	"rotateSpeed": 3,
+            "legMoveSpace": 1,
+            "legMaxLength": 1.1,
+            "legMinLength": 0.2,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.3,
+            "legPhysicsLayer": false,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0.2,
+	"legBaseOffset": 0,
+	"legLength": 10, 
+	"allowLegStep": true,
+	"hovering": false,
+	"immunities": [
+		"freezing"
+	],
+"weapons": [
+		{
+    "name": "cryospider-gun",
+    "reload": 15,
+    "mirror": true,
+    "x": 5,
+    "y": 0,
+    "shootY": 8,
+    "recoil": 1.5,
+    "rotate": false,
+"shoot": {
+"type": "shootPattern",
+ "shots": 1,
+    "shotDelay": 5,
+}
+	"inaccuracy" : 12, 
+    "shootSound": "flame",
+    "shootCone": 180,
+	"bullet": {
+    "type": "BasicBulletType",
+        "shootCone": 180,
+    "collidesAir": true,
+    "speed": 5,
+    "damage": 46,
+    "width": 0.1,
+    "height": 0.1,
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 150,
+    "lifetime": 45,
+    "interp": "circleOut",
+    "colorFrom": "D99F6BFF",
+    "colorTo": "F3E979FF",
+    "cone": 10
+    },
+    "smokeEffect": "none",
+    "lifetime": 20,
+	"despawnEffect": "none",
+    "hittable": false,
+    "reflectable": false,
+	"hitEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 20,
+    "lifetime": 15,
+    "interp": "circleOut",
+    "colorFrom": "03b7ff",
+    "colorTo": "03b7ff",
+    "cone": 360
+	},
+	"pierce": true,
+	"incendAmount": 0
+    }
+    }
+]
+research: Constructor
+researchCost: [
+    yttrium/1
+  ]

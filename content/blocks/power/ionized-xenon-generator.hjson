@@ -1,0 +1,76 @@
+type: ConsumeGenerator
+size: 4
+hasLiquids: false
+canOverdrive: false
+liquidCapacity: 400
+itemDuration: 240
+baseExplosiveness: 0
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+      {
+       "type": "DrawGlowRegion",
+       "suffix": "-top", 
+       "glowScale": 10,
+       "color": "fc0303"
+     }
+           {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow", 
+       "glowScale": 3,
+       "color": "fc0303"
+     }
+    {
+    "type": "DrawFlame",
+    "flameRadius": 3.2,
+    "flameRadiusIn": 1.0,
+    "flameRadiusScl": 3.5,
+    "flameRadiusMag": 2.0,
+    "flameRadiusInMag": 1.0,
+	"flameColor": "fc0303"
+	  }
+        {
+    "type": "DrawParticles",
+    "color": "fc0303",
+    "alpha": 0.4,
+    "blending": "additive",
+    "particleSize": 2,
+    "reverse": true,
+    "particleRad": 23,
+    "particles": 22,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 60
+    },
+    {
+    "type": "DrawParticles",
+    "color": "fc0303",
+    "alpha": 0.4,
+    "reverse": true,
+    "blending": "additive",
+    "particleSize": 3,
+    "particleRad": 18,
+    "particles": 52,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 80
+     },
+  ]
+}
+consumes: {
+    "liquids": [
+     xenon/0.3
+    ]
+}
+powerProduction: 5
+category: power
+requirements: [
+  yttrium/1
+]
+research: yttrium
+researchCost: [
+    yttrium/1
+    ]

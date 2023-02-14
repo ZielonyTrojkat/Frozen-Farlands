@@ -1,0 +1,14 @@
+type: Conduit
+leaks: true
+health: 15
+requirements: [
+  yttrium/1
+]
+liquidCapacity: 60
+liquidPressure: 1.5
+botColor: 4a4b53
+category: liquid
+research: yttrium-pump
+researchCost: [
+    yttrium/1
+  ]

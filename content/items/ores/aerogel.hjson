@@ -1,0 +1,10 @@
+type: item
+name: Aerogel
+description: Very light material that can be used as material for building flying units and laser absorbing walls, decent durability.
+  "cost": 3,
+  "color": "00eeff",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0
+  research: bauxite

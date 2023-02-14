@@ -1,0 +1,24 @@
+{
+  "name": "Micro drill",
+  "description": "A tiny version of the pneumatic drill.",
+  "type": "Drill",
+  "size": 1,
+  "itemCapacity": 5,
+  "tier": 3,
+  "drillTime": 35,
+  "drawMineItem": false,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.009,
+      "optional": true,
+      "booster": true
+    }
+  },
+  requirements: [
+    yttrium/1
+  ]
+  "category": "production",
+  "research": "core-2"
+  "alwaysUnlocked": true
+}

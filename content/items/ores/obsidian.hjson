@@ -1,0 +1,10 @@
+type: item
+name: Obsidian
+description: Durable and sharp material, produced by rapidly cooling magma.
+  "cost": 4,
+  "color": "00eeff",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0
+  research: aluminium

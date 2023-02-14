@@ -1,0 +1,108 @@
+	"outlineColor": "36363c",
+  "type": "legs",
+	"speed": 0.7,
+	"hitSize": 10,
+	"health": 360,
+	"faceTarget": true,
+	"armor": 2,
+	"range": 180,
+	"targetAir": false,
+	"rotateSpeed": 5,
+   "legBaseOffset": 13,
+	  "legCount": 6,
+	"legMaxLength": 1.0,
+        "legMinLength": 0.6,
+        "legLengthScl": 1.0,
+        "legForwardScl": 1.5,
+         "legExtension": 2,
+        "legStraightness": 0.4,
+       "legPhysicsLayer": false,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0.1,
+	"legBaseOffset": 2,
+	"legMoveSpace": 1.0,
+	"legLength": 10, 
+	"allowLegStep": true,
+	"hovering": true,
+	"immunities": [
+		"freezing"
+	],
+	"weapons": [
+    {
+    "name": "axo2-turret",
+    "top": false,
+    "shootY": 2,
+    "reload": 70,
+    "x": 0,
+    "alternate": true,
+    "mirror": false,
+    rotate: true
+    "recoil": 2,
+    "shootSound": "bolt",
+    "bullet": { 
+    "type": "artilleryBulletType",
+    collidesTeam: true
+    healAmount: 30
+    "sprite": "moon-mod-star",
+    "collidesAir": true,
+    "collides": true,
+    "collidesTiles": true,
+    "hitEffect": {
+    "type": "MultiEffect",
+	"effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "bdfbff",
+                "colorTo": "6eff70",
+                "sizeFrom": 1,
+                "sizeTo": 30,
+                "lifetime": 10,
+                "strokeFrom": 10,
+                "strokeTo": 0
+            }
+	{
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 20,
+    "baseLength": 5,
+    "length": 40,
+    "lenFrom": 5,
+    "lenTo": 5,
+    "lightColor": "daffd9",
+    "colorFrom": "28fc23",
+    "colorTo": "20c71c"
+	}
+	]
+  }
+    "lifetime" : 80,
+    "speed": 3,
+    "damage": 50,
+    "splashDamage": 50,
+    "splashDamageRadius": 30,
+    "collidesTeam": true,
+    "buildingDamageMultiplier": 0.50,
+    "pierceBuilding": true,
+    "pierce": false,
+    "spin": 5
+    "trailChance": 1,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 10,
+    "region": "moon-mod-star",
+    "lightColor": "daffd9",
+    "colorFrom": "18cc14",
+    "colorTo": "69ff66",
+    "sizeFrom": 5,
+    "sizeTo": 3
+    }
+    }
+    }
+    ]
+research: Constructor
+researchCost: [
+    yttrium/1
+  ]

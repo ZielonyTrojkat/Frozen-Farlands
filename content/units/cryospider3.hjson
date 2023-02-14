@@ -30,8 +30,8 @@
 weapons: [
 {
 name: cryospider3-gun
-x: 8
-y: 2
+x: 6
+y: 3
 mirror: true
 shoot: {
 type: ShootPattern
@@ -40,9 +40,9 @@ shotDelay: 4
 }
 top: false
 rotate: true
-reload: 25
+reload: 20
 recoil: 3
-shootSound: bang
+shootSound: bolt
 ejectEffect: none
   bullet: {
     type: SapBulletType
@@ -55,7 +55,7 @@ ejectEffect: none
     despawnEffect: none
     width: 1
     lifetime: 20
-    knockback: -1.5
+    knockback: -2
 status: freezing
 statusDuration: 180
 }

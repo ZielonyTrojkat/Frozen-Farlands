@@ -1,16 +1,17 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 2,
+    "speed": 1,
     "accel": 0.1,
-    "drag": 0.02,
+    "drag": 0.01,
     "flying": true,
     "health": 300,
     "hitSize": 12,
     "armor": 1,
     "itemCapacity": 10,
   "outlineColor": "36363c",
-    "engineOffset": 8,
-    "faceTarget": true,
+    "engineOffset": 14,
+    "engineSize": 5,
+    "faceTarget": false,
 weapons: [
 {
 name: cryoflare2-gun
@@ -20,7 +21,7 @@ y: 4
 top: false
 rotate: false
 reload: 120
-recoil: 3
+recoil: 1
 shootSound: railgun
 ejectEffect: none
     "bullet": { 

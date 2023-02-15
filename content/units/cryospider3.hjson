@@ -2,7 +2,7 @@
   "type": "legs",
 	"speed": 0.7,
 	"hitSize": 10,
-	"health": 360,
+	"health": 860,
 	"faceTarget": true,
 	"armor": 2,
 	"range": 180,
@@ -31,7 +31,7 @@ weapons: [
 {
 name: cryospider3-gun
 x: 6
-y: 3
+y: 2
 mirror: true
 shoot: {
 type: ShootPattern
@@ -42,13 +42,13 @@ top: false
 rotate: true
 reload: 20
 recoil: 3
-shootSound: bolt
+shootSound: lasershoot
 ejectEffect: none
   bullet: {
     type: SapBulletType
     sapStrength: 0.5
     length: 70
-    damage: 50
+    damage: 15
     shootEffect: shootSmall
     hitColor: 03e3fc
     color: 03e3fc

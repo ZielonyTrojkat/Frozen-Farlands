@@ -1,0 +1,216 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 1,
+    "accel": 0.1,
+    "drag": 0.01,
+    "flying": true,
+    "health": 300,
+    "hitSize": 12,
+    "armor": 1,
+    "itemCapacity": 10,
+  "outlineColor": "36363c",
+    "engineOffset": 14,
+    "engineSize": 5,
+    "faceTarget": false,
+weapons: [
+{
+name: cryoflare2-gun
+mirror: true
+x: 2
+y: 4
+top: false
+rotate: true
+reload: 30
+recoil: 0
+shootSound: railgun
+ejectEffect: none
+    "bullet": { 
+    "colors":["dfff45", "e9ff7d", "FFFFFFF"],
+      "type": "LaserBulletType",
+      "length": 100,
+      "width": 15,
+      "damage": 20,
+      "recoil": 0,
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
+                "sizeFrom": 1,
+                "sizeTo": 20,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 10
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: dfff45
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    }
+}
+},
+{
+name: cryoflare2-gun
+mirror: true
+x: 8
+y: 0
+top: false
+rotate: true
+reload: 40
+recoil: 0
+shootSound: railgun
+ejectEffect: none
+    "bullet": { 
+    "colors":["4f78ff", "8fa9ff", "FFFFFFF"],
+      "type": "LaserBulletType",
+      "length": 90,
+      "width": 15,
+      "damage": 20,
+      "recoil": 0,
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "4f78ff",
+                "sizeFrom": 1,
+                "sizeTo": 20,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 10
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: 4f78ff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    }
+}
+},
+{
+name: cryoflare2-gun
+mirror: true
+x: 12
+y: -4
+top: false
+rotate: true
+reload: 20
+recoil: 0
+shootSound: railgun
+ejectEffect: none
+    "bullet": { 
+    "colors":["31ff26", "88ff82", "FFFFFFF"],
+      "type": "LaserBulletType",
+      "length": 80,
+      "width": 15,
+      "damage": 20,
+      "recoil": 0,
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "31ff26",
+                "sizeFrom": 1,
+                "sizeTo": 20,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 10
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: 31ff26
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    }
+}
+},
+{
+name: cryoflare2-gun
+mirror: true
+x: 15
+y: 8
+top: false
+rotate: true
+reload: 25
+recoil: 0
+shootSound: railgun
+ejectEffect: none
+    "bullet": { 
+    "colors":["ff2626", "ff6363", "FFFFFFF"],
+      "type": "LaserBulletType",
+      "length": 70,
+      "width": 15,
+      "damage": 20,
+      "recoil": 0,
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "ff2626",
+                "sizeFrom": 1,
+                "sizeTo": 20,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 10
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: ff2626
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    }
+}
+}
+ ] 
+research: Assembler-flare
+researchCost: [
+    yttrium/1
+  ]

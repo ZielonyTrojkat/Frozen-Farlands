@@ -20,7 +20,7 @@ x: 0
 y: 4
 top: false
 rotate: false
-reload: 120
+reload: 10
 recoil: 1
 shootSound: railgun
 ejectEffect: none
@@ -30,7 +30,7 @@ ejectEffect: none
       "length": 80,
       "width": 15,
       "damage": 20,
-      "recoil": 0.25,
+      "recoil": 5.25,
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [

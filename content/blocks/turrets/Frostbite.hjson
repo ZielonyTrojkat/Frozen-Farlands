@@ -19,7 +19,7 @@ rotateSpeed: 6
 reload: 300
 recoilAmount: 8
 restitution: 0.02
-shootSound: laserbig
+shootSound: FrostbiteSound
 shoot: {
   shots: 3
   spread: 10

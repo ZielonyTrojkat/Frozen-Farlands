@@ -69,3 +69,5 @@
 researchCost: [
     yttrium/1
   ]
+    ambientSound: decimate
+    ambientSoundVolume: 10000

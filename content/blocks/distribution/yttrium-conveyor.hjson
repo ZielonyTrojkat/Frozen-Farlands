@@ -8,3 +8,4 @@ requirements: [
 ]
 category: distribution
 research: core-2
+alwaysUnlocked: true

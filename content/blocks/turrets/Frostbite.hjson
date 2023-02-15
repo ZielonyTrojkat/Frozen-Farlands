@@ -4,8 +4,6 @@ type: LaserTurret
 size: 5
 liquidCapacity: 200
 shootDuration: 240
-category: turret
-research: big-segment
 health: 2150
 range: 240
 consumes: {
@@ -48,9 +46,9 @@ shootType: {
     },
 category: turret
 requirements: [
-  copper/1600
-  lead/600
-  graphite/460
-  silicon/500
-  surge-alloy/420
+  yttrium/1
+  ]
+  research: Alectro
+researchCost: [
+    yttrium/1
   ]

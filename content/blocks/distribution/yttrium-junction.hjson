@@ -1,0 +1,12 @@
+type: Junction
+health: 80
+speed: 12
+capacity: 8
+requirements: [
+  yttrium/4
+] 
+category: distribution
+research: yttrium-router
+researchCost: [
+    yttrium/60
+  ]

@@ -15,4 +15,7 @@ requirements: [
   yttrium/1
 ]
 category: effect
-research: yttrium
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

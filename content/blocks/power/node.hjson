@@ -5,7 +5,12 @@ laserRange: 10
 laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
-research: core-2
 requirements: [
-  yttrium/1
+  yttrium/4
+  arcanite/2
 ]
+research: core-2
+researchCost: [
+    yttrium/80
+    arcanite/50
+    ]

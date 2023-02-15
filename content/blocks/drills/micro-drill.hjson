@@ -16,7 +16,7 @@
     }
   },
   requirements: [
-    yttrium/1
+    yttrium/5
   ]
   "category": "production",
   "research": "core-2"

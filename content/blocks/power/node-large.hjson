@@ -5,7 +5,14 @@ laserRange: 25
 laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
-research: node
 requirements: [
-  yttrium/1
+  yttrium/8
+  arcanite/6
+  aluminium/6
 ]
+research: node
+researchCost: [
+    yttrium/200
+    arcanite/150
+    aluminium/150
+    ]

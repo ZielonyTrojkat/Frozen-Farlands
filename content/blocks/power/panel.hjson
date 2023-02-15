@@ -1,0 +1,14 @@
+type: SolarGenerator
+size: 1,
+name: Solar
+hasPower: true
+powerProduction: 0.2
+requirements: [
+  yttrium/2
+  arcanite/4
+]
+research: yttrium
+researchCost: [
+    yttrium/50
+    arcanite/120
+    ]

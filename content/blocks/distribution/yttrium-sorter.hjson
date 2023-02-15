@@ -1,0 +1,10 @@
+type: Sorter
+health: 80
+requirements: [
+  yttrium/4
+] 
+category: distribution
+research: yttrium-junction
+researchCost: [
+    yttrium/80
+  ]

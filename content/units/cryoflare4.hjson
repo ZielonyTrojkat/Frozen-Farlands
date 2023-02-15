@@ -11,7 +11,7 @@
   "outlineColor": "36363c",
     "engineOffset": 14,
     "engineSize": 5,
-    "faceTarget": false,
+    "faceTarget": true,
 weapons: [
 {
 name: cryoflare2-gun
@@ -19,7 +19,7 @@ mirror: false
 x: 0
 y: 4
 top: false
-rotate: false
+rotate: true
 reload: 1
 recoil: 1
 shootSound: railgun

@@ -17,7 +17,8 @@ shootType: {
   type: PointLaserBulletType
   length: 140
   width: 24
-  damage: 100
+  damage: 
+  color: 7d0209
 }
 category: turret
 requirements: [

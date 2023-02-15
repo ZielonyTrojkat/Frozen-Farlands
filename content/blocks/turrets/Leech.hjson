@@ -15,10 +15,10 @@ consumes : {
 loopSound: LeechSound
 shootType: {
   type: PointLaserBulletType
+  color: 7d0209
   length: 140
   width: 24
-  damage: 
-  color: 7d0209
+  damage: 8
 }
 category: turret
 requirements: [

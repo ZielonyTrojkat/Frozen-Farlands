@@ -1,0 +1,14 @@
+type: PayloadConveyor
+size: 3
+moveTime: 120
+moveForce: 536
+payloadLimit: 8
+category: units
+requirements: [
+  yttrium/1
+]
+category: distribution
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

@@ -1,9 +1,9 @@
 "type": PowerTurret,
 "size": 1,
 "health": 500,
-range: 100,
+range:300,
 rotateSpeed: 5,
-reload: 1
+reload: 100
 burstSpacing: 1
 shots: 1
 xRand: 1
@@ -11,17 +11,17 @@ powerUse: 75
 recoilAmount: 3
 shootSound: ZapSound
 shootType: {
-type:LightningBulletType,
-  length: 200
+type: LightningBulletType,
+  length: 300
   width: 1
-  damage: 7
+  damage: 20
   lightningColor: ffea00
+status: unmoving
+statusDuration: 180
 }
 category: turret
 requirements: [
-  yttrium/1
+  lead/450
+  graphite/350
+  silicon/300
 ]
-research: Pike
-researchCost: [
-    yttrium/1
-  ]

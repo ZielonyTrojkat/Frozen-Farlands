@@ -1,0 +1,11 @@
+type: ItemSource
+size: 1
+health: 2000000
+category: distribution
+requirements: [
+  copper/1
+] 
+research: core-2
+researchCost: [
+    copper/1
+  ]

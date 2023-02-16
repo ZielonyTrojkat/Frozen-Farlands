@@ -10,7 +10,7 @@
     "atmosphereRadOut": 1,
     "atmosphereColor": 323636,
     "alwaysUnlocked": true,
-    "defaultCore": core-nucleus,
+    "defaultCore": core-2,
     "visible": true,
     "startSector": 0, 
     "sectorSize": 1,

@@ -3,6 +3,6 @@
 "oreDefault": true,	
 "oreScale": 28.380953,
 "oreThreshold": 0.882,
-"itemDrop": "yttrium"
 "variants": 3,
+"itemDrop": "moonstone"
 }

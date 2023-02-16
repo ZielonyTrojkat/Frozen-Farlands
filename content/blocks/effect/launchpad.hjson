@@ -1,0 +1,16 @@
+type: LaunchPad
+health: 1000
+size: 3
+launchTime: 300
+itemCapacity: 30
+consumes: {
+  power: 2.5
+}
+requirements: [
+  yttrium/1
+]
+category: effect
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

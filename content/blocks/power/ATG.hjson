@@ -1,10 +1,10 @@
 type: ConsumeGenerator
-size: 3
+size: 1
 hasLiquids: false
 canOverdrive: false
 liquidCapacity: 400
 itemDuration: 240
-baseExplosiveness: 185
+baseExplosiveness: 0
 drawer: {
   type: DrawMulti
   drawers: [
@@ -61,21 +61,16 @@ drawer: {
   ]
 }
 consumes: {
-    "liquids": [
-    "liquid-resonance/1",
-    "cryofluid/2"
+    "items": [
+    arcanite/1
     ]
 }
-powerProduction: 1800
+powerProduction: 0.3
 category: power
 requirements: [
-  silicon/20000
-  metaglass/15000
-  thorium/17000
-  phase-fabric/9000
+  yttrium/1
 ]
 research: yttrium
 researchCost: [
-    lead/1
-    copper/1
+    yttrium/1
     ]

@@ -4,10 +4,10 @@
     "accel": 0.1,
     "drag": 0.01,
     "flying": true,
-    "health": 300,
+    "health": 5000,
     "hitSize": 12,
     "armor": 1,
-    "itemCapacity": 10,
+    "itemCapacity": 80,
   "outlineColor": "36363c",
     "engineOffset": 14,
     "engineSize": 5,
@@ -17,20 +17,68 @@ weapons: [
 name: cryoflare2-gun
 mirror: false
 x: 0
-y: 4
+y: 8
 top: false
 rotate: true
-reload: 1
+reload: 100
 recoil: 1
 shootSound: railgun
 ejectEffect: none
+shake: 3
+"shoot": {
+"type": "shootHelix",
+mag: 1.5
+offset: 0
+scl: 4
+ "shots": 1,
+    "shotDelay": 5,
+}
     "bullet": { 
     "colors":["00eeff", "00eeff", "FFFFFFF"],
-      "type": "LaserBulletType",
-      "length": 80,
-      "width": 15,
-      "damage": 20,
-      "recoil": 5.25,
+      "type": "BasicBulletType",
+      "height": 20,
+      "width": 20,
+      "damage": 200,
+      "recoil": 0,
+      lifetime: 100
+      speed: 3
+      hitShake: 3
+    "frontColor": 4df4ff,
+    "backColor": 4df4ff,
+    "collidesAir": true,
+    "collides": true,
+    "collidesTiles": true,
+    "collidesGround": true,
+    "collidesFloor": true,
+          despawnHit: true
+    "hitEffect": {
+    "type": "MultiEffect",
+	"effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
+                "sizeFrom": 1,
+                "sizeTo": 40,
+                "lifetime": 20
+                "strokeFrom": 15,
+                "strokeTo": 0
+            }
+  ]
+  }
+    "trailChance": 1,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 20,
+    "region": "moon-mod-star",
+    "lightColor": "4df4ff",
+    "colorFrom": "4df4ff",
+    "colorTo": "bdfbff00",
+    "sizeFrom": 6,
+    "sizeTo": 2
+    }
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [
@@ -39,14 +87,16 @@ ejectEffect: none
                 "colorFrom": "11dcf2",
                 "colorTo": "11dcf2",
                 "sizeFrom": 1,
-                "sizeTo": 20,
-                "lifetime": 10
+                "sizeTo": 18,
+                "lifetime": 12
+                "strokeFrom": 7,
+                "strokeTo": 0
             }
             {
               type: ParticleEffect
               particles: 5
               lifetime: 30
-              length: 10
+              length: 20
               sizeFrom: 3
               sizeTo: 0
               colorFrom: ffffff

@@ -21,9 +21,11 @@ shootType: {
 }
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/10
+  arcanite/10
 ]
 research: core-2
 researchCost: [
-    yttrium/1
+    yttrium/100
+    arcanite/100
   ]

@@ -1,8 +1,8 @@
 type: Conveyor
 hasShadow: true
 health: 80
-speed: 0.1
-displayedSpeed: 4
+speed: 0.05
+displayedSpeed: 12
 requirements: [
   yttrium/2
 ]

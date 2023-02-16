@@ -1,3 +1,4 @@
+name: Zap
 "type": PowerTurret,
 "size": 1,
 "health": 500,

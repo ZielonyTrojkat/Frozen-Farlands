@@ -14,13 +14,12 @@ consumes: {
   }
 }
 rotateSpeed: 6
-reload: 300
+reload: 60
 recoilAmount: 8
 restitution: 0.02
 shootSound: FrostbiteSound
 shoot: {
-  shots: 3
-  spread: 10
+  firstShotDelay: 70
 }
 shootType: {
   type: ContinuousLaserBulletType
@@ -30,6 +29,32 @@ shootType: {
   length: 320
   width: 5
 "colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
+	"chargeEffect": {
+"type": "MultiEffect",
+    "effects": [
+{
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 7,
+    "length": 0,
+    "lifetime": 90,
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF",
+    "cone": 360
+	},
+    {
+    "type": "WaveEffect",
+    "lifetime": 75,
+    "sizeFrom": 50,
+    "sizeTo": 0,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF"
+}
+]
+	},
 }
 "shootEffect": {
         "type": "MultiEffect",

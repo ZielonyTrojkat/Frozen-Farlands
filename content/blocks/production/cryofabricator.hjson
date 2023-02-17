@@ -10,12 +10,13 @@
         "drawers": [
         {
         "type": "DrawDefault"
-        }
+        }       
               {
        "type": "DrawGlowRegion",
        "suffix": "-top", 
        "glowScale": 10,
-       "color": "66B1FF90"
+       "color": "0084ff"
+       "alpha": 10
      }
     ]
     },
@@ -25,15 +26,15 @@
   "consumes": {
   "power": 1.70,
     "liquids": [
-    "cryofluid/0.15"
+    "cryofluid/0.0"
     ]
   },
   "requirements": [
     yttrium/1
   ],
   "category": "crafting",
-  "outputLiquid": "water/0.15",
-  "outputItem": "arcanite/1"
+  "outputLiquid": "water/0.0",
+  "outputItem": "arcanite/0"
 research: heater
 researchCost: [
     yttrium/1

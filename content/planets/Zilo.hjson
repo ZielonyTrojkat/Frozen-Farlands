@@ -6,6 +6,7 @@
     "hasAtmosphere": true,
     "iconColor": 10d7e6,
     "orbitRadius": 10,
+    "prebuildBase": true,
     "atmosphereRadIn": 1,
     "atmosphereRadOut": 1,
     "atmosphereColor": 323636,

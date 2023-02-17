@@ -5,6 +5,7 @@
     "accesible": true,
     "hasAtmosphere": true,
     "iconColor": 10d7e6,
+    allowWavesSimulation = true
     "orbitRadius": 10,
     "prebuildBase": true,
     "atmosphereRadIn": 1,

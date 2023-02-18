@@ -17,7 +17,7 @@ consumes: {
 upgrades: [
   [cryospider, cryospider2]
   [cryoflare, cryoflare2]
-  [axo, axo2]
+  [axo, kristal]
 ]
 requirements: [
   yttrium/1

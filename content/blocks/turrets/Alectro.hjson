@@ -1,5 +1,5 @@
 "type": PowerTurret,
-"size": 3,
+"size": 4,
 "health": 1500,
 range: 500
 rotateSpeed: 4.5

@@ -1,0 +1,47 @@
+type: LiquidTurret
+placeableLiquid: true
+squareSprite: false
+size: 2
+health: 270
+reload: 3
+rotateSpeed: 4.1
+inaccuracy: 1
+shoot: {
+  spread: 5
+  shots: 5
+}
+velocityRnd: 0.4
+range: 320
+shootY: 4
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+    orbSize: 4
+    damage: 35
+    speed: 10
+    lifetime: 50
+    liquid: water
+  }
+  cryofluid: {
+    type: LiquidBulletType
+    orbSize: 4
+    damage: 40
+    speed: 8
+    lifetime: 50
+    liquid: cryofluid
+    collidesTeam: true
+    healPercent: 1.5
+  }
+  slag: {
+    type: LiquidBulletType
+    orbSize: 4
+    damage: 150
+    speed: 8
+    lifetime: 50
+    liquid: slag
+  }
+}
+category: turret
+requirements: [
+  yttrium/1
+]

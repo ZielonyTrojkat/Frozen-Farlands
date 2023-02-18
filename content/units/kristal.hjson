@@ -30,10 +30,10 @@
 	],
 	"weapons": [
     {
-    "name": "axo2-turret",
+    "name": "kristal-weapon",
     "top": false,
-    "shootY": 2,
-    "reload": 70,
+    "shootY": 3,
+    "reload": 1,
     "x": 0,
     "alternate": true,
     "mirror": false,
@@ -56,9 +56,9 @@
                 "colorFrom": "bdfbff",
                 "colorTo": "6eff70",
                 "sizeFrom": 1,
-                "sizeTo": 30,
-                "lifetime": 10,
-                "strokeFrom": 10,
+                "sizeTo": 300,
+                "lifetime": 100,
+                "strokeFrom": 100,
                 "strokeTo": 0
             }
 	{

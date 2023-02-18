@@ -1,4 +1,3 @@
-{
     "generator": PlanetGenerator,
     "parent": serpulo ,
     "name": Zilo,
@@ -7,8 +6,9 @@
     "iconColor": 10d7e6,
     allowWavesSimulation: true
     allowSectorSimulation: true
+    allowSectorInvasion: true
     "orbitRadius": 10,
-    "prebuildBase": true,
+    "prebuildBase": false,
     "atmosphereRadIn": 1,
     "atmosphereRadOut": 1,
     "atmosphereColor": 323636,
@@ -32,4 +32,27 @@
       "scale": 2,
       "mag": 1
     }
-  }
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+         ],

@@ -1,0 +1,15 @@
+{
+    sector: 4,
+    planet: "Zilo",
+    research: {
+        parent: "core-2",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "geothermal-place"
+            }
+        ]
+    },
+    difficulty: 0,
+    alwaysUnlocked: true
+}

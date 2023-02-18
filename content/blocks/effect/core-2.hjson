@@ -8,7 +8,7 @@
     "researchCostMultiplier": 0.06,
     "unitType": "poly",
 	"requirements": [
-		{ "item": "copper", "amount": 1 }
+		{ "item": "yttrium", "amount": 1 }
 	],
   "category": "effect",
    research: {

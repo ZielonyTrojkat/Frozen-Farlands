@@ -13,22 +13,33 @@
         },
         {
          "type": "DrawFlame",
-    "flameRadius": 2.2,
-    "flameRadiusIn": 1.0,
-    "flameRadiusScl": 3.5,
-    "flameRadiusMag": 2.0,
+    "flameRadius": 1.5,
+    "flameRadiusIn": 0.8,
+    "flameRadiusScl": 2.8,
+    "flameRadiusMag": 1.0,
     "flameRadiusInMag": 1.0,
 	"flameColor": "74C2E8FF"
 	  },
-    {
+           {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow", 
+       "glowScale": 10,
+       "color": "66B1FF"
+       "alpha": 1
+     }
+      {
+       "type": "DrawRegion",
+       "suffix": "-top", 
+     }
+         {
         "type": "DrawParticles",
         "color": "66B1FFFF",
     "alpha": 0.4,
     "blending": "additive",
-    "particleSize": 2,
+    "particleSize": 1,
     "reverse": true,
-    "particleRad": 23,
-    "particles": 22,
+    "particleRad": 13,
+    "particles": 16,
     "fadeMargin": 1,
     "rotateScl": 7,
     "particleLife": 60
@@ -39,19 +50,13 @@
     "alpha": 0.4,
     "reverse": true,
     "blending": "additive",
-    "particleSize": 3,
-    "particleRad": 12,
-    "particles": 22,
+    "particleSize": 2,
+    "particleRad": 9,
+    "particles": 16,
     "fadeMargin": 1,
     "rotateScl": 7,
     "particleLife": 80
      },
-      {
-       "type": "DrawGlowRegion",
-       "suffix": "-top", 
-       "glowScale": 10,
-       "color": "66B1FF90"
-     }
     ]
     },
   "hasPower": true,
@@ -64,7 +69,7 @@
     yttrium/1
   ],
   "category": "crafting",
-  "outputLiquid": "xenon/0.15"
+  "outputLiquid": "xenon/0.0"
   research: cryogenium-extractor
 researchCost: [
     yttrium/1

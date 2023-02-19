@@ -2,7 +2,7 @@ name: Zap
 "type": PowerTurret,
 "size": 1,
 "health": 500,
-range:300,
+range:30,
 rotateSpeed: 5,
 reload: 100
 burstSpacing: 1

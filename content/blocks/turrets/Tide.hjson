@@ -7,7 +7,7 @@ reload: 3
 rotateSpeed: 4.1
 inaccuracy: 1
 shoot: {
-  spread: 5
+  spread: 20
   shots: 5
 }
 velocityRnd: 0.4
@@ -16,26 +16,25 @@ shootY: 4
 ammoTypes: {
   water: {
     type: LiquidBulletType
-    orbSize: 4
-    damage: 35
-    speed: 10
+    orbSize: 1.5
+    damage: 0.3
+    speed: 12
     lifetime: 50
     liquid: water
   }
   cryofluid: {
     type: LiquidBulletType
-    orbSize: 4
-    damage: 40
-    speed: 8
+    orbSize: 1.5
+    damage: 1
+    speed: 10
     lifetime: 50
     liquid: cryofluid
     collidesTeam: true
-    healPercent: 1.5
   }
   slag: {
     type: LiquidBulletType
-    orbSize: 4
-    damage: 150
+    orbSize: 1.5
+    damage: 5
     speed: 8
     lifetime: 50
     liquid: slag

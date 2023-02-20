@@ -10,14 +10,22 @@
         "drawers": [
         {
         "type": "DrawDefault"
-        }       
+        }
               {
        "type": "DrawGlowRegion",
        "suffix": "-top", 
        "glowScale": 10,
        "color": "0084ff"
-       "alpha": 10
      }
+             {
+         "type": "DrawFlame",
+    "flameRadius": 1.8,
+    "flameRadiusIn": 0.8,
+    "flameRadiusScl": 2.8,
+    "flameRadiusMag": 1.0,
+    "flameRadiusInMag": 1.0,
+	"flameColor": "74C2E8FF"
+	  },
     ]
     },
   "hasPower": true,

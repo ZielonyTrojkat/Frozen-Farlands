@@ -30,20 +30,20 @@ abilities: [
               effect: [
               {
               type: ParticleEffect
-              particles: 10
+              particles: 8
               lifetime: 30
               length: 15
               sizeFrom: 4
               sizeTo: 1
-              colorFrom: fcfa72
-              colorTo: dea916
+              colorFrom: ffce8c
+              colorTo: ff9100
               strokeFrom: 3
               strokeTo: 1.5
               interp: pow3Out
               spin: 5
               sizeInterp: pow2In
               region: moon-mod-triangle
-              offsetX: 3
+              offsetX: 5
               }
               ]
               }
@@ -62,22 +62,28 @@ weapons: [
           
           bullet:{
         type: BombBulletType
-        splashDamageRadius: 40
-        splashDamage: 300
+        splashDamageRadius: 50
+        splashDamage: 150
         instantDisappear: true
         killShooter: true
         hittable: false
         collidesAir: true
+      "lightning": 8,
+      "lightningLength": 10,
+      "lightningLengthRand": 10,
+      "lightningDamage": 50,
+      "lightColor": "ffce8c",
+      "lightningColor": "ff9100",
         hitEffect: [
         {
           type: WaveEffect
-          lifetime: 25
+          lifetime: 15
           sizeFrom: 0
-          sizeTo: 40
-          strokeFrom: 5
+          sizeTo: 50
+          strokeFrom: 16
           strokeTo: 0
-          colorFrom: c0ecff
-          colorTo: c0ecff
+          colorFrom: ffce8c
+          colorTo: ff9100
         }
         ]
         }

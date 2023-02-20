@@ -18,6 +18,7 @@ reload: 60
 recoilAmount: 8
 restitution: 0.02
 shootSound: lockdown
+moveWhileCharging: false
 shoot: {
   firstShotDelay: 70
 }

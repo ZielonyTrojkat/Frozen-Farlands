@@ -1,4 +1,4 @@
-    "generator": PlanetGenerator,
+    "generator": ErekirPlanetGenerator,
     "parent": serpulo ,
     "name": Zilo,
     "accesible": true,
@@ -8,7 +8,7 @@
     allowSectorSimulation: true
     allowSectorInvasion: true
     "orbitRadius": 10,
-    "prebuildBase": false,
+    "prebuildBase": true,
     "atmosphereRadIn": 1,
     "atmosphereRadOut": 1,
     "atmosphereColor": 323636,

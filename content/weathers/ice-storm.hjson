@@ -1,0 +1,20 @@
+type: ParticleWeather
+color: c2e8ff
+noiseColor: 87e9ff
+particleRegion: particle
+sizeMax: 15
+sizeMin: 1
+density: 1000
+status: none
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.75
+baseSpeed: 5
+sound: wind
+soundVol: 1.65
+force: 2
+attrs: {
+  heat: 1.4
+  water: -0.5
+  spores: -0.9
+}

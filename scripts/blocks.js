@@ -1,5 +1,3 @@
 Events.on(ContentInitEvent, e => {
-Blocks.glacier-wall.attributes = Attribute.ice
-});
-Blocks.bauxite-wall.attributes = Attribute.bauxite
-});
+	 Vars.content.block("glacier-wall").attributes.set(Attribute.get("ice"), 1);
+	 Vars.content.block("bauxite-wall").attributes.set(Attribute.get("bauxite"), 0.25);

@@ -8,7 +8,6 @@
     yttrium/1
   ]
   "drillTime": 80,
-  "attribute": bauxite,
   "output": "bauxite",
   "fogRadius": 2,
   "consumes": {

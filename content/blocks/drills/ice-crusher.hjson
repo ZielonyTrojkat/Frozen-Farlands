@@ -8,7 +8,6 @@
     "yttrium/4",
   ],
   "drillTime": 80,
-  "attribute": ice,
   "output": "ice-shard",
   "fogRadius": 2,
   "consumes": {

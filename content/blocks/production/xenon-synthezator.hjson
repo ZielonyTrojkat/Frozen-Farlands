@@ -74,5 +74,5 @@
 researchCost: [
     yttrium/1
   ]
-    ambientSound: decimate
+    ambientSound: hum
     ambientSoundVolume: 10000

@@ -2,7 +2,7 @@ type: item
 name: Arcanite
 description: Common ore that has high electric and electromagnetic capabilities, is used for blocks that conduct electricity.
   "cost": 2,
-  "color": "00eeff",
+  "color": "b86a2e",
   "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,

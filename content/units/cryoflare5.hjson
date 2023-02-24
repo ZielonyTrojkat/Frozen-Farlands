@@ -9,7 +9,8 @@
     "armor": 1,
     "itemCapacity": 10,
   "outlineColor": "36363c",
-    "engineOffset": 8,
+    "engineOffset": 21,
+    "engineSize": 6
     "faceTarget": true,
 weapons: [
 {

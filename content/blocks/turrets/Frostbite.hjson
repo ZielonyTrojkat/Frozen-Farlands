@@ -12,12 +12,13 @@ consumes: {
     type: ConsumeCoolant
     amount: 0.6
   }
+  item: reinforced-cryofabric
 }
-rotateSpeed: 6
+rotateSpeed: 2
 reload: 60
 recoilAmount: 8
 restitution: 0.02
-shootSound: lockdown
+shootSound: FrostbiteSound
 moveWhileCharging: false
 shoot: {
   firstShotDelay: 70
@@ -28,7 +29,7 @@ shootType: {
   lifetime: 15
   fadeTime: 5
   length: 320
-  width: 5
+  width: 6
 "colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
 	"chargeEffect": {
 "type": "MultiEffect",
@@ -37,11 +38,11 @@ shootType: {
     "type": "ParticleEffect",
     "particles": 1,
     "sizeFrom": 1,
-    "sizeTo": 7,
+    "sizeTo": 5,
     "length": 0,
     "lifetime": 90,
-    "colorFrom": "FFDA45FF",
-    "colorTo": "F3E979FF",
+    "colorFrom": "00eaff",
+    "colorTo": "91f6ff",
     "cone": 360
 	},
     {
@@ -49,10 +50,10 @@ shootType: {
     "lifetime": 75,
     "sizeFrom": 50,
     "sizeTo": 0,
-    "strokeFrom": 4,
+    "strokeFrom": 5,
     "strokeTo": 0,
-    "colorFrom": "FFDA45FF",
-    "colorTo": "F3E979FF"
+    "colorFrom": "00eaff",
+    "colorTo": "91f6ff"
 }
 ]
 	},
@@ -65,8 +66,10 @@ shootType: {
                 "colorFrom": "66B1FF",
                 "colorTo": "000000",
                 "sizeFrom": 1,
-                "sizeTo": 1000,
-                "lifetime": 500
+                "strokeFrom": 5,
+                "strokeTo": 1,
+                "sizeTo": 400,
+                "lifetime": 200
             }
         ]
     },

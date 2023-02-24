@@ -2,7 +2,7 @@ type: item
 name: Ice shard
 description: It's just frozen water.
   "cost": 1,
-  "color": "5db5de",
+  "color": "abbfe0",
   "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,

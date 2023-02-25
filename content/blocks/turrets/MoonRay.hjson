@@ -1,61 +1,92 @@
-name: MoonRay
-description: A better version of the Meltdown. Deals a tonne of damage. Requires liquid to fire.
-type: PowerTurret
-size: 3
-<<<<<<< HEAD
+name: Comet
+"type": PowerTurret,
+"size": 3,
 "health": 1500,
-range: 500
-rotateSpeed: 10
-reload: 200
+range: 350
+rotateSpeed: 4.5
+reload: 90
 burstSpacing: 3
-shots: 1
+shots: 2
 xRand: 1
-powerUse: 1000
+powerUse: 400
 recoilAmount: 3
-shootSound: AlectroSound
-=======
-liquidCapacity: 200
-shootDuration: 240
-health: 2150
-range: 240
-consumes: {
-  power: 28
-  item: moonstone
-}
-rotateSpeed: 2
-reload: 60
-recoilAmount: 8
-restitution: 0.02
-shootSound: FrostbiteSound
-moveWhileCharging: false
-shoot: {
-  firstShotDelay: 70
-}
->>>>>>> 6e44ee890737ab57873d97c86beba6663b68f0dd
-shootType: {
-  type: LaserBulletType
-  length: 500
-  damage: 2000
-},
-
+shootSound: DefragmentationSound
+ammoTypes: {
+  moonstone: { 
+  type: PointBulletType
+    speed: 7
+    lifetime: 60
+    damage: 5
+    width: 20
+    height: 25
+    frontColor: b04c45
+    backColor: 734744
+    shootEffect: "shootSmall"        
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: false
+    explodeRange: 90
+    splashDamageRadius: 90
+    splashDamage: 24
+    hitEffect: flakExplosionBig
+  }
+  }
+  shootType: {
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [
             {
                 "type": "WaveEffect",
-                "colorFrom": "66B1FF",
-                "colorTo": "000000",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
                 "sizeFrom": 1,
-                "sizeTo": 1000,
-                "lifetime": 500
+                "sizeTo": 150,
+                "lifetime": 50
             }
-        ]
-    },
+            {
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 20,
+    "baseLength": 5,
+    "length": 40,
+    "lenFrom": 5,
+    "lenTo": 5,
+    "lightColor": "daffd9",
+    "colorFrom": "28fc23",
+    "colorTo": "20c71c"
+	}
+	]
+  }
+    "lifetime" : 80,
+    "speed": 3,
+    "damage": 50,
+    "splashDamage": 50,
+    "splashDamageRadius": 30,
+    "collidesTeam": true,
+    "buildingDamageMultiplier": 0.50,
+    "pierceBuilding": true,
+    "pierce": false,
+    "spin": 5
+    "trailChance": 1,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 8,
+    "lifetime": 10,
+    "region": "moon-mod-star",
+    "lightColor": "8616c7",
+    "colorFrom": "69119c",
+    "colorTo": "cec1d6",
+    "sizeFrom": 7,
+    "sizeTo": 2
+    }
+            }
 category: turret
 requirements: [
   yttrium/1
 ]
-research: Defragmentation
+research: Pike
 researchCost: [
     yttrium/1
   ]

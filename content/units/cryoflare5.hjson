@@ -1,13 +1,13 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 1,
+    "speed": 0.7,
     "rotateSpeed": 1,
     "accel": 0.1,
     "drag": 0.02,
     "flying": true,
-    "health": 300,
+    "health": 15000,
     "hitSize": 12,
-    "armor": 1,
+    "armor": 5,
     "itemCapacity": 10,
   "outlineColor": "36363c",
     "engineOffset": 21,
@@ -15,29 +15,146 @@
     "faceTarget": true,
 weapons: [
 {
-name: cryoflare2-gun
+name: cryoflare5-launcher
 mirror: true
 alternate: true
-x: 12
-y: 6
+x: 14
+y: 4
 top: false
-rotate: true
-reload: 120
+rotate: false
+reload: 80
 recoil: 1
 layerOffset: -1
-shootSound: railgun
+shootSound: missileSmall
 ejectEffect: none
     "bullet": { 
     "colors":["00eeff", "00eeff", "FFFFFFF"],
       "type": "LaserBulletType",
-      "length": 80,
-      "width": 15,
-      "damage": 20,
-      "recoil": 0.25,
         "spawnUnit": "cryo-missile"
-        layerOffset: -1
     }
 }
+    {
+    "name": "cryoflare5-gun",
+    "y": -10,
+    "x": 12,
+    "top": true,
+    "mirror": true,
+    "alternate": true,
+     "shoot": {
+    "shots": 4,
+      },
+    "inaccuracy": 10,
+    "velocityRnd": 0.4,
+    "rotate": true,
+    "rotateSpeed": 2,
+    "shootY": 14,
+    "reload": 66,
+    "recoil": 4,
+    "shake": 3,
+    "ejectEffect": "casing2",
+    "shootSound": "artillery",
+    "bullet": {
+    "type": "ArtilleryBulletType",
+    "shootEffect": "shootBig2",
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 20,
+    "interp": "circleOut",
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "colorFrom": "00e1ff",
+    "colorTo": "00e1ff"
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 30,
+    "baseLength": 15,
+    "lifetime": 70,
+    "interp": "pow10Out",
+    "sizeFrom": 8,
+    "sizeTo": 0,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    },
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 30,
+    "baseLength": 10,
+    "offset": 30,
+    "length": 30,
+    "cone": -360,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "00e1ff",
+    "colorTo": "00e1ff"
+    }
+    ]
+    }, 
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 30,
+    "interp": "circleOut",
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "colorFrom": "61ffff",
+    "colorTo": "00e1ff"
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 30,
+    "baseLength": 15,
+    "lifetime": 90,
+    "interp": "pow10Out",
+    "sizeFrom": 10,
+    "sizeTo": 0,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    },
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 30,
+    "baseLength": 10,
+    "offset": 30,
+    "length": 30,
+    "cone": -360,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "61ffff",
+    "colorTo": "00e1ff"
+    }
+    ]
+    }, 
+    "lifetime": 60,
+	"splashDamage": 60 ,
+	"splashDamageRadius": 30,	
+    "speed": 5,
+    "status": "freezing",
+    "statusDuration": 100,
+    "width": 10,
+    "height": 10,
+    "trailColor": "59f2ff",
+    "backColor": "59f2ff",
+    "frontColor": "9cf7ff"
+    }
+    }
  ] 
 research: cryoflare4
 researchCost: [

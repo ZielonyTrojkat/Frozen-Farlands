@@ -1,20 +1,20 @@
 type: missile
 controller: MissileAI
 flying: true
-speed: 4.6
-maxRange: 6
-lifetime: 180
+speed: 3.8
+maxRange: 5
+lifetime: 130
 hidden: true
 envEnabled: 17
 envDisabled: 0
 outlineColor: 2d2f39
 engineColor: 0acaf5
 trailColor: 0acaf5
-engineSize: 3.1
-engineOffset: 10
-rotateSpeed: 2.75
-trailLength: 20
-missileAccelTime: 30
+engineSize: 2.5
+engineOffset: 6
+rotateSpeed: 1.5
+trailLength: 8
+missileAccelTime: 0
 lowAltitude: true
 fogRadius: 6
 health: 190
@@ -39,7 +39,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 40
-        splashDamage: 300
+        splashDamage: 120
         instantDisappear: true
         killShooter: true
         hittable: false

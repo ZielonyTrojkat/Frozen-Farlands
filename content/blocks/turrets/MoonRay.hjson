@@ -2,6 +2,7 @@ name: MoonRay
 description: A better version of the Meltdown. Deals a tonne of damage. Requires liquid to fire.
 type: PowerTurret
 size: 3
+<<<<<<< HEAD
 "health": 1500,
 range: 500
 rotateSpeed: 10
@@ -12,6 +13,25 @@ xRand: 1
 powerUse: 1000
 recoilAmount: 3
 shootSound: AlectroSound
+=======
+liquidCapacity: 200
+shootDuration: 240
+health: 2150
+range: 240
+consumes: {
+  power: 28
+  item: moonstone
+}
+rotateSpeed: 2
+reload: 60
+recoilAmount: 8
+restitution: 0.02
+shootSound: FrostbiteSound
+moveWhileCharging: false
+shoot: {
+  firstShotDelay: 70
+}
+>>>>>>> 6e44ee890737ab57873d97c86beba6663b68f0dd
 shootType: {
   type: LaserBulletType
   length: 500

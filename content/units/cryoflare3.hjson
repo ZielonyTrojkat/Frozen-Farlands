@@ -4,7 +4,7 @@
     "accel": 0.1,
     "drag": 0.02,
     "flying": true,
-    "health": 300,
+    "health": 1000,
     "hitSize": 12,
     "armor": 1,
     "itemCapacity": 10,
@@ -13,26 +13,6 @@
     "engineSize": 5,
     "faceTarget": true,
 weapons: [
-   {
-	"name": "unit",
-    "reload": 200,
-    "x": 0,
-    "y": 4,
-    "mirror": false,
-    "baseRotation": 0,
-    "alternate": false,
-    "rotate": false,
-    "shootSound": "shootBig",
-      "layerOffset": -1,
-    "shootCone": 180,
-  "homingPower": 0.07,
-  "homingRange": 100,
-  "homingDelay": 10,
-	"bullet": {
-    "type": "basicBulletType",
-     "spawnUnit": "cryogenium-missile"
- }
-	 }
 {
 name: cryoflare2-gun
 mirror: false

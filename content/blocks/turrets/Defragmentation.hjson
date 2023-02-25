@@ -7,14 +7,16 @@ reload: 130
 burstSpacing: 3
 shots: 1
 xRand: 1
-powerUse: 400
+consumes: {
+  power: 3
+}
 recoilAmount: 3
 shootSound: DefragmentationSound
 shootType: {
   type: LaserBulletType
   length: 350
   width: 20
-  damage: 230
+  damage: 100
   firstShotDelay: 1
   shotDelay: 1
   chargeBeginEffect: lancerLaserChargeBegin
@@ -50,7 +52,9 @@ shootType: {
 }
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/30
+  arcanite/20
+  aluminium/15
 ]
 research: Pike
 researchCost: [

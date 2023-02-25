@@ -1,17 +1,16 @@
     "type": "Wall",
     "buildCostMultiplier": 0.1,
     "lightningSound": "spark",
-    "lightningChance": 6.60,
+    "lightningChance": 0.60,
     "lightningColor": "F3E979FF",
     "lightningDamage": 48,
     "lightningLength":28,
-    "health": 10080,
+    "health": 3000,
     "size": 2,
-    "requirements": [
-        {"item": "arcanthium", "amount": 10}
-    ],
-    "category": "defense",
+requirements: [
+  arcanthium/24
+]
 research: arcanthium-wall
 researchCost: [
-    yttrium/1
+    arcanite/100
   ]

@@ -7,7 +7,9 @@ reload: 10
 burstSpacing: 1
 shots: 1
 xRand: 1
-powerUse: 75
+consumes: {
+  power: 1
+}
 recoilAmount: 3
 shootSound: PikeSound
 shootType: {

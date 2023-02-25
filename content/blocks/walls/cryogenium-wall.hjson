@@ -1,17 +1,11 @@
     "type": "Wall",
     "buildCostMultiplier": 0.1,
-    "lightningSound": "spark",
-    "lightningChance": 0.60,
-    "lightningColor": "F3E979FF",
-    "lightningDamage": 48,
-    "lightningLength":28,
-    "health": 2520,
+    "health": 500,
     "size": 1,
-    "requirements": [
-        {"item": "obsidian", "amount": 1}
-    ],
-    "category": "defense",
+requirements: [
+  cryogenium/6
+]
 research: yttrium-wall-large
 researchCost: [
-    yttrium/1
+    yttrium/100
   ]

@@ -6,7 +6,9 @@ consumes: {
   power: 8
     items: {
       items: [
-        yttrium/10
+        aluminium/80
+        moonstone/50
+        cryogenium/50
       ]
     }
   liquid: {
@@ -20,7 +22,7 @@ upgrades: [
   [axo, kristal]
 ]
 requirements: [
-  yttrium/1
+  yttrium/120
 ]
 category: units
 research: Constructor

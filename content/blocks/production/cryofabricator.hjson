@@ -34,15 +34,22 @@
   "consumes": {
   "power": 1.70,
     "liquids": [
-    "cryofluid/0.0"
+    "cryofluid/0.5",
+    "xenon/0.5"
     ]
+  "items": [
+    "cryogenium/2"
+    "diamond/1"
+  ]
   },
   "requirements": [
-    yttrium/1
+    aluminium/100
+    moonstone/100
+    diamond/50
+    obsidian/50
   ],
   "category": "crafting",
-  "outputLiquid": "water/0.0",
-  "outputItem": "arcanite/0"
+  "outputItem": "reinforced-cryofabric/1"
 research: heater
 researchCost: [
     yttrium/1

@@ -64,11 +64,12 @@
     ]
   },
   "requirements": [
-    yttrium/1
+    yttrium/30
+    aluminium/30
   ],
   "category": "crafting",
   "outputLiquid": "water/0.15",
-  "outputItem": "arcanite/1"
+  "outputItem": "cryogenium/1"
 research: heater
 researchCost: [
     yttrium/1

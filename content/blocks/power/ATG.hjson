@@ -68,7 +68,8 @@ consumes: {
 powerProduction: 0.3
 category: power
 requirements: [
-  yttrium/1
+  yttrium/15
+  arcanite/20
 ]
 research: yttrium
 researchCost: [

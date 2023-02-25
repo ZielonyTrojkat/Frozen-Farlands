@@ -6,9 +6,9 @@ laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
 requirements: [
-  yttrium/8
-  arcanite/6
-  aluminium/6
+  yttrium/24
+  arcanthium/6
+  aluminium/24
 ]
 research: node
 researchCost: [

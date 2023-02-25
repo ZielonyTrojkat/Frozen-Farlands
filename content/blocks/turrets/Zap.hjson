@@ -8,7 +8,10 @@ reload: 100
 burstSpacing: 1
 shots: 1
 xRand: 1
-powerUse: 75
+consumes: {
+  power: 6
+  item: arcanthium
+}
 recoilAmount: 3
 shootSound: ZapSound
 shootType: {
@@ -22,7 +25,11 @@ statusDuration: 180
 }
 category: turret
 requirements: [
-  lead/450
-  graphite/350
-  silicon/300
+  yttrium/30
+  arcanthium/50
+  arcanite/50
 ]
+research: Pike
+researchCost: [
+    yttrium/1
+  ]

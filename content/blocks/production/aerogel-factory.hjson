@@ -58,16 +58,16 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 1.70,
-    "items": [
-    "ice-shard/1"
-    ]
+  "power": 0.90,
     "liquids": [
-      water/1
+      water/1,
+      xenon/0.3
     ]
   },
   "requirements": [
-    yttrium/1
+    yttrium/40
+    aluminium/20
+    cryogenium/20
   ],
   "category": "crafting",
   "outputItem": "aerogel/1"

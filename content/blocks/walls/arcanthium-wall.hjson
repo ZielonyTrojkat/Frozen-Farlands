@@ -5,13 +5,12 @@
     "lightningColor": "F3E979FF",
     "lightningDamage": 48,
     "lightningLength":28,
-    "health": 2520,
+    "health": 700,
     "size": 1,
-    "requirements": [
-        {"item": "obsidian", "amount": 1}
-    ],
-    "category": "defense",
+requirements: [
+  arcanthium/6
+]
 research: obsidian-wall
 researchCost: [
-    yttrium/1
+    arcanite/100
   ]

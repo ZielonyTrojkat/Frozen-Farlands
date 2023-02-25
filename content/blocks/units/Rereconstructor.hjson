@@ -6,12 +6,14 @@ consumes: {
   power: 8
     items: {
       items: [
-        yttrium/1
+        moonstone/180
+        aerogel/120
+        cryogenium/80
       ]
     }
   liquid: {
-    liquid: water
-    amount: 0.6
+    liquid: xenon
+    amount: 1
   }
 }
 upgrades: [
@@ -19,7 +21,7 @@ upgrades: [
   [cryoflare2, cryoflare3]
 ]
 requirements: [
-  yttrium/1
+  moonstone/500
 ]
 category: units
 research: Reconstructor

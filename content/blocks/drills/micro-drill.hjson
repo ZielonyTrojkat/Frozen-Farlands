@@ -4,8 +4,8 @@
   "type": "Drill",
   "size": 1,
   "itemCapacity": 5,
-  "tier": 3,
-  "drillTime": 35,
+  "tier": 2,
+  "drillTime": 90,
   "drawMineItem": false,
   "consumes": {
     "liquid": {

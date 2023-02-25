@@ -7,7 +7,7 @@
     "flying": true,
     "health": 5000,
     "hitSize": 12,
-    "armor": 1,
+    "armor": 3,
     "itemCapacity": 80,
   "outlineColor": "36363c",
     "engineOffset": 14,
@@ -122,8 +122,8 @@ x: 13
 y: 0
 top: true
 rotate: true
-reload: 12
-recoil: 0
+reload: 10
+recoil: 1
 shootSound: PikeSound
 ejectEffect: none
 shake: 0

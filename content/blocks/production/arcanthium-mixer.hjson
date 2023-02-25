@@ -63,13 +63,14 @@
     "arcanite/3",
     "yttrium/1",
     "aluminium/1"
-    ]
-    "liquids": [
-      "xenon/0.15"
+    "moonstone/1"
     ]
   },
   "requirements": [
-    yttrium/1
+    yttrium/80
+    moonstone/50
+    aluminium/50
+    obsidian/20
   ],
   "category": "crafting",
   "outputItem": "arcanthium/1"

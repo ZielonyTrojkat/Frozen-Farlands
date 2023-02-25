@@ -8,5 +8,5 @@ category: units
 research: Rereconstructor
 researchCostMultiplier: 4
 requirements: [
-  yttrium/1
+  reinforced-cryofabric/50
 ]

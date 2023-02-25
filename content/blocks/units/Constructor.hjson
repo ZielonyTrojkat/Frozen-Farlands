@@ -8,26 +8,30 @@ plans: [
     unit: cryospider
     time: 200
     requirements: [
-      yttrium/1
+      aluminium/30
+      cryogenium/10
     ]
   }
   {
     unit: cryoflare
     time: 200
     requirements: [
-      yttrium/1
+     aluminium/20
+     aerogel/20
+     cryogenium/10
     ]
   }
   {
     unit: axo
     time: 200
     requirements: [
-      yttrium/1
+     aluminium/20
+     moonstone/20
     ]
   }
 ]
 requirements: [
-  yttrium/1
+  yttrium/30
 ]
 category: units
 research: core-2

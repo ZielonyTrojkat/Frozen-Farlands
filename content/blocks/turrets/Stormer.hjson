@@ -3,7 +3,7 @@ size: 4
 health: 6850
 basePrefix: -base
 consumes: {
-    power: 14.9
+    power: 4
 }
 shoot: {
   type: ShootBarrel
@@ -60,7 +60,10 @@ research: {
     parent: lead
 }
 requirements: [
-  yttrium/1
+  yttrium/200
+  aluminium/150
+  obsidian/150
+  diamond/100
 ]
 research: Rhino
 researchCost: [

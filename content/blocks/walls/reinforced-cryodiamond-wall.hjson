@@ -1,21 +1,17 @@
     "type": "ShieldWall",
     "buildCostMultiplier": 0.1,
-    "lightningSound": "spark",
-    "lightningChance": 6.60,
-    "lightningColor": "F3E979FF",
-    "lightningDamage": 48,
-    "lightningLength":28,
-    "health": 10080,
+    "health": 700,
     "size": 1,
 hasPower: false
-shieldHealth: 12000
+shieldHealth: 300
 breakCooldown: 120
-regenSpeed: 250
-    "requirements": [
-        {"item": "obsidian", "amount": 1}
-    ],
-    "category": "defense",
+regenSpeed: 50
+requirements: [
+  reinforced-cryofabric/6
+  diamond/3
+]
 research: aerogel-wall
 researchCost: [
-    yttrium/1
+    reinforced-cryofabric/100
+    diamond/100
   ]

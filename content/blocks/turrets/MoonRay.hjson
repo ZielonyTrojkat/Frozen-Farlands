@@ -7,7 +7,7 @@ shootDuration: 240
 health: 2150
 range: 240
 consumes: {
-  power: 28
+  power: 16
   item: moonstone
 }
 rotateSpeed: 2
@@ -71,7 +71,9 @@ shootType: {
     },
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/90
+  moonstone/120
+  diamond/20
   ]
   research: Alectro
 researchCost: [

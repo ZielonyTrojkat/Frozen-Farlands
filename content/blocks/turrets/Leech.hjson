@@ -22,7 +22,9 @@ shootType: {
 }
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/80
+  arcanite/50
+  obsidian/20
 ]
 research: Pike
 researchCost: [

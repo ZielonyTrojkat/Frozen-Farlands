@@ -1,64 +1,24 @@
-name: Frostbite
+name: MoonRay
 description: A better version of the Meltdown. Deals a tonne of damage. Requires liquid to fire.
-type: LaserTurret
+type: PowerTurret
 size: 3
-liquidCapacity: 200
-shootDuration: 240
-health: 2150
-range: 240
-consumes: {
-  power: 28
-  coolant: {
-    type: ConsumeCoolant
-    amount: 0.6
-  }
-  item: reinforced-cryofabric
-}
-rotateSpeed: 2
-reload: 60
-recoilAmount: 8
-restitution: 0.02
-shootSound: FrostbiteSound
-moveWhileCharging: false
-shoot: {
-  firstShotDelay: 70
-}
+"health": 1500,
+range: 500
+rotateSpeed: 10
+reload: 200
+burstSpacing: 3
+shots: 1
+xRand: 1
+powerUse: 1000
+recoilAmount: 3
+shootSound: AlectroSound
 shootType: {
-  type: ContinuousLaserBulletType
-  damage: 45
-  lifetime: 15
-  fadeTime: 5
-  length: 320
-  width: 6
-"colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
-	"chargeEffect": {
-"type": "MultiEffect",
-    "effects": [
-{
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 5,
-    "length": 0,
-    "lifetime": 90,
-    "colorFrom": "00eaff",
-    "colorTo": "91f6ff",
-    "cone": 360
-	},
-    {
-    "type": "WaveEffect",
-    "lifetime": 75,
-    "sizeFrom": 50,
-    "sizeTo": 0,
-    "strokeFrom": 5,
-    "strokeTo": 0,
-    "colorFrom": "00eaff",
-    "colorTo": "91f6ff"
-}
-]
-	},
-}
-"shootEffect": {
+  type: LaserBulletType
+  length: 500
+  damage: 2000
+},
+
+    "shootEffect": {
         "type": "MultiEffect",
         "effects": [
             {
@@ -66,18 +26,16 @@ shootType: {
                 "colorFrom": "66B1FF",
                 "colorTo": "000000",
                 "sizeFrom": 1,
-                "strokeFrom": 5,
-                "strokeTo": 1,
-                "sizeTo": 400,
-                "lifetime": 200
+                "sizeTo": 1000,
+                "lifetime": 500
             }
         ]
     },
 category: turret
 requirements: [
   yttrium/1
-  ]
-  research: Alectro
+]
+research: Defragmentation
 researchCost: [
     yttrium/1
   ]

@@ -122,7 +122,7 @@ x: 13
 y: 0
 top: true
 rotate: true
-reload: 15
+reload: 12
 recoil: 0
 shootSound: PikeSound
 ejectEffect: none

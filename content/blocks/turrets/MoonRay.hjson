@@ -8,11 +8,7 @@ health: 2150
 range: 240
 consumes: {
   power: 28
-  coolant: {
-    type: ConsumeCoolant
-    amount: 0.6
-  }
-  item: reinforced-cryofabric
+  item: moonstone
 }
 rotateSpeed: 2
 reload: 60

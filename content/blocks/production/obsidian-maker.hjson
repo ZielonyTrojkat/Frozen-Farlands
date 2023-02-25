@@ -10,14 +10,16 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 0.70,
+  "power": 1.70,
     "liquids": [
       "water/0.75",
-      "slag/0.35"
+      "slag/0.3"
     ],
   },
   "requirements": [
-    yttrium/1
+    yttrium/70
+    aluminium/30
+    arcanite/30
   ],
   "category": "crafting",
   "outputItem": "obsidian/1"

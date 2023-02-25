@@ -58,13 +58,15 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 1.70,
+  "power": 0.70,
     "items": [
     "bauxite/1"
     ]
   },
   "requirements": [
-    yttrium/1
+    yttrium/25
+    ice-shard/15
+    arcanite/10
   ],
   "category": "crafting",
   "outputItem": "aluminium/1"

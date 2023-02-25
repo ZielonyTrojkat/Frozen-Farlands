@@ -8,10 +8,6 @@ health: 2150
 range: 240
 consumes: {
   power: 28
-  coolant: {
-    type: ConsumeCoolant
-    amount: 0.6
-  }
   item: reinforced-cryofabric
 }
 rotateSpeed: 2
@@ -75,7 +71,11 @@ shootType: {
     },
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/250
+  arcanthium/100
+  aluminium/200
+  cryogenium/150
+  reinforced-cryofabric/50
   ]
   research: Alectro
 researchCost: [

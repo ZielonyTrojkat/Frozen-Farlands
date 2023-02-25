@@ -3,17 +3,19 @@
 "health": 1500,
 range: 500
 rotateSpeed: 4.5
-reload: 60
+reload: 150
 burstSpacing: 3
 shots: 1
 xRand: 1
-powerUse: 1000
+consumes: {
+  power: 16
+}
 recoilAmount: 3
 shootSound: AlectroSound
 shootType: {
   type: LaserBulletType
   length: 500
-  damage: 2000
+  damage: 300
 },
 
     "shootEffect": {
@@ -31,7 +33,10 @@ shootType: {
     },
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/120
+  arcanite/80
+  aluminium/100
+  moonstone/50
 ]
 research: Defragmentation
 researchCost: [

@@ -68,9 +68,11 @@ consumes: {
 powerProduction: 5
 category: power
 requirements: [
-  yttrium/1
+  moonstone/100
+  aluminium/100
+  cryogenium/50
 ]
-research: yttrium-generator
+research: ATG
 researchCost: [
     yttrium/1
     ]

@@ -5,7 +5,8 @@
   "size": 2,
   "category": "production",
  requirements: [
-    yttrium/1
+    yttrium/10
+    ice-shard/5
   ]
   "drillTime": 80,
   "output": "bauxite",

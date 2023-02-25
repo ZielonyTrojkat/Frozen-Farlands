@@ -5,7 +5,7 @@
   "size": 2,
   "category": "production",
   "requirements": [
-    "yttrium/4",
+    "yttrium/10",
   ],
   "drillTime": 80,
   "output": "ice-shard",

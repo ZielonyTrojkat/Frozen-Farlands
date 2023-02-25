@@ -5,17 +5,15 @@ plans: [
   {
   unit: cryospider4
   requirements: [
-    moon-mod-cryospider2/8
-    moon-mod-cryoflare3/4
-    moon-mod-large-obsidian-wall/10
+    moon-mod-cryospider1/4
+    moon-mod-large-cryogenium-wall/10
   ]
   time: 1000
   }
   {
   unit: cryospider5
   requirements: [
-    moon-mod-cryospider2/8
-    moon-mod-cryoflare3/4
+    moon-mod-cryospider2/4
     moon-mod-large-obsidian-wall/10
   ]
   time: 1000

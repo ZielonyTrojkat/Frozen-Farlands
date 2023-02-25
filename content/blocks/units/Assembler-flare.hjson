@@ -5,18 +5,16 @@ plans: [
   {
   unit: cryoflare4
   requirements: [
-    moon-mod-cryospider2/8
-    moon-mod-cryoflare3/4
-    moon-mod-large-obsidian-wall/10
+    moon-mod-cryoflare1/4
+    moon-mod-large-aerogel-wall/10
   ]
   time: 1000
   }
   {
   unit: cryoflare5
   requirements: [
-    moon-mod-cryospider2/8
-    moon-mod-cryoflare3/4
-    moon-mod-large-obsidian-wall/10
+    moon-mod-cryoflare2/4
+    moon-mod-large-diamond-wall/10
   ]
   time: 1000
   }
@@ -30,5 +28,5 @@ category: units
 research: Rereconstructor
 researchCostMultiplier: 2
 requirements: [
-  yttrium/1
+  diamond/100
 ]

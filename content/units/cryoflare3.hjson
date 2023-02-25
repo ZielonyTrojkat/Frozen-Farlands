@@ -29,7 +29,7 @@ ejectEffect: none
       "type": "LaserBulletType",
       "length": 200,
       "width": 25,
-      "damage": 5000,
+      "damage": 50,
       "recoil": 3.25,
     "shootEffect": {
         "type": "MultiEffect",

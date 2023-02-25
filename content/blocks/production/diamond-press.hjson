@@ -60,11 +60,14 @@
   "consumes": {
   "power": 1.70,
     "items": [
-    "obsidian/4"
+    "obsidian/4",
+    "moonstone/2"
     ]
   },
   "requirements": [
-    yttrium/1
+    moonstone/50
+    aluminium/50
+    obsidian/50
   ],
   "category": "crafting",
   "outputItem": "diamond/1"

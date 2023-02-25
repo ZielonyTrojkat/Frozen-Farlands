@@ -16,10 +16,10 @@ shoot: {
     barrelOffset: 0
 }
 ammoTypes: {
-  scrap: {
+  moonstone: {
     speed: 7
     lifetime: 60
-    damage: 5
+    damage: 12
     width: 20
     height: 25
     frontColor: b04c45
@@ -36,7 +36,9 @@ ammoTypes: {
 }
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/150
+  aluminium/80
+  moonstone/80
 ]
 research: Pike
 researchCost: [

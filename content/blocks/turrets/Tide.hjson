@@ -42,5 +42,11 @@ ammoTypes: {
 }
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/50
+  ice-shard/50
+  aluminium/30
 ]
+research: Blast
+researchCost: [
+    yttrium/1
+  ]

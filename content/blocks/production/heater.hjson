@@ -33,10 +33,10 @@
     ],
   },
   "requirements": [
-    yttrium/1
+    yttrium/15
   ],
   "category": "crafting",
-  "outputLiquid": "water/0.3"
+  "outputLiquid": "water/0.35"
 research: core-2
 researchCost: [
     yttrium/1

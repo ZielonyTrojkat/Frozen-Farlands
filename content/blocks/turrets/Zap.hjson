@@ -2,7 +2,7 @@ name: Zap
 "type": PowerTurret,
 "size": 1,
 "health": 500,
-range:30,
+range:400,
 rotateSpeed: 5,
 reload: 100
 burstSpacing: 1
@@ -16,9 +16,10 @@ recoilAmount: 3
 shootSound: ZapSound
 shootType: {
 type: LightningBulletType,
-  length: 300
-  width: 1
-  damage: 20
+      "lightningLength": 30,
+      "lightningLengthRand": 30,
+      "lightningDamage": 120,
+      "lightColor": "ffce8c",
   lightningColor: ffea00
 status: unmoving
 statusDuration: 180

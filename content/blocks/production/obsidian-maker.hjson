@@ -3,6 +3,28 @@
   "description": "Makes obs studios",
   "health": 5,
   "size": 3,
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawRegion"
+        suffix: -bottom
+        }
+        {
+        "type": "DrawLiquidRegion"
+        suffix: -liquid1
+        drawLiquid: water
+        }
+        {
+        "type": "DrawLiquidRegion"
+        suffix: -liquid2
+        drawLiquid: slag
+        }
+        {
+        "type": "DrawDefault"
+        }
+        ]
+        }
   "hasItems": true,
   "craftTime": 28,
   "craftEffect": "none",

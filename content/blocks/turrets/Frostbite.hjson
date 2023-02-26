@@ -2,7 +2,6 @@ name: Frostbite
 description: A better version of the Meltdown. Deals a tonne of damage. Requires liquid to fire.
 type: LaserTurret
 size: 5
-liquidCapacity: 200
 shootDuration: 240
 health: 2150
 range: 240

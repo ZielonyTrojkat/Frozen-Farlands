@@ -1,76 +1,74 @@
-name: Comet
 "type": PowerTurret,
 "size": 3,
 "health": 1500,
 range: 350
 rotateSpeed: 4.5
-reload: 90
+reload: 50
 burstSpacing: 3
-shots: 2
+shots: 1
 xRand: 1
-powerUse: 400
+moveWhileCharging: false
+consumes: {
+  power: 16
+}
 recoilAmount: 3
-shootSound: DefragmentationSound
-ammoTypes: {
-  moonstone: { 
-  type: PointBulletType
-    speed: 7
-    lifetime: 60
-    damage: 5
-    width: 20
-    height: 25
-    frontColor: b04c45
-    backColor: 734744
-    shootEffect: "shootSmall"
-    smokeEffect: "shootSmallSmoke"
-    ammoMultiplier: 5
-    collidesTiles: false
-        homingPower: 100
-    homingRange:100
-    homingDelay: 100
-    explodeRange: 90
-    splashDamageRadius: 90
-    splashDamage: 24
-    hitEffect: flakExplosionBig
-  }
-  }
-  shootType: {
-    "shootEffect": {
-        "type": "MultiEffect",
-        "effects": [
-            {
-                "type": "WaveEffect",
-                "colorFrom": "11dcf2",
-                "colorTo": "11dcf2",
-                "sizeFrom": 1,
-                "sizeTo": 150,
-                "lifetime": 50
-            }
-            {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 20,
-    "baseLength": 5,
-    "length": 40,
-    "lenFrom": 5,
-    "lenTo": 5,
-    "lightColor": "daffd9",
-    "colorFrom": "28fc23",
-    "colorTo": "20c71c"
-    }
-    ]
-  }
+shootSound: shootAlt
+"shoot": {
+  "firstShotDelay": 90
+},
+shootType: {
+  type: BasicBulletType
+         "homingPower": 0.04,
+        "homingRange": 100,
     "lifetime" : 80,
     "speed": 3,
-    "damage": 50,
-    "splashDamage": 50,
-    "splashDamageRadius": 30,
-    "collidesTeam": true,
-    "buildingDamageMultiplier": 0.50,
-    "pierceBuilding": true,
+    "damage": 150,
+    "buildingDamageMultiplier": 1,
+    "pierceBuilding": false,
     "pierce": false,
     "spin": 5
+       "despawnHit": true,
+        "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 30,
+    "baseLength": 0,
+    "offset": 30,
+    "length": 30,
+    "cone": -360,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "c50ceb",
+    "colorTo": "cfabd6"
+    }
+    ]
+    }, 
+    	"chargeEffect": {
+      "type": "MultiEffect",
+    "effects": [
+    {
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 90,
+    "length": 40,
+    "baseLength": -40,
+    "cone": 360,
+    "interp": "pow4In",
+    "sizeInterp": "pow3Out",    
+    "strokeFrom": 0,
+    "strokeTo": 1,    
+    "lenFrom": 0,
+    "lenTo": 4,
+    "colorFrom": "c50ceb",
+    "colorTo": "cfabd6"
+    }
+          ]
+	        },
     "trailChance": 1,
     "trailEffect": {
     "type": "ParticleEffect",
@@ -97,13 +95,45 @@ ammoTypes: {
               spin: 5
               sizeInterp: pow2In
               region: moon-mod-star
+                    },
+                  }
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "cfabd6",
+                "colorTo": "c50ceb",
+                "sizeFrom": 1,
+                "sizeTo": 25,
+                "lifetime": 15
+                strokeFrom: 9
+                strokeTo: 0
+            }
+            {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 20,
+    "baseLength": 5,
+    "length": 40,
+    "lenFrom": 5,
+    "lenTo": 5,
+    "lightColor": "daffd9",
+    "colorFrom": "28fc23",
+    "colorTo": "20c71c"
+        }
+        ]
+    },
+    
 category: turret
 requirements: [
-  yttrium/1
+  yttrium/120
+  arcanite/80
+  aluminium/100
+  moonstone/50
 ]
-research: Pike
+research: Defragmentation
 researchCost: [
     yttrium/1
   ]
-  }
-  }

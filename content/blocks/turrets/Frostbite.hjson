@@ -1,14 +1,21 @@
 name: Frostbite
 description: A better version of the Meltdown. Deals a tonne of damage. Requires liquid to fire.
-type: LaserTurret
+type: ItemTurret
 size: 5
 shootDuration: 240
 health: 2150
 range: 240
+liquidCapacity: 200
+hasLiquids: true
 consumes: {
   power: 28
-  item: reinforced-cryofabric
 }
+"liquid": {
+	"liquid": "xenon",
+	"optional": false,
+	"update": false,
+	"amount": 0.4
+	}
 rotateSpeed: 2
 reload: 60
 recoilAmount: 8
@@ -18,13 +25,14 @@ moveWhileCharging: false
 shoot: {
   firstShotDelay: 70
 }
-shootType: {
+	"ammoTypes":	{
+	"reinforced-cryofabric": {
   type: ContinuousLaserBulletType
   damage: 45
-  lifetime: 15
+  lifetime: 70
   fadeTime: 5
-  length: 320
-  width: 6
+  length: 300
+  width: 10
 "colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
 	"chargeEffect": {
 "type": "MultiEffect",
@@ -52,6 +60,7 @@ shootType: {
 }
 ]
 	},
+}
 }
 "shootEffect": {
         "type": "MultiEffect",

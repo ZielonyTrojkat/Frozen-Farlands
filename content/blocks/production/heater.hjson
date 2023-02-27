@@ -6,23 +6,27 @@
   "hasItems": true,
   "craftTime": 28,
   "craftEffect": "none",
-  "drawer": {
-  "type": "DrawMulti",
+	"drawer": {
+	"type": "DrawMulti",
         "drawers": [
         {
-       "type": "DrawRegion",
-       "suffix": "-bottom"
-	   },
+        "type": "DrawRegion"
+        suffix: -bottom
+        }
         {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "liquid-resonance",
-        "suffix": "-liquid"
-        },
-        {	
-        "type": "DrawDefault"
-	  }
-    ]
-    },
+        "type": "DrawLiquidRegion"
+        suffix: -liquid
+        drawLiquid: water
+        }
+          {
+      "type": "DrawDefault"
+        }
+                  {
+      "type": "DrawGlowRegion"
+        suffix: -glow
+        }
+        ]
+        }
   "hasPower": true,
   "hasLiquids": true,
   "updateEffect": "none",

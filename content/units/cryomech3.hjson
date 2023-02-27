@@ -1,0 +1,74 @@
+
+  "research": {
+  "parent": "lead",
+  "requirements": [
+  "resonance/100",
+  "silicon/200"
+  ]
+  },
+
+	"outlineColor": "36363c",
+  "type": "mech",
+	"speed": 0.7,
+	"hitSize": 10,
+	"health": 360,
+	"faceTarget": true,
+	"armor": 2,
+	"range": 180,
+	"targetAir": false,
+	"rotateSpeed": 3,
+            "legMoveSpace": 1,
+            "legMaxLength": 1.4,
+            "legMinLength": 0.3,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.5,
+            "legPhysicsLayer": false,
+         "legGroupSize": 2,
+         "legCount": 4,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 0.2,
+	"legBaseOffset": 0,
+	"legLength": 10, 
+	"allowLegStep": true,
+	"hovering": false,
+	"immunities": [
+		"freezing"
+	],
+weapons: [
+{
+name: cryomech3-gun
+x: 12
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 3
+shotDelay: 3
+}
+top: false
+rotate: false
+reload: 35
+recoil: 4
+shootSound: bang
+ejectEffect: none
+bullet: {
+width: 13
+height: 19
+damage: 45
+splashDamage: 25
+splashDamageRadius: 25
+speed: 7
+lifetime: 65
+backColor: 51e1e8
+frontColor: cdf8fa
+status: freezing
+statusDuration: 180
+}
+}
+]
+research: Reconstructor
+researchCost: [
+    yttrium/1
+  ]

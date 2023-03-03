@@ -1,0 +1,66 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 2,
+    "accel": 0.1,
+    "drag": 0.02,
+    "flying": true,
+    "health": 300,
+    "hitSize": 12,
+    "armor": 1,
+    "itemCapacity": 10,
+  "outlineColor": "36363c",
+    "engineOffset": 6,
+    "faceTarget": true,
+weapons: [
+  {
+    name: cryoflaree-gun
+    alternate: true
+    x: 4
+    y: 0
+    shootY: 5
+    layerOffset: -1
+    reload: 9
+    recoil: 2
+    inaccuracy: 6
+    shootSound: PikeSound
+    bullet: {
+      speed: 4
+      lifetime: 24
+      damage: 10
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      width: 3
+      height: 10
+        frontColor: 03f8fc
+        backColor: ffffff
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 03f8fc
+          colorTo: ffffff
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 7
+          lifetime: 10
+          strokeFrom: 1.5
+          strokeTo: 0
+          colorFrom: 03f8fc
+          colorTo: ffffff
+        }
+      ]
+    }
+  }
+ ] 

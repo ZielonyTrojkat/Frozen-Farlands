@@ -1,5 +1,5 @@
 type: Reconstructor
-size: 4
+size: 3
 constructTime: 2400
 liquidCapacity: 60
 consumes: {

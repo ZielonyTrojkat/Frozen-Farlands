@@ -1,0 +1,14 @@
+{
+  "music": {
+    "game1": {
+      "path": "game1.ogg",
+      "loop": true,
+      "triggers": [
+        {
+          "type": "zone",
+          "args": ["glacier-rift"]
+        }
+      ]
+    }
+  }
+}

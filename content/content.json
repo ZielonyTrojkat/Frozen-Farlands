@@ -1,0 +1,12 @@
+{
+    "content": {
+      "sectors": {
+        "rocky": {
+          "music": "Distant.mp3"
+        },
+        "InnySektor": {
+          "music": "inna_muzyka.mp3"
+        }
+      }
+    }
+  }

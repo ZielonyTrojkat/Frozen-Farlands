@@ -1,6 +1,6 @@
 Type: UnitAssembler
 health: 2500
-size: 6
+size: 5
 plans: [
   {
   unit: cryoflare4

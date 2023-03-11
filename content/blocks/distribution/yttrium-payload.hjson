@@ -7,7 +7,6 @@ category: units
 requirements: [
   yttrium/1
 ]
-category: distribution
 research: core-2
 researchCost: [
     yttrium/1

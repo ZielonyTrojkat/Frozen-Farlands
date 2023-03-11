@@ -1,6 +1,14 @@
-    const music = loadMusic("dark-music");
+import arc.*;
+import mindustry.game.EventType.*;
+import mindustry.mod.*;
 
-    Events.on(ClientLoadEvent, e => {
-        Vars.control.sound.darkMusic.add(launch);
-    });
-    
+public class moon-mod extends Mod {
+
+    @Override
+    public void init() {
+        Sector sector = Sector.all().find(s -> s.name.equals("glacier-rift"));
+        sector.trig.add(new Zone(() -> {
+            Sounds.play("Distant_Peace.ogg", 1.0f);
+        }).onlyPlayers());
+    }
+}

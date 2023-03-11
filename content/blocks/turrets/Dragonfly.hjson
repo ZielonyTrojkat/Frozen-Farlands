@@ -18,6 +18,7 @@ ammoTypes: {
     speed: 4
     lifetime: 50
     damage: 30
+    inaccuracy: 10,
     width: 7
     height: 7
     frontColor: b2afb3

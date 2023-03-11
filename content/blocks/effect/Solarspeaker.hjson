@@ -1,0 +1,23 @@
+  "type": "GenericCrafter",
+	 "researchCostMultiplier": 0.5,
+  "description": "Plays Soundtrack after connected to power (Sunlight Rays by CY4N)",
+  "health": 21372001911420,
+  "ambientSound": Sunlight_Rays
+  "ambientSoundVolume": 1000000
+  "pause": false
+  "size": 2,
+  "hasItems": false,
+  "craftTime": 1000,
+  "hasPower": true,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 1.70
+  },
+  "requirements": [
+    "yttrium/1",
+
+   
+  ],
+  "category": "crafting",
+  "research": "lead",

@@ -16,9 +16,9 @@ recoilAmount: 3
 shootSound: ZapSound
 shootType: {
 type: LightningBulletType,
-      "lightningLength": 30,
-      "lightningLengthRand": 30,
-      "lightningDamage": 120,
+      "lightningLength": 10,
+      "lightningLengthRand": 10,
+      "lightningDamage": 300,
       "lightColor": "ffce8c",
   lightningColor: ffea00
 status: unmoving

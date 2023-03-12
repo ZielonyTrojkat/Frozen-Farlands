@@ -1,0 +1,20 @@
+type: ParticleWeather
+color: ccc0eb
+noiseColor: 672ff5
+particleRegion: moon-mod-star
+sizeMax: 3
+sizeMin: 1
+density: 10000
+status: none
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.01
+baseSpeed: 0.03
+sound: Distant
+soundVol: 1.65
+force: 0
+attrs: {
+  heat: -10
+  water: -0.5
+  spores: -0.9
+}

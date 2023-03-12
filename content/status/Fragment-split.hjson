@@ -1,0 +1,15 @@
+{
+        name: Fragment Split,
+        effect: {
+        type: ParticleEffect,
+        particles: 1,
+        region: "moon-mod-triangle",
+        lifetime: 14,
+        length: 1,
+        sizeFrom: 2,
+        sizeTo: 5,
+        colorFrom: "50bcfa",
+        colorTo: "c5e7fa"
+        },
+        damage: 0.5
+}

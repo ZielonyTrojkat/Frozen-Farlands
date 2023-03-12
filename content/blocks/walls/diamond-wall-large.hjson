@@ -3,9 +3,9 @@
     "health": 2800,
     "size": 2,
 requirements: [
-  obsidian/24
+  diamond/24
 ]
-research: obsidian-wall
+research: diamond-wall
 researchCost: [
-    obsidian/100
+    diamond/100
   ]

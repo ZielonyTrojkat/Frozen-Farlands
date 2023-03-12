@@ -1,6 +1,6 @@
 Type: UnitAssembler
 health: 2500
-size: 6
+size: 5
 plans: [
   {
   unit: cryospider4
@@ -8,25 +8,38 @@ plans: [
     moon-mod-cryospider1/4
     moon-mod-large-cryogenium-wall/10
   ]
-  time: 1000
+  time: 900
   }
   {
   unit: cryospider5
   requirements: [
     moon-mod-cryospider2/4
-    moon-mod-large-obsidian-wall/10
+    moon-mod-large-reinforced-cryofabric-wall/10
   ]
-  time: 1000
+  time: 1500
   }
 ]
-areaSize: 8
+areaSize: 10
 dronesCreated: 4
 consumes: {
 power: 5
+  liquid: {
+    liquid: arcalith
+    amount: 0.6
+  }
 }
 category: units
 research: Rereconstructor
 researchCostMultiplier: 2
 requirements: [
-  yttrium/1
+  yttrium/1200
+  moonstone/600
+  cryogenium/400
+  diamond/200
 ]
+researchCost: [
+  yttrium/3600
+  moonstone/2800
+  cryogenium/2500
+  diamond/2000
+  ]

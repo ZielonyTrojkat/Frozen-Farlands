@@ -1,0 +1,6 @@
+"localizedName": "Arcalith",
+"description": "Warm fluid extracted from arcanite shards",
+"gas": false,
+"cache": "water",
+"barColor": "e07f24"
+color: e07f24

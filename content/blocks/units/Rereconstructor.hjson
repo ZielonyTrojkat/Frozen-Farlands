@@ -19,12 +19,17 @@ consumes: {
 upgrades: [
   [cryospider2, cryospider3]
   [cryoflare2, cryoflare3]
+  [kristal, axo3]
 ]
 requirements: [
-  moonstone/500
+  yttrium/300
+  aerogel/150
+  moonstone/150
 ]
 category: units
 research: Reconstructor
 researchCost: [
-    yttrium/1
+    yttrium/3000
+    aluminium/1750
+    moonstone/1500
   ]

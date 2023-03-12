@@ -1,4 +1,5 @@
 type: UnitFactory
+health: 800
 size: 3
 consumes: {
   power: 1.2
@@ -8,33 +9,36 @@ plans: [
     unit: cryospider
     time: 200
     requirements: [
-      aluminium/30
-      cryogenium/10
+      yttrium/30
+      cryogenium/15
     ]
   }
   {
     unit: cryoflare
     time: 200
     requirements: [
-     aluminium/20
-     aerogel/20
+     yttrium/20
      cryogenium/10
+     aerogel/10
     ]
   }
   {
     unit: axo
     time: 200
     requirements: [
-     aluminium/20
-     moonstone/20
+     yttrium/20
+     aluminium/15
+     aerogel/10
     ]
   }
 ]
 requirements: [
-  yttrium/30
+  yttrium/50
+  aluminium/30
 ]
 category: units
 research: core-2
 researchCost: [
-    yttrium/1
+    yttrium/250
+    aluminium/150
   ]

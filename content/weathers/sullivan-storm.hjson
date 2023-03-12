@@ -1,0 +1,20 @@
+type: ParticleWeather
+color: c2e8ff
+noiseColor: 87e9ff
+particleRegion: moon-mod-sul
+sizeMax: 100
+sizeMin: 10
+density: 3000
+status: none
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 1.0
+baseSpeed: 3
+sound: wind
+soundVol: 1.65
+force: 2
+attrs: {
+  heat: 1.4
+  water: -0.5
+  spores: -0.9
+}

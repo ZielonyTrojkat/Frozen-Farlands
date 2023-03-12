@@ -4,54 +4,48 @@
   "size": 4,
   "hasItems": true,
   "craftTime": 36,
-  "craftEffect": "none",
+  "craftEffect": {
+    "type": "MultiEffect",
+	"effects": [
+	{
+    "type": "ParticleEffect",
+    "particles": 6,
+    "length": 15,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "ff9666",
+    lightOpacity: 0
+    "colorFrom": "f05c18",
+    "colorTo": "c44e18",
+    "sizeFrom": 3,
+    "sizeTo": 0
+    region: moon-mod-triangle
+    spin: 5
+	}
+	]
+  }
 	"drawer": {
 	"type": "DrawMulti",
         "drawers": [
-        {
+          {
         "type": "DrawDefault"
         },
         {
          "type": "DrawFlame",
-    "flameRadius": 2.2,
+    "flameRadius": 3.2,
     "flameRadiusIn": 1.0,
     "flameRadiusScl": 3.5,
-    "flameRadiusMag": 2.0,
-    "flameRadiusInMag": 1.0,
-	"flameColor": "74C2E8FF"
+    "flameRadiusMag": 2.2,
+    "flameRadiusInMag": 1.2,
+	"flameColor": "fa7020"
 	  },
-    {
-        "type": "DrawParticles",
-        "color": "66B1FFFF",
-    "alpha": 0.4,
-    "blending": "additive",
-    "particleSize": 2,
-    "reverse": true,
-    "particleRad": 23,
-    "particles": 22,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 60
-    },
-    {
-    "type": "DrawParticles",
-    "color": "66B1FFFF",
-    "alpha": 0.4,
-    "reverse": true,
-    "blending": "additive",
-    "particleSize": 3,
-    "particleRad": 12,
-    "particles": 22,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 80
-     },
-      {
-       "type": "DrawGlowRegion",
-       "suffix": "-top", 
-       "glowScale": 10,
-       "color": "66B1FF90"
-     }
+            {
+        "type": "DrawGlowRegion"
+        suffix: -top
+        "glowScale": 5,
+       "color": "ff5000"
+        },
     ]
     },
   "hasPower": true,

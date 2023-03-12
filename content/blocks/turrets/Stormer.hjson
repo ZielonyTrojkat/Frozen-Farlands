@@ -14,17 +14,17 @@ shoot: {
   ]
 }
 ammoTypes: {
-  cryogenium-missile-item: {
+  cryogenium: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
     spawnUnit: cryogenium-missile
   }
-  electrum-missile-item: {
+  arcanthium: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
     spawnUnit: electrum-missile
   }
-  obsidian-missile-item: {
+  obsidian: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
     spawnUnit: obsidian-missile

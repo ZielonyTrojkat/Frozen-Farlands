@@ -1,6 +1,6 @@
 "type": PowerTurret,
 "size": 1,
-"health": 500,
+"health": 200,
 range: 100,
 rotateSpeed: 5,
 reload: 10
@@ -23,11 +23,11 @@ shootType: {
 }
 category: turret
 requirements: [
-  yttrium/10
-  arcanite/10
+  yttrium/20
+  arcanite/20
 ]
-research: core-2
+research: pin
 researchCost: [
-    yttrium/100
-    arcanite/100
+    yttrium/200
+    arcanite/200
   ]

@@ -1,7 +1,7 @@
 name: Zap
 "type": PowerTurret,
 "size": 1,
-"health": 500,
+"health": 300,
 range:400,
 rotateSpeed: 5,
 reload: 100
@@ -26,11 +26,13 @@ statusDuration: 180
 }
 category: turret
 requirements: [
-  yttrium/30
-  arcanthium/50
-  arcanite/50
+    yttrium/80
+    arcanite/50
+    arcanthium/30
 ]
-research: Pike
+research: Alectro
 researchCost: [
-    yttrium/1
+    yttrium/800
+    arcanite/500
+    arcanthium/300
   ]

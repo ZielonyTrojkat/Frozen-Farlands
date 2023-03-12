@@ -54,11 +54,7 @@ ammoTypes: {
     }
 category: turret
 requirements: [
-  yttrium/100
-  aluminium/30
+  yttrium/25
 ]
 research: core-2
-researchCost: [
-    yttrium/100
-    arcanite/100
-  ]
+alwaysUnlocked: true

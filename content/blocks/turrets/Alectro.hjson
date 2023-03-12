@@ -40,5 +40,8 @@ requirements: [
 ]
 research: Defragmentation
 researchCost: [
-    yttrium/1
+    yttrium/300
+    arcanite/200
+    aluminium/170
+    moonstone/150
   ]

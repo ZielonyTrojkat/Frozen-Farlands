@@ -5,7 +5,7 @@
   "size": 2,
   "category": "production",
   "requirements": [
-    "yttrium/10",
+    "yttrium/12",
   ],
   "drillTime": 80,
   "output": "ice-shard",
@@ -17,5 +17,5 @@
   "ambientSoundVolume": 0.06
 research: micro-drill
 researchCost: [
-    yttrium/1
+    yttrium/120
   ]

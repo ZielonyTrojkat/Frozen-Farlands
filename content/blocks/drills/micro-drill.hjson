@@ -1,24 +1,14 @@
-{
   "name": "Micro drill",
-  "description": "A tiny version of the pneumatic drill.",
+  "description": "Very small and weak drill, but strong in a big group"
   "type": "Drill",
   "size": 1,
   "itemCapacity": 5,
   "tier": 2,
   "drillTime": 1000,
   "drawMineItem": false,
-  "consumes": {
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.009,
-      "optional": true,
-      "booster": true
-    }
-  },
   requirements: [
     yttrium/5
   ]
   "category": "production",
   "research": "core-2"
   "alwaysUnlocked": true
-}

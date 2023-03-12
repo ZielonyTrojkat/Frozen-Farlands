@@ -1,9 +1,9 @@
   "type": "GenericCrafter",
-  "description": "Produces amelinum",
-  "health": 5,
+  "description": "Melts bauxites and produces aluminium ingots",
+  "health": 150,
   "size": 3,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 30,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -65,12 +65,12 @@
   },
   "requirements": [
     yttrium/25
-    ice-shard/15
-    arcanite/10
+    arcanite/15
   ],
   "category": "crafting",
   "outputItem": "aluminium/1"
-research: heater
+research: core-2
 researchCost: [
-    yttrium/1
+    yttrium/250
+    arcanite/150
   ]

@@ -1,5 +1,5 @@
 type: Router 
-health: 80
+health: 50
 itemCapacity: 5
 requirements: [
   yttrium/4

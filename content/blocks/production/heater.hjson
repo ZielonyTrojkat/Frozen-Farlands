@@ -1,10 +1,10 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
-  "description": "Creates liquid resonance with the use of water and resonance ore",
-  "health": 5,
+  "description": "Melts ice into water",
+  "health": 50,
   "size": 2,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 20,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -37,11 +37,13 @@
     ],
   },
   "requirements": [
-    yttrium/15
+    yttrium/20
+    arcanite/15
   ],
   "category": "crafting",
   "outputLiquid": "water/0.35"
-research: core-2
+research: aluminium-foundry
 researchCost: [
-    yttrium/1
+    yttrium/200
+    arcanite/150
   ]

@@ -34,9 +34,12 @@ Description: Pirces enemies with single spike-shaped bullet  .
             "smokeEffect": "hitBulletBig"
         }
     },
-    "requirements": [
-        { "item": "yttrium", "amount": 100 },
-        { "item": "aluminium", "amount": 35 }
-    ],
-    "category": "turret",
-    "research": "duo"
+requirements: [
+  yttrium/30
+  arcanite/10
+  ]
+  research: pin
+  researchCost: [
+    yttrium/150
+    arcanite/50
+  ]

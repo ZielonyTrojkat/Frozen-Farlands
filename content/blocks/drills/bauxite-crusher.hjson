@@ -1,12 +1,12 @@
 
   "type": "WallCrafter",
   "localizedName": "Bauxite Crusher",
-  "description": "Bauxite Crusher.",
+  "description": "Stronger wall crusher capable of mining bauxites",
   "size": 2,
   "category": "production",
  requirements: [
-    yttrium/10
-    ice-shard/5
+    yttrium/12
+    arcanite/4
   ]
   "drillTime": 80,
   "output": "bauxite",
@@ -18,5 +18,6 @@
   "ambientSoundVolume": 0.06
 research: micro-drill
 researchCost: [
-    yttrium/1
+    yttrium/160
+    arcanite/80
   ]

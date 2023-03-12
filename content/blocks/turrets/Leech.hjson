@@ -22,11 +22,13 @@ shootType: {
 }
 category: turret
 requirements: [
-  yttrium/80
-  arcanite/50
-  obsidian/20
+    yttrium/90
+    aluminium/40
+    moonstone/40
 ]
-research: Pike
+research: Alectro
 researchCost: [
-    yttrium/1
+    yttrium/600
+    aluminium/350
+    moonstone/350
   ]

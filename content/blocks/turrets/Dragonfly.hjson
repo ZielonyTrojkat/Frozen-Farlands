@@ -1,9 +1,9 @@
 name: Dragonfly
-Description: Shoots single yttrium bullets at enemies.
+Description: Spams yttrium bullets at enemies.
 drawOutlines: false
 "type": ItemTurret,
 "size": 3,
-"health": 500,
+"health": 800,
 range: 240,
 rotateSpeed: 10,
 reload: 6
@@ -56,11 +56,11 @@ ammoTypes: {
     }
 category: turret
 requirements: [
-  yttrium/100
-  aluminium/30
+  yttrium/125
+  aluminium/50
 ]
-research: core-2
+research: Stinger
 researchCost: [
-    yttrium/100
-    arcanite/100
+    yttrium/750
+    aluminium/300
   ]

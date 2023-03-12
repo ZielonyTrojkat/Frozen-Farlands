@@ -1,5 +1,5 @@
 type: Junction
-health: 80
+health: 50
 speed: 12
 capacity: 8
 requirements: [
@@ -8,5 +8,5 @@ requirements: [
 category: distribution
 research: yttrium-router
 researchCost: [
-    yttrium/60
+    yttrium/50
   ]

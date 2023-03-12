@@ -129,12 +129,15 @@ shootType: {
     
 category: turret
 requirements: [
-  yttrium/120
-  arcanite/80
-  aluminium/100
-  moonstone/50
+    yttrium/140
+    aluminium/90
+    moonstone/90
+    diamond/55
 ]
-research: Defragmentation
+research: Leech
 researchCost: [
-    yttrium/1
+    yttrium/1000
+    aluminium/600
+    moonstone/400
+    diamond/250
   ]

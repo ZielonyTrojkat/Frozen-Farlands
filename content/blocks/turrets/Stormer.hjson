@@ -51,7 +51,7 @@ shootSound: missileLarge
 shootWarmupSpeed: 0.4
 shootCone: 360
 rotateSpeed: 0.8
-reload: 15
+reload: 60
 outlineColor: "2a2c35"
 range: 660
 shootY: 0
@@ -60,12 +60,15 @@ research: {
     parent: lead
 }
 requirements: [
-  yttrium/200
-  aluminium/150
-  obsidian/150
-  diamond/100
+    yttrium/400
+    aluminium/300
+    moonstone/300
+    diamond/80
 ]
-research: Rhino
+research: MoonRay
 researchCost: [
-    yttrium/1
+    yttrium/2500
+    aluminium/1500
+    moonstone/900
+    diamond/600
   ]

@@ -1,7 +1,7 @@
 type: Sorter
-health: 80
+health: 50
 requirements: [
-  yttrium/4
+  yttrium/6
 ] 
 category: distribution
 research: yttrium-junction

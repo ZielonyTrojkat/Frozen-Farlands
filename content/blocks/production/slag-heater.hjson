@@ -1,10 +1,10 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
-  "description": "Creates liquid resonance with the use of water and resonance ore",
-  "health": 5,
+  "description": "Melts bauxites into slag",
+  "health": 50,
   "size": 2,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 40,
   "craftEffect": "none",
   "drawer": {
   "type": "DrawMulti",
@@ -34,11 +34,14 @@
   },
   "requirements": [
     yttrium/30
-    arcanite/20
+    arcanite/10
+    aluminium/10
   ],
   "category": "crafting",
   "outputLiquid": "slag/0.5"
 research: heater
 researchCost: [
-    yttrium/1
+    yttrium/200
+    arcanite/200
+    aluminium/100
   ]

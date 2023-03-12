@@ -1,0 +1,15 @@
+ "type": "ItemBridge",
+  "name": "Yttrium bridge",
+  "description": "A faster bridge conveyor with more range. Quite useful.",
+  "health": 80,
+  "range": 4,
+  "transportTime": 4,
+  "hasPower": false,
+requirements: [
+  yttrium/8
+] 
+category: distribution
+research: yttrium-sorter
+researchCost: [
+    yttrium/100
+  ]

@@ -77,13 +77,17 @@ shootType: {
     },
 category: turret
 requirements: [
-  yttrium/250
-  arcanthium/100
-  aluminium/200
-  cryogenium/150
-  reinforced-cryofabric/50
+    yttrium/1000
+    moonstone/800
+    diamond/500
+    cryogenium/500
+    reinforced-cryofabric/150
   ]
   research: Alectro
 researchCost: [
-    yttrium/1
+    yttrium/2000
+    moonstone/1750
+    diamond/1500
+    cryogenium/1500
+    reinforced-cryofabric/500
   ]

@@ -1,6 +1,6 @@
 "type": PowerTurret,
 "size": 2,
-"health": 1500,
+"health": 800,
 range: 350
 rotateSpeed: 4.5
 reload: 130
@@ -52,11 +52,13 @@ shootType: {
 }
 category: turret
 requirements: [
-  yttrium/30
+  yttrium/35
   arcanite/20
   aluminium/15
 ]
 research: Pike
 researchCost: [
-    yttrium/1
+    yttrium/500
+    arcanite/350
+    aluminium/300
   ]

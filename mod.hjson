@@ -28,5 +28,4 @@ Also huge thanks to Świrek for helping us with code.
 "
 version: "1.00"
 minGameVersion: "141.2"
-dependencies:["multi-crafter"]
 hidden: false

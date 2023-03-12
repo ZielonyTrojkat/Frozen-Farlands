@@ -1,26 +1,26 @@
-{
   "name": "Sickle Drill",
-  "description": "A bigger version of the micro drill.",
+  "description": "Drill with sharper blades, mines faster",
   "type": "Drill",
   "size": 2,
-  "itemCapacity": 15,
+  "itemCapacity": 10,
   "tier": 4,
   "drillTime": 400,
   "drawMineItem": true,
   "consumes": {
     "liquid": {
-      "liquid": "xenon",
+      "liquid": "water",
       "amount": 0.09,
       "optional": true,
       "booster": true
     }
   },
   requirements: [
-    yttrium/50
-    aluminium/20
-    aerogel/20
+    yttrium/16
+    aluminium/4
   ]
   "category": "production",
-  "research": "micro-drill"
-  "alwaysUnlocked": true
-}
+research: micro-drill
+researchCost: [
+    yttrium/400
+    aluminium/100
+  ]

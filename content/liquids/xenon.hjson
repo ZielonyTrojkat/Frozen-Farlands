@@ -3,5 +3,7 @@
 "description": "Can be extracted from air and can be used for production",
 "gas": true,
 "cache": "water",
-"gasColor": "0398fc"
+"barColor": "2e75b0"
+color: 2e75b0
+gasColor: 2e75b0
 }

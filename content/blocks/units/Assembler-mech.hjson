@@ -5,16 +5,16 @@ plans: [
   {
   unit: cryomech4
   requirements: [
-    moon-mod-cryomech1/4
-    moon-mod-large-yttrium-wall/10
+    moon-mod-cryomech3/4
+    moon-mod-yttrium-wall-large/10
   ]
   time: 900
   }
   {
   unit: cryomech5
   requirements: [
-    moon-mod-cryomech2/4
-    moon-mod-large-diamond-wall/10
+    moon-mod-cryomech4/4
+    moon-mod-diamond-wall-large/10
   ]
   time: 1500
   }

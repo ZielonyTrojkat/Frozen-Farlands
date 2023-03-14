@@ -5,8 +5,8 @@ plans: [
   {
   unit: cryoflare4
   requirements: [
-    moon-mod-cryoflare1/4
-    moon-mod-large-aerogel-wall/10
+    moon-mod-cryoflare/4
+    moon-mod-aerogel-wall-large/10
   ]
   time: 900
   }
@@ -14,7 +14,7 @@ plans: [
   unit: cryoflare5
   requirements: [
     moon-mod-cryoflare2/4
-    moon-mod-large-diamond-wall/10
+    moon-mod-diamond-wall-large/10
   ]
   time: 1500
   }

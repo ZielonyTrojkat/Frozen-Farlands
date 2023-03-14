@@ -1,0 +1,69 @@
+
+  "research": {
+  "parent": "lead",
+  "requirements": [
+  "resonance/100",
+  "silicon/200"
+  ]
+  },
+
+	"outlineColor": "36363c",
+  "type": "mech",
+	"speed": 0.7,
+	"hitSize": 10,
+	"health": 360,
+	"faceTarget": true,
+	"armor": 2,
+	"range": 180,
+	"targetAir": false,
+	"rotateSpeed": 3,
+"mechFrontSway": 1,
+"mechSideSway": 1,
+"mechStepParticles": true,
+"mechStepShake": 2,
+	"allowLegStep": true,
+	"hovering": false,
+	"immunities": [
+		"freezing"
+	],
+weapons: [
+{
+name: cryomech3-gun
+x: 12
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 3
+}
+top: false
+rotate: false
+reload: 35
+recoil: 4
+shootSound: shootAltLong
+ejectEffect: none
+bullet: {
+    type: BasicBulletType,
+    speed: 5
+    lifetime: 50
+    damage: 30
+    width: 7
+    height: 10
+    frontColor: b2afb3
+    backColor: d5d2d6
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: true
+    explodeRange: 1
+    splashDamageRadius: 1
+    splashDamage: 30
+    hitEffect: pointHit
+}
+}
+]
+research: Reconstructor
+researchCost: [
+    yttrium/1
+  ]

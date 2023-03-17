@@ -9,29 +9,18 @@
 
 	"outlineColor": "36363c",
   "type": "mech",
-	"speed": 0.7,
+	"speed": 0.35,
 	"hitSize": 10,
-	"health": 360,
+	"health": 3860,
 	"faceTarget": true,
-	"armor": 2,
+	"armor": 4,
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,
-            "legMoveSpace": 1,
-            "legMaxLength": 1.4,
-            "legMinLength": 0.3,
-            "legLengthScl": 0.96,
-            "legForwardScl": 0.5,
-            "legPhysicsLayer": false,
-         "legGroupSize": 2,
-         "legCount": 4,
-         "legExtension": 0,
-        "legContinuousMove": true,
-        "lockLegBase": true,
-        "rippleScale": 0.2,
-	"legBaseOffset": 0,
-	"legLength": 10, 
-	"allowLegStep": true,
+"mechFrontSway": 0.3,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+"mechStepShake": 0.5,
 	"hovering": false,
 	"immunities": [
 		"freezing"
@@ -45,12 +34,12 @@ mirror: true
 shoot: {
 type: ShootPattern
 shots: 3
-shotDelay: 3
+shotDelay: 12
 }
 top: false
 rotate: false
-reload: 35
-recoil: 4
+reload: 90
+recoil: 2
 shootSound: bang
 ejectEffect: none
 bullet: {
@@ -61,8 +50,8 @@ splashDamage: 25
 splashDamageRadius: 25
 speed: 7
 lifetime: 65
-backColor: 51e1e8
-frontColor: cdf8fa
+frontColor: b2afb3
+backColor: d5d2d6
 status: freezing
 statusDuration: 180
 }

@@ -9,7 +9,7 @@
 
 	"outlineColor": "36363c",
   "type": "mech",
-	"speed": 0.7,
+	"speed": 0.6,
 	"hitSize": 10,
 	"health": 360,
 	"faceTarget": true,
@@ -17,10 +17,10 @@
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,
-"mechFrontSway": 1,
-"mechSideSway": 1,
+"mechFrontSway": 0.3,
+"mechSideSway": 0.3,
 "mechStepParticles": true,
-"mechStepShake": 2,
+"mechStepShake": 0.3,
 	"allowLegStep": true,
 	"hovering": false,
 	"immunities": [
@@ -28,8 +28,8 @@
 	],
 weapons: [
 {
-name: cryomech3-gun
-x: 12
+name: cryomech-gun
+x: 6
 y: 0
 mirror: true
 shoot: {
@@ -39,15 +39,15 @@ shotDelay: 3
 }
 top: false
 rotate: false
-reload: 35
-recoil: 4
+reload: 45
+recoil: 1
 shootSound: shootAltLong
 ejectEffect: none
 bullet: {
     type: BasicBulletType,
     speed: 5
     lifetime: 50
-    damage: 30
+    damage: 15
     width: 7
     height: 10
     frontColor: b2afb3

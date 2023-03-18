@@ -1,0 +1,7 @@
+"localizedName": "Ionized xenon",
+"description": "Charged xenon particles, plasma",
+"gas": true,
+"cache": "water",
+"barColor": "94c6ff"
+color: 94c6ff
+gasColor: 94c6ff

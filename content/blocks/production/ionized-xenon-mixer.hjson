@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	"researchCostMultiplier": 0.5,
-  "description": "Makes obs studios",
-  "health": 5,
+  "description": "Ionizes xenon particles with arcalith fluid energy",
+  "health": 350,
   "size": 3,
 	"drawer": {
 	"type": "DrawMulti",
@@ -13,12 +13,12 @@
         {
         "type": "DrawLiquidRegion"
         suffix: -liquid1
-        drawLiquid: water
+        drawLiquid: xenon
         }
         {
         "type": "DrawLiquidRegion"
         suffix: -liquid2
-        drawLiquid: slag
+        drawLiquid: arcalith
         }
         {
         "type": "DrawDefault"
@@ -34,8 +34,8 @@
   "consumes": {
   "power": 1.70,
     "liquids": [
-      "water/0.75",
-      "slag/0.3"
+      "xenon/0.75",
+      "arcalith/0.75"
     ],
   },
   "requirements": [
@@ -44,8 +44,8 @@
     arcanite/30
   ],
   "category": "crafting",
-  "outputItem": "obsidian/1"
-research: aerogel-factory
+  "outputLiquid": "ionized-xenon/0.3"
+research: xenon-synthezator
 researchCost: [
     yttrium/1
   ]

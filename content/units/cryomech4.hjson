@@ -9,19 +9,19 @@
 
 	"outlineColor": "36363c",
   "type": "mech",
-	"speed": 3.3,
+	"speed": 0.3,
 	"hitSize": 10,
-	"health": 360,
+	"health": 3360,
 	"faceTarget": true,
 	"armor": 2,
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,
 "mechFrontSway": 0.5,
-"mechSideSway": 0.3,
+"mechSideSway": 0.5,
 "mechStepParticles": true,
-"stepShake": 1.9,
-mechStride: 8
+"stepShake": 0.9,
+mechStride: 9
 	"hovering": false,
 	"immunities": [
 		"freezing"
@@ -39,7 +39,7 @@ shotDelay: 3
 }
 top: false
 rotate: false
-reload: 8
+reload: 15
 recoil: 4
 shootSound: bang
 ejectEffect: none

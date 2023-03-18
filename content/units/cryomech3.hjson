@@ -11,7 +11,7 @@
   "type": "mech",
 	"speed": 0.35,
 	"hitSize": 10,
-	"health": 3860,
+	"health": 1260,
 	"faceTarget": true,
 	"armor": 4,
 	"range": 180,

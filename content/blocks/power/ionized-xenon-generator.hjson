@@ -13,7 +13,21 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawPlasma
+      suffix: -plasma
+      plasmas: 2
+      plasma1: 96e7ff
+      plasma2: 4fa7ff
+    }
+    {
       type: DrawDefault
+    }
+    {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow", 
+       "glowScale": 10,
+       "color": "66B1FF"
+       "alpha": 1
     }
   ]
 }
@@ -22,7 +36,7 @@ consumes: {
      ionized-xenon/0.3
     ]
 }
-powerProduction: 8
+powerProduction: 30
 category: power
 requirements: [
   moonstone/100
@@ -33,3 +47,5 @@ research: ATG
 researchCost: [
     yttrium/1
     ]
+ambientSound: casket
+ambientSoundVolume: 10000

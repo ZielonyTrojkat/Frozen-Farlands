@@ -17,6 +17,11 @@
         }
         {
         "type": "DrawLiquidRegion"
+        suffix: -liquid3
+        drawLiquid: ionized-xenon
+        }
+        {
+        "type": "DrawLiquidRegion"
         suffix: -liquid2
         drawLiquid: arcalith
         }

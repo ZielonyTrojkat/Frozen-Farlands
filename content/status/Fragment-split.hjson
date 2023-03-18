@@ -10,6 +10,7 @@
         sizeTo: 5,
         colorFrom: "50bcfa",
         colorTo: "c5e7fa"
+        spin: 5
         },
         damage: 0.5
 }

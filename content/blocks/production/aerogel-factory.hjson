@@ -1,77 +1,60 @@
   "type": "GenericCrafter",
-  "description": "Produces oreogel",
-  "health": 5,
+	 "researchCostMultiplier": 0.5,
+  "description": "Produces Aerogel from water and xenon",
+  "health": 50,
   "size": 3,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 20,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
         "drawers": [
+                 {
+        "type": "DrawRegion"
+        suffix: -bottom
+        }
+                        {
+        "type": "DrawLiquidRegion"
+        suffix: -liquid
+        drawLiquid: water
+        }
+                {
+              "type": "DrawRegion"
+        suffix: -rotator
+        rotateSpeed: 1
+        spinSprite: true
+  }
+          {
+      "type": "DrawDefault"
+        }
+                  {
+      "type": "DrawGlowRegion"
+        suffix: -glow
+        }
         {
-        "type": "DrawDefault"
-        },
-        {
-         "type": "DrawFlame",
-    "flameRadius": 2.2,
-    "flameRadiusIn": 1.0,
-    "flameRadiusScl": 3.5,
-    "flameRadiusMag": 2.0,
-    "flameRadiusInMag": 1.0,
-	"flameColor": "74C2E8FF"
-	  },
-    {
-        "type": "DrawParticles",
-        "color": "66B1FFFF",
-    "alpha": 0.4,
-    "blending": "additive",
-    "particleSize": 2,
-    "reverse": true,
-    "particleRad": 23,
-    "particles": 22,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 60
-    },
-    {
-    "type": "DrawParticles",
-    "color": "66B1FFFF",
-    "alpha": 0.4,
-    "reverse": true,
-    "blending": "additive",
-    "particleSize": 3,
-    "particleRad": 12,
-    "particles": 22,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 80
-     },
-      {
-       "type": "DrawGlowRegion",
-       "suffix": "-top", 
-       "glowScale": 10,
-       "color": "66B1FF90"
-     }
-    ]
-    },
+              "type": "DrawRegion"
+        suffix: -top
+        }
+        ]
+        }
   "hasPower": true,
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 0.90,
+  "power": 0.70,
     "liquids": [
-      water/1,
-      xenon/0.3
-    ]
+      "water/1"
+      xenon/0.5
+    ],
   },
   "requirements": [
-    yttrium/40
-    aluminium/20
-    cryogenium/20
+    yttrium/20
+    arcanite/15
   ],
   "category": "crafting",
   "outputItem": "aerogel/1"
-research: aluminium-foundry
+research: heater
 researchCost: [
-    yttrium/1
+    yttrium/200
+    arcanite/150
   ]

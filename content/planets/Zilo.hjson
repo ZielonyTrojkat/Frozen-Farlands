@@ -27,7 +27,7 @@
       "color2": "498a8a",
       "divisions": 4,
       "radius": 0.8,
-      "octaves": 2,
+      "octaves": 8,
       "persistence": 1,
       "scale": 2,
       "mag": 1

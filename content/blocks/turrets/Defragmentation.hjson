@@ -1,4 +1,5 @@
 "type": PowerTurret,
+description: shoots with a single long-ranged laser that splits enemies from inside
 "size": 2,
 "health": 800,
 range: 350
@@ -17,9 +18,10 @@ shootType: {
   length: 350
   width: 20
   damage: 100
+  status: Fragment-split
+statusDuration: 180
   firstShotDelay: 1
   shotDelay: 1
-  chargeBeginEffect: lancerLaserChargeBegin
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [
@@ -34,7 +36,7 @@ shootType: {
             {
               type: ParticleEffect
               particles: 10
-              lifetime: 40
+              lifetime: 50
               length: 20
               sizeFrom: 5
               sizeTo: 1

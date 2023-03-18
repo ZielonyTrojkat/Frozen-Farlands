@@ -62,10 +62,10 @@ drawer: {
 }
 consumes: {
     "liquids": [
-     xenon/0.3
+     ionized-xenon/0.3
     ]
 }
-powerProduction: 5
+powerProduction: 8
 category: power
 requirements: [
   moonstone/100

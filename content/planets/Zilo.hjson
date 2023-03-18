@@ -9,9 +9,9 @@
     allowSectorInvasion: true
     "orbitRadius": 10,
     "prebuildBase": true,
-    "atmosphereRadIn": 1,
-    "atmosphereRadOut": 1,
-    "atmosphereColor": 323636,
+    "atmosphereRadIn": 0.01,
+    "atmosphereRadOut": 0.2,
+    "atmosphereColor": 7af8ff,
     "alwaysUnlocked": true,
     "defaultCore": core-2,
     "visible": true,

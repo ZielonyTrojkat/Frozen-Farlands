@@ -1,5 +1,4 @@
   "type": "GenericCrafter",
-	"researchCostMultiplier": 0.5,
   "description": "Ionizes xenon particles with arcalith fluid energy",
   "health": 350,
   "size": 3,
@@ -17,12 +16,12 @@
         }
         {
         "type": "DrawLiquidRegion"
-        suffix: -liquid3
+        suffix: -liquid2
         drawLiquid: ionized-xenon
         }
         {
         "type": "DrawLiquidRegion"
-        suffix: -liquid2
+        suffix: -liquid3
         drawLiquid: arcalith
         }
         {

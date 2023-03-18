@@ -36,7 +36,7 @@ consumes: {
      ionized-xenon/0.3
     ]
 }
-powerProduction: 30
+powerProduction: 40
 category: power
 requirements: [
   moonstone/100
@@ -47,5 +47,5 @@ research: ATG
 researchCost: [
     yttrium/1
     ]
-ambientSound: casket
-ambientSoundVolume: 10000
+ambientSound: PikeSound
+ambientSoundVolume: 1

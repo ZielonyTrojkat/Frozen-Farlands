@@ -34,6 +34,7 @@
   "craftEffect": "none",
   "hasPower": true,
   "hasLiquids": true,
+    liquidCapacity: 50
   "updateEffect": "none",
   "consumes": {
   "power": 1.70,

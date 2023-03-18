@@ -1,6 +1,6 @@
   "type": "GenericCrafter",
   "description": "Creates liquid resonance with the use of water and resonance ore",
-  "health": 5,
+  "health": 50,
   "size": 2,
   "hasItems": true,
   "craftTime": 28,
@@ -61,6 +61,7 @@
     },
   "hasPower": true,
   "hasLiquids": true,
+  liquidCapacity: 50
   "updateEffect": "none",
   "consumes": {
   "power": 0.90

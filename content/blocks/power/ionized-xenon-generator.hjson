@@ -2,7 +2,7 @@ type: ConsumeGenerator
 size: 4
 hasLiquids: false
 canOverdrive: false
-liquidCapacity: 400
+liquidCapacity: 120
 itemDuration: 240
 baseExplosiveness: 0
 drawer: {
@@ -36,7 +36,7 @@ consumes: {
      ionized-xenon/0.3
     ]
 }
-powerProduction: 40
+powerProduction: 50
 category: power
 requirements: [
   moonstone/100
@@ -47,5 +47,5 @@ research: ATG
 researchCost: [
     yttrium/1
     ]
-ambientSound: PikeSound
+ambientSound: hum
 ambientSoundVolume: 1

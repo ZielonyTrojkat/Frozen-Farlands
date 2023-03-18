@@ -39,7 +39,6 @@ category: turret
 requirements: [
   yttrium/50
   aluminium/50
-  obsidian/30
 ]
 research: lead
 researchCost: [

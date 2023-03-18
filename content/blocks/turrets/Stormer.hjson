@@ -24,7 +24,7 @@ ammoTypes: {
     displayAmmoMultiplier: false
     spawnUnit: electrum-missile
   }
-  obsidian: {
+  diamond: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
     spawnUnit: obsidian-missile

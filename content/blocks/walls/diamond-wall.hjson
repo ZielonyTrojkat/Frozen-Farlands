@@ -3,9 +3,9 @@
     "health": 600,
     "size": 1,
 requirements: [
-  obsidian/6
+  diamond/6
 ]
 research: cryogenium-wall
 researchCost: [
-    obsidian/100
+    diamond/100
   ]

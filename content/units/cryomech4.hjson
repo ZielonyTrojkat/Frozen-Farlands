@@ -9,7 +9,7 @@
 
 	"outlineColor": "36363c",
   "type": "mech",
-	"speed": 0.7,
+	"speed": 3.3,
 	"hitSize": 10,
 	"health": 360,
 	"faceTarget": true,
@@ -17,46 +17,36 @@
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,
-            "legMoveSpace": 1,
-            "legMaxLength": 1.4,
-            "legMinLength": 0.3,
-            "legLengthScl": 0.96,
-            "legForwardScl": 0.5,
-            "legPhysicsLayer": false,
-         "legGroupSize": 2,
-         "legCount": 4,
-         "legExtension": 0,
-        "legContinuousMove": true,
-        "lockLegBase": true,
-        "rippleScale": 0.2,
-	"legBaseOffset": 0,
-	"legLength": 10, 
-	"allowLegStep": true,
+"mechFrontSway": 0.5,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+"stepShake": 1.9,
+mechStride: 8
 	"hovering": false,
 	"immunities": [
 		"freezing"
 	],
 weapons: [
 {
-name: cryomech3-gun
-x: 18
+name: cryomech4-gun
+x: 14
 y: 0
 mirror: true
 shoot: {
 type: ShootPattern
-shots: 3
+shots: 1
 shotDelay: 3
 }
 top: false
 rotate: false
-reload: 35
+reload: 8
 recoil: 4
 shootSound: bang
 ejectEffect: none
 bullet: {
 width: 13
 height: 19
-damage: 45
+damage: 95
 splashDamage: 25
 splashDamageRadius: 25
 speed: 7

@@ -1,0 +1,170 @@
+name: Restart
+"type": PowerTurret,
+"size": 7,
+"health": 11500,
+range: 350
+rotateSpeed: 0
+reload: 30
+burstSpacing: 3
+shots: 1
+xRand: 1
+moveWhileCharging: false
+customShadow: true
+buildVisibility: sandboxOnly
+consumes: {
+  power: 16
+}
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Restart",
+      "parts": [
+         {
+         "type": "RegionPart",
+          "suffix": "-part1",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "layerOffset": -0.003,
+          "outlineLayerOffset": 0.001,
+         "moveX": -10,
+         },
+       ]
+     },
+recoil: 0
+shootSound: MoonRaySound
+shoot: {
+  type: ShootBarrel
+  shots: 1
+  barrels: [
+    1, 1, 0
+  ]
+}
+shootType: {
+  type: BasicBulletType
+         "homingPower": 0.04,
+        "homingRange": 100,
+    "lifetime" : 80,
+    "speed": 3,
+    "damage": 150,
+    "buildingDamageMultiplier": 1,
+    "pierceBuilding": false,
+    "pierce": false,
+    "spin": 5
+       "despawnHit": true,
+        "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 30,
+    "baseLength": 0,
+    "offset": 30,
+    "length": 30,
+    "cone": -360,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "c50ceb",
+    "colorTo": "cfabd6"
+    }
+    ]
+    }, 
+    	"chargeEffect": {
+      "type": "MultiEffect",
+    "effects": [
+    {
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 90,
+    "length": 40,
+    "baseLength": -40,
+    "cone": 360,
+    "interp": "pow4In",
+    "sizeInterp": "pow3Out",    
+    "strokeFrom": 0,
+    "strokeTo": 1,    
+    "lenFrom": 0,
+    "lenTo": 4,
+    "colorFrom": "c50ceb",
+    "colorTo": "cfabd6"
+    }
+          ]
+	        },
+    "trailChance": 1,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 8,
+    "lifetime": 10,
+    "region": "moon-mod-star",
+    "lightColor": "8616c7",
+    "colorFrom": "69119c",
+    "colorTo": "cec1d6",
+    "sizeFrom": 7,
+    "sizeTo": 2
+              type: ParticleEffect
+              particles: 2
+              lifetime: 40
+              length: 20
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: c50ceb
+              colorTo: cfabd6
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-star
+                    },
+                  }
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "cfabd6",
+                "colorTo": "c50ceb",
+                "sizeFrom": 1,
+                "sizeTo": 25,
+                "lifetime": 15
+                strokeFrom: 9
+                strokeTo: 0
+            }
+            {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 20,
+    "baseLength": 5,
+    "length": 40,
+    "lenFrom": 5,
+    "lenTo": 5,
+    "lightColor": "daffd9",
+    "colorFrom": "28fc23",
+    "colorTo": "20c71c"
+        }
+        ]
+    },
+    
+category: turret
+requirements: [
+    yttrium/140
+    aluminium/90
+    moonstone/90
+    diamond/55
+]
+research: Leech
+researchCost: [
+    yttrium/1000
+    aluminium/600
+    moonstone/400
+    diamond/250
+  ]

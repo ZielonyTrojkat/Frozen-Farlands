@@ -1,8 +1,9 @@
 type: PointDefenseTurret
 health: 250
-reload: 10
-bulletDamage: 5
-range: 310
+size: 2
+reload: 15
+bulletDamage: 4
+range: 200
 consumes: {
   power: 1.5
 }
@@ -12,4 +13,4 @@ requirements: [
   silicon/30
 ]
 category: turret
-research: arc
+research: Tide

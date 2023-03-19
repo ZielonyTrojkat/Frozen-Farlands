@@ -1,15 +1,16 @@
 name: Restart
-"type": PowerTurret,
+"type": ItemTurret,
 "size": 7,
 "health": 11500,
 range: 350
 rotateSpeed: 0
-reload: 30
+reload: 10
 burstSpacing: 3
 shots: 1
 xRand: 1
+shootY: 0
 moveWhileCharging: false
-customShadow: true
+customShadow: false
 buildVisibility: sandboxOnly
 consumes: {
   power: 16
@@ -41,90 +42,16 @@ shoot: {
   type: ShootBarrel
   shots: 1
   barrels: [
-    1, 1, 0
+    0, 0, 0
   ]
 }
-shootType: {
-  type: BasicBulletType
-         "homingPower": 0.04,
-        "homingRange": 100,
-    "lifetime" : 80,
-    "speed": 3,
-    "damage": 150,
-    "buildingDamageMultiplier": 1,
-    "pierceBuilding": false,
-    "pierce": false,
-    "spin": 5
-       "despawnHit": true,
-        "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 8,
-    "lifetime": 30,
-    "baseLength": 0,
-    "offset": 30,
-    "length": 30,
-    "cone": -360,
-    "lenFrom": 8,
-    "lenTo": 0,
-    "colorFrom": "c50ceb",
-    "colorTo": "cfabd6"
-    }
-    ]
-    }, 
-    	"chargeEffect": {
-      "type": "MultiEffect",
-    "effects": [
-    {
-     "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 90,
-    "length": 40,
-    "baseLength": -40,
-    "cone": 360,
-    "interp": "pow4In",
-    "sizeInterp": "pow3Out",    
-    "strokeFrom": 0,
-    "strokeTo": 1,    
-    "lenFrom": 0,
-    "lenTo": 4,
-    "colorFrom": "c50ceb",
-    "colorTo": "cfabd6"
-    }
-          ]
-	        },
-    "trailChance": 1,
-    "trailEffect": {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "length": 8,
-    "lifetime": 10,
-    "region": "moon-mod-star",
-    "lightColor": "8616c7",
-    "colorFrom": "69119c",
-    "colorTo": "cec1d6",
-    "sizeFrom": 7,
-    "sizeTo": 2
-              type: ParticleEffect
-              particles: 2
-              lifetime: 40
-              length: 20
-              sizeFrom: 5
-              sizeTo: 1
-              colorFrom: c50ceb
-              colorTo: cfabd6
-              strokeFrom: 3
-              strokeTo: 1.5
-              interp: pow3Out
-              spin: 5
-              sizeInterp: pow2In
-              region: moon-mod-star
-                    },
-                  }
+ammoTypes: {
+  reinforced-cryofabric: {
+    ammoMultiplier: 1
+    displayAmmoMultiplier: false
+    spawnUnit: moon-mod-cryo-missile
+  }
+}
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [

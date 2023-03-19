@@ -2,8 +2,7 @@ type: ConsumeGenerator
 size: 1
 hasLiquids: false
 canOverdrive: false
-liquidCapacity: 400
-itemDuration: 240
+itemDuration: 180
 baseExplosiveness: 0
 drawer: {
   type: DrawMulti
@@ -11,53 +10,20 @@ drawer: {
     {
       type: DrawDefault
     }
-      {
-       "type": "DrawGlowRegion",
-       "suffix": "-top", 
-       "glowScale": 10,
-       "color": "fc0303"
-     }
-           {
-       "type": "DrawGlowRegion",
-       "suffix": "-glow", 
-       "glowScale": 3,
-       "color": "fc0303"
-     }
-    {
-    "type": "DrawFlame",
-    "flameRadius": 3.2,
-    "flameRadiusIn": 1.0,
-    "flameRadiusScl": 3.5,
-    "flameRadiusMag": 2.0,
-    "flameRadiusInMag": 1.0,
-	"flameColor": "fc0303"
-	  }
-        {
-    "type": "DrawParticles",
-    "color": "fc0303",
-    "alpha": 0.4,
-    "blending": "additive",
-    "particleSize": 2,
-    "reverse": true,
-    "particleRad": 23,
-    "particles": 22,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 60
-    },
-    {
-    "type": "DrawParticles",
-    "color": "fc0303",
-    "alpha": 0.4,
-    "reverse": true,
-    "blending": "additive",
-    "particleSize": 3,
-    "particleRad": 12,
-    "particles": 22,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 80
-     },
+  {
+  type: DrawCrucibleFlame
+  circleSpace: 1
+  circleStroke: 1
+  flameRadius: 1
+  flameRadiusScl: 4
+  flameRadiusMag: 1
+	flameColor: fa7020
+  particleLife: 70
+  particleRad: 5
+  particles: 10
+  particleSize: 2
+  rotateScl: 0.5
+  }
   ]
 }
 consumes: {
@@ -65,7 +31,7 @@ consumes: {
     arcanite/1
     ]
 }
-powerProduction: 0.3
+powerProduction: 0.5
 category: power
 requirements: [
   yttrium/15

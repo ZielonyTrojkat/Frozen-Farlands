@@ -15,21 +15,33 @@
 	   },
         {
         "type": "DrawLiquidTile",
-        "drawLiquid": "liquid-resonance",
+        "drawLiquid": "arcalith",
         "suffix": "-liquid"
         },
         {	
+        "type": "DrawPistons"
+        suffix: -piston1
+        sinMag: 10
+        sinScl: 8
+        angleOffset: 45
+        sides: 4
+	      }
+        {	
         "type": "DrawDefault"
-	  }
+	       }
     ]
     },
   "hasPower": true,
   "hasLiquids": true,
   "updateEffect": "none",
+  liquidCapacity: 40
   "consumes": {
   "power": 0.70,
     "items": [
-      "bauxite/1"
+      "arcanite/1"
+    ],
+        "liquids": [
+      "water/0.3"
     ],
   },
   "requirements": [
@@ -38,7 +50,7 @@
     aluminium/10
   ],
   "category": "crafting",
-  "outputLiquid": "slag/0.5"
+  "outputLiquid": "arcalith/0.5"
 research: heater
 researchCost: [
     yttrium/200

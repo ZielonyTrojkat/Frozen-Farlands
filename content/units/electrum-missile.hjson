@@ -67,7 +67,7 @@ weapons: [
         instantDisappear: true
         killShooter: true
         hittable: false
-        collidesAir: true
+        collidesAir: false
       "lightning": 8,
       "lightningLength": 10,
       "lightningLengthRand": 10,

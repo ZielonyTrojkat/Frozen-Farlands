@@ -39,7 +39,7 @@ shotDelay: 3
 }
 top: false
 rotate: false
-reload: 15
+reload: 12
 recoil: 4
 shootSound: bang
 ejectEffect: none

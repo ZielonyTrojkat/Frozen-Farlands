@@ -9,62 +9,121 @@
 
 	"outlineColor": "36363c",
   "type": "mech",
-	"speed": 0.7,
+	"speed": 0.3,
 	"hitSize": 10,
-	"health": 360,
+	"health": 20360,
 	"faceTarget": true,
-	"armor": 2,
+	"armor": 5,
 	"range": 180,
 	"targetAir": false,
-	"rotateSpeed": 3,
-            "legMoveSpace": 1,
-            "legMaxLength": 1.4,
-            "legMinLength": 0.3,
-            "legLengthScl": 0.96,
-            "legForwardScl": 0.5,
-            "legPhysicsLayer": false,
-         "legGroupSize": 2,
-         "legCount": 4,
-         "legExtension": 0,
-        "legContinuousMove": true,
-        "lockLegBase": true,
-        "rippleScale": 0.2,
-	"legBaseOffset": 0,
-	"legLength": 10, 
-	"allowLegStep": true,
+	"rotateSpeed": 1,
+"mechFrontSway": 0.5,
+"mechSideSway": 0.5,
+"mechStepParticles": true,
+"stepShake": 3,
+mechStride: 14
 	"hovering": false,
 	"immunities": [
 		"freezing"
 	],
 weapons: [
 {
-name: cryomech3-gun
-x: 24
+name: cryomech5-gun
+x: 20
 y: 0
 mirror: true
 shoot: {
 type: ShootPattern
-shots: 3
+shots: 1
 shotDelay: 3
 }
 top: false
 rotate: false
-reload: 35
+reload: 140
 recoil: 4
-shootSound: bang
+shootSound: mediumCannon
 ejectEffect: none
+shake: 4
+cooldownTime: 100
 bullet: {
-width: 13
-height: 19
-damage: 45
-splashDamage: 25
-splashDamageRadius: 25
-speed: 7
+type: ArtilleryBulletType
+width: 20
+height: 25
+damage: 200
+splashDamage: 100
+splashDamageRadius: 100
+speed: 4
 lifetime: 65
-backColor: 51e1e8
-frontColor: cdf8fa
-status: freezing
+frontColor: ff9959
+backColor: eb742a
+status: blasted
 statusDuration: 180
+hitShake: 8
+hitSound: largeCannon
+      "lightning": 4,
+      "lightningLength": 10,
+      "lightningLengthRand": 15,
+      "lightningDamage": 100,
+      "lightningColor": "ff9959",
+shootEffect:   	{
+	"type": "ParticleEffect",
+    "particles": 10,
+    "length": 15,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ffb78a",
+    "colorTo": "c26b34",
+    "sizeFrom": 3,
+    "sizeTo": 0
+    offsetY: 6
+	},
+   "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 65,
+    "interp": "circleOut",
+    "strokeFrom": 35,
+    "strokeTo": 0,
+    "colorFrom": "ff9959",
+    "colorTo": "f77c2f"
+    },
+    	{
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 18,
+    "lifetime": 30,
+    "baseLength": 15,
+    "length": 60,
+    "lenFrom": 8,
+    "lenTo": 3,
+    strokeFrom: 5
+    strokeTo: 0
+    "lightColor": "ff9959",
+    "colorFrom": "ffb78a",
+    "colorTo": "f77c2f"
+	},
+  	{
+	"type": "ParticleEffect",
+    "particles": 14,
+    "length": 80,
+    "lifetime": 70,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ffb78a",
+    "colorTo": "f77c2f",
+    "sizeFrom": 8,
+    "sizeTo": 0
+	},
+    ]
+   }
+    "trailChance": 0.5,
+    trailLength: 7
+    trailWidth: 5
 }
 }
 ]

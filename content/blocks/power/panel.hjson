@@ -3,6 +3,7 @@ size: 1,
 name: Solar
 hasPower: true
 powerProduction: 0.1
+category: power
 requirements: [
   yttrium/4
   arcanite/8

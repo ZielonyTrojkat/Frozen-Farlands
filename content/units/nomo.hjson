@@ -1,0 +1,19 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 0.7,
+    "rotateSpeed": 1,
+    "accel": 0.3,
+    "drag": 0.05,
+    "flying": true,
+    "health": 35000,
+    "hitSize": 12,
+    "armor": 8,
+    "itemCapacity": 1000,
+  "outlineColor": "36363c",
+    "engineOffset": 40,
+    "engineSize": 12
+    "faceTarget": true,
+research: cryoflare5
+researchCost: [
+    yttrium/1
+  ]

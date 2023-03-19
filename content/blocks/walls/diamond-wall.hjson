@@ -2,6 +2,7 @@
     "buildCostMultiplier": 0.1,
     "health": 600,
     "size": 1,
+    category: defense
 requirements: [
   diamond/6
 ]

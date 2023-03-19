@@ -7,6 +7,7 @@
     "lightningLength":28,
     "health": 3000,
     "size": 2,
+    category: defense
 requirements: [
   arcanthium/24
 ]

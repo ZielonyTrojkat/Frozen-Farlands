@@ -1,0 +1,13 @@
+type: Conveyor
+hasShadow: true
+health: 80
+speed: 0.1
+displayedSpeed: 20
+requirements: [
+  moonstone/2
+]
+category: distribution
+research: yttrium-conveyor
+researchCost: [
+    moonstone/150
+  ]

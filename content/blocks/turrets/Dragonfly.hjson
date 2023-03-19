@@ -1,5 +1,5 @@
 name: Dragonfly
-Description: Spams yttrium bullets at enemies.
+Description: Fires a barrage of bullets at enemies
 drawOutlines: false
 "type": ItemTurret,
 "size": 3,
@@ -32,6 +32,25 @@ ammoTypes: {
     splashDamage: 30
     hitEffect: pointHit
   }
+    diamond: {
+    type: BasicBulletType,
+    speed: 5
+    lifetime: 50
+    damage: 45
+    inaccuracy: 10,
+    width: 7
+    height: 7
+    frontColor: 13b1e8
+    backColor: 2581a1
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: true
+    explodeRange: 1
+    splashDamageRadius: 1
+    splashDamage: 35
+    hitEffect: pointHit
+  }
 }
     "shootEffect": {
         "type": "MultiEffect",
@@ -43,8 +62,8 @@ ammoTypes: {
               length: 20
               sizeFrom: 3
               sizeTo: 1
-              colorFrom: c8dee3
-              colorTo: dfe8eb
+              colorFrom: b2afb3
+              colorTo: d5d2d6
               strokeFrom: 1
               strokeTo: 1
               interp: pow3Out

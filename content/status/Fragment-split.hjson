@@ -1,5 +1,6 @@
 {
         name: Fragment Split,
+        details: "Triggered by a powerful electromagnetic charge reaction between electrons and protons that leads to a complete desintegration of the whole atom."
         effect: {
         type: ParticleEffect,
         particles: 1,
@@ -7,7 +8,7 @@
         lifetime: 14,
         length: 1,
         sizeFrom: 2,
-        sizeTo: 5,
+        sizeTo: 4,
         colorFrom: "50bcfa",
         colorTo: "c5e7fa"
         spin: 5

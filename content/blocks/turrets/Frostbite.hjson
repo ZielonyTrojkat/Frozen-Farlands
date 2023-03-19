@@ -1,5 +1,4 @@
 name: Frostbite
-description: A better version of the Meltdown. Deals a tonne of damage. Requires liquid to fire.
 type: LaserTurret
 size: 5
 shootDuration: 240
@@ -29,6 +28,8 @@ shootType: {
   type: ContinuousLaserBulletType
   damage: 120
     status: Fragment-split
+statusDuration: 400
+status: freezing
 statusDuration: 400
   lifetime: 15
   fadeTime: 5

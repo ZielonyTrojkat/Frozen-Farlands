@@ -1,5 +1,5 @@
 name: Dragonfly
-Description: Spams yttrium bullets at enemies.
+Description: Fires a barrage of bullets at enemies
 drawOutlines: false
 "type": ItemTurret,
 "size": 3,
@@ -62,8 +62,8 @@ ammoTypes: {
               length: 20
               sizeFrom: 3
               sizeTo: 1
-              colorFrom: c8dee3
-              colorTo: 4ba5c4
+              colorFrom: b2afb3
+              colorTo: d5d2d6
               strokeFrom: 1
               strokeTo: 1
               interp: pow3Out

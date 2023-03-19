@@ -13,7 +13,7 @@ consumes: {
   power: 16
 }
 recoilAmount: 3
-shootSound: shootAlt
+shootSound: MoonRaySound
 "shoot": {
   "firstShotDelay": 90
 },

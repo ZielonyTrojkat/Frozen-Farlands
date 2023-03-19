@@ -49,9 +49,8 @@ bullet: {
 type: ArtilleryBulletType
 width: 20
 height: 25
-damage: 200
-splashDamage: 100
-splashDamageRadius: 100
+splashDamage: 150
+splashDamageRadius: 60
 speed: 4
 lifetime: 65
 frontColor: ff9959

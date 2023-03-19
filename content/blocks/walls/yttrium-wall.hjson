@@ -2,6 +2,7 @@
     "buildCostMultiplier": 0.1,
     "health": 300,
     "size": 1,
+    category: defense
 requirements: [
   yttrium/6
 ]

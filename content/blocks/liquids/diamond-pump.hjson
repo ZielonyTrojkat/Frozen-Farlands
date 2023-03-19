@@ -1,0 +1,13 @@
+type: Pump
+health: 365
+size: 3
+pumpAmount: 0.2
+squareSprite: false
+category: liquid
+requirements: [
+  yttrium/1
+]
+research: core-2
+researchCost: [
+    yttrium/1
+  ]

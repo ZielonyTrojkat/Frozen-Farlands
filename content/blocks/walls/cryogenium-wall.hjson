@@ -2,6 +2,7 @@
     "buildCostMultiplier": 0.1,
     "health": 500,
     "size": 1,
+    category: defense
 requirements: [
   cryogenium/6
 ]

@@ -1,6 +1,8 @@
 type: Pump
-health: 65
-pumpAmount: 0.1
+health: 165
+size: 2
+pumpAmount: 0.15
+squareSprite: false
 category: liquid
 requirements: [
   yttrium/1

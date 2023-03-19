@@ -6,6 +6,7 @@ hasPower: false
 shieldHealth: 900
 breakCooldown: 120
 regenSpeed: 50
+category: defense
 requirements: [
   reinforced-cryofabric/24
   diamond/12

@@ -1,0 +1,26 @@
+  "name": "Ray drill",
+  "description": "uses the fragmentational technology to quickly mine resources",
+  "type": "Drill",
+  "size": 3,
+  "itemCapacity": 10,
+  "tier": 5,
+  "drillTime": 200,
+  "drawMineItem": true,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.09,
+      "optional": true,
+      "booster": true
+    }
+  },
+  requirements: [
+    yttrium/16
+    aluminium/4
+  ]
+  "category": "production",
+research: micro-drill
+researchCost: [
+    yttrium/400
+    aluminium/100
+  ]

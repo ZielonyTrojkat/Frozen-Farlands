@@ -13,7 +13,7 @@
 	"hitSize": 10,
 	"health": 20360,
 	"faceTarget": true,
-	"armor": 5,
+	"armor": 14,
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 1,
@@ -39,7 +39,7 @@ shotDelay: 3
 }
 top: false
 rotate: false
-reload: 140
+reload: 130
 recoil: 4
 shootSound: mediumCannon
 ejectEffect: none
@@ -51,8 +51,8 @@ width: 20
 height: 25
 splashDamage: 150
 splashDamageRadius: 60
-speed: 4
-lifetime: 65
+speed: 3
+lifetime: 90
 frontColor: ff9959
 backColor: eb742a
 status: blasted

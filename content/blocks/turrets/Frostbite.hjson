@@ -9,7 +9,7 @@ hasLiquids: true
 consumes: {
   power: 28
 "liquid": {
-	"liquid": "xenon",
+	"liquid": "ionized-xenon",
 	"optional": false,
 	"update": false,
 	"amount": 0.4

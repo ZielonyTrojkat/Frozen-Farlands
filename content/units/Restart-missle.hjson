@@ -67,6 +67,8 @@ weapons: [
         instantDisappear: true
         killShooter: true
         hittable: false
+          status: fragmental-collapsion
+statusDuration: 250
         collidesAir: true
         hitEffect: [
         {

@@ -1,0 +1,17 @@
+{
+        name: Fragmental Collapsion,
+        details: "Fragmentational split specialy charged to produce a chain reaction, causes everything to collapse at extreme rate."
+        effect: {
+        type: ParticleEffect,
+        particles: 10,
+        region: "moon-mod-triangle",
+        lifetime: 14,
+        length: 1,
+        sizeFrom: 2,
+        sizeTo: 4,
+        colorFrom: "ffffff",
+        colorTo: "ffffff"
+        spin: 10
+        },
+        damage: 5 
+}

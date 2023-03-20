@@ -7,6 +7,8 @@ lifetime: 100
 hidden: true
 envEnabled: 17
 envDisabled: 0
+outlines: false
+drawCell: false
 outlineColor: 2d2f39
 engineColor: 9c1efc
 trailColor: 9c1efc

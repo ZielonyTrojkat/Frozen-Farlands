@@ -23,7 +23,7 @@ health: 190
 allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
-physics: false
+physics: true
 createWreck: false
 createScorch: false
 abilities: [
@@ -55,6 +55,8 @@ weapons: [
         shootCone: 360
           mirror: false
           reload: 180
+          predictTarget: false
+          autoTarget: true
           shootOnDeath: true
           shootEffect: none
           x: 0

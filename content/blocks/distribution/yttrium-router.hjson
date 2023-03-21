@@ -5,7 +5,9 @@ requirements: [
   yttrium/4
 ] 
 category: distribution
-research: yttrium-conveyor
+research: {
+    parent: yttrium-conveyor
+},
 researchCost: [
     yttrium/50
   ]

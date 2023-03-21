@@ -1,0 +1,7 @@
+planet: Zilo
+sector: 0
+research: {
+    parent: core-2
+}
+difficulty: 4
+alwaysUnlocked: true

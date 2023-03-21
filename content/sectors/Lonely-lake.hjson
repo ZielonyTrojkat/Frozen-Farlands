@@ -1,15 +1,13 @@
-{
-    sector: 0,
+
+    sector: 1,
     planet: "Zilo",
     research: {
-        parent: "core-2",
+        parent: "Frosty-prelude",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "grota_pustki"
+                preset: "Frosty-prelude"
             }
         ]
     },
-    difficulty: 0,
-    alwaysUnlocked: true
-}
+    difficulty: 9,

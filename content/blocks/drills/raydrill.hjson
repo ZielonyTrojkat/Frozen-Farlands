@@ -6,6 +6,7 @@
   "tier": 5,
   "drillTime": 200,
   "drawMineItem": true,
+  rotateSpeed: 6
   "consumes": {
     "liquid": {
       "liquid": "water",

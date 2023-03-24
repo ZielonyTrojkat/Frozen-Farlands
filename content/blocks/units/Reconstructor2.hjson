@@ -18,8 +18,8 @@ consumes: {
   }
 }
 upgrades: [
-  [cryospider, cryospider2]
-  [cryomech, cryomech2]
+  [cryoflare, cryoflare2]
+  [axo, kristal]
 ]
 requirements: [
   yttrium/120

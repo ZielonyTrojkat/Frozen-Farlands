@@ -1,0 +1,45 @@
+Type: UnitAssembler
+health: 2500
+size: 5
+plans: [
+  {
+  unit: cryomech4
+  requirements: [
+    moon-mod-cryomech3/4
+    moon-mod-yttrium-wall-large/10
+  ]
+  time: 900
+  }
+  {
+  unit: cryomech5
+  requirements: [
+    moon-mod-cryomech4/4
+    moon-mod-diamond-wall-large/10
+  ]
+  time: 1500
+  }
+]
+areaSize: 10
+dronesCreated: 4
+consumes: {
+power: 5
+  liquid: {
+    liquid: arcalith
+    amount: 0.6
+  }
+}
+category: units
+research: Rereconstructor
+researchCostMultiplier: 2
+requirements: [
+  aluminium/1200
+  moonstone/600
+  cryogenium/400
+  diamond/200
+]
+researchCost: [
+  aluminium/3600
+  moonstone/2800
+  cryogenium/2500
+  diamond/2000
+  ]

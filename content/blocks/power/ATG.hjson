@@ -31,7 +31,7 @@ consumes: {
     arcanite/1
     ]
 }
-powerProduction: 0.5
+powerProduction: 0.75
 category: power
 requirements: [
   yttrium/15

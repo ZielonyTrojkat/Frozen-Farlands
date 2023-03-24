@@ -20,6 +20,7 @@ upgrades: [
   [cryospider2, cryospider3]
   [cryoflare2, cryoflare3]
   [kristal, axo3]
+  [cryomech2, cryomech3]
 ]
 requirements: [
   yttrium/300

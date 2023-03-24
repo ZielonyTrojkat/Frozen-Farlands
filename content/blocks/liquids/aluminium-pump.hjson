@@ -4,6 +4,10 @@ size: 2
 pumpAmount: 0.15
 squareSprite: false
 category: liquid
+hasPower: true
+consumes: {
+power: 0.30
+  }
 requirements: [
   yttrium/1
 ]

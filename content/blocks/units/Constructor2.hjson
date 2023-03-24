@@ -6,19 +6,21 @@ consumes: {
 }
 plans: [
   {
-    unit: cryospider
+    unit: cryoflare
     time: 200
     requirements: [
-      yttrium/30
-      cryogenium/15
+     yttrium/20
+     cryogenium/10
+     aerogel/10
     ]
   }
   {
-    unit: cryomech
+    unit: axo
     time: 200
     requirements: [
-      yttrium/25
-      ice-shard/15
+     yttrium/20
+     aluminium/15
+     aerogel/10
     ]
   }
 ]

@@ -1,6 +1,7 @@
 
     sector: 2,
     planet: "Zilo",
+    captureWave: 50
     research: {
         parent: "Frosty-prelude",
         objectives: [

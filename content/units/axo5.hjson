@@ -174,7 +174,18 @@
     }
     }
     ]
-research: Constructor
+research: {
+    parent: "axo4",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
+researchCost: [
+    yttrium/1
+  ]
 researchCost: [
     yttrium/1
   ]

@@ -19,7 +19,7 @@ consumes: {
 upgrades: [
   [cryospider2, cryospider3]
   [cryoflare2, cryoflare3]
-  [kristal, axo3]
+  [axo2, axo3]
   [cryomech2, cryomech3]
 ]
 requirements: [
@@ -28,7 +28,15 @@ requirements: [
   moonstone/150
 ]
 category: units
-research: Reconstructor
+research: {
+    parent: "Constructor-1",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/3000
     aluminium/1750

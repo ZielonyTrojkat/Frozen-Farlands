@@ -7,7 +7,15 @@ requirements: [
   moonstone/2
 ]
 category: distribution
-research: yttrium-conveyor
+research: {
+    parent: "yttrium-conveyor",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
     moonstone/150
   ]

@@ -12,3 +12,4 @@
         ]
     },
     difficulty: 2,
+    overrideLaunchDefaults: true

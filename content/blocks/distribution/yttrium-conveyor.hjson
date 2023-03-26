@@ -3,9 +3,21 @@ hasShadow: true
 health: 80
 speed: 0.05
 displayedSpeed: 12
+junctionReplacement: yttrium-junction
+bridgeReplacement: yttrium-bridge
 requirements: [
   yttrium/1
 ]
 category: distribution
-research: core-2
-alwaysUnlocked: true
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+}
+researchCost: [
+    yttrium/10
+  ]

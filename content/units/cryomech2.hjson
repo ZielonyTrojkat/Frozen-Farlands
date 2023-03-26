@@ -63,7 +63,15 @@ bullet: {
 }
 }
 ]
-research: Reconstructor
+research: {
+    parent: "cryomech",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
   ]

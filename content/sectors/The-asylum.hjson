@@ -1,7 +1,6 @@
 
-    sector: 5,
-    planet: "Zilo",
-    captureWave: 20
+    sector: 0,
+    planet: "Gheţar",
     research: {
         parent: "Crash-landing",
         objectives: [
@@ -11,5 +10,5 @@
             }
         ]
     },
-    difficulty: 0,
+    difficulty: 9,
     overrideLaunchDefaults: true

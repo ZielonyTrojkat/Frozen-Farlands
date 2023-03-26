@@ -7,6 +7,8 @@
     allowWavesSimulation: true
     allowSectorSimulation: true
     allowSectorInvasion: true
+  allowLaunchSchematics: true
+allowLaunchLoadout: true
     "orbitRadius": 10,
     "prebuildBase": true,
     "atmosphereRadIn": 0.01,
@@ -14,6 +16,7 @@
     "atmosphereColor": 4caed9,
     "alwaysUnlocked": true,
     "defaultCore": core-2,
+    clearSectorOnLose: true
     "visible": true,
     "startSector": 0, 
     "sectorSize": 1,

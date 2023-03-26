@@ -126,7 +126,15 @@ shootEffect:   	{
 }
 }
 ]
-research: Reconstructor
+research: {
+    parent: "cryomech4",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
   ]

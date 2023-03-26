@@ -69,7 +69,15 @@
   ],
   "category": "crafting",
   "outputItem": "aluminium/1"
-research: core-2
+research: {
+    parent: "cryogenium-extractor",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Cryo-river"
+        }
+    ]
+},
 researchCost: [
     yttrium/250
     arcanite/150

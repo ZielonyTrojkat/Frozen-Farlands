@@ -10,7 +10,15 @@ requirements: [
   arcanthium/6
   aluminium/24
 ]
-research: node
+research: {
+    parent: "node-large",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
     yttrium/200
     arcanite/150

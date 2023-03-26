@@ -12,26 +12,29 @@
     "engineOffset": 6,
     "faceTarget": true,
 weapons: [
-  {
-    name: cryoflaree-gun
-    alternate: true
-    x: 4
-    y: 0
-    shootY: 5
-    layerOffset: -1
-    reload: 9
-    recoil: 2
-    inaccuracy: 6
+{
+name: coreflare-gun
+x: 0
+y: 3
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 1
+}
+top: false
+rotate: true
+reload: 45
+recoil: 3
     shootSound: PikeSound
     bullet: {
       speed: 4
-      lifetime: 24
+      lifetime: 40
       damage: 10
       pierce: true
       pierceBuilding: true
       pierceCap: 2
-      width: 3
-      height: 10
+      width: 9
+      height: 20
         frontColor: 03f8fc
         backColor: ffffff
       despawnHit: true
@@ -61,6 +64,39 @@ weapons: [
           colorTo: ffffff
         }
       ]
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
+                "sizeFrom": 1,
+                "sizeTo": 15,
+                "lifetime": 10
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 30
+              length: 12
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: 03f8fc
+              colorTo: adfaff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
     }
-  }
+    trailChance: 0.3
+    trailLength: 4
+    trailWidth: 2.5
+    trailColor: 03f8fc
+    }
+}
  ] 

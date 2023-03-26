@@ -36,7 +36,15 @@ category: power
 requirements: [
   arcanite/20
 ]
-research: core-2
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+},
 researchCost: [
-    arcanite/60
+    arcanite/50
     ]

@@ -9,7 +9,6 @@ description: A very common ore appearing on Zilo, is used in nearly all building
   "charge": 0,
   hardness: 1
 	"research": "core-2"
-  "alwaysUnlocked": true
       hiddenOnPlanets: [
         "serpulo",
         "erekir"

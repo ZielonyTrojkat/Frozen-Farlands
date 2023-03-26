@@ -16,7 +16,15 @@
   },
   "ambientSound": "drill",
   "ambientSoundVolume": 0.06
-research: micro-drill
+research: {
+    parent: "ice-crusher",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Cryo-river"
+        }
+    ]
+},
 researchCost: [
     yttrium/160
     arcanite/80

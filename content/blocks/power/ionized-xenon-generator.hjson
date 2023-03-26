@@ -43,7 +43,15 @@ requirements: [
   aluminium/100
   cryogenium/50
 ]
-research: ATG
+research: {
+    parent: "ATG",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
     ]

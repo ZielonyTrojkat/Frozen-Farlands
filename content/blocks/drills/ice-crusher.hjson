@@ -17,5 +17,5 @@
   "ambientSoundVolume": 0.06
 research: micro-drill
 researchCost: [
-    yttrium/120
+    yttrium/40
   ]

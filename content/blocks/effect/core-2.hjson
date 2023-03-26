@@ -3,13 +3,14 @@
 	"health": 6870,
 	"size": 4,
 	"absorbLasers": true,
-	"itemCapacity": 25000,
+	"itemCapacity": 6000,
 	"unitCapModifier": 32,
-    "researchCostMultiplier": 0.06,
-    "unitType": "poly",
-	"requirements": [
-		{ "item": "yttrium", "amount": 1 }
-	],
+    "unitType": "coreflare",
+requirements: [
+  yttrium/1000
+  arcanite/600
+  ice-shard/200
+]
   "category": "effect",
    research: {
     root: true

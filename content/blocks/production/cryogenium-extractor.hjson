@@ -5,6 +5,8 @@
   "hasItems": true,
   "craftTime": 28,
   "craftEffect": "none",
+  ignoreLiquidFullness: true
+  dumpExtraLiquid: true
 	"drawer": {
 	"type": "DrawMulti",
         "drawers": [
@@ -52,12 +54,21 @@
   },
   "requirements": [
     yttrium/30
-    aluminium/30
+    ice-shard/15
   ],
   "category": "crafting",
   "outputLiquid": "water/0.15",
   "outputItem": "cryogenium/1"
-research: heater
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
-    yttrium/1
+    yttrium/120
+    ice-shard/60
   ]

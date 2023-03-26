@@ -20,7 +20,15 @@
     aluminium/4
   ]
   "category": "production",
-research: micro-drill
+research: {
+    parent: "micro-drill",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Cryo-river"
+        }
+    ]
+},
 researchCost: [
     yttrium/400
     aluminium/100

@@ -3,5 +3,6 @@ sector: 0
 research: {
     parent: core-2
 }
-difficulty: 4
+difficulty: 1
 alwaysUnlocked: true
+overrideLaunchDefaults: true

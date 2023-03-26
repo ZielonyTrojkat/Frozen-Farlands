@@ -6,7 +6,15 @@
 requirements: [
   yttrium/6
 ]
-research: core-2
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+}
 researchCost: [
-    yttrium/100
+    yttrium/50
   ]

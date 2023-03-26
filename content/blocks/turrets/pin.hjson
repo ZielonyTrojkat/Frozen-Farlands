@@ -56,5 +56,15 @@ category: turret
 requirements: [
   yttrium/25
 ]
-research: core-2
-alwaysUnlocked: true
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+}
+researchCost: [
+    yttrium/70
+  ]

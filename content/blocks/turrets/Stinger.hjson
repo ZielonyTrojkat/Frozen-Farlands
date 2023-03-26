@@ -39,7 +39,15 @@ requirements: [
   yttrium/30
   arcanite/10
   ]
-  research: pin
+research: {
+    parent: "pin",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
   researchCost: [
     yttrium/150
     arcanite/50

@@ -5,8 +5,15 @@ consumes: {
 power: 5
 }
 category: units
-research: Rereconstructor
-researchCostMultiplier: 4
+research: {
+    parent: "Rereconstructor",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 requirements: [
   reinforced-cryofabric/50
 ]

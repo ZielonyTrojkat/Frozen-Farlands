@@ -13,7 +13,7 @@
     "engineOffset": 40,
     "engineSize": 12
     "faceTarget": true,
-research: cryoflare5
+research: lead
 researchCost: [
     yttrium/1
   ]

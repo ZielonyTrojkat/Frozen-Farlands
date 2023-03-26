@@ -19,7 +19,7 @@ consumes: {
 }
 upgrades: [
   [cryoflare, cryoflare2]
-  [axo, kristal]
+  [axo, axo2]
 ]
 requirements: [
   yttrium/120
@@ -27,7 +27,15 @@ requirements: [
   aerogel/50
 ]
 category: units
-research: Constructor
+research: {
+    parent: "Constructor-4",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/700
     aluminium/350

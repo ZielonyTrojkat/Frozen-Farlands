@@ -1,15 +1,14 @@
 
-    sector: 5,
+    sector: 9,
     planet: "Zilo",
-    captureWave: 20
     research: {
-        parent: "Crash-landing",
+        parent: "Lonely-lake",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Crash-landing"
+                preset: "Lonely-lake"
             }
         ]
     },
-    difficulty: 0,
+    difficulty: 9,
     overrideLaunchDefaults: true

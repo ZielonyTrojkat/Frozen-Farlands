@@ -1,6 +1,6 @@
 	"outlineColor": "36363c",
   "type": "mech",
-	"speed": 0.6,
+	"speed": 0.5,
 	"hitSize": 10,
 	"health": 360,
 	"faceTarget": true,
@@ -37,7 +37,7 @@ ejectEffect: none
 bullet: {
     type: BasicBulletType,
     speed: 5
-    lifetime: 50
+    lifetime: 30
     damage: 15
     width: 7
     height: 10
@@ -54,4 +54,10 @@ bullet: {
 }
 }
 ]
-research: Constructor-1
+research: {
+    parent: "Constructor-1"
+}
+researchCost: [
+    yttrium/50
+    ice-shard/30
+  ]

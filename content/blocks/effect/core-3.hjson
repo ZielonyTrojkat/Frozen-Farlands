@@ -1,16 +1,29 @@
 	"type": "CoreBlock",
-	"health": 6870,
+	"health": 16870,
 	"size": 5,
 	"category": effect
 	"absorbLasers": true,
-	"itemCapacity": 25000,
+	"itemCapacity": 10000,
 	"unitCapModifier": 32,
-    "researchCostMultiplier": 0.06,
     "unitType": "mega",
-	"requirements": [
-		{ "item": "yttrium", "amount": 1 }
-	],
-research: core-2
+requirements: [
+  yttrium/3000
+  aluminium/2000
+  moonstone/1600
+  diamond/300
+]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
-    yttrium/1
+  yttrium/5000
+  aluminium/3600
+  moonstone/2400
+  diamond/1300
   ]

@@ -43,8 +43,8 @@
   ],
   "category": "crafting",
   "outputLiquid": "water/0.35"
-research: aluminium-foundry
+research: cryogenium-extractor
 researchCost: [
-    yttrium/200
-    arcanite/150
+    yttrium/150
+    arcanite/75
   ]

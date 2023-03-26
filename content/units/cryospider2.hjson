@@ -71,7 +71,18 @@ statusDuration: 180
 }
 }
 ]
-research: Reconstructor
+research: {
+    parent: "cryospider",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
+researchCost: [
+    yttrium/1
+  ]
 researchCost: [
     yttrium/1
   ]

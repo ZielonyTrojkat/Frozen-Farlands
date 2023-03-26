@@ -7,7 +7,7 @@ consumes: {
 plans: [
   {
     unit: cryomech
-    time: 200
+    time: 320
     requirements: [
       yttrium/25
       ice-shard/10
@@ -16,11 +16,19 @@ plans: [
 ]
 requirements: [
   yttrium/50
-  arcanite/30
+  ice-shard/30
 ]
 category: units
-research: core-2
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+}
 researchCost: [
-    yttrium/150
-    ice-shard/75
+    yttrium/70
+    ice-shard/40
   ]

@@ -57,7 +57,15 @@ statusDuration: 180
 }
 }
 ]
-research: Reconstructor
+research: {
+    parent: "cryomech2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
   ]

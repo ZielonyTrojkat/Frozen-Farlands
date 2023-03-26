@@ -15,7 +15,15 @@ requirements: [
   yttrium/1
 ]
 category: effect
-research: core-2
+research: {
+    parent: "panel",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
   ]

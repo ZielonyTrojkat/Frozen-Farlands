@@ -29,8 +29,15 @@ power: 5
   }
 }
 category: units
-research: Rereconstructor
-researchCostMultiplier: 2
+research: {
+    parent: "Reconstructor-1",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 requirements: [
   aluminium/1200
   moonstone/600

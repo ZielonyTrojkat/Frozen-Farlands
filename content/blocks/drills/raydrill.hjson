@@ -20,7 +20,15 @@
     aluminium/4
   ]
   "category": "production",
-research: micro-drill
+research: {
+    parent: "sickle-drill",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
     yttrium/400
     aluminium/100

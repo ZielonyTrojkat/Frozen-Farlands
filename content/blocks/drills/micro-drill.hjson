@@ -10,5 +10,15 @@
     yttrium/5
   ]
   "category": "production",
-  "research": "core-2"
-  "alwaysUnlocked": true
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+}
+researchCost: [
+    yttrium/15
+  ]

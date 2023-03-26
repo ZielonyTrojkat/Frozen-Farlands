@@ -1,5 +1,6 @@
 type: ItemTurret
 size: 4
+reload: 200
 health: 6850
 basePrefix: -base
 consumes: {
@@ -9,8 +10,7 @@ shoot: {
   type: ShootBarrel
   shots: 1
   barrels: [
-    -10, 0, 0
-    10, 0, 0
+    0, 0, 0
   ]
 }
 ammoTypes: {
@@ -33,7 +33,21 @@ ammoTypes: {
 drawer:{
  type: DrawTurret
  parts: [
-{
+         {
+         "type": "RegionPart",
+          "suffix": "-part1",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": -5,
+         }
+         {
     type: RegionPart
     suffix: -missile
     progress: reload
@@ -42,20 +56,10 @@ drawer:{
     outline: false
     under: true
     mirror: false
-    layerOffset: -0.01
+    layerOffset: 1
 }
 ]
 }
-
-shootSound: missileLarge
-shootWarmupSpeed: 0.4
-shootCone: 360
-rotateSpeed: 0.8
-reload: 60
-outlineColor: "2a2c35"
-range: 660
-shootY: 0
-category: turret
 research: {
     parent: lead
 }

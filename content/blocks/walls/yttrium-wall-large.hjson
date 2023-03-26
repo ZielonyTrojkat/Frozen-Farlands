@@ -8,5 +8,5 @@ requirements: [
 ]
 research: yttrium-wall
 researchCost: [
-    yttrium/100
+    yttrium/600
   ]

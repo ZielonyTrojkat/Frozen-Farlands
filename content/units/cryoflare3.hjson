@@ -27,7 +27,7 @@ ejectEffect: none
     "bullet": { 
     "colors":["00eeff", "00eeff", "FFFFFFF"],
       "type": "LaserBulletType",
-      "length": 200,
+      "length": 170,
       "width": 25,
       "damage": 50,
       "recoil": 3.25,

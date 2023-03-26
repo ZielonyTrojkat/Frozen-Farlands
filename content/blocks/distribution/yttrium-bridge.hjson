@@ -9,7 +9,7 @@ requirements: [
   yttrium/8
 ] 
 category: distribution
-research: yttrium-sorter
+research: yttrium-junction
 researchCost: [
     yttrium/100
   ]

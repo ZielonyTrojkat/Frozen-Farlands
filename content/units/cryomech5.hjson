@@ -120,7 +120,7 @@ shootEffect:   	{
 	},
     ]
    }
-    "trailChance": 0.5,
+    trailChance: 0.5
     trailLength: 7
     trailWidth: 5
 }

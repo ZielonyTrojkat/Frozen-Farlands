@@ -9,9 +9,11 @@ consumes: {
 power: 0.30
   }
 requirements: [
-  yttrium/1
+  yttrium/40
 ]
-research: core-2
+research: {
+    parent: "yttrium-pipe",
+}
 researchCost: [
-    yttrium/1
+    yttrium/150
   ]

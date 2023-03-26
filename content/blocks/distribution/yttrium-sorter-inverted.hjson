@@ -1,10 +1,11 @@
 type: Sorter
 health: 80
+invert: true
 requirements: [
   yttrium/6
 ] 
 category: distribution
-research: yttrium-bridge
+research: yttrium-sorter
 researchCost: [
     yttrium/80
   ]

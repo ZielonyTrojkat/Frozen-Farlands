@@ -19,7 +19,7 @@ weapons: [
     y: 0
     shootY: 5
     layerOffset: -1
-    reload: 9
+    reload: 10
     recoil: 2
     inaccuracy: 6
     shootSound: PikeSound

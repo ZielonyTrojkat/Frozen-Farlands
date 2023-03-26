@@ -1,0 +1,35 @@
+type: Reconstructor
+size: 3
+health: 1200
+constructTime: 1200
+liquidCapacity: 60
+consumes: {
+  power: 8
+    items: {
+      items: [
+        aluminium/60
+        cryogenium/40
+        aerogel/30
+      ]
+    }
+  liquid: {
+    liquid: water
+    amount: 0.6
+  }
+}
+upgrades: [
+  [cryoflare, cryoflare2]
+  [axo, kristal]
+]
+requirements: [
+  yttrium/120
+  aluminium/70
+  aerogel/50
+]
+category: units
+research: Constructor
+researchCost: [
+    yttrium/700
+    aluminium/350
+    aerogel/300
+  ]

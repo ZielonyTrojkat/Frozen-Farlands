@@ -2,13 +2,23 @@ type: Conduit
 leaks: true
 health: 15
 requirements: [
-  yttrium/1
+  yttrium/2
+  ice-shard/1
 ]
 liquidCapacity: 600
 liquidPressure: 11.5
 botColor: 4a4b53
 category: liquid
-research: yttrium-pump
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
-    yttrium/1
+    yttrium/50
+    ice-shard/50
   ]

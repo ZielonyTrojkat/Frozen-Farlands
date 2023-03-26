@@ -6,13 +6,19 @@ laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
 requirements: [
-  yttrium/8
   arcanite/6
   aluminium/6
 ]
-research: node
+research: {
+    parent: node
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
-    yttrium/200
     arcanite/150
     aluminium/150
     ]

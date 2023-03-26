@@ -1,12 +1,3 @@
-
-  "research": {
-  "parent": "lead",
-  "requirements": [
-  "resonance/100",
-  "silicon/200"
-  ]
-  },
-
 	"outlineColor": "36363c",
   "type": "mech",
 	"speed": 0.6,
@@ -63,7 +54,4 @@ bullet: {
 }
 }
 ]
-research: Reconstructor
-researchCost: [
-    yttrium/1
-  ]
+research: Constructor-1

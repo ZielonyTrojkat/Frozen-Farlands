@@ -7,7 +7,15 @@ category: liquid
 requirements: [
   yttrium/1
 ]
-research: core-2
+research: {
+    parent: "yttrium-pump",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
   ]

@@ -6,21 +6,29 @@ consumes: {
 }
 plans: [
   {
+    unit: cryospider
+    time: 200
+    requirements: [
+      yttrium/30
+      cryogenium/15
+    ]
+  }
+  {
     unit: cryomech
     time: 200
     requirements: [
       yttrium/25
-      ice-shard/10
+      ice-shard/15
     ]
   }
 ]
 requirements: [
   yttrium/50
-  arcanite/30
+  aluminium/30
 ]
 category: units
 research: core-2
 researchCost: [
-    yttrium/150
-    ice-shard/75
+    yttrium/250
+    aluminium/150
   ]

@@ -1,5 +1,5 @@
 type: Junction
-health: 50
+health: 80
 speed: 12
 capacity: 8
 requirements: [

@@ -6,11 +6,9 @@ laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
 requirements: [
-  yttrium/4
-  arcanite/2
+  arcanite/4
 ]
-research: core-2
+research: ATG
 researchCost: [
-    yttrium/80
-    arcanite/50
+    arcanite/30
     ]

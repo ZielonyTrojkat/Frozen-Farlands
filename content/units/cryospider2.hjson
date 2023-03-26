@@ -7,7 +7,8 @@
   ]
   },
 
-	"outlineColor": "36363c",
+	"outlineColor": "424245",
+  outlineRadius: 3
   "type": "legs",
 	"speed": 0.7,
 	"hitSize": 10,
@@ -18,19 +19,19 @@
 	"targetAir": false,
 	"rotateSpeed": 3,
             "legMoveSpace": 1,
-            "legMaxLength": 1.4,
+            "legMaxLength": 1.2,
             "legMinLength": 0.3,
             "legLengthScl": 0.96,
             "legForwardScl": 0.5,
-            "legPhysicsLayer": false,
+            "legPhysicsLayer": true,
          "legGroupSize": 2,
          "legCount": 4,
          "legExtension": 0,
         "legContinuousMove": true,
-        "lockLegBase": true,
+        "lockLegBase": false,
         "rippleScale": 0.2,
 	"legBaseOffset": 0,
-	"legLength": 10, 
+	"legLength": 9, 
 	"allowLegStep": true,
 	"hovering": false,
 	"immunities": [
@@ -39,31 +40,32 @@
 weapons: [
 {
 name: cryospider2-gun
-x: 9
+x: 5.5
 y: 0
 mirror: true
 shoot: {
 type: ShootPattern
-shots: 2
+shots: 1
 shotDelay: 4
 }
 top: false
-rotate: false
-reload: 45
+rotate: true
+reload: 20
 recoil: 3
-
-shootSound: bang
+shootSound: lasershoot
 ejectEffect: none
-bullet: {
-width: 10
-height: 14
-damage: 15
-splashDamage: 25
-splashDamageRadius: 25
-speed: 5
-lifetime: 65
-backColor: 51e1e8
-frontColor: cdf8fa
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.5
+    length: 70
+    damage: 15
+    shootEffect: shootSmall
+    hitColor: 03e3fc
+    color: 03e3fc
+    despawnEffect: none
+    width: 1
+    lifetime: 20
+    knockback: -2
 status: freezing
 statusDuration: 180
 }

@@ -1,0 +1,55 @@
+  "type": "GenericCrafter",
+	 "researchCostMultiplier": 0.5,
+  "health": 300,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 20,
+  "craftEffect": "none",
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+                 {
+        "type": "DrawRegion"
+        suffix: -bottom
+        }
+                        {
+        "type": "DrawLiquidRegion"
+        suffix: -liquid
+        drawLiquid: cryofluid
+        }
+                {
+              "type": "DrawRegion"
+        suffix: -rotator
+        rotateSpeed: 1
+        spinSprite: true
+  }
+          {
+      "type": "DrawDefault"
+        }
+                  {
+      "type": "DrawGlowRegion"
+        suffix: -glow
+        }
+        ]
+        }
+  "hasPower": true,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 0.70,
+    "liquids": [
+      "water/1"
+      ice-shard/1
+    ],
+  },
+  "requirements": [
+    yttrium/20
+    arcanite/15
+  ],
+  "category": "crafting",
+  "outputItem": "cryofluid/1"
+research: heater
+researchCost: [
+    yttrium/200
+    arcanite/150
+  ]

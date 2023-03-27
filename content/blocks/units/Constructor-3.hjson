@@ -6,25 +6,17 @@ consumes: {
 }
 plans: [
   {
-    unit: cryospider
-    time: 200
+    unit: cryoflare
+    time: 1000
     requirements: [
-      yttrium/30
-      cryogenium/15
-    ]
-  }
-  {
-    unit: cryomech
-    time: 200
-    requirements: [
-      yttrium/25
-      ice-shard/15
+      yttrium/15
+      aerogel/10
     ]
   }
 ]
 requirements: [
   yttrium/50
-  aluminium/30
+  aerogel/30
 ]
 category: units
 research: {
@@ -38,5 +30,5 @@ research: {
 },
 researchCost: [
     yttrium/250
-    aluminium/150
+    aerogel/150
   ]

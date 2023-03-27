@@ -4,12 +4,12 @@ health: 1200
 constructTime: 1200
 liquidCapacity: 60
 consumes: {
-  power: 8
+  power: 3
     items: {
       items: [
-        aluminium/60
-        cryogenium/40
-        aerogel/30
+        yttrium/60
+        aluminium/30
+        aerogel/20
       ]
     }
   liquid: {
@@ -18,7 +18,6 @@ consumes: {
   }
 }
 upgrades: [
-  [cryoflare, cryoflare2]
   [axo, axo2]
 ]
 requirements: [

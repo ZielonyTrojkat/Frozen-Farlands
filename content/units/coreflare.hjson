@@ -7,10 +7,15 @@
     "health": 300,
     "hitSize": 12,
     "armor": 1,
-    "itemCapacity": 10,
+    "itemCapacity": 40,
   "outlineColor": "36363c",
     "engineOffset": 6,
     "faceTarget": true,
+    controller: BuilderAI
+    mineTier: 2
+    mineSpeed: 5
+    buildSpeed: 1
+    buildBeamOffset: 5
 weapons: [
 {
 name: coreflare-gun

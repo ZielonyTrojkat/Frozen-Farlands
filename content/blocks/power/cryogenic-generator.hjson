@@ -1,0 +1,37 @@
+type: ConsumeGenerator
+size: 3
+hasLiquids: true
+liquidCapacity: 60
+canOverdrive: false
+itemDuration: 180
+baseExplosiveness: 0
+consumes: {
+    "items": [
+    cryogenium/1
+    ]
+    liquids: [
+      arcalith/0.3
+    ]
+}
+outputLiquid: water/0.5
+powerProduction: 8
+category: power
+requirements: [
+  yttrium/200
+  arcanite/150
+  aluminium/100
+]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+},
+researchCost: [
+  yttrium/600
+  arcanite/350
+  aluminium/200
+    ]

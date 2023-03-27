@@ -1,0 +1,21 @@
+type: LiquidJunction
+health: 100
+category: liquid
+hasPower: false
+requirements: [
+  yttrium/6
+  ice-shard/3
+]
+research: {
+    parent: "yttrium-liquid-junction",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
+researchCost: [
+    yttrium/100
+    ice-shard/80
+  ]

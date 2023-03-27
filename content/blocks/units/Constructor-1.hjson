@@ -7,7 +7,7 @@ consumes: {
 plans: [
   {
     unit: cryomech
-    time: 320
+    time: 1200
     requirements: [
       yttrium/25
       ice-shard/10

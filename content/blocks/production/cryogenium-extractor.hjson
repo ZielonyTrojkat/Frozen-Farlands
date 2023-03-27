@@ -57,7 +57,6 @@
     ice-shard/15
   ],
   "category": "crafting",
-  "outputLiquid": "water/0.15",
   "outputItem": "cryogenium/1"
 research: {
     parent: "core-2",

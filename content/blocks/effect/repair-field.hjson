@@ -1,0 +1,43 @@
+  "type": "MendProjector",
+  "health": 400,
+  "size": 2,
+  "range": 80,
+  "reload": 120,
+  "phase": "76619d",
+  "color": "996de8",
+  "hasPower": true,
+  hasLiquids: true
+  liquidCapacity: 30
+  healPercent: 3
+  phaseBoost: 3
+  phaseRangeBoost: 30
+  consumes: {
+    power: 2
+    liquids: {
+    "liquids": [
+      "arcalith/0.3"
+    ],
+      optional: true
+      booster: true
+    }
+  }
+  category: effect
+requirements: [
+    yttrium/50
+    arcanite/30
+    moonstone/30
+]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frosty-prelude"
+        }
+    ]
+}
+researchCost: [
+    yttrium/500
+    arcanite/300
+    moonstone/300
+  ]

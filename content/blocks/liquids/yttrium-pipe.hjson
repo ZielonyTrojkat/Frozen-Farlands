@@ -1,6 +1,7 @@
 type: Conduit
 leaks: true
 health: 15
+hasPower: false
 requirements: [
   yttrium/2
   ice-shard/1

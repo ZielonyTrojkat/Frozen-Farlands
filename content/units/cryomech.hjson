@@ -56,8 +56,8 @@ bullet: {
 ]
 research: {
     parent: "Constructor-1"
-}
-researchCost: [
+    requirements: [
     yttrium/50
     ice-shard/30
   ]
+}

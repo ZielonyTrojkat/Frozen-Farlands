@@ -1,0 +1,23 @@
+type: LiquidRouter
+health: 100
+liquidCapacity: 10
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  yttrium/3
+  ice-shard/2
+]
+research: {
+    parent: "yttrium-pipe",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
+researchCost: [
+    yttrium/80
+    ice-shard/60
+  ]

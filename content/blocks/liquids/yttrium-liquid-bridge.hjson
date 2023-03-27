@@ -1,0 +1,23 @@
+type: LiquidBridge
+health: 100
+liquidCapacity: 10
+category: liquid
+hasPower: false
+range: 4
+requirements: [
+  yttrium/8
+  ice-shard/5
+]
+research: {
+    parent: "yttrium-liquid-junction",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
+researchCost: [
+    yttrium/120
+    ice-shard/90
+  ]

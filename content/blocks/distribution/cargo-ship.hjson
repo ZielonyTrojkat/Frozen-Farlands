@@ -5,9 +5,9 @@ consumes: {
   power: 1.2
 }
 buildTime: 3
-polySides: 4
-polyRotateSpeed: 10
-polyStroke: 5
+polySides: 2
+polyRotateSpeed: 3
+polyStroke: 3
 unitType: salmon
 requirements: [
   yttrium/30

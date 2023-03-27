@@ -1,0 +1,12 @@
+type: UnitCargoUnloadPoint
+size: 2
+itemCapacity: 50
+staleTimeDuration: 30
+requirements: [
+  yttrium/30
+]
+category: units
+research: core-2
+researchCost: [
+   yttrium/1
+  ]

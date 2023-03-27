@@ -1,15 +1,14 @@
 type: Reconstructor
 size: 3
 health: 1200
-constructTime: 1200
+constructTime: 1500
 liquidCapacity: 60
 consumes: {
-  power: 8
+  power: 2
     items: {
       items: [
-        aluminium/60
-        cryogenium/40
-        aerogel/30
+        yttrium/60
+        aluminium/30
       ]
     }
   liquid: {
@@ -18,7 +17,6 @@ consumes: {
   }
 }
 upgrades: [
-  [cryospider, cryospider2]
   [cryomech, cryomech2]
 ]
 requirements: [

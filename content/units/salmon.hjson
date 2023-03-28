@@ -1,4 +1,4 @@
-type: flying
+type: payload
 health: 500
 flying: true
 lowAltitude: false
@@ -8,7 +8,8 @@ drag: 0.02
 speed: 3.3
 armor: 1
 hitsize: 1
-itemCapacity: 100
+itemCapacity: 10
+payloadCapacity: 288
 rotateSpeed: 2.6
 Controller: CargoAI
 outlineColor: 2d2f39

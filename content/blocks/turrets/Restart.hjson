@@ -41,7 +41,7 @@ consumes: {
        ]
      },
 recoil: 0
-shootSound: MoonRaySound
+shootSound: restart
 shoot: {
   type: ShootBarrel
   shots: 1

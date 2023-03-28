@@ -7,12 +7,12 @@ consumes: {
   power: 2
     items: {
       items: [
-        yttrium/40
-        aerogel/25
+        aluminium/50
+        aerogel/35
       ]
     }
   liquid: {
-    liquid: water
+    liquid: cryofluid
     amount: 0.6
   }
 }
@@ -20,9 +20,8 @@ upgrades: [
   [cryoflare, cryoflare2]
 ]
 requirements: [
-  yttrium/120
+  aerogel/120
   aluminium/70
-  aerogel/50
 ]
 category: units
 research: {
@@ -30,7 +29,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Crash-landing"
         }
     ]
 },

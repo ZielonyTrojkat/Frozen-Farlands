@@ -1,9 +1,9 @@
   "type": "GenericCrafter",
   "description": "Creates liquid resonance with the use of water and resonance ore",
-  "health": 50,
+  "health": 250,
   "size": 2,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 30,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -64,17 +64,28 @@
   liquidCapacity: 50
   "updateEffect": "none",
   "consumes": {
-  "power": 0.90
+  "power": 1
   },
   "requirements": [
-    yttrium/20
-    moonstone/30
+    yttrium/30
+    ice-shard/30
+    moonstone/20
   ],
   "category": "crafting",
-  "outputLiquid": "xenon/0.3"
-  research: cryogenium-extractor
+  "outputLiquid": "xenon/0.25"
+research: {
+    parent: cryogenium-extractor
+    objectives: [
+        {
+            type: "OnSector"
+            preset: "Secret-passage"
+        }
+    ]
+},
 researchCost: [
-    yttrium/1
+    yttrium/200
+    ice-shard/200
+    moonstone/150
   ]
     ambientSound: hum
     ambientSoundVolume: 1

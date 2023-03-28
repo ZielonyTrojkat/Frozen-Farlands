@@ -1,4 +1,3 @@
-
 	"outlineColor": "424245",
     outlineRadius: 3
   "type": "legs",
@@ -96,10 +95,5 @@ research: {
             preset: "Lonely-lake"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
-researchCost: [
-    yttrium/1
-  ]
+}
+researchCostMultiplier: 0

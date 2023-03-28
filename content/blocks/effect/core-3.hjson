@@ -4,26 +4,26 @@
 	"category": effect
 	"absorbLasers": true,
 	"itemCapacity": 10000,
-	"unitCapModifier": 32,
-    "unitType": "mega",
+	"unitCapModifier": 16,
+    "unitType": "coreflare2",
 requirements: [
   yttrium/3000
   aluminium/2000
+  aerogel/1600
   moonstone/1600
-  diamond/300
 ]
 research: {
     parent: "core-2",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "SectorComplete",
+            preset: "Secret-passage"
         }
     ]
 },
 researchCost: [
   yttrium/5000
   aluminium/3600
+  aerogel/2400
   moonstone/2400
-  diamond/1300
   ]

@@ -9,11 +9,11 @@ consumes: {
       items: [
         yttrium/60
         aluminium/30
-        aerogel/20
+        aerogel/30
       ]
     }
   liquid: {
-    liquid: water
+    liquid: arcalith
     amount: 0.6
   }
 }
@@ -31,7 +31,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Crash-landing"
         }
     ]
 },

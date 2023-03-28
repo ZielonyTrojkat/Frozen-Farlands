@@ -14,7 +14,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Crash-landing"
+            preset: "Secret-passage"
         }
     ]
 },

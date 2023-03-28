@@ -21,8 +21,7 @@ upgrades: [
 ]
 requirements: [
   yttrium/120
-  aluminium/70
-  aerogel/50
+  aluminium/60
 ]
 category: units
 research: {
@@ -30,12 +29,12 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Transit-cavern"
         }
     ]
 },
 researchCost: [
-    yttrium/700
-    aluminium/350
-    aerogel/300
+    yttrium/500
+    ice-shard/300
+    aluminium/150
   ]

@@ -7,7 +7,7 @@
 	"armor": 4,
 	"range": 180,
 	"targetAir": false,
-	"rotateSpeed": 3,
+	"rotateSpeed": 1,
             "legMoveSpace": 1,
             "legMaxLength": 1.2,
             "legMinLength": 0.3,

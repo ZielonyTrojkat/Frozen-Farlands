@@ -8,5 +8,5 @@ requirements: [
 ]
 research: cryogenium-wall
 researchCost: [
-    yttrium/100
+    cryogenium/400
   ]

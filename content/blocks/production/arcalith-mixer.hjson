@@ -1,10 +1,8 @@
   "type": "GenericCrafter",
-	 "researchCostMultiplier": 0.5,
-  "description": "Melts bauxites into slag",
-  "health": 50,
+  "health": 250,
   "size": 2,
   "hasItems": true,
-  "craftTime": 40,
+  "craftTime": 60,
   "craftEffect": "none",
   "drawer": {
   "type": "DrawMulti",
@@ -34,26 +32,32 @@
   "hasPower": true,
   "hasLiquids": true,
   "updateEffect": "none",
-  liquidCapacity: 40
+  liquidCapacity: 50
   "consumes": {
-  "power": 0.70,
+  "power": 0.80,
     "items": [
       "arcanite/1"
     ],
         "liquids": [
-      "water/0.3"
+      "water/0.25"
     ],
   },
   "requirements": [
     yttrium/30
-    arcanite/10
-    aluminium/10
+    arcanite/30
   ],
   "category": "crafting",
-  "outputLiquid": "arcalith/0.5"
-research: heater
+  "outputLiquid": "arcalith/0.6"
+research: {
+    parent: heater
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/200
     arcanite/200
-    aluminium/100
   ]

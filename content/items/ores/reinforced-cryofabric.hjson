@@ -1,8 +1,0 @@
-type: item
-name: ReinforcedCryoFabric
-description: Tak.
-  "cost": 197.5,
-  "color": "0558b0",
-  "flammability": 69,
-  "explosiveness": 420,
-  "radioactivity": 2137,

@@ -4,8 +4,8 @@
     "accel": 0.1,
     "drag": 0.02,
     "flying": true,
-    "health": 300,
-    "hitSize": 12,
+    "health": 150,
+    "hitSize": 2,
     "armor": 1,
     "itemCapacity": 10,
   "outlineColor": "36363c",
@@ -26,7 +26,7 @@ weapons: [
     bullet: {
       speed: 4
       lifetime: 24
-      damage: 10
+      damage: 8
       pierce: true
       pierceBuilding: true
       pierceCap: 2
@@ -73,6 +73,4 @@ research: {
         }
     ]
 },
-researchCost: [
-    yttrium/1
-  ]
+researchCostMultiplier: 0

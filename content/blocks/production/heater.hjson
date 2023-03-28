@@ -1,5 +1,4 @@
   "type": "GenericCrafter",
-	 "researchCostMultiplier": 0.5,
   "description": "Melts ice into water",
   "health": 50,
   "size": 2,
@@ -38,13 +37,21 @@
     ],
   },
   "requirements": [
-    yttrium/20
-    arcanite/15
+    yttrium/25
+    arcanite/10
   ],
   "category": "crafting",
-  "outputLiquid": "water/0.35"
-research: cryogenium-extractor
+  "outputLiquid": "water/0.5"
+research: {
+    parent: cryogenium-extractor
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/150
-    arcanite/75
+    arcanite/50
   ]

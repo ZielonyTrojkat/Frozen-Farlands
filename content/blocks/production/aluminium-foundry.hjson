@@ -3,7 +3,7 @@
   "health": 150,
   "size": 3,
   "hasItems": true,
-  "craftTime": 30,
+  "craftTime": 60,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -55,7 +55,6 @@
     ]
     },
   "hasPower": true,
-  "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
   "power": 0.70,
@@ -74,7 +73,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Cryo-river"
+            preset: "Transit-cavern"
         }
     ]
 },

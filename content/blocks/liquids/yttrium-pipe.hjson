@@ -6,8 +6,8 @@ requirements: [
   yttrium/2
   ice-shard/1
 ]
-liquidCapacity: 600
-liquidPressure: 11.5
+liquidCapacity: 20
+liquidPressure: 10
 botColor: 4a4b53
 category: liquid
 research: {

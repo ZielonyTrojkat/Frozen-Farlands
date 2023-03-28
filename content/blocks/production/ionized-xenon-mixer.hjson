@@ -50,7 +50,15 @@
   ],
   "category": "crafting",
   "outputLiquid": "ionized-xenon/0.3"
-research: xenon-synthezator
+research: {
+    parent: "xenon-synthezator",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Solar-peaks"
+        }
+    ]
+}
 researchCost: [
     yttrium/1
   ]

@@ -1,12 +1,19 @@
     "type": "Wall",
-    "buildCostMultiplier": 0.1,
     "health": 500,
     "size": 1,
     category: defense
 requirements: [
   cryogenium/6
 ]
-research: yttrium-wall-large
+research: {
+    parent: "yttrium-wall-large"
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+}
 researchCost: [
-    yttrium/100
+    cryogenium/100
   ]

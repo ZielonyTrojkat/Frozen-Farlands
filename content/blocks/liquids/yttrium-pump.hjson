@@ -1,7 +1,7 @@
 type: Pump
-health: 165
+health: 265
 size: 2
-pumpAmount: 0.15
+pumpAmount: 0.2
 squareSprite: false
 category: liquid
 hasPower: true

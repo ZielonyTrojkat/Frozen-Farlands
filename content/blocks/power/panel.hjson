@@ -6,18 +6,18 @@ powerProduction: 0.1
 category: power
 requirements: [
   yttrium/4
-  arcanite/8
+  ice-shard/8
 ]
 research: {
-    parent: "ATG",
+    parent: ATG
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Crash-landing"
         }
     ]
 },
 researchCost: [
-    yttrium/50
-    arcanite/120
+    yttrium/80
+    ice-shard/160
     ]

@@ -3,7 +3,7 @@
   "health": 250,
   "size": 3,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 45,
   "craftEffect": "none",
   ignoreLiquidFullness: true
   dumpExtraLiquid: true
@@ -47,9 +47,9 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 1.70,
+  "power": 1.20,
     "liquids": [
-    "cryofluid/0.15"
+    "cryofluid/0.4"
     ]
   },
   "requirements": [

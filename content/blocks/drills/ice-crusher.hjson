@@ -7,7 +7,7 @@
   "requirements": [
     "yttrium/12",
   ],
-  "drillTime": 80,
+  "drillTime": 120,
   "output": "ice-shard",
   "fogRadius": 2,
   "consumes": {

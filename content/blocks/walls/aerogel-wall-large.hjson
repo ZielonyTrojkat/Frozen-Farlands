@@ -3,12 +3,13 @@
     "health": 2000,
     "size": 2,
     category: defense
+    absorbLasers: true
 requirements: [
   aerogel/24
   aluminium/12
 ]
 research: aerogel-wall
 researchCost: [
-    aerogel/100
-    aluminium/100
+    aerogel/500
+    aluminium/300
   ]

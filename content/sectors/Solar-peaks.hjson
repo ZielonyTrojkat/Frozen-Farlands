@@ -1,16 +1,15 @@
 
-    sector: 2,
+    sector: 11,
     planet: "Zilo",
-    captureWave: 50
     research: {
-        parent: "Solar-peaks",
+        parent: "Secret-passage",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Solar-peaks"
+                preset: "Secret-passage"
             }
         ]
     },
-    difficulty: 7,
+    difficulty: 6,
     overrideLaunchDefaults: true
     addStartingItems: true

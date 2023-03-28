@@ -8,11 +8,11 @@
     yttrium/12
     arcanite/4
   ]
-  "drillTime": 80,
+  "drillTime": 240,
   "output": "bauxite",
   "fogRadius": 2,
   "consumes": {
-    "power": 0.2,
+    "power": 0.3,
   },
   "ambientSound": "drill",
   "ambientSoundVolume": 0.06
@@ -21,7 +21,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Cryo-river"
+            preset: "Transit-cavern"
         }
     ]
 },

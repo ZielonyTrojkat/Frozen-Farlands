@@ -1,21 +1,22 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 2.3,
+    "speed": 3,
     "accel": 0.1,
-    "drag": 0.04,
+    "drag": 0.05,
     "flying": true,
-    "health": 300,
+    "health": 500,
     "hitSize": 3,
-    "armor": 1,
-    "itemCapacity": 50,
+    "armor": 3,
+    "itemCapacity": 80,
   "outlineColor": "36363c",
-    "engineOffset": 6,
+    "engineOffset": 8
+    "engineSize": 3
     "faceTarget": true,
     controller: BuilderAI
-    mineTier: 2
-    mineSpeed: 5
-    buildSpeed: 1
-    buildBeamOffset: 5
+    mineTier: 3
+    mineSpeed: 7
+    buildSpeed: 1.5
+    buildBeamOffset: 6
 weapons: [
 {
 name: coreflare-gun
@@ -32,17 +33,17 @@ reload: 45
 recoil: 3
     shootSound: PikeSound
     bullet: {
-      homingPower: 0.03
+      homingPower: 0.05
       homingRange: 60
       buildingDamageMultiplier: 0.03
       speed: 4
       lifetime: 40
-      damage: 13
+      damage: 20
       pierce: true
       pierceBuilding: true
-      pierceCap: 2
-      width: 9
-      height: 20
+      pierceCap: 3
+      width: 10
+      height: 22
         frontColor: 03f8fc
         backColor: ffffff
       despawnHit: true
@@ -64,9 +65,9 @@ recoil: 3
         {
           type: WaveEffect
           sizeFrom: 0
-          sizeTo: 10
-          lifetime: 15
-          strokeFrom: 3
+          sizeTo: 12
+          lifetime: 17
+          strokeFrom: 4
           strokeTo: 0
           colorFrom: 03f8fc
           colorTo: ffffff
@@ -101,9 +102,9 @@ recoil: 3
             }
         ]
     }
-    trailChance: 0.3
+    trailChance: 0.4
     trailLength: 4
-    trailWidth: 2.5
+    trailWidth: 3
     trailColor: 03f8fc
     }
 }

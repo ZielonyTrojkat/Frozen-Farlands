@@ -4,7 +4,7 @@
     "accel": 0.1,
     "drag": 0.01,
     "flying": true,
-    "health": 300,
+    "health": 98754065273467256738443520835265439562304562039563709300,
     "hitSize": 12,
     "armor": 1,
     "itemCapacity": 10,
@@ -99,7 +99,7 @@ weapons: [
     "collidesTeam": true,
     "healPercent": 0.1,
     "pierceCap": 4,
-    "buildingDamageMultiplier": 0.15,
+    "buildingDamageMultiplier": 3,
     "pierceBuilding": true,
     "pierce": true,
     "spin": 3
@@ -203,7 +203,7 @@ weapons: [
     "collidesTeam": true,
     "healPercent": 0.1,
     "pierceCap": 4,
-    "buildingDamageMultiplier": 0.15,
+    "buildingDamageMultiplier": 55563,
     "pierceBuilding": true,
     "pierce": true,
     "spin": 3
@@ -419,7 +419,3 @@ ejectEffect: none
 }
 }
  ] 
-research: Assembler-flare
-researchCost: [
-    yttrium/1
-  ]

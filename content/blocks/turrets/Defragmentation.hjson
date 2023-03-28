@@ -2,7 +2,7 @@
 description: shoots with a single long-ranged laser that splits enemies from inside
 "size": 2,
 "health": 800,
-range: 350
+range: 280
 rotateSpeed: 4.5
 reload: 130
 burstSpacing: 3
@@ -15,7 +15,7 @@ recoilAmount: 3
 shootSound: DefragmentationSound
 shootType: {
   type: LaserBulletType
-  length: 350
+  length: 280
   width: 20
   damage: 100
   status: Fragment-split
@@ -54,11 +54,19 @@ statusDuration: 180
 }
 category: turret
 requirements: [
-  yttrium/35
+  yttrium/45
   arcanite/20
   aluminium/15
 ]
-research: Pike
+research: {
+    parent: "Pike",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Transit-cavern"
+        }
+    ]
+},
 researchCost: [
     yttrium/500
     arcanite/350

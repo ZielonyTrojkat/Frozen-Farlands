@@ -4,7 +4,7 @@
 	"size": 4,
 	"absorbLasers": true,
 	"itemCapacity": 6000,
-	"unitCapModifier": 32,
+	"unitCapModifier": 12,
     "unitType": "coreflare",
 requirements: [
   yttrium/1000

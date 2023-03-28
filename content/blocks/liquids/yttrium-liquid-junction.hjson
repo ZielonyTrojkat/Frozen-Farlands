@@ -7,7 +7,7 @@ requirements: [
   ice-shard/3
 ]
 research: {
-    parent: "yttrium-liquid-junction",
+    parent: "yttrium-liquid-router",
     objectives: [
         {
             type: "OnSector",

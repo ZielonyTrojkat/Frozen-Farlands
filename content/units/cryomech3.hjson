@@ -1,17 +1,8 @@
-
-  "research": {
-  "parent": "lead",
-  "requirements": [
-  "resonance/100",
-  "silicon/200"
-  ]
-  },
-
 	"outlineColor": "36363c",
   "type": "mech",
 	"speed": 0.35,
 	"hitSize": 10,
-	"health": 1260,
+	"health": 3260,
 	"faceTarget": true,
 	"armor": 4,
 	"range": 180,

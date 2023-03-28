@@ -18,4 +18,5 @@ logicControllable: false
 playerControllable: false
 isEnemy: false
 payloadCapacity: 0
-hidden: true
+hidden: 
+payloadCapacity: 256

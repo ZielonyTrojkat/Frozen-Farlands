@@ -13,5 +13,4 @@
     difficulty: 9,
     overrideLaunchDefaults: true
     addStartingItems: true
-    showSectorLandInfo: true
     captureWave: 50

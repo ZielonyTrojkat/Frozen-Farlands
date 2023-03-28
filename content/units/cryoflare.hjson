@@ -4,7 +4,7 @@
     "accel": 0.1,
     "drag": 0.02,
     "flying": true,
-    "health": 150,
+    "health": 120,
     "hitSize": 2,
     "armor": 1,
     "itemCapacity": 10,
@@ -26,10 +26,10 @@ weapons: [
     bullet: {
       speed: 4
       lifetime: 24
-      damage: 8
-      pierce: true
-      pierceBuilding: true
-      pierceCap: 2
+      damage: 7
+      pierce: false
+      pierceBuilding: false
+      pierceCap: 1
       width: 3
       height: 10
         frontColor: 03f8fc

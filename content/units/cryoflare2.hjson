@@ -24,7 +24,7 @@ shotDelay: 4
 }
 top: false
 rotate: false
-reload: 15
+reload: 20
 recoil: 1
 
 shootSound: bang
@@ -32,11 +32,11 @@ ejectEffect: none
 bullet: {
 width: 10
 height: 14
-damage: 15
+damage: 10
 splashDamage: 25
 splashDamageRadius: 25
 speed: 4
-lifetime: 45
+lifetime: 35
 backColor: 51e1e8
 frontColor: cdf8fa
 status: freezing

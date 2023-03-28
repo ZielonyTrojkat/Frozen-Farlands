@@ -25,19 +25,17 @@
 requirements: [
     yttrium/50
     arcanite/30
-    moonstone/30
 ]
 research: {
     parent: "core-2",
     objectives: [
         {
             type: "OnSector",
-            preset: "Frosty-prelude"
+            preset: "Lonely-lake"
         }
     ]
 }
 researchCost: [
-    yttrium/500
-    arcanite/300
-    moonstone/300
+    yttrium/50
+    arcanite/30
   ]

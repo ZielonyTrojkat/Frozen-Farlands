@@ -4,7 +4,7 @@
   "health": 50,
   "size": 3,
   "hasItems": true,
-  "craftTime": 20,
+  "craftTime": 120,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -41,20 +41,30 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 0.70,
+  "power": 1.70,
     "liquids": [
-      "water/1"
-      xenon/0.5
+      "water/0.5"
+      xenon/0.25
     ],
   },
   "requirements": [
     yttrium/20
-    arcanite/15
+    aluminium/15
+    ice-shard/10
   ],
   "category": "crafting",
-  "outputItem": "aerogel/1"
-research: heater
+  "outputItem": "aerogel/3"
+research: {
+    parent: aluminium-foundry
+    objectives: [
+        {
+            type: "OnSector"
+            preset: "Secret-passage"
+        }
+    ]
+},
 researchCost: [
     yttrium/200
-    arcanite/150
+    aluminium/150
+    ice-shard/100
   ]

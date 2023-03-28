@@ -9,14 +9,14 @@ plans: [
     unit: cryospider
     time: 1500
     requirements: [
-     yttrium/20
+     yttrium/25
      cryogenium/10
     ]
   }
 ]
 requirements: [
   yttrium/50
-  aluminium/30
+  cryogenium/30
 ]
 category: units
 research: {
@@ -30,5 +30,5 @@ research: {
 },
 researchCost: [
     yttrium/250
-    aluminium/150
+    cryogenium/150
   ]

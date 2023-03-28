@@ -56,7 +56,15 @@ requirements: [
   aluminium/100
   moonstone/50
 ]
-research: Defragmentation
+research: {
+    parent: "Defragmentation",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Solar-peaks"
+        }
+    ]
+}
 researchCost: [
     yttrium/300
     arcanite/200

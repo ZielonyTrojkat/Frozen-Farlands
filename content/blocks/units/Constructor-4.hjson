@@ -25,11 +25,12 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Secret-passage"
         }
     ]
 },
 researchCost: [
     yttrium/250
     aluminium/150
+    aerogel/150
   ]

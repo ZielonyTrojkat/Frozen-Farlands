@@ -1,6 +1,7 @@
 type: payload
 health: 500
 flying: true
+lowAltitude: false
 engineOffset: 3
 accel: 0.1
 drag: 0.02
@@ -10,10 +11,11 @@ hitsize: 1
 itemCapacity: 10
 payloadCapacity: 288
 rotateSpeed: 2.6
-drawCell: false
-controller: CargoAI
+Controller: CargoAI
 outlineColor: 2d2f39
-research: lead
 allowedInPayloads: false
+logicControllable: false
 playerControllable: false
 isEnemy: false
+payloadCapacity: 0
+hidden: true

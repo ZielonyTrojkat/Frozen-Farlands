@@ -3,12 +3,21 @@
     "health": 400,
     "size": 1,
     category: defense
+    absorbLasers: true
 requirements: [
   aerogel/6
   aluminium/3
 ]
-research: yttrium-wall
+research: {
+    parent: "yttrium-wall",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Secret-passage"
+        }
+    ]
+}
 researchCost: [
-    aerogel/100
+    aerogel/150
     aluminium/100
   ]

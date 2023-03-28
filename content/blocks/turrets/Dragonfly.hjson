@@ -3,7 +3,7 @@ Description: Fires a barrage of bullets at enemies
 drawOutlines: false
 "type": ItemTurret,
 "size": 3,
-"health": 800,
+"health": 900,
 range: 240,
 rotateSpeed: 10,
 reload: 6
@@ -13,6 +13,87 @@ xRand: 1
 recoilAmount: 3
 shootSound: shootAltLong
 ammoTypes: {
+    ice-shard: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 50
+    damage: 15
+    inaccuracy: 10
+    width: 8
+    height: 8
+    frontColor: b7e7ff
+    backColor: 80c7eb
+    shootEffect: shootSmall
+    ammoMultiplier: 5
+    collidesTiles: true
+    splashDamageRadius: 10
+    splashDamage: 15
+    despawnHit: true
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: b7e7ff
+          colorTo: 80c7eb
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 15
+          strokeFrom: 3
+          strokeTo: 0
+          colorFrom: d9f2ff
+          colorTo: 80c7eb
+        }
+      ]
+      "fragVelocityMin": 0.9,
+      "fragVelocityMax": 1.5,
+      "fragBullets": 2,
+      "fragBullet": {
+        "speed": 4,
+        "collidesTiles": false,
+        "damage": 10,
+        "width": 6,
+        "heigth": 6,
+        lifetime: 6
+        despawnHit: true
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: d9f2ff
+          colorTo: 80c7eb
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 5
+          lifetime: 10
+          strokeFrom: 2
+          strokeTo: 0
+          colorFrom: d9f2ff
+          colorTo: 80c7eb
+        }
+      ]
+        "frontColor": d9f2ff
+        "backColor": 80c7eb
+      }
+  }
   yttrium: {
     type: BasicBulletType,
     speed: 4
@@ -24,31 +105,23 @@ ammoTypes: {
     frontColor: b2afb3
     backColor: d5d2d6
     shootEffect: "shootSmall"
-    smokeEffect: "shootSmallSmoke"
     ammoMultiplier: 5
     collidesTiles: true
-    explodeRange: 1
-    splashDamageRadius: 1
-    splashDamage: 30
     hitEffect: pointHit
   }
     diamond: {
-    type: BasicBulletType,
+    type: BasicBulletType
     speed: 5
-    lifetime: 50
-    damage: 45
+    lifetime: 40
+    damage: 50
     inaccuracy: 10,
-    width: 7
-    height: 7
+    width: 9
+    height: 9
     frontColor: 13b1e8
     backColor: 2581a1
     shootEffect: "shootSmall"
-    smokeEffect: "shootSmallSmoke"
     ammoMultiplier: 5
     collidesTiles: true
-    explodeRange: 1
-    splashDamageRadius: 1
-    splashDamage: 35
     hitEffect: pointHit
   }
 }
@@ -78,7 +151,15 @@ requirements: [
   yttrium/125
   aluminium/50
 ]
-research: Stinger
+research: {
+    parent: "Stinger",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Secret-passage"
+        }
+    ]
+},
 researchCost: [
     yttrium/750
     aluminium/300

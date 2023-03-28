@@ -1,4 +1,3 @@
-{
 "localizedName": "Xenon",
 "description": "Can be extracted from air and can be used for production",
 "gas": true,
@@ -6,4 +5,4 @@
 "barColor": "2e75b0"
 color: 2e75b0
 gasColor: 2e75b0
-}
+parent: cryogenium

@@ -1,17 +1,8 @@
-
-  "research": {
-  "parent": "lead",
-  "requirements": [
-  "resonance/100",
-  "silicon/200"
-  ]
-  },
-
 	"outlineColor": "36363c",
   "type": "mech",
 	"speed": 0.5,
 	"hitSize": 10,
-	"health": 360,
+	"health": 1020,
 	"faceTarget": true,
 	"armor": 2,
 	"range": 180,
@@ -64,14 +55,6 @@ bullet: {
 }
 ]
 research: {
-    parent: "cryomech",
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "Lonely-lake"
-        }
-    ]
-},
-researchCost: [
-    yttrium/1
-  ]
+    parent: "cryomech"
+}
+researchCostMultiplier: 0

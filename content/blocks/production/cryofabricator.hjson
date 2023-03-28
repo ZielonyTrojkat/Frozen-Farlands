@@ -49,7 +49,15 @@
   ],
   "category": "crafting",
   "outputItem": "reinforced-cryofabric/1"
-research: heater
+research: {
+    parent: "cryofluid-combiner",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
 researchCost: [
     yttrium/1
   ]

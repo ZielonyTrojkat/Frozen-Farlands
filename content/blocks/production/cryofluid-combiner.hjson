@@ -1,9 +1,8 @@
   "type": "GenericCrafter",
-	 "researchCostMultiplier": 0.5,
   "health": 300,
   "size": 2,
   "hasItems": true,
-  "craftTime": 20,
+  "craftTime": 60,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -38,18 +37,30 @@
   "consumes": {
   "power": 0.70,
     "liquids": [
-      "water/1"
-      ice-shard/1
+      "water/0.5"
     ],
+    items: [
+      ice-shard/2
+    ]
   },
   "requirements": [
     yttrium/20
     arcanite/15
+    ice-shard/15
   ],
   "category": "crafting",
-  "outputItem": "cryofluid/1"
-research: heater
+  "outputLiquid": "cryofluid/0.5"
+research: {
+    parent: "cryogenium-extractor",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Transit-cavern"
+        }
+    ]
+},
 researchCost: [
-    yttrium/200
-    arcanite/150
+    yttrium/150
+    arcanite/100
+    ice-shard/100
   ]

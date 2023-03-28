@@ -9,5 +9,5 @@ research: {
     parent: yttrium-conveyor
 },
 researchCost: [
-    yttrium/50
+    yttrium/16
   ]

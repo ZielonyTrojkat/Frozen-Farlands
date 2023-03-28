@@ -1,7 +1,7 @@
 "type": PowerTurret,
 "size": 1,
 "health": 200,
-range: 100,
+range: 160,
 rotateSpeed: 5,
 reload: 10
 burstSpacing: 1
@@ -18,6 +18,7 @@ shootType: {
   width: 2
   damage: 7
   speed: 7
+  lifetime: 24
   frontColor: 03f8fc
   backColor: ffffff
 }
@@ -34,7 +35,7 @@ research: {
             preset: "Lonely-lake"
         }
     ]
-},
+}
 researchCost: [
     yttrium/200
     arcanite/200

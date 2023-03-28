@@ -1,6 +1,5 @@
-
-    sector: 9,
-    planet: "Zilo",
+planet: Zilo
+sector: 7
     research: {
         parent: "Lonely-lake",
         objectives: [
@@ -10,8 +9,6 @@
             }
         ]
     },
-    difficulty: 9,
-    overrideLaunchDefaults: true
-    addStartingItems: true
-    showSectorLandInfo: true
-    captureWave: 50
+difficulty: 4
+overrideLaunchDefaults: true
+addStartingItems: true

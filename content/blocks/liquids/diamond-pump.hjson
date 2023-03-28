@@ -1,18 +1,18 @@
 type: Pump
-health: 365
+health: 565
 size: 3
-pumpAmount: 0.2
+pumpAmount: 0.3
 squareSprite: false
 category: liquid
 requirements: [
   yttrium/1
 ]
 research: {
-    parent: "yttrium-pump",
+    parent: yttrium-pump
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Crash-landing"
         }
     ]
 },

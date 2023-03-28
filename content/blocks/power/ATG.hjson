@@ -2,7 +2,7 @@ type: ConsumeGenerator
 size: 1
 hasLiquids: false
 canOverdrive: false
-itemDuration: 180
+itemDuration: 240
 baseExplosiveness: 0
 drawer: {
   type: DrawMulti
@@ -46,5 +46,5 @@ research: {
     ]
 },
 researchCost: [
-    arcanite/50
+    arcanite/30
     ]

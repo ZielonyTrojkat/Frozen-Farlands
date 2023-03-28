@@ -10,11 +10,11 @@ consumes: {
     cryogenium/1
     ]
     liquids: [
-      arcalith/0.3
+      arcalith/0.2
     ]
 }
-outputLiquid: water/0.5
-powerProduction: 8
+outputLiquid: water/0.25
+powerProduction: 10
 category: power
 requirements: [
   yttrium/200
@@ -22,11 +22,11 @@ requirements: [
   aluminium/100
 ]
 research: {
-    parent: "core-2",
+    parent: "ATG",
     objectives: [
         {
             type: "OnSector",
-            preset: "Frosty-prelude"
+            preset: "Transit-cavern"
         }
     ]
 },

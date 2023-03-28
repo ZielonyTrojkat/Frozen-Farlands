@@ -1,8 +1,9 @@
 type: UnitCargoLoader
-size: 2
+size: 3
 itemCapacity: 50
 consumes: {
   power: 1.2
+  liquid: water/1
 }
 buildTime: 3
 polySides: 2
@@ -13,7 +14,4 @@ requirements: [
   yttrium/30
 ]
 category: units
-research: core-2
-researchCost: [
-   yttrium/1
-  ]
+hidden: true

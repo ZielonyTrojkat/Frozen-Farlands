@@ -1,11 +1,10 @@
 name: Stinger
-Description: Pirces enemies with single spike-shaped bullet  .
+Description: Pirces enemies with single spike-shaped bullet.
     "type": "ItemTurret",
-    "researchCostMultiplier": 0.1,
     "size": 2,
-    "health": 140,
-    "reload": 60,
-    "range": 150,
+    "health": 540,
+    "reload": 70,
+    "range": 110,
     "maxAmmo": 12,
     "inaccuracy": 3,
     "shots": 2,
@@ -22,12 +21,35 @@ Description: Pirces enemies with single spike-shaped bullet  .
         "yttrium": {
             "type": "shrapnelBulletType",
             "lifetime": 19,
-            "damage": 18,
-            "serrations": 1,
+            "damage": 24,
+            serrations: 4
+            serrationSpacing: 16
+            serrationLenScl: 20
+            serrationWidth: 5
+            hitLarge: true
             "fromColor": "abb3b3",
             "toColor": "e8eded",
-            "length": 120,
+            "length": 100,
             "width": 8,
+            "hitEffect": "blastExplosion",
+            "shootEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig"
+        }
+        "cryogenium": {
+            "type": "shrapnelBulletType",
+            "lifetime": 25,
+            "damage": 35,
+            status: freezing
+            statusDuration: 30
+            serrations: 6
+            serrationSpacing: 16
+            serrationLenScl: 15
+            serrationWidth: 5
+            "fromColor": "6feeff",
+            "toColor": "25aef4",
+            "length": 100,
+            "width": 9,
             "hitEffect": "blastExplosion",
             "shootEffect": "blastExplosion",
             "pierce": true,

@@ -2,13 +2,14 @@
     sector: 0,
     planet: "Gheţar",
     research: {
-        parent: "Crash-landing",
+        parent: "Solar-peaks",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Crash-landing"
+                preset: "Solar-peaks"
             }
         ]
     },
     difficulty: 9,
     overrideLaunchDefaults: true
+    addStartingItems: true

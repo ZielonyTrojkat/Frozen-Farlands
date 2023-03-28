@@ -4,3 +4,12 @@
 "cache": "water",
 "barColor": "e07f24"
 color: e07f24
+research: {
+    parent: "arcanite",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+}

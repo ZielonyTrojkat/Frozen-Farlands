@@ -7,8 +7,9 @@
     allowWavesSimulation: true
     allowSectorSimulation: true
     allowSectorInvasion: true
-  allowLaunchSchematics: true
-allowLaunchLoadout: true
+  allowLaunchSchematics: false
+allowLaunchLoadout: false
+updateLighting: false
     "orbitRadius": 10,
     "prebuildBase": true,
     "atmosphereRadIn": 0.01,

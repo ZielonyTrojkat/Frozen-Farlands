@@ -1,4 +1,4 @@
-type: flying
+type: payload
 health: 500
 flying: true
 engineOffset: 3
@@ -8,6 +8,7 @@ speed: 3.3
 armor: 1
 hitsize: 1
 itemCapacity: 10
+payloadCapacity: 288
 rotateSpeed: 2.6
 drawCell: false
 controller: CargoAI

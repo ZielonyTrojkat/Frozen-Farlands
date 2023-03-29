@@ -1,18 +1,12 @@
-    "type": "ShieldWall",
-    "buildCostMultiplier": 0.1,
+    "type": "Wall",
     "health": 700,
     "size": 1,
 hasPower: false
-shieldHealth: 300
-breakCooldown: 120
-regenSpeed: 50
 category: defense
 requirements: [
   reinforced-cryofabric/6
-  diamond/3
 ]
 research: aerogel-wall
 researchCost: [
-    reinforced-cryofabric/100
-    diamond/100
+    reinforced-cryofabric/150
   ]

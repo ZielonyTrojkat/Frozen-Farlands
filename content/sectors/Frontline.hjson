@@ -1,15 +1,15 @@
-    sector: 1,
+
+    sector: 12,
     planet: "Zilo",
-    captureWave: 21
     research: {
-        parent: "Frosty-prelude",
+        parent: "Crash-landing",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Frosty-prelude"
+                preset: "Crash-landing"
             }
         ]
     },
-    difficulty: 1,
+    difficulty: 10,
     overrideLaunchDefaults: true
     addStartingItems: true

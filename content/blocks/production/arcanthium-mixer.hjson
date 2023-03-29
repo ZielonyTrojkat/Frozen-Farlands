@@ -55,7 +55,7 @@
   "power": 4
     "items": [
     "arcanite/4",
-    "yttrium/2",
+    "moonstone/2",
     "aluminium/2"
     ]
     liquids: [
@@ -63,14 +63,15 @@
     ]
   },
   "requirements": [
-    yttrium/200
+    moonstone/200
     arcanite/200
     aluminium/150
-    diamond/50
   ],
   "category": "crafting",
   "outputItem": "arcanthium/1"
 research: obsidian-maker
 researchCost: [
-    yttrium/1
+   arcanite/2000
+   aluminium/1500
+   moonstone/1200
   ]

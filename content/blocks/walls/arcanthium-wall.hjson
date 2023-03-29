@@ -10,7 +10,7 @@
 requirements: [
   arcanthium/6
 ]
-research: obsidian-wall
+research: diamond-wall
 researchCost: [
     arcanthium/200
   ]

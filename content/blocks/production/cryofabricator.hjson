@@ -32,19 +32,19 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 1.70,
+  "power":3,
     "liquids": [
     "cryofluid/0.5"
     ]
   "items":
     cryogenium/4
-    moonstone/2
+    aerogel/2
     diamond/1
   ]
   },
   "requirements": [
-    aluminium/150
-    moonstone/150
+    aerogel/200
+    cryogenium/200
     diamond/50
   ],
   "category": "crafting",
@@ -59,7 +59,7 @@ research: {
     ]
 },
 researchCost: [
-    aluminium/1600
+    aerogel/1600
     cryogenium/1200
     moonstone/800
     diamond/400

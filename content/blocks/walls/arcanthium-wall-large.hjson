@@ -1,5 +1,4 @@
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
+    "type": "ShieldWall",
     "lightningSound": "spark",
     "lightningChance": 0.60,
     "lightningColor": "F3E979FF",
@@ -13,5 +12,5 @@ requirements: [
 ]
 research: arcanthium-wall
 researchCost: [
-    arcanite/100
+    arcanthiume/700
   ]

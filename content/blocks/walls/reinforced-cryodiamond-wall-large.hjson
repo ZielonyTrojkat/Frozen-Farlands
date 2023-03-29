@@ -1,5 +1,4 @@
-    "type": "ShieldWall",
-    "buildCostMultiplier": 0.1,
+    "type": "Wall",
     "health": 3000,
     "size": 2,
 hasPower: false
@@ -9,10 +8,8 @@ regenSpeed: 50
 category: defense
 requirements: [
   reinforced-cryofabric/24
-  diamond/12
 ]
 research: reinforced-cryodiamond-wall
 researchCost: [
-    reinforced-cryofabric/100
-    diamond/100
+    reinforced-cryofabric/300
   ]

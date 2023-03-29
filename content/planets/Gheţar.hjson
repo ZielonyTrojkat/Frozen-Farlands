@@ -1,7 +1,7 @@
 generator: AsteroidGenerator
 parent: serpulo
 "name": Gheţar,
-"iconColor": 000000,
+"iconColor": 1a236e,
 orbitRadius: 9
 orbitSpacing: 5
 updateLighting: false

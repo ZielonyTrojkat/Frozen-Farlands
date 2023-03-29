@@ -1,9 +1,9 @@
   "type": "GenericCrafter",
   "description": "Produces arcanthium",
-  "health": 50,
+  "health": 800,
   "size": 4,
   "hasItems": true,
-  "craftTime": 36,
+  "craftTime": 60,
   "craftEffect": {
     "type": "MultiEffect",
 	"effects": [
@@ -52,18 +52,21 @@
   "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 2.70,
+  "power": 4
     "items": [
-    "arcanite/3",
-    "yttrium/1",
-    "aluminium/1"
-    "moonstone/1"
+    "arcanite/4",
+    "yttrium/2",
+    "aluminium/2"
+    ]
+    liquids: [
+    arcalith/0.5
     ]
   },
   "requirements": [
-    yttrium/80
-    moonstone/50
-    aluminium/50
+    yttrium/200
+    arcanite/200
+    aluminium/150
+    diamond/50
   ],
   "category": "crafting",
   "outputItem": "arcanthium/1"

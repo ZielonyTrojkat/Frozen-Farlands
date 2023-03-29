@@ -1,9 +1,9 @@
   "type": "GenericCrafter",
-  "description": "Creates liquid resonance with the use of water and resonance ore",
-  "health": 5,
+  "description": "Infuses materials into very durable material",
+  "health": 900,
   "size": 4,
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 75,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -34,17 +34,17 @@
   "consumes": {
   "power": 1.70,
     "liquids": [
-    "cryofluid/0.5",
-    "xenon/0.5"
+    "cryofluid/0.5"
     ]
-  "items": [
-    "cryogenium/2"
-    "diamond/1"
+  "items":
+    cryogenium/4
+    moonstone/2
+    diamond/1
   ]
   },
   "requirements": [
-    aluminium/100
-    moonstone/100
+    aluminium/150
+    moonstone/150
     diamond/50
   ],
   "category": "crafting",
@@ -59,5 +59,8 @@ research: {
     ]
 },
 researchCost: [
-    yttrium/1
+    aluminium/1600
+    cryogenium/1200
+    moonstone/800
+    diamond/400
   ]

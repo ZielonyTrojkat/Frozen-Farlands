@@ -36,7 +36,7 @@
     "liquids": [
     "cryofluid/0.5"
     ]
-  "items":
+  "items": [
     cryogenium/4
     aerogel/2
     diamond/1

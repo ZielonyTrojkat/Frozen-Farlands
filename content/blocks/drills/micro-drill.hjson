@@ -4,7 +4,7 @@
   "size": 1,
   "itemCapacity": 5,
   "tier": 2,
-  "drillTime": 1000,
+  "drillTime": 900,
   "drawMineItem": false,
   requirements: [
     yttrium/5

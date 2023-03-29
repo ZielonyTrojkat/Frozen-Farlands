@@ -1,11 +1,12 @@
-type: Sorter
+type: OverflowGate
 health: 80
-invert: true
 requirements: [
-  yttrium/6
+  yttrium/5
 ] 
 category: distribution
-research: yttrium-sorter
+research: {
+    parent: yttrium-bridge
+},
 researchCost: [
     yttrium/100
   ]

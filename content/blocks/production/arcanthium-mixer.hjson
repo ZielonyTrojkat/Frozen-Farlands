@@ -69,7 +69,7 @@
   ],
   "category": "crafting",
   "outputItem": "arcanthium/1"
-research: obsidian-maker
+research: arcalith-mixer
 researchCost: [
    arcanite/2000
    aluminium/1500

@@ -4,7 +4,7 @@
   "size": 2,
   "itemCapacity": 10,
   "tier": 4,
-  "drillTime": 350,
+  "drillTime": 320,
   "drawMineItem": true,
   rotateSpeed: 5
   requirements: [

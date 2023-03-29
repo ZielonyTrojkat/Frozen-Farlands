@@ -1,11 +1,12 @@
 type: UnitCargoLoader
 size: 2
+health: 500
 itemCapacity: 50
 consumes: {
-  power: 1.2
-  liquid: water/1
+  power: 2
+  liquid: xenon/0.5
 }
-buildTime: 3
+buildTime: 180
 polySides: 2
 polyRotateSpeed: 3
 polyStroke: 3

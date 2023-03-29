@@ -1,10 +1,10 @@
 type: Sorter
 health: 80
 requirements: [
-  yttrium/6
+  yttrium/5
 ] 
 category: distribution
 research: yttrium-bridge
 researchCost: [
-    yttrium/80
+    yttrium/100
   ]

@@ -1,0 +1,23 @@
+type: PayloadRouter
+size: 3
+moveTime: 80
+moveForce: 300
+payloadLimit: 3
+category: units
+requirements: [
+  yttrium/15
+  aluminium/10
+]
+research: {
+    parent: "yttrium-payload",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+},
+researchCost: [
+    yttrium/250
+    aluminium/200
+  ]

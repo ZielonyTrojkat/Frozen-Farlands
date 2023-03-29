@@ -1,9 +1,9 @@
   "type": "GenericCrafter",
   "description": "Melts ice into water",
-  "health": 50,
+  "health": 250,
   "size": 2,
   "hasItems": true,
-  "craftTime": 20,
+  "craftTime": 30,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -28,10 +28,10 @@
         }
   "hasPower": true,
   "hasLiquids": true,
-    liquidCapacity: 50
+    liquidCapacity: 80
   "updateEffect": "none",
   "consumes": {
-  "power": 0.70,
+  "power": 1,
     "items": [
       "ice-shard/1"
     ],

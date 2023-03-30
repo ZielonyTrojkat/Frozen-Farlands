@@ -14,11 +14,9 @@ requirements: [
 ]
 category: turret
 research: { 
-     parent: "Tide", 
+     parent: "Tide"
      objectives: [ 
-         { 
-             type: "OnSector", 
+             type: "OnSector"
              preset: "Solar-peaks" 
-         } 
      ] 
  },

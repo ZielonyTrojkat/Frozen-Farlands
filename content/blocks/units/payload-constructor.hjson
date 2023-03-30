@@ -1,0 +1,31 @@
+  "type": "Constructor",
+  "description": "Melts bauxites and produces aluminium ingots",
+  "health": 450,
+  "size": 3,
+  "hasItems": true,
+  "craftEffect": "none",
+  "hasPower": true,
+  "updateEffect": "none",
+  minBlockSize: 1
+  maxBlockSize: 2
+  "consumes": {
+  "power": 4.70
+  }
+  "requirements": [
+    yttrium/25
+    arcanite/15
+  ],
+  "category": "units"
+research: {
+    parent: cryogenium-extractor
+    objectives: [
+        {
+            type: OnSector
+            preset: Transit-cavern
+        }
+    ]
+}
+researchCost: [
+    yttrium/250
+    arcanite/150
+  ]

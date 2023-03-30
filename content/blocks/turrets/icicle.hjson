@@ -13,11 +13,11 @@ requirements: [
 ]
 category: turret
 research: { 
-     parent: "Tide", 
-     objectives: [ 
-         { 
-             type: "OnSector", 
-             preset: "Solar-peaks" 
-         } 
-     ] 
- },
+     parent: arcalith-mixer
+     objectives: [
+         {
+             type: SectorComplete
+             preset: Crash-landing
+         }
+     ]
+ }

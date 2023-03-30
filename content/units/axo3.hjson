@@ -111,8 +111,3 @@ research: {
         }
     ]
 }
-researchCost: [ 
-     aerogel/1600 
-     aluminium/900 
-     moonstone/600 
-   ]

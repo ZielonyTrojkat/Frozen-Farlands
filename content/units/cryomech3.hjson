@@ -54,9 +54,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+}
 researchCost: [
     yttrium/1500
     aluminium/800
     moonstone/500
   ]
-}

@@ -5,7 +5,7 @@
 	"health": 2860,
 	"faceTarget": true,
 	"armor": 2,
-	"range": 180,
+	"range": 240,
 	"targetAir": false,
 	"rotateSpeed": 3,
             "legMoveSpace": 1,
@@ -46,7 +46,7 @@ recoil: 3
     bullet: {
       speed: 4
       lifetime: 40
-      damage: 10
+      damage: 25
       pierce: true
       pierceBuilding: true
       pierceCap: 2

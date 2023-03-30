@@ -54,7 +54,9 @@ research: {
             preset: "Lonely-lake"
         }
     ]
-},
 researchCost: [
-    yttrium/1
+    yttrium/1500
+    aluminium/800
+    moonstone/500
   ]
+}

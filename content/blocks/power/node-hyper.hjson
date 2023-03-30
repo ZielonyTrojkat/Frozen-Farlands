@@ -11,16 +11,17 @@ requirements: [
   aluminium/24
 ]
 research: {
-    parent: "node-large",
+    parent: "node-large"
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "OnSector"
+            preset: Cryo-river
         }
     ]
 },
 researchCost: [
-    yttrium/200
-    arcanite/150
-    aluminium/150
+    moonstone/500
+    arcanite/500
+    diamond/200
+   
     ]

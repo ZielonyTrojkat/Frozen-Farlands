@@ -46,7 +46,7 @@
   "requirements": [
     yttrium/70
     aluminium/30
-    arcanite/30
+    aerogel/30
   ],
   "category": "crafting",
   "outputLiquid": "ionized-xenon/0.3"
@@ -54,11 +54,13 @@ research: {
     parent: "xenon-synthezator",
     objectives: [
         {
-            type: "OnSector",
+            type: "SectorComplete",
             preset: "Solar-peaks"
         }
     ]
 }
 researchCost: [
-    yttrium/1
+    yttrium/1000
+    aluminium/600
+    aerogel/600
   ]

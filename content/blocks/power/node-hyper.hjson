@@ -5,22 +5,24 @@ laserRange: 50
 laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
+health: 500
 requirements: [
   yttrium/24
   arcanthium/6
   aluminium/24
 ]
 research: {
-    parent: "node-large",
+    parent: "node-large"
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "OnSector"
+            preset: Cryo-river
         }
     ]
 },
 researchCost: [
-    yttrium/200
-    arcanite/150
-    aluminium/150
+    moonstone/500
+    arcanite/500
+    diamond/200
+   
     ]

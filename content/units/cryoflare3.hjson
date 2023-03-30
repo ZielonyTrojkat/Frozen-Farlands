@@ -68,13 +68,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Solar-peaks"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
-researchCost: [
-    yttrium/1
-  ]
+}

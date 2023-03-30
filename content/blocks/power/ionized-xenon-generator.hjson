@@ -1,6 +1,7 @@
 type: ConsumeGenerator
 size: 4
-hasLiquids: false
+health: 1200
+hasLiquids: true
 canOverdrive: false
 liquidCapacity: 120
 itemDuration: 240
@@ -39,21 +40,25 @@ consumes: {
 powerProduction: 50
 category: power
 requirements: [
-  moonstone/100
-  aluminium/100
-  cryogenium/50
+  moonstone/400
+  aluminium/250
+  cryogenium/250
+  diamond/100
 ]
 research: {
-    parent: "ATG",
+    parent: "cryogenic-generator",
     objectives: [
         {
             type: "OnSector",
-            preset: "Crash-landing"
+            preset: "Cryo-river"
         }
     ]
 },
 researchCost: [
-    yttrium/1
+    moonstone/3000
+    aluminium/2500
+    cryogenium/2000
+    diamond/600
     ]
 ambientSound: hum
 ambientSoundVolume: 1

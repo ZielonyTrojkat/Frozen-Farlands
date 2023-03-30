@@ -1,6 +1,5 @@
     "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "health": 400,
+    "health": 500,
     "size": 1,
     category: defense
     absorbLasers: true

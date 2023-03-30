@@ -13,11 +13,11 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Crash-landing"
+            preset: "Solar-peaks"
         }
     ]
 },
 researchCost: [
     yttrium/80
-    ice-shard/160
+    ice-shard/200
     ]

@@ -5,7 +5,7 @@
 	"health": 3260,
 	"faceTarget": true,
 	"armor": 4,
-	"range": 180,
+	"range": 150,
 	"targetAir": false,
 	"rotateSpeed": 3,
 "mechFrontSway": 0.3,
@@ -37,10 +37,8 @@ bullet: {
 width: 13
 height: 19
 damage: 45
-splashDamage: 25
-splashDamageRadius: 25
 speed: 7
-lifetime: 65
+lifetime: 50
 frontColor: b2afb3
 backColor: d5d2d6
 status: freezing
@@ -53,10 +51,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Solar-peaks"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
+}

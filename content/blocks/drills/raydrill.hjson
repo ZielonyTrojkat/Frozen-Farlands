@@ -2,31 +2,34 @@
   "description": "uses the fragmentational technology to quickly mine resources",
   "type": "Drill",
   "size": 3,
-  "itemCapacity": 10,
+health: 450
+  "itemCapacity": 20,
   "tier": 5,
   "drillTime": 200,
   "drawMineItem": true,
+  hasPower: true
   rotateSpeed: 6
   "consumes": {
+    power: 1.5
     "liquid": {
-      "liquid": "water",
+      "liquid": "xenon",
       "amount": 0.09,
       "optional": true,
       "booster": true
     }
   },
   requirements: [
-    yttrium/24
-    aluminium/12
-    moonstone/8
+    aluminium/35
+    cryogenium/20
+    moonstone/15
   ]
   "category": "production",
 research: {
     parent: "sickle-drill",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "SectorComplete",
+            preset: "Solar-peaks"
         }
     ]
 },

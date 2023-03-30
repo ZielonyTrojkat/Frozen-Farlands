@@ -2,6 +2,8 @@ type: ItemTurret
 size: 4
 reload: 200
 health: 6850
+range: 800
+category: turret
 basePrefix: -base
 consumes: {
     power: 4
@@ -60,19 +62,24 @@ drawer:{
 }
 ]
 }
-research: {
-    parent: lead
-}
 requirements: [
     yttrium/400
     aluminium/300
     moonstone/300
     diamond/80
 ]
-research: MoonRay
 researchCost: [
     yttrium/2500
     aluminium/1500
     moonstone/900
     diamond/600
   ]
+research: {
+    parent: "MoonRay"
+    objectives: [
+        {
+            type: "SectorComplete"
+            preset: "The-asylum"
+        }
+    ]
+}

@@ -67,11 +67,19 @@
     arcanite/200
     aluminium/150
   ],
-  "category": "crafting",
+  "category": "crafting"
   "outputItem": "arcanthium/1"
-research: arcalith-mixer
 researchCost: [
    arcanite/2000
    aluminium/1500
    moonstone/1200
   ]
+research: {
+    parent: arcalith-mixer
+    objectives: [
+        {
+            type: OnSector
+            preset: Cryo-river
+        }
+    ]
+}

@@ -1,16 +1,16 @@
 
-    sector: 9,
+    sector: 12,
     planet: "Zilo",
     research: {
-        parent: "Solar-peaks",
+        parent: "Crash-landing",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Solar-peaks"
+                preset: "Crash-landing"
             }
         ]
     },
-    difficulty: 9,
+    difficulty: 10,
     overrideLaunchDefaults: true
     addStartingItems: true
-    captureWave: 51
+captureWave: 11

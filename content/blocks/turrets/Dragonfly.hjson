@@ -16,7 +16,7 @@ ammoTypes: {
     ice-shard: {
     type: BasicBulletType
     speed: 4
-    lifetime: 50
+    lifetime: 56
     damage: 15
     inaccuracy: 10
     width: 8
@@ -97,7 +97,7 @@ ammoTypes: {
   yttrium: {
     type: BasicBulletType,
     speed: 4
-    lifetime: 50
+    lifetime: 56
     damage: 30
     inaccuracy: 10,
     width: 7
@@ -112,7 +112,7 @@ ammoTypes: {
     diamond: {
     type: BasicBulletType
     speed: 5
-    lifetime: 40
+    lifetime: 45
     damage: 50
     inaccuracy: 10,
     width: 9

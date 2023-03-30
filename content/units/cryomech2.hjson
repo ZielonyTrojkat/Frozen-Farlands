@@ -4,7 +4,7 @@
 	"hitSize": 10,
 	"health": 1020,
 	"faceTarget": true,
-	"armor": 2,
+	"armor": 3,
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 2,
@@ -37,7 +37,7 @@ bullet: {
     type: BasicBulletType,
     speed: 4
     lifetime: 50
-    damage: 7
+    damage: 9
     inaccuracy: 10,
     width: 7
     height: 7

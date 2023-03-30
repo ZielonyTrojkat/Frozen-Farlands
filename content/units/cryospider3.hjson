@@ -125,9 +125,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+}
 researchCost: [ 
      cryogenium/1600 
      aluminium/900 
      moonstone/600 
    ]
-}

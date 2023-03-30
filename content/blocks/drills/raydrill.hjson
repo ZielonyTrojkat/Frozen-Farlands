@@ -7,8 +7,10 @@ health: 450
   "tier": 5,
   "drillTime": 200,
   "drawMineItem": true,
+  hasPower: true
   rotateSpeed: 6
   "consumes": {
+    power: 1.5
     "liquid": {
       "liquid": "xenon",
       "amount": 0.09,

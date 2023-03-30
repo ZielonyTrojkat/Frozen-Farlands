@@ -69,14 +69,14 @@
   "category": "crafting",
   "outputItem": "aluminium/1"
 research: {
-    parent: "cryogenium-extractor",
+    parent: cryogenium-extractor
     objectives: [
         {
-            type: "OnSector",
-            preset: "Transit-cavern"
+            type: OnSector
+            preset: Transit-cavern
         }
     ]
-},
+}
 researchCost: [
     yttrium/250
     arcanite/150

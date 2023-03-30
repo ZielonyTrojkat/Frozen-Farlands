@@ -74,12 +74,12 @@ researchCost: [
    aluminium/1500
    moonstone/1200
   ]
-research: { 
-     parent: "arcalith-mixer" 
-     objectives: [ 
-         { 
-             type: "OnSector"
-             preset: "Cryo-river" 
-         } 
-     ] 
- }
+research: {
+    parent: arcalith-mixer
+    objectives: [
+        {
+            type: OnSector
+            preset: Cryo-river
+        }
+    ]
+}

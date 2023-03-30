@@ -6,6 +6,7 @@ laserColor1: a1fffc
 laserColor2: 00fff7
 category: power
 requirements: [
+health: 500
   yttrium/24
   arcanthium/6
   aluminium/24

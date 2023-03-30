@@ -4,7 +4,7 @@
 	"hitSize": 10,
 	"health": 2860,
 	"faceTarget": true,
-	"armor": 2,
+	"armor": 4,
 	"range": 240,
 	"targetAir": false,
 	"rotateSpeed": 3,
@@ -122,13 +122,12 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Solar-peaks"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
-researchCost: [
-    yttrium/1
-  ]
+researchCost: [ 
+     cryogenium/1600 
+     aluminium/900 
+     moonstone/600 
+   ]
+}

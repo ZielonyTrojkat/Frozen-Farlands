@@ -9,11 +9,11 @@ requirements: [
 ]
 category: distribution
 research: {
-    parent: "yttrium-conveyor",
+    parent: "yttrium-bridge",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "SectorComplete",
+            preset: "Secret-passage"
         }
     ]
 },

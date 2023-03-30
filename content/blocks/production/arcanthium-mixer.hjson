@@ -67,17 +67,17 @@
     arcanite/200
     aluminium/150
   ],
-  "category": "crafting",
+  "category": "crafting"
   "outputItem": "arcanthium/1"
 research: { 
-     parent: "arcalith-mixer", 
-     objectives: [ 
-         { 
-             type: "SectorComplete", 
-             preset: "Crash-landing" 
-         } 
-     ] 
- },
+     parent: arcalith-mixer
+     objectives: [
+         {
+             type: SectorComplete
+             preset: Crash-landing
+         }
+     ]
+ }
 researchCost: [
    arcanite/2000
    aluminium/1500

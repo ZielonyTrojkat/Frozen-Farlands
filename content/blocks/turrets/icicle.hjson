@@ -1,5 +1,4 @@
 type: PointDefenseTurret
-health: 550
 size: 2
 reload: 15
 bulletDamage: 4

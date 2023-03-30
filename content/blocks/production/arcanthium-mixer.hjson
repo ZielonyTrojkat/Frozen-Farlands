@@ -69,15 +69,6 @@
   ],
   "category": "crafting"
   "outputItem": "arcanthium/1"
-research: { 
-     parent: "cryogenium-extractor", 
-     objectives: [ 
-         { 
-             type: "OnSector", 
-             preset: "Transit-cavern" 
-         } 
-     ] 
- },
 researchCost: [
    arcanite/2000
    aluminium/1500

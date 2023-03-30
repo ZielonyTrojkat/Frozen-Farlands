@@ -1,5 +1,5 @@
 type: PointDefenseTurret
-health: 650
+health: 550
 size: 2
 reload: 15
 bulletDamage: 4
@@ -8,8 +8,9 @@ consumes: {
   power: 2.5
 }
 requirements: [
-  moonstone/70
-  aerogel/50
+  aluminium/120
+  moonstone/80
+  aerogel/60
 ]
 category: turret
 research: { 

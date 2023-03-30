@@ -6,7 +6,7 @@
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Solar-peaks"
+                preset: Crash-landing"
             }
         ]
     },

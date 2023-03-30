@@ -13,3 +13,12 @@ requirements: [
   aerogel/60
 ]
 category: turret
+research: { 
+     parent: "Tide", 
+     objectives: [ 
+         { 
+             type: "OnSector", 
+             preset: "Solar-peaks" 
+         } 
+     ] 
+ },

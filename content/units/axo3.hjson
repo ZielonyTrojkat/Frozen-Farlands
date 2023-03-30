@@ -2,7 +2,7 @@
   "type": "legs",
 	"speed": 0.5,
 	"hitSize": 10,
-	"health": 360,
+	"health": 3360,
 	"faceTarget": true,
 	"armor": 2,
 	"range": 180,

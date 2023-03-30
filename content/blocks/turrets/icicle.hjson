@@ -13,12 +13,3 @@ requirements: [
   aerogel/60
 ]
 category: turret
-research: { 
-     parent: cryogenium-extractor
-     objectives: [ 
-         { 
-             type: "OnSector"
-             preset: "Transit-cavern" 
-         } 
-     ] 
- },

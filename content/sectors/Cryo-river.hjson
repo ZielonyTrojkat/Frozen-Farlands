@@ -6,7 +6,7 @@
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Lonely-lake"
+                preset: "Solar-peaks"
             }
         ]
     },

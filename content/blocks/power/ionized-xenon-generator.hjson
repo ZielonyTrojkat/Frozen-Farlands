@@ -1,6 +1,7 @@
 type: ConsumeGenerator
 size: 4
-hasLiquids: false
+health: 1200
+hasLiquids: true
 canOverdrive: false
 liquidCapacity: 120
 itemDuration: 240

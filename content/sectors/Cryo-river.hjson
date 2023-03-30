@@ -13,4 +13,4 @@
     difficulty: 9,
     overrideLaunchDefaults: true
     addStartingItems: true
-    captureWave: 50
+    captureWave: 51

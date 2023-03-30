@@ -110,9 +110,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+}
 researchCost: [ 
      aerogel/1600 
      aluminium/900 
      moonstone/600 
    ]
-}

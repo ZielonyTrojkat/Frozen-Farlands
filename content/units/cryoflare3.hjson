@@ -71,9 +71,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+}
 researchCost: [ 
      yttrium/1500 
      aerogel/700 
      moonstone/400 
    ]
-}

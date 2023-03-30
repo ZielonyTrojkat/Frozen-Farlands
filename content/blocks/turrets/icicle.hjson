@@ -1,6 +1,7 @@
 type: PointDefenseTurret
 size: 2
 reload: 15
+health: 500
 bulletDamage: 4
 range: 200
 consumes: {
@@ -13,10 +14,10 @@ requirements: [
 ]
 category: turret
 research: { 
-     parent: "cryogenium-extractor", 
-     objectives: [ 
+     parent: cryogenium-extractor
+     objectives: [ 
          { 
-             type: "OnSector", 
+             type: "OnSector"
              preset: "Transit-cavern" 
          } 
      ] 

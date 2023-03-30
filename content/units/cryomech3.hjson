@@ -51,7 +51,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Solar-peaks"
         }
     ]
 researchCost: [

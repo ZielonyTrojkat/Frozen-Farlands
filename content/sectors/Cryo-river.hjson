@@ -2,7 +2,7 @@
     sector: 9,
     planet: "Zilo",
     research: {
-        parent: "Lonely-lake",
+        parent: "Solar-peaks",
         objectives: [
             {
                 type: "SectorComplete",

@@ -1,10 +1,8 @@
     "type": "Wall",
-    "health": 3000,
+    "health": 3200,
     "size": 2,
+    absorbLasers: true
 hasPower: false
-shieldHealth: 900
-breakCooldown: 120
-regenSpeed: 50
 category: defense
 requirements: [
   reinforced-cryofabric/24

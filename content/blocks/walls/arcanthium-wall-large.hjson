@@ -1,11 +1,14 @@
     "type": "ShieldWall",
     "lightningSound": "spark",
-    "lightningChance": 0.60,
+    "lightningChance": 0.1,
     "lightningColor": "F3E979FF",
-    "lightningDamage": 48,
+    "lightningDamage": 50,
     "lightningLength":28,
-    "health": 3000,
+    "health": 2400,
     "size": 2,
+    shieldHealth: 800
+    regenSpeed: 20
+    breakCooldown: 300
     category: defense
 requirements: [
   arcanthium/24

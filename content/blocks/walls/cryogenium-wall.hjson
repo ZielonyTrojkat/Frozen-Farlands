@@ -1,5 +1,5 @@
     "type": "Wall",
-    "health": 500,
+    "health": 450,
     "size": 1,
     category: defense
 requirements: [

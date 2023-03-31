@@ -10,7 +10,7 @@ shots: 1
 xRand: 1
 moveWhileCharging: false
 consumes: {
-  power: 16
+  power: 6
 }
 recoilAmount: 3
 shootSound: MoonRaySound
@@ -23,10 +23,11 @@ shootType: {
         "homingRange": 100,
     "lifetime" : 80,
     "speed": 3,
-    "damage": 150,
+    "damage": 220,
     "buildingDamageMultiplier": 1,
     "pierceBuilding": false,
-    "pierce": false,
+    "pierce": true,
+    pierceCap: 3
     "spin": 5
        "despawnHit": true,
         "hitEffect": {

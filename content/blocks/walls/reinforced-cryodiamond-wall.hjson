@@ -1,6 +1,7 @@
     "type": "Wall",
-    "health": 700,
+    "health": 800,
     "size": 1,
+    absorbLasers: true
 hasPower: false
 category: defense
 requirements: [

@@ -32,7 +32,7 @@
   "hasPower": true,
   "hasLiquids": true,
   "updateEffect": "none",
-  liquidCapacity: 50
+  liquidCapacity: 70
   "consumes": {
   "power": 0.80,
     "items": [

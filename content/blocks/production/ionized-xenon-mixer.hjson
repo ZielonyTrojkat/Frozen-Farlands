@@ -37,10 +37,10 @@
     liquidCapacity: 50
   "updateEffect": "none",
   "consumes": {
-  "power": 1.70,
+  "power": 2,
     "liquids": [
-      "xenon/0.75",
-      "arcalith/0.75"
+      "xenon/0.5",
+      "arcalith/0.6"
     ],
   },
   "requirements": [

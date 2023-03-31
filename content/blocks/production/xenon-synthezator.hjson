@@ -64,7 +64,7 @@
   liquidCapacity: 50
   "updateEffect": "none",
   "consumes": {
-  "power": 1
+  "power": 1.25
   },
   "requirements": [
     yttrium/30

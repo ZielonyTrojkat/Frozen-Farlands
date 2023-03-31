@@ -3,7 +3,7 @@
 "health": 1500,
 range: 500
 rotateSpeed: 4.5
-reload: 150
+reload: 200
 burstSpacing: 3
 shots: 1
 xRand: 1
@@ -12,12 +12,38 @@ consumes: {
 }
 recoilAmount: 3
 shootSound: AlectroSound
+"shoot": {
+  "firstShotDelay": 15
+}
 shootType: {
   type: LaserBulletType
   length: 500
   damage: 300
+  buildingDamageMultiplier: 0.4
     status: Fragment-split
 statusDuration: 400
+    	"chargeEffect": {
+      "type": "MultiEffect",
+    "effects": [
+    {
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 15,
+    "length": 40,
+    "baseLength": -40,
+    "cone": 40,
+    "interp": "pow4In",
+    "sizeInterp": "pow3Out",    
+    "strokeFrom": 0,
+    "strokeTo": 1,    
+    "lenFrom": 0,
+    "lenTo": 4,
+    "colorFrom": "66B1FF",
+    "colorTo": "ffffff"
+    }
+    ]
+      }
 },
 
     "shootEffect": {

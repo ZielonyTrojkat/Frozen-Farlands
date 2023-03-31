@@ -1,13 +1,13 @@
 type: ParticleWeather
 color: ccc0eb
 noiseColor: 672ff5
-particleRegion: none
-sizeMax: 3
-sizeMin: 1
+particleRegion: moon-mod-star
+sizeMax: 0
+sizeMin: 0
 density: 10000
 status: none
 useWindVector: true
-drawNoise: flase
+drawNoise: true
 opacityMultiplier: 0.01
 baseSpeed: 0.03
 sound: Sunlight_Rays

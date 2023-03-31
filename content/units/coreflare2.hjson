@@ -18,7 +18,7 @@
     buildSpeed: 1.5
     buildBeamOffset: 6
 weapons: [
-{
+ {
 name: coreflare-gun
 x: 0
 y: 3
@@ -33,17 +33,15 @@ reload: 45
 recoil: 3
     shootSound: PikeSound
     bullet: {
-      homingPower: 0.05
-      homingRange: 60
-      buildingDamageMultiplier: 0.03
-      speed: 4
-      lifetime: 40
+    type: MissileBulletType
+      speed: 3
+      lifetime: 100
       damage: 20
-      pierce: true
-      pierceBuilding: true
-      pierceCap: 3
-      width: 10
-      height: 22
+      buildingDamageMultiplier : 0.03
+      splashDamage: 20
+      splashDamageRadius: 24
+      width: 6
+      height: 6
         frontColor: 03f8fc
         backColor: ffffff
       despawnHit: true
@@ -65,7 +63,7 @@ recoil: 3
         {
           type: WaveEffect
           sizeFrom: 0
-          sizeTo: 12
+          sizeTo: 24
           lifetime: 17
           strokeFrom: 4
           strokeTo: 0
@@ -92,7 +90,7 @@ recoil: 3
               sizeFrom: 3
               sizeTo: 0
               colorFrom: 03f8fc
-              colorTo: adfaff
+              colorTo: ffffff
               strokeFrom: 3
               strokeTo: 1.5
               interp: pow3Out
@@ -104,8 +102,11 @@ recoil: 3
     }
     trailChance: 0.4
     trailLength: 4
-    trailWidth: 3
-    trailColor: 03f8fc
+    trailWidth: 2.5
+    trailColor: 87b8fa
+          weaveMag: 3
+      weaveScale: 5
+      weaveRandom: true
     }
 }
  ] 

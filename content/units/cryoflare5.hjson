@@ -143,7 +143,7 @@ ejectEffect: none
     ]
     }, 
     "lifetime": 60,
-	"splashDamage": 60 ,
+	"splashDamage": 80 ,
 	"splashDamageRadius": 30,	
     "speed": 5,
     "status": "freezing",
@@ -160,14 +160,15 @@ research: {
     parent: "cryoflare4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
-researchCost: [
-    yttrium/1
-  ]
+	requirements: [
+		yttrium/4200
+    cryogenium/3300
+		aerogel/3500
+		moonstone/2200
+    diamond/1600
+	]
+}

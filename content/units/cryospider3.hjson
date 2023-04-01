@@ -125,4 +125,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+	requirements: [
+		yttrium/1500
+		cryogenium/800
+		moonstone/500
+	]
 }

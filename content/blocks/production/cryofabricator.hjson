@@ -3,7 +3,7 @@
   "health": 900,
   "size": 4,
   "hasItems": true,
-  "craftTime": 75,
+  "craftTime": 120,
   "craftEffect": "none",
 	"drawer": {
 	"type": "DrawMulti",
@@ -43,9 +43,9 @@
   ]
   },
   "requirements": [
-    aerogel/200
+    aerogel/300
     cryogenium/200
-    diamond/50
+    diamond/80
   ],
   "category": "crafting",
   "outputItem": "reinforced-cryofabric/1"
@@ -59,8 +59,8 @@ research: {
     ]
 },
 researchCost: [
-    aerogel/1600
+    aerogel/1800
     cryogenium/1200
-    moonstone/800
-    diamond/400
+    moonstone/900
+    diamond/600
   ]

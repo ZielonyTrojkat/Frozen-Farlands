@@ -188,11 +188,15 @@ research: {
     parent: "cryospider4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
+	requirements: [
+		yttrium/4500
+        cryogenium/3900
+		aluminium/3700
+		moonstone/2600
+        diamond/1900
+	]
+}

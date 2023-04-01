@@ -8,15 +8,15 @@ plans: [
     moon-mod-cryoflare/4
     moon-mod-aerogel-wall-large/10
   ]
-  time: 900
+  time: 1500
   }
   {
   unit: cryoflare5
   requirements: [
     moon-mod-cryoflare2/4
-    moon-mod-diamond-wall-large/10
+    moon-mod-reinforced-cryofabric-large/10
   ]
-  time: 1500
+  time: 2200
   }
 ]
 areaSize: 11
@@ -24,7 +24,7 @@ dronesCreated: 4
 consumes: {
 power: 5
   liquid: {
-    liquid: arcalith
+    liquid: ionized-xenon
     amount: 0.6
   }
 }
@@ -33,8 +33,8 @@ research: {
     parent: "Reconstructor-3",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Crash-landing"
         }
     ]
 },

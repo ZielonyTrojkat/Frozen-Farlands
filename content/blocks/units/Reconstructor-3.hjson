@@ -28,8 +28,8 @@ research: {
     parent: "Constructor-3",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "SectorComplete",
+            preset: "Secret-passage"
         }
     ]
 },

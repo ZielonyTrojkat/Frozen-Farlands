@@ -6,17 +6,17 @@ plans: [
   unit: axo4
   requirements: [
     moon-mod-axo/4
-    moon-mod-yttrium-wall-large/10
+    moon-mod-aerogel-wall-large/10
   ]
-  time: 900
+  time: 1500
   }
   {
   unit: axo5
   requirements: [
-    moon-mod-axo3/4
+    moon-mod-axo2/4
     moon-mod-diamond-wall-large/10
   ]
-  time: 1500
+  time: 2200
   }
 ]
 areaSize: 11
@@ -25,7 +25,7 @@ consumes: {
 power: 5
   liquid: {
     liquid: arcalith
-    amount: 0.6
+    amount: 2.4
   }
 }
 category: units
@@ -33,16 +33,16 @@ research: {
     parent: "Reconstructor-4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Crash-landing"
         }
     ]
 },
 requirements: [
   aluminium/1200
-  moonstone/600
-  cryogenium/400
-  diamond/200
+  moonstone/800
+  aerogel/600
+  diamond/250
 ]
 researchCost: [
   aluminium/3600

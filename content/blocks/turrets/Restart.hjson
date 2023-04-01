@@ -119,15 +119,15 @@ ammoTypes: {
     
 category: turret
 requirements: [
-    yttrium/140
-    aluminium/90
-    moonstone/90
-    diamond/55
-]
-research: Leech
-researchCost: [
-    yttrium/1000
-    aluminium/600
-    moonstone/400
-    diamond/250
+    yttrium/4300
+    arcanite/3660
+    aluminium/3500
+    aerogel/3440
+    ice-shard/3290
+    cryogenium/2800
+    moonstone/2540
+    diamond/2137
+    arcanthium/1890
+    reinforced-cryofabric/1445
   ]
+hidden: true

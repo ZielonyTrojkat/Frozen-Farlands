@@ -1,6 +1,6 @@
   "type": "GenericCrafter",
   "description": "Ionizes xenon particles with arcalith fluid energy",
-  "health": 350,
+  "health": 650,
   "size": 3,
 	"drawer": {
 	"type": "DrawMulti",
@@ -30,7 +30,7 @@
         ]
         }
   "hasItems": true,
-  "craftTime": 28,
+  "craftTime": 30,
   "craftEffect": "none",
   "hasPower": true,
   "hasLiquids": true,
@@ -44,9 +44,10 @@
     ],
   },
   "requirements": [
-    yttrium/70
-    aluminium/30
-    aerogel/30
+    yttrium/120
+    aluminium/100
+    aerogel/80
+    diamond/30
   ],
   "category": "crafting",
   "outputLiquid": "ionized-xenon/0.3"
@@ -54,13 +55,14 @@ research: {
     parent: "xenon-synthezator",
     objectives: [
         {
-            type: "SectorComplete",
-            preset: "Solar-peaks"
+            type: "OnSector",
+            preset: "Cryo-river"
         }
     ]
 }
 researchCost: [
     yttrium/1000
-    aluminium/600
-    aerogel/600
+    aluminium/800
+    aerogel/800
+    diamond/500
   ]

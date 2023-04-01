@@ -4,6 +4,9 @@
     "lightningColor": "F3E979FF",
     "lightningDamage": 50,
     "lightningLength":28,
+  "consumes": {
+  "power": 0.4
+  },
     "health": 2400,
     "size": 2,
     shieldHealth: 800

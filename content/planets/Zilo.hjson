@@ -21,8 +21,20 @@ updateLighting: false
     "visible": true,
     "startSector": 0, 
     "sectorSize": 1,
-    "getSize": 0.5,
     "sectorSeed": 69,
+cloudMesh: {
+  type: HexSkyMesh
+  planet: Zilo
+  seed: 2
+  speed: 3
+  radius: 0.1
+  divisions: 5
+  color: 52e5ff
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
     "mesh": {
       "type": "NoiseMesh",
       "planet": "Zilo",

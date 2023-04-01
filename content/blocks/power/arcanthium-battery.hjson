@@ -1,5 +1,5 @@
 type: battery
-size: 2
+size: 3
 	"fullLightColor": "79F2EEFF",
 	"emptyLightColor": "565666FF",
 	"hasPower": true,
@@ -20,21 +20,23 @@ drawer: {
   ]
 }
 consumes: {
-    powerBuffered: 1000
+    powerBuffered: 6000
 }
 category: power
 requirements: [
-  arcanite/25
+  arcanite/40
+  arcanthium/15
 ]
 research: {
-    parent: "node",
+    parent: "arcanite-battery",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Solar-peaks"
         }
     ]
 },
 researchCost: [
-    arcanite/150
+    arcanite/1200
+    arcanthium/300
     ]

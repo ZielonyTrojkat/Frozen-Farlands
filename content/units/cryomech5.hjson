@@ -130,11 +130,15 @@ research: {
     parent: "cryomech4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
+	requirements: [
+		yttrium/4800
+		aluminium/3600
+		moonstone/2200
+        diamond/1800
+        arcanthium/1500
+	]
+}

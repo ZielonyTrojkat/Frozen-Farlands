@@ -1,7 +1,6 @@
   "type": "GenericCrafter",
-	 "researchCostMultiplier": 0.5,
   "description": "Produces Aerogel from water and xenon",
-  "health": 50,
+  "health": 450,
   "size": 3,
   "hasItems": true,
   "craftTime": 120,
@@ -48,9 +47,9 @@
     ],
   },
   "requirements": [
-    yttrium/20
-    aluminium/15
-    ice-shard/10
+    yttrium/30
+    aluminium/20
+    ice-shard/15
   ],
   "category": "crafting",
   "outputItem": "aerogel/3"
@@ -64,7 +63,7 @@ research: {
     ]
 },
 researchCost: [
-    yttrium/200
-    aluminium/150
-    ice-shard/100
+    yttrium/400
+    aluminium/200
+    ice-shard/150
   ]

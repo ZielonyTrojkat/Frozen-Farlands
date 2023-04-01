@@ -1,9 +1,15 @@
 type: UnitCargoUnloadPoint
 size: 2
+health: 300
 itemCapacity: 50
-staleTimeDuration: 30
+staleTimeDuration: 15
+category: distribution
+research: cargo-loader
 requirements: [
-  yttrium/30
+  yttrium/80
+  cryogenium/40
 ]
-category: units
-hidden: true
+researchCost: [
+  yttrium/600
+  cryogenium/350
+  ]

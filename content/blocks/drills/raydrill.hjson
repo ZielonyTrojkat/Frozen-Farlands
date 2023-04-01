@@ -10,7 +10,7 @@ health: 450
   hasPower: true
   rotateSpeed: 6
   "consumes": {
-    power: 1.5
+    power: 2
     "liquid": {
       "liquid": "xenon",
       "amount": 0.09,
@@ -19,22 +19,23 @@ health: 450
     }
   },
   requirements: [
-    aluminium/35
-    cryogenium/20
-    moonstone/15
+    aluminium/50
+    cryogenium/45
+    moonstone/30
   ]
   "category": "production",
 research: {
     parent: "sickle-drill",
     objectives: [
         {
-            type: "SectorComplete",
-            preset: "Solar-peaks"
+            type: "OnSector",
+            preset: "Cryo-river"
         }
     ]
 },
 researchCost: [
-    yttrium/400
-    aluminium/150
-    moonstone/50
+    yttrium/800
+    aluminium/550
+    cryogenium/400
+    moonstone/300
   ]

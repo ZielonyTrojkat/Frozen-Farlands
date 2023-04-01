@@ -135,7 +135,15 @@ requirements: [
     moonstone/90
     diamond/55
 ]
-research: Leech
+research: {
+    parent: "Leech",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
 researchCost: [
     yttrium/1000
     aluminium/600

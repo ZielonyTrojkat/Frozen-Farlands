@@ -178,14 +178,15 @@ research: {
     parent: "axo4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
-researchCost: [
-    yttrium/1
-  ]
+	requirements: [
+		yttrium/4400
+    aluminium/3450
+		aerogel/3300
+		moonstone/2400
+    diamond/1800
+	]
+}

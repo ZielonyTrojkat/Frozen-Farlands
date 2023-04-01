@@ -78,8 +78,8 @@ research: {
     parent: arcalith-mixer
     objectives: [
         {
-            type: OnSector
-            preset: Cryo-river
+            type: SectorComplete
+            preset: Solar-peaks
         }
     ]
 }

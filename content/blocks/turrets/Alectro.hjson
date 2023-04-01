@@ -77,23 +77,23 @@ statusDuration: 400
     },
 category: turret
 requirements: [
-  yttrium/120
-  arcanite/80
-  aluminium/100
-  moonstone/50
+  yttrium/620
+  aluminium/440
+  moonstone/350
+  diamond/200
 ]
 research: {
     parent: "Defragmentation",
     objectives: [
         {
             type: "OnSector",
-            preset: "Solar-peaks"
+            preset: "Cryo-river"
         }
     ]
 }
 researchCost: [
-    yttrium/300
-    arcanite/200
-    aluminium/170
-    moonstone/150
+    yttrium/3200
+    aluminium/1700
+    moonstone/1250
+    diamond/700
   ]

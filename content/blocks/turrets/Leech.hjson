@@ -23,12 +23,12 @@ shootType: {
 category: turret
 requirements: [
     yttrium/90
-    aluminium/40
-    moonstone/40
+    arcanite/70
+    moonstone/50
 ]
-research: Alectro
+research: Defragmentation
 researchCost: [
-    yttrium/600
-    aluminium/350
-    moonstone/350
+    yttrium/800
+    arcanite/650
+    moonstone/450
   ]

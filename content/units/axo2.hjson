@@ -135,3 +135,4 @@ researchCost: [
 researchCost: [
     yttrium/1
   ]
+  researchCostMultiplier: 0

@@ -17,6 +17,7 @@
     mineSpeed: 7
     buildSpeed: 1.5
     buildBeamOffset: 6
+        isEnemy: false
 weapons: [
  {
 name: coreflare-gun

@@ -5,17 +5,21 @@ pumpAmount: 0.3
 squareSprite: false
 category: liquid
 requirements: [
-  yttrium/1
+  yttrium/80
+  aluminium/30
+  diamond/30
 ]
 research: {
     parent: yttrium-pump
     objectives: [
         {
             type: "OnSector",
-            preset: "Crash-landing"
+            preset: "Cryo-river"
         }
     ]
 },
 researchCost: [
-    yttrium/1
+    yttrium/500
+    aluminium/300
+    diamond/200
   ]

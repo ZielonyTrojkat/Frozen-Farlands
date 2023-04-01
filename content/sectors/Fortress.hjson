@@ -1,16 +1,15 @@
 
-    sector: 2,
+    sector: 16,
     planet: "Zilo",
-    captureWave: 51
     research: {
-        parent: "Cryo-river",
+        parent: "Frontline",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Cryo-river"
+                preset: "Frontline"
             }
         ]
     },
-    difficulty: 7,
+    difficulty: 9,
     overrideLaunchDefaults: true
     addStartingItems: true

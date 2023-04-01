@@ -3,23 +3,29 @@ type: LaunchPad
 health: 1000
 size: 3
 launchTime: 300
-itemCapacity: 30
+itemCapacity: 80
 consumes: {
-  power: 2.5
+  power: 3
 }
 requirements: [
-  yttrium/1
+    yttrium/300
+    aluminium/160
+    aerogel/100
+    moonstone/100
 ]
 category: effect
 research: {
-    parent: "core-2",
+    parent: "core-3",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Crash-landing"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
 },
 researchCost: [
-    yttrium/1
+    yttrium/2000
+    aluminium/1600
+    aerogel/1000
+    moonstone/1000
   ]

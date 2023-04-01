@@ -51,13 +51,5 @@ statusDuration: 180
 ]
 research: {
     parent: "cryomech3",
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "Lonely-lake"
-        }
-    ]
 },
-researchCost: [
-    yttrium/1
-  ]
+researchCostMultiplier: 0

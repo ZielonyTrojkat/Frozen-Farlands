@@ -8,7 +8,7 @@ plans: [
     moon-mod-cryospider/4
     moon-mod-cryogenium-wall-large/10
   ]
-  time: 900
+  time: 1500
   }
   {
   unit: cryospider5
@@ -16,7 +16,7 @@ plans: [
     moon-mod-cryospider2/4
     moon-mod-reinforced-cryofabric-wall-large/10
   ]
-  time: 1500
+  time: 2200
   }
 ]
 areaSize: 11
@@ -24,7 +24,7 @@ dronesCreated: 4
 consumes: {
 power: 5
   liquid: {
-    liquid: arcalith
+    liquid: ionized-xenon
     amount: 0.6
   }
 }
@@ -33,15 +33,15 @@ research: {
     parent: "Reconstructor-2",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Cryo-river"
         }
     ]
 },
 requirements: [
-  yttrium/1200
+  cryogenium/1500
   moonstone/600
-  cryogenium/400
+  aluminium/400
   diamond/200
 ]
 researchCost: [

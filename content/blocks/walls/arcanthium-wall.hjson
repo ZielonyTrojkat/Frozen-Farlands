@@ -4,6 +4,10 @@
     "lightningColor": "F3E979FF",
     "lightningDamage": 50,
     "lightningLength":28,
+  "hasPower": true,
+  "consumes": {
+  "power": 0.1
+  },
     "health": 600,
     "size": 1,
     shieldHealth: 200
@@ -13,7 +17,7 @@
 requirements: [
   arcanthium/6
 ]
-research: diamond-wall
+research: aerogel-wall-large
 researchCost: [
     arcanthium/200
   ]

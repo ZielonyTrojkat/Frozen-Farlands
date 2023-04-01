@@ -1,5 +1,5 @@
 Type: UnitAssemblerModule
-health: 475
+health: 775
 size: 3
 consumes: {
 power: 5
@@ -10,10 +10,13 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Lonely-lake"
+            preset: "Frontline"
         }
     ]
 },
 requirements: [
-  reinforced-cryofabric/50
+  aerogel/500
+  aluminium/500
+  diamond/300
+  reinforced-cryofabric/100
 ]

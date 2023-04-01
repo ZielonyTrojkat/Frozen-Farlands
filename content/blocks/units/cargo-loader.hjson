@@ -11,8 +11,23 @@ polySides: 2
 polyRotateSpeed: 3
 polyStroke: 3
 unitType: salmon
+category: distribution
+research: {
+    parent: "moonstone-conveyor",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Cryo-river"
+        }
+    ]
+},
 requirements: [
-  yttrium/30
+  yttrium/100
+  cryogenium/60
+  moonstone/50
 ]
-category: units
-hidden: true
+researchCost: [
+  yttrium/900
+  cryogenium/750
+  moonstone/600
+  ]

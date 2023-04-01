@@ -54,4 +54,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+	requirements: [
+		yttrium/1800
+		aluminium/800
+		moonstone/500
+	]
 }

@@ -4,10 +4,10 @@ size: 2
 radius: 70
 itemCapacity: 30
 consumes: {
-  power: 2.5
+  power: 1
   items: {
     items: [
-      yttrium/20
+      arcanthium/10
     ]
   }
 }
@@ -15,15 +15,4 @@ requirements: [
   yttrium/1
 ]
 category: effect
-research: {
-    parent: "panel",
-    objectives: [
-        {
-            type: "OnSector",
-            preset: "Crash-landing"
-        }
-    ]
-},
-researchCost: [
-    yttrium/1
-  ]
+hidden: true

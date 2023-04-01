@@ -1,7 +1,7 @@
 type: PointDefenseTurret
 size: 2
 reload: 15
-health: 500
+health: 800
 bulletDamage: 4
 range: 200
 consumes: {
@@ -22,3 +22,9 @@ research: {
         }
     ]
 }
+researchCost: [
+    yttrium/1200
+    arcanite/800
+    aerogel/600
+    moonstone/600
+  ]

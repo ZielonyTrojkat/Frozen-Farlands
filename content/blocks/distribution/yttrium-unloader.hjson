@@ -1,0 +1,21 @@
+type: Unloader
+health: 120
+itemCapacity: 0
+requirements: [
+  aluminium/8
+  cryogenium/4
+] 
+category: effect
+research: {
+    parent: yttrium-sorter-inverted
+    objectives: [
+        {
+            type: SectorComplete
+            preset: Transit-cavern
+        }
+    ]
+}
+researchCost: [
+    aluminium/120
+    cryogenium/80
+  ]

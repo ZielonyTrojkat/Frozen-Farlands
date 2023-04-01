@@ -2,7 +2,7 @@ name: Frostbite
 type: LaserTurret
 size: 5
 shootDuration: 240
-health: 2150
+health: 3150
 range: 240
 liquidCapacity: 200
 hasLiquids: true
@@ -98,15 +98,23 @@ category: turret
 requirements: [
     yttrium/1000
     moonstone/800
+    cryogenium/650
     diamond/500
-    cryogenium/500
     reinforced-cryofabric/150
   ]
-  research: Alectro
+research: {
+    parent: "Alectro",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frontline"
+        }
+    ]
+}
 researchCost: [
-    yttrium/2000
-    moonstone/1750
+    yttrium/4000
+    moonstone/2750
+    cryogenium/1850
     diamond/1500
-    cryogenium/1500
     reinforced-cryofabric/500
   ]

@@ -71,4 +71,9 @@ research: {
             preset: "Solar-peaks"
         }
     ]
+	requirements: [
+		yttrium/1200
+		aerogel/800
+		moonstone/500
+	]
 }

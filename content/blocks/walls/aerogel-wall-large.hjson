@@ -1,5 +1,5 @@
     "type": "Wall",
-    "health": 2000,
+    "health": 2200,
     "size": 2,
     category: defense
     absorbLasers: true

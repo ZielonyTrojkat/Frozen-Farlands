@@ -1,6 +1,6 @@
 type: item
 name: ReinforcedCryoFabric
-  "cost": 10,
+  "cost": 5,
   "color": "0558b0",
   "flammability": 0,
   "explosiveness": 0.5,

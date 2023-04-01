@@ -5,7 +5,7 @@
 	"health": 360,
 	"faceTarget": true,
 	"armor": 2,
-	"range": 180,
+	"range": 140,
 	"targetAir": false,
 	"rotateSpeed": 5,
    "legBaseOffset": 13,

@@ -5,7 +5,7 @@
 	"health": 3260,
 	"faceTarget": true,
 	"armor": 4,
-	"range": 150,
+	"range": 120,
 	"targetAir": false,
 	"rotateSpeed": 3,
 "mechFrontSway": 0.3,

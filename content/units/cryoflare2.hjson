@@ -52,11 +52,5 @@ research: {
             preset: "Lonely-lake"
         }
     ]
-},
-researchCost: [
-    yttrium/1
-  ]
-researchCost: [
-    yttrium/1
-  ]
+}
   researchCostMultiplier: 0

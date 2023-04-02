@@ -1,7 +1,8 @@
     "type": "Wall",
-    "health": 3200,
+    "health": 3600,
     "size": 2,
     absorbLasers: true
+    chanceDeflect: 50
 hasPower: false
 category: defense
 requirements: [
@@ -9,5 +10,5 @@ requirements: [
 ]
 research: reinforced-cryodiamond-wall
 researchCost: [
-    reinforced-cryofabric/300
+    reinforced-cryofabric/400
   ]

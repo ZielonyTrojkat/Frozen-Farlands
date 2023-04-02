@@ -4,8 +4,8 @@
     category: defense
     absorbLasers: true
 requirements: [
-  aerogel/24
-  aluminium/12
+  aerogel/16
+  aluminium/8
 ]
 research: aerogel-wall
 researchCost: [

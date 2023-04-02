@@ -33,7 +33,7 @@
     "name": "axo4-bigcannon",
     "top": false,
     "shootY": 3,
-    "reload": 10,
+    "reload": 15,
     "x": 0,
     "alternate": true,
     "mirror": false,

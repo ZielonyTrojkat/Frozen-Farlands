@@ -2,7 +2,7 @@ type: ItemTurret
 size: 4
 reload: 200
 health: 6850
-range: 800
+range: 690
 category: turret
 basePrefix: -base
 consumes: {
@@ -26,7 +26,7 @@ ammoTypes: {
     displayAmmoMultiplier: false
     spawnUnit: electrum-missile
   }
-  diamond: {
+  moonstone: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
     spawnUnit: obsidian-missile

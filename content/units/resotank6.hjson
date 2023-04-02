@@ -1,0 +1,233 @@
+type: tank
+hitSize: 20
+flying: false
+omniMovement: false
+health: 55450
+armor: 18
+speed: 0.4
+rotateSpeed: 2
+range: 280
+itemCapacity: 0
+treadPullOffset: 4
+treadRects: [
+  {
+  x: 3
+  y: 2
+  width: 2
+  height: 5
+  }
+  {
+  x: 5
+  height: 5
+  }
+]
+outlineColor: "2d2f39"
+weapons: [
+{
+name: cryoflare2-gun
+mirror: false
+x: 0
+y: 8
+top: false
+rotate: true
+reload: 100
+recoil: 1
+shootSound: railgun
+ejectEffect: none
+shake: 10
+"shoot": {
+"type": "shootHelix",
+mag: 1.5
+offset: 0
+scl: 4
+ "shots": 1,
+    "shotDelay": 5,
+}
+    "bullet": { 
+      "type": "BasicBulletType",
+      "height": 55,
+      "width": 55,
+      "damage": 1000,
+      "recoil": 0,
+      lifetime: 100
+      speed: 6
+      hitShake: 15
+    hitSound: largeCannon
+    "splashDamage": 1500,
+    "splashDamageRadius": 260,
+    "frontColor": ffbdbd,
+    "backColor": ff3a3a,
+    "collidesAir": true,
+    "collides": true,
+    "collidesTiles": true,
+    "collidesGround": true,
+    "collidesFloor": true,
+  bulletInterval: 2
+intervalBullet: {
+  type: LightningBulletType
+  damage: 200
+  collidesAir: false
+  lightning: 2
+  lightningLength: 10
+  lightningLengthRand: 25
+  lightningColor: ff3d3d
+  hitSound: spark
+  lightningType: {
+    type: MissileBulletType
+      speed: 2
+      lifetime: 60
+      damage: 50
+      width: 10
+      height: 10
+        frontColor: ff3d3d
+        backColor: ff9292
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 25
+          length: 20
+          lenFrom: 5
+          lenTo: 0
+          strokeFrom: 2
+          strokeTo: 0
+          colorFrom: ff9292
+          colorTo: ff3d3d
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 15
+          lifetime: 20
+          strokeFrom: 3.5
+          strokeTo: 0
+          colorFrom: ff9292
+          colorTo: ff3d3d
+        }
+      ]
+      weaveMag: 3
+      weaveScale: 5
+      weaveRandom: true
+    trailChance: 0.25
+    trailColor: ff3d3d
+    }
+}
+          despawnHit: true
+   "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 60,
+    "sizeFrom": 0,
+    "sizeTo": 180,
+    "interp": "circleOut",
+    "strokeFrom": 50,
+    "strokeTo": 0,
+    "colorFrom": "ff9292",
+    "colorTo": "ffbdbd"
+    },
+    	{
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 38,
+    "lifetime": 50,
+    "baseLength": 25,
+    "length": 260,
+    "lenFrom": 12,
+    "lenTo": 4,
+    strokeFrom: 8
+    strokeTo: 0
+    "lightColor": "ff9959",
+    "colorFrom": "ff9292",
+    "colorTo": "ffbdbd"
+	},
+  	{
+	"type": "ParticleEffect",
+    "particles": 30,
+    "length": 220,
+    "lifetime": 120,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ff9292",
+    "colorTo": "ff4a4a",
+    "sizeFrom": 16,
+    "sizeTo": 0
+	},
+    ]
+   }
+    "trailChance": 1,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 20,
+    "region": "moon-mod-star",
+    "lightColor": "ffbdbd",
+    "colorFrom": "ff9292",
+    "colorTo": "ffbdbd",
+    "sizeFrom": 15,
+    "sizeTo": 5
+    }
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "ff9292",
+                "colorTo": "ffbdbd",
+                "sizeFrom": 1,
+                "sizeTo": 18,
+                "lifetime": 12
+                "strokeFrom": 7,
+                "strokeTo": 0
+            }
+            {
+              type: ParticleEffect
+              particles: 5
+              lifetime: 30
+              length: 20
+              sizeFrom: 3
+              sizeTo: 0
+              colorFrom: ff9292
+              colorTo: ffbdbd
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    }
+}
+}
+]
+abilities: [
+  {
+              type: MoveEffectAbility
+              effect: [
+              {
+              type: ParticleEffect
+              particles: 8
+              lifetime: 30
+              length: 15
+              sizeFrom: 4
+              sizeTo: 1
+              colorFrom: ffce8c
+              colorTo: ff9100
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+              offsetX: 5
+              }
+              ]
+              }
+              ]
+research: lead

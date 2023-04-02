@@ -1,6 +1,6 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 1.5,
+    "speed": 1.8,
     "accel": 0.1,
     "drag": 0.04,
     "flying": true,

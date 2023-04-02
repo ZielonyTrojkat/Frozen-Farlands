@@ -1,0 +1,110 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 1.5,
+    "accel": 0.1,
+    "drag": 0.04,
+    "flying": true,
+    "health": 150,
+    "hitSize": 6,
+    "armor": 1,
+    "itemCapacity": 20,
+  "outlineColor": "b2b8c2",
+    "engineOffset": 6,
+    "faceTarget": true,
+    buildSpeed: 0.3
+    buildRange: 80
+weapons: [
+{
+name: axoflare2-weapon
+x: 0
+y: 1
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 1
+}
+top: false
+rotate: false
+reload: 50
+recoil: 1
+shootSound: MoonRaySound
+ejectEffect: none
+bullet: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 50
+    damage: 25
+    width: 12
+    height: 12
+    spin: 3
+    inaccuracy: 3
+    healAmount: 40
+    collidesTeam: true
+    collides: true
+    keepVelocity: false
+    backColor: 64f450
+    frontColor: 2ddb4e  
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 1
+    despawnEffect: {
+    type: WaveEffect
+    lifetime: 10
+    sizeFrom: 0
+    sizeTo: 10
+    strokeFrom: 6
+    strokeTo: 0
+    colorFrom: 64f450
+    colorTo: 2ddb4e
+  }
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "64f450",
+                "colorTo": "2ddb4e",
+                "sizeFrom": 1,
+                "sizeTo": 10,
+                "lifetime": 15
+                strokeFrom: 8
+                strokeTo: 0
+            }
+        ]
+    }
+    backSprite: moon-mod-star
+    sprite: moon-mod-star2
+    shrinkX: 0
+    shrinkY: 0
+    trailChance: 1
+    trailEffect: {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    lifetime: 15
+    sizeFrom: 5
+    sizeTo: 0
+    colorFrom: 64f450
+    colorTo: 2ddb4e
+    region: particle
+  }
+}
+}
+ ] 
+research: {
+    parent: "cryoflare",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+}
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 20
+    range: 50
+    reload: 90
+    }
+    ]
+researchCostMultiplier: 0

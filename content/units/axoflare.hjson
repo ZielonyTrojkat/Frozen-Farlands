@@ -1,36 +1,22 @@
-	"outlineColor": "36363c",
-  "type": "legs",
-	"speed": 0.7,
-	"hitSize": 10,
-	"health": 380,
-	"faceTarget": true,
-	"armor": 1,
-	"range": 140,
-	"targetAir": false,
-	"rotateSpeed": 5,
-   "legBaseOffset": 13,
-	  "legCount": 6,
-	"legMaxLength": 1.0,
-        "legMinLength": 0.6,
-        "legLengthScl": 1.0,
-        "legForwardScl": 1.5,
-         "legExtension": 2,
-        "legStraightness": 0.4,
-       "legPhysicsLayer": false,
-        "legContinuousMove": true,
-        "lockLegBase": true,
-        "rippleScale": 0.1,
-	"legBaseOffset": 2,
-	"legMoveSpace": 1.0,
-	"legLength": 10, 
-	"allowLegStep": true,
-	"hovering": true,
-	"immunities": [
-		"freezing"
-	],
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 1,
+    "accel": 0.05,
+    "drag": 0.04,
+    "flying": true,
+    "health": 150,
+    "hitSize": 2,
+    "armor": 0,
+    "itemCapacity": 15,
+  "outlineColor": "b2b8c2",
+    "engineOffset": 5,
+    "faceTarget": true,
+    mineTier: 2
+    mineSpeed: 1.5
+    mineRange: 40
 	"weapons": [
 {
-name: axo-turret
+name: axoflare-weapon
 x: 0
 y: 1
 mirror: false
@@ -47,10 +33,9 @@ recoil: 2
       speed: 3
       lifetime: 40
       damage: 10
-      healAmount: 5
-      pierce: false
-      pierceBuilding: false
-      pierceCap: 1
+    healAmount: 15
+    collidesTeam: true
+    collides: true
       width: 8
       height: 16
         frontColor: 3ce82f
@@ -119,14 +104,20 @@ recoil: 2
     trailColor: 3ce82f
     }
 }
-    ]
+ ] 
 research: {
-    parent: "Constructor-4",
+    parent: "cryoflare",
     objectives: [
         {
             type: "OnSector",
             preset: "Lonely-lake"
         }
     ]
-}
-researchCostMultiplier: 0
+},
+researchCost: [
+    yttrium/1
+  ]
+researchCost: [
+    yttrium/1
+  ]
+  researchCostMultiplier: 0

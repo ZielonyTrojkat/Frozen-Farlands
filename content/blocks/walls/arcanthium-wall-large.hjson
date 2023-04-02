@@ -4,13 +4,15 @@
     "lightningColor": "F3E979FF",
     "lightningDamage": 50,
     "lightningLength":28,
+    hasPower: true
+    conductivePower: true
   "consumes": {
   "power": 0.4
   },
-    "health": 2400,
+    "health": 3000,
     "size": 2,
-    shieldHealth: 800
-    regenSpeed: 20
+    shieldHealth: 1000
+    regenSpeed: 4
     breakCooldown: 300
     category: defense
 requirements: [

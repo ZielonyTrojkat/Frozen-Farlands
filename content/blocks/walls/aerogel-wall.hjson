@@ -4,8 +4,8 @@
     category: defense
     absorbLasers: true
 requirements: [
-  aerogel/6
-  aluminium/3
+  aerogel/4
+  aluminium/2
 ]
 research: {
     parent: "yttrium-wall",

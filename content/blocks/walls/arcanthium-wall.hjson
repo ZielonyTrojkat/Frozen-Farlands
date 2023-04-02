@@ -5,13 +5,14 @@
     "lightningDamage": 50,
     "lightningLength":28,
   "hasPower": true,
+  conductivePower: true
   "consumes": {
   "power": 0.1
   },
-    "health": 600,
+    "health": 750,
     "size": 1,
-    shieldHealth: 200
-    regenSpeed: 5
+    shieldHealth: 250
+    regenSpeed: 1
     breakCooldown: 300
     category: defense
 requirements: [

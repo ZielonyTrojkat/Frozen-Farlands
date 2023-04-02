@@ -36,9 +36,9 @@ ejectEffect: none
 bullet: {
 width: 13
 height: 19
-damage: 45
+damage: 40
 speed: 7
-lifetime: 50
+lifetime: 45
 frontColor: b2afb3
 backColor: d5d2d6
 status: freezing

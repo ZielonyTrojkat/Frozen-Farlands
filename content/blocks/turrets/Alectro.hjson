@@ -1,7 +1,7 @@
 "type": PowerTurret,
 "size": 4,
 "health": 1500,
-range: 500
+range: 480
 rotateSpeed: 4.5
 reload: 200
 burstSpacing: 3
@@ -17,7 +17,7 @@ shootSound: AlectroSound
 }
 shootType: {
   type: LaserBulletType
-  length: 500
+  length: 480
   damage: 300
   buildingDamageMultiplier: 0.4
     status: Fragment-split

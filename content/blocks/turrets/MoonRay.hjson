@@ -2,8 +2,8 @@ name: Lunar
 "type": PowerTurret,
 "size": 3,
 "health": 1500,
-range: 350
-rotateSpeed: 4.5
+range: 250
+rotateSpeed: 4
 reload: 50
 burstSpacing: 3
 shots: 1

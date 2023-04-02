@@ -5,7 +5,7 @@
 	"health": 2860,
 	"faceTarget": true,
 	"armor": 4,
-	"range": 240,
+	"range": 260,
 	"targetAir": false,
 	"rotateSpeed": 3,
             "legMoveSpace": 1,
@@ -40,15 +40,15 @@ spread: 4
 }
 top: false
 rotate: true
-reload: 45
+reload: 50
 recoil: 3
     shootSound: PikeSound
     bullet: {
       speed: 4
-      lifetime: 40
-      damage: 25
+      lifetime: 50
+      damage: 35
       pierce: true
-      pierceBuilding: true
+      pierceBuilding: false
       pierceCap: 2
       width: 9
       height: 20

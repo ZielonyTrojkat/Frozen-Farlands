@@ -3,11 +3,11 @@ type: LaserTurret
 size: 5
 shootDuration: 240
 health: 3150
-range: 240
+range: 300
 liquidCapacity: 200
 hasLiquids: true
 consumes: {
-  power: 28
+  power: 30
 "liquid": {
 	"liquid": "ionized-xenon",
 	"optional": false,
@@ -33,7 +33,7 @@ status: freezing
 statusDuration: 400
   lifetime: 15
   fadeTime: 5
-  length: 340
+  length: 300
   width: 5
 "colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
 	"chargeEffect": {

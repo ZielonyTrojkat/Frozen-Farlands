@@ -1,1 +1,0 @@
-Planets.serpulo.hiddenItems.addAll(moon-mod-yttrium-router)

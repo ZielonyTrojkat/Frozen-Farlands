@@ -1,13 +1,13 @@
-    "generator": ErekirPlanetGenerator,
+    "generator": PlanetGenerator,
     "parent": serpulo ,
     "name": Zilo,
     "accesible": true,
     "hasAtmosphere": true,
     "iconColor": 10d7e6,
-    allowWavesSimulation: true
-    allowSectorSimulation: true
-    allowSectorInvasion: true
-  allowLaunchSchematics: false
+allowWavesSimulation: false
+allowSectorSimulation: true
+allowSectorInvasion: false
+allowLaunchSchematics: false
 allowLaunchLoadout: false
 updateLighting: false
     "orbitRadius": 10,
@@ -22,6 +22,7 @@ updateLighting: false
     "startSector": 0, 
     "sectorSize": 1,
     "sectorSeed": 69,
+    landCloudColor: 9ef0ff
 cloudMesh: {
   type: HexSkyMesh
   planet: Zilo

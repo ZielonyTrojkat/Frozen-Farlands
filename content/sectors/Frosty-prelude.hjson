@@ -1,5 +1,5 @@
 planet: Zilo
-sector: 0
+sector: 8
 research: {
     parent: core-2
 }

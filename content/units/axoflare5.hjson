@@ -10,12 +10,10 @@
     "itemCapacity": 40,
   "outlineColor": "b2b8c2",
     "engineOffset": 9,
+    engineSize: 4
     "faceTarget": true,
-    buildSpeed: 0.5
+    buildSpeed: 0.75
     buildRange: 100
-    mineTier: 3
-    mineSpeed: 2
-    mineRange: 60
 weapons: [
 {
 name: axoflare3-weapon
@@ -98,18 +96,19 @@ bullet: {
 }
  ] 
 research: {
-    parent: "axoflare2",
+    parent: "axoflare4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Solar-peaks"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
 	requirements: [
-		yttrium/1200
-		aluminium/800
-        aerogel/500
-		moonstone/500
+		yttrium/4400
+    aluminium/3450
+		aerogel/3300
+		moonstone/2400
+    diamond/1800
 	]
 }
 abilities: [

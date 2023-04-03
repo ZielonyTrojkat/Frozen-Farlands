@@ -96,7 +96,7 @@ bullet: {
 }
  ] 
 research: {
-    parent: "cryoflare",
+    parent: "axoflare3",
     objectives: [
         {
             type: "OnSector",

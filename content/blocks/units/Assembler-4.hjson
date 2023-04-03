@@ -3,17 +3,17 @@ health: 2500
 size: 5
 plans: [
   {
-  unit: axo4
+  unit: axoflare4
   requirements: [
-    moon-mod-axo/4
+    moon-mod-axoflare/4
     moon-mod-aerogel-wall-large/10
   ]
   time: 1500
   }
   {
-  unit: axo5
+  unit: axoflare5
   requirements: [
-    moon-mod-axo2/4
+    moon-mod-axoflare2/4
     moon-mod-diamond-wall-large/10
   ]
   time: 2200

@@ -1,5 +1,5 @@
 
-    sector: 11,
+    sector: 6,
     planet: "Zilo",
     research: {
         parent: "Secret-passage",

@@ -25,6 +25,7 @@
             "shoot": {
                 "firstShotDelay": 40
             },
+            parentizeEffects: true
             "reload": 200,
             "shake": 10,
             "recoil": 0,

@@ -23,7 +23,7 @@ health: 190
 allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
-physics: true
+physics: false
 createWreck: false
 createScorch: false
 abilities: [

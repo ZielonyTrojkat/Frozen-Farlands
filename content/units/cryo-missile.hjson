@@ -17,7 +17,7 @@ trailLength: 8
 missileAccelTime: 0
 lowAltitude: true
 fogRadius: 6
-health: 200
+health: 250
 allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
@@ -38,8 +38,8 @@ weapons: [
           
           bullet:{
         type: BombBulletType
-        splashDamageRadius: 40
-        splashDamage: 220
+        splashDamageRadius: 50
+        splashDamage: 250
         instantDisappear: true
         killShooter: true
         hittable: false

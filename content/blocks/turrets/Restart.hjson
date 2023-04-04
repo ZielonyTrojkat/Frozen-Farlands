@@ -14,8 +14,11 @@ shootY: 0
 moveWhileCharging: false
 customShadow: false
 buildVisibility: sandboxOnly
-predictTarget: false
+predictTarget: true
 autoTarget: true
+    "smoothReloadSpeed": 1.2,
+    "shootWarmupSpeed": 0.02,
+    "minWarmup": 0.8,
 consumes: {
   power: 1000
 }
@@ -31,12 +34,10 @@ consumes: {
         "progress": {
           "type": "warmup",
           "op": "blend",
-          "other": "heat",
-          "amount": 0.15
+          amount: 0.15
+          other: heat
           }
-          "layerOffset": -0.003,
-          "outlineLayerOffset": 0.001,
-         "moveX": -10,
+         "moveX": -11,
          },
        ]
      },

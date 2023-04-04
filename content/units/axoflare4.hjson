@@ -1,100 +1,101 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 2,
-    "accel": 0.1,
-    "drag": 0.07,
+    "speed": 1,
+    "accel": 0.5,
+    "drag": 0.1,
     "flying": true,
-    "health": 2950,
+    "health": 7950,
     "hitSize": 6,
-    "armor": 3,
-    "itemCapacity": 40,
+    "armor": 5,
+    "itemCapacity": 70,
   "outlineColor": "b2b8c2",
-    "engineOffset": 9,
+    "engineOffset": 10,
     engineSize: 4
     "faceTarget": true,
-    buildSpeed: 0.75
+    buildSpeed: 1
     buildRange: 100
-weapons: [
-{
-name: axoflare3-weapon
-x: 5
-y: 1
-mirror: true
-shoot: {
-type: ShootPattern
-shots: 1
-}
-top: false
-rotate: false
-baseRotation: -35
-shootCone: 360
-reload: 30
-recoil: 1
-shootSound: MoonRaySound
-ejectEffect: none
-bullet: {
-    type: BasicBulletType
-    speed: 4
-    lifetime: 50
-    damage: 40
-    width: 10
-    height: 10
-    spin: 3
-    inaccuracy: 3
-    healAmount: 40
-    homingPower: 0.12
-    homingDelay: 5
-    collidesTeam: true
-    collides: true
-    keepVelocity: false
-    backColor: 64f450
-    frontColor: 2ddb4e  
-    smokeEffect: "shootSmallSmoke"
-    ammoMultiplier: 1
-    despawnEffect: {
-    type: WaveEffect
-    lifetime: 10
-    sizeFrom: 0
-    sizeTo: 10
-    strokeFrom: 6
-    strokeTo: 0
-    colorFrom: 64f450
-    colorTo: 2ddb4e
-  }
-    "shootEffect": {
-        "type": "MultiEffect",
-        "effects": [
-            {
-                "type": "WaveEffect",
-                "colorFrom": "64f450",
-                "colorTo": "2ddb4e",
-                "sizeFrom": 1,
-                "sizeTo": 6,
-                "lifetime": 10
-                strokeFrom: 5
-                strokeTo: 0
+    "weapons": [ 
+        {
+            "name": "axoflare4-weapon",
+            "mirror": false,
+            "top": false,
+            "x": 0,
+            "y": 4,
+            "shootStatusDuration": 40,
+            "shoot": {
+                "firstShotDelay": 40
+            },
+            "reload": 200,
+            "shake": 10,
+            "recoil": 0,
+            "shootStatus": "unmoving",
+            "shootSound": "railgun",
+            "shootSoundVolume": 8,
+            "chargeSound": "lasercharge",
+            "rotate": false,
+            "cooldownTime": 200,
+            "bullet": {
+                "type": "LaserBulletType",
+                "length": 280,
+                "lifetime": 40,
+                "width": 25,
+                "damage": 450,
+                "colors": ["62AE7FFF", "84F491FF", "FFFFFF"],
+                "lightColor": "84F491FF",
+                "hitEffect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 15,
+                    "lifetime": 20,
+                    "offset": 50,
+                    "cone": -360,
+                    "lenFrom": 5,
+                    "lenTo": 0,
+                    "colorFrom": "84F491FF",
+                    "colorTo": "62AE7FFF"
+                },
+                "chargeEffect": {
+                    "type": "multiEffect",
+                    "lifetime": 40,
+                    "effects": [
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 1,
+                            "sizeTo": 5,
+                            "length": 0,
+                            "lifetime": 40,
+                            "colorFrom": "84F491FF",
+                            "colorTo": "84F491FF",
+                            "cone": 360
+                        },
+                        {
+                            "type": "WaveEffect",
+                            "lifetime": 40,
+                            "sizeFrom": 0,
+                            "sizeTo": 17,
+                            "strokeFrom": 7,
+                            "strokeTo": 0,
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 2,
+                            "sizeTo": 13,
+                            "length": 0,
+                            "spin": 7,
+                            "lifetime": 40,
+                            "region": "moon-mod-star",                           
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                    ]
+                }
             }
-        ]
-    }
-    backSprite: moon-mod-star
-    sprite: moon-mod-star2
-    shrinkX: 0
-    shrinkY: 0
-    trailChance: 1
-    trailEffect: {
-    type: ParticleEffect
-    particles: 1
-    length: 0
-    lifetime: 12
-    sizeFrom: 4
-    sizeTo: 0
-    colorFrom: 64f450
-    colorTo: 2ddb4e
-    region: particle
-  }
-}
-}
- ] 
+        }
+    ],
 research: {
     parent: "axoflare3",
     objectives: [
@@ -107,9 +108,9 @@ research: {
 abilities: [
   {
     type: RepairFieldAbility
-    amount: 20
-    range: 50
-    reload: 90
+    amount: 50
+    range: 70
+    reload: 120
     }
     ]
 researchCostMultiplier: 0

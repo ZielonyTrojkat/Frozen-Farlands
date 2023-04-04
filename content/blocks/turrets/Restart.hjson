@@ -2,9 +2,9 @@ name: Restart
 "type": ItemTurret,
 "size": 7,
 "health": 11500,
-range: 500
+range: 700
 rotateSpeed: 0
-reload: 20
+reload: 22
 burstSpacing: 3
 shootCone: 360
 heatColor: ffffff
@@ -117,7 +117,6 @@ ammoTypes: {
             }
         ]
     },
-    
 category: turret
 requirements: [
     yttrium/4300

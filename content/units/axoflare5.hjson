@@ -1,48 +1,65 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 2,
+    "speed": 0.6,
     "accel": 0.1,
     "drag": 0.07,
     "flying": true,
-    "health": 2950,
-    "hitSize": 6,
-    "armor": 3,
-    "itemCapacity": 40,
+    "health": 18950,
+    "hitSize": 12,
+    "armor": 7,
+    "itemCapacity": 100,
+    rotateSpeed: 1
   "outlineColor": "b2b8c2",
-    "engineOffset": 9,
-    engineSize: 4
+    "engineOffset": 17,
+    engineSize: 5
+engines: [
+{
+x: 14.5
+y: -4
+rotation: 315
+radius: 4
+}
+{
+x: -14.5
+y: -4
+rotation: -135
+radius: 4
+}
+]
     "faceTarget": true,
-    buildSpeed: 0.75
-    buildRange: 100
+    buildSpeed: 1.5
+    buildRange: 120
 weapons: [
 {
-name: axoflare3-weapon
-x: 5
-y: 1
-mirror: true
+name: axoflare5-weapon
+x: 0
+y: 13
+mirror: false
+heatColor: 84F491FF
 shoot: {
-type: ShootPattern
-shots: 1
+shots: 10
+shotDelay: 10
+firstShotDelay: 25
 }
-top: false
+"shootStatus": "unmoving"
+"shootStatusDuration": 110
+parentizeEffects: true
 rotate: false
-baseRotation: -35
-shootCone: 360
-reload: 30
-recoil: 1
-shootSound: MoonRaySound
+reload: 150
+recoil: 0
+shootSound: railgun
 ejectEffect: none
 bullet: {
     type: BasicBulletType
     speed: 4
-    lifetime: 50
+    lifetime: 60
     damage: 40
-    width: 10
-    height: 10
+    width: 16
+    height: 16
     spin: 3
-    inaccuracy: 3
-    healAmount: 40
-    homingPower: 0.12
+    inaccuracy: 15
+    healAmount: 60
+    homingPower: 0.15
     homingDelay: 5
     collidesTeam: true
     collides: true
@@ -51,12 +68,51 @@ bullet: {
     frontColor: 2ddb4e  
     smokeEffect: "shootSmallSmoke"
     ammoMultiplier: 1
+                "chargeEffect": {
+                    "type": "multiEffect",
+                    "lifetime": 120,
+                    "effects": [
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 1,
+                            "sizeTo": 8,
+                            "length": 0,
+                            "lifetime": 120,
+                            "colorFrom": "84F491FF",
+                            "colorTo": "84F491FF",
+                            "cone": 360
+                        },
+                        {
+                            "type": "WaveEffect",
+                            "lifetime": 120,
+                            "sizeFrom": 0,
+                            "sizeTo": 18,
+                            "strokeFrom": 7,
+                            "strokeTo": 0,
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 2,
+                            "sizeTo": 17,
+                            "length": 0,
+                            "spin": 7,
+                            "lifetime": 120,
+                            "region": "moon-mod-star",                           
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                    ]
+                }
     despawnEffect: {
     type: WaveEffect
-    lifetime: 10
+    lifetime: 15
     sizeFrom: 0
-    sizeTo: 10
-    strokeFrom: 6
+    sizeTo: 15
+    strokeFrom: 8
     strokeTo: 0
     colorFrom: 64f450
     colorTo: 2ddb4e
@@ -85,8 +141,8 @@ bullet: {
     type: ParticleEffect
     particles: 1
     length: 0
-    lifetime: 12
-    sizeFrom: 4
+    lifetime: 15
+    sizeFrom: 7
     sizeTo: 0
     colorFrom: 64f450
     colorTo: 2ddb4e

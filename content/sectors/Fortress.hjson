@@ -1,5 +1,5 @@
 
-    sector: 10,
+    sector: 14,
     planet: "Zilo",
     research: {
         parent: "Frontline",

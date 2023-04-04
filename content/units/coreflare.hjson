@@ -106,9 +106,6 @@ recoil: 3
     trailLength: 4
     trailWidth: 2.5
     trailColor: 03f8fc
-          weaveMag: 3
-      weaveScale: 5
-      weaveRandom: true
     }
 }
  ] 

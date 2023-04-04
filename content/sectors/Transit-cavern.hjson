@@ -1,5 +1,5 @@
 planet: Zilo
-sector: 7
+sector: 29
     research: {
         parent: "Lonely-lake",
         objectives: [

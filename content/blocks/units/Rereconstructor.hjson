@@ -19,7 +19,7 @@ consumes: {
 upgrades: [
   [cryospider2, cryospider3]
   [cryoflare2, cryoflare3]
-  [axo2, axo3]
+  [axoflare2, axoflare3]
   [cryomech2, cryomech3]
 ]
 requirements: [

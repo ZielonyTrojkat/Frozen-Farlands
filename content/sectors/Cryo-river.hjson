@@ -1,5 +1,5 @@
 
-    sector: 21,
+    sector: 3,
     planet: "Zilo",
     research: {
         parent: "Solar-peaks",

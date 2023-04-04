@@ -1,44 +1,49 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 1.8,
+    "speed": 2,
     "accel": 0.1,
-    "drag": 0.04,
+    "drag": 0.07,
     "flying": true,
-    "health": 150,
+    "health": 2950,
     "hitSize": 6,
-    "armor": 1,
-    "itemCapacity": 20,
+    "armor": 3,
+    "itemCapacity": 40,
   "outlineColor": "b2b8c2",
-    "engineOffset": 6,
+    "engineOffset": 9,
+    engineSize: 4
     "faceTarget": true,
-    buildSpeed: 0.3
-    buildRange: 80
+    buildSpeed: 0.75
+    buildRange: 100
 weapons: [
 {
-name: axoflare2-weapon
-x: 0
+name: axoflare3-weapon
+x: 5
 y: 1
-mirror: false
+mirror: true
 shoot: {
 type: ShootPattern
 shots: 1
 }
 top: false
 rotate: false
-reload: 50
+baseRotation: -35
+shootCone: 360
+reload: 30
 recoil: 1
 shootSound: MoonRaySound
 ejectEffect: none
 bullet: {
     type: BasicBulletType
-    speed: 5
+    speed: 4
     lifetime: 50
-    damage: 25
-    width: 12
-    height: 12
+    damage: 40
+    width: 10
+    height: 10
     spin: 3
     inaccuracy: 3
     healAmount: 40
+    homingPower: 0.12
+    homingDelay: 5
     collidesTeam: true
     collides: true
     keepVelocity: false
@@ -64,9 +69,9 @@ bullet: {
                 "colorFrom": "64f450",
                 "colorTo": "2ddb4e",
                 "sizeFrom": 1,
-                "sizeTo": 10,
-                "lifetime": 15
-                strokeFrom: 8
+                "sizeTo": 6,
+                "lifetime": 10
+                strokeFrom: 5
                 strokeTo: 0
             }
         ]
@@ -80,8 +85,8 @@ bullet: {
     type: ParticleEffect
     particles: 1
     length: 0
-    lifetime: 15
-    sizeFrom: 5
+    lifetime: 12
+    sizeFrom: 4
     sizeTo: 0
     colorFrom: 64f450
     colorTo: 2ddb4e
@@ -91,13 +96,20 @@ bullet: {
 }
  ] 
 research: {
-    parent: "axoflare",
+    parent: "axoflare4",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Frontline"
         }
     ]
+	requirements: [
+		yttrium/4400
+    aluminium/3450
+		aerogel/3300
+		moonstone/2400
+    diamond/1800
+	]
 }
 abilities: [
   {
@@ -107,4 +119,3 @@ abilities: [
     reload: 90
     }
     ]
-researchCostMultiplier: 0

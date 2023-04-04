@@ -6,7 +6,7 @@ consumes: {
 }
 plans: [
   {
-    unit: axo
+    unit: axoflare
     time: 1500
     requirements: [
      yttrium/15

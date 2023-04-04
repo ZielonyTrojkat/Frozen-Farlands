@@ -19,7 +19,7 @@ updateLighting: false
     "defaultCore": core-2,
     clearSectorOnLose: true
     "visible": true,
-    "startSector": 0, 
+    "startSector": 8, 
     "sectorSize": 1,
     "sectorSeed": 69,
     landCloudColor: 9ef0ff

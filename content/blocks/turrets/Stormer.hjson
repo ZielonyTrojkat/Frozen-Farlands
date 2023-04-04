@@ -1,5 +1,5 @@
 type: ItemTurret
-size: 4
+size: 5
 reload: 200
 health: 6850
 range: 690

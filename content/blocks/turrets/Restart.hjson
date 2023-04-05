@@ -14,8 +14,7 @@ shootY: 0
 moveWhileCharging: false
 customShadow: false
 buildVisibility: sandboxOnly
-predictTarget: true
-autoTarget: true
+accurateDelay: false
     "smoothReloadSpeed": 1.2,
     "shootWarmupSpeed": 0.02,
     "minWarmup": 0.8,

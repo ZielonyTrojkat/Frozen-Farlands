@@ -1,10 +1,15 @@
 type: ItemTurret
 size: 5
-reload: 200
+reload: 220
 health: 6850
 range: 690
 category: turret
+rotateSpeed: 0.9
+accurateDelay: false
+shootCone: 1
 basePrefix: -base
+    "shootWarmupSpeed": 0.04,
+    "minWarmup": 0.9,
 consumes: {
     power: 4
 }
@@ -12,9 +17,10 @@ shoot: {
   type: ShootBarrel
   shots: 1
   barrels: [
-    0, 0, 0
+    0, -8, 0
   ]
 }
+ammoPerShot: 15
 ammoTypes: {
   cryogenium: {
     ammoMultiplier: 1
@@ -24,17 +30,29 @@ ammoTypes: {
   arcanthium: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
-    spawnUnit: electrum-missile
+    spawnUnit: arcanthium-missile
   }
   moonstone: {
     ammoMultiplier: 1
     displayAmmoMultiplier: false
-    spawnUnit: obsidian-missile
+    spawnUnit: moonstone-missile
   }
 }
 drawer:{
  type: DrawTurret
  parts: [
+{
+    type: RegionPart
+    suffix: -missile
+    progress: reload
+    colorTo: 00000000
+    color: ffffff
+    outline: false
+    under: true
+    mirror: false
+    layerOffset: 0.01
+    y: 6
+}
          {
          "type": "RegionPart",
           "suffix": "-part1",
@@ -48,18 +66,8 @@ drawer:{
           }
           "outlineLayerOffset": 0.001,
          "moveX": -5,
+             layerOffset: 0.02
          }
-         {
-    type: RegionPart
-    suffix: -missile
-    progress: reload
-    colorTo: 00000000
-    color: ffffff
-    outline: false
-    under: true
-    mirror: false
-    layerOffset: 1
-}
 ]
 }
 requirements: [

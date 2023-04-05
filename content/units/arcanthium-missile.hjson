@@ -8,12 +8,12 @@ hidden: true
 envEnabled: 17
 envDisabled: 0
 outlineColor: 2d2f39
-engineColor: fffb08
-trailColor: fffb08
-engineSize: 3.1
-engineOffset: 10
+engineColor: f77c2f
+trailColor: f77c2f
+engineSize: 3.5
+engineOffset: 8
 rotateSpeed: 0.25
-trailLength: 10
+trailLength: 18
 missileAccelTime: 50
 lowAltitude: true
 fogRadius: 6
@@ -32,18 +32,18 @@ abilities: [
               type: ParticleEffect
               particles: 8
               lifetime: 30
-              length: 15
+              length: 12
               sizeFrom: 4
               sizeTo: 1
-              colorFrom: ffce8c
-              colorTo: ff9100
+              colorFrom: ff9959
+              colorTo: f77c2f
               strokeFrom: 3
               strokeTo: 1.5
               interp: pow3Out
               spin: 5
               sizeInterp: pow2In
               region: moon-mod-triangle
-              offsetX: 5
+              offsetX: -12
               }
               ]
               }
@@ -62,30 +62,61 @@ weapons: [
           
           bullet:{
         type: BombBulletType
-        splashDamageRadius: 50
-        splashDamage: 150
+        splashDamageRadius: 65
+        splashDamage: 250
         instantDisappear: true
         killShooter: true
         hittable: false
         collidesAir: false
       "lightning": 8,
-      "lightningLength": 10,
-      "lightningLengthRand": 10,
+      "lightningLength": 7,
+      "lightningLengthRand": 12,
       "lightningDamage": 50,
       "lightColor": "ffce8c",
       "lightningColor": "ff9100",
-        hitEffect: [
-        {
-          type: WaveEffect
-          lifetime: 15
-          sizeFrom: 0
-          sizeTo: 50
-          strokeFrom: 16
-          strokeTo: 0
-          colorFrom: ffce8c
-          colorTo: ff9100
-        }
-        ]
-        }
+   "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 50,
+    "interp": "circleOut",
+    "strokeFrom": 35,
+    "strokeTo": 0,
+    "colorFrom": "ff9959",
+    "colorTo": "f77c2f"
+    },
+    	{
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 18,
+    "lifetime": 30,
+    "baseLength": 15,
+    "length": 50,
+    "lenFrom": 8,
+    "lenTo": 3,
+    strokeFrom: 5
+    strokeTo: 0
+    "lightColor": "ff9959",
+    "colorFrom": "ffb78a",
+    "colorTo": "f77c2f"
+	},
+  	{
+	"type": "ParticleEffect",
+    "particles": 14,
+    "length": 65,
+    "lifetime": 80,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ffb78a",
+    "colorTo": "f77c2f",
+    "sizeFrom": 8,
+    "sizeTo": 0
+	},
+    ]
+   }
+    }
     }
 ]

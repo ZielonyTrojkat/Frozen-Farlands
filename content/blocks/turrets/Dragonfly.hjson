@@ -6,19 +6,16 @@ drawOutlines: false
 "health": 900,
 range: 240,
 rotateSpeed: 10,
-reload: 60
+reload: 6
 burstSpacing: 1
-shoot: {
-  shots: 10
-  shotDelay: 8
-}
+shots: 1
 xRand: 1
 recoilAmount: 3
-loopSound: alterego
+shootSound: shootAltLong
 ammoTypes: {
     ice-shard: {
     type: BasicBulletType
-    reloadMultiplier: 0.8
+    reloadMultiplier: 0.75
     speed: 4
     lifetime: 56
     damage: 15

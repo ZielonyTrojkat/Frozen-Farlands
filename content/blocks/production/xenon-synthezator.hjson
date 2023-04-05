@@ -87,5 +87,5 @@ researchCost: [
     ice-shard/200
     moonstone/150
   ]
-    ambientSound: clockwork
+    ambientSound: hum
     ambientSoundVolume: 1

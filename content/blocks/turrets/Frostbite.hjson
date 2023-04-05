@@ -19,7 +19,7 @@ rotateSpeed: 2
 reload: 60
 recoilAmount: 8
 restitution: 0.02
-shootSound: lockdown
+shootSound: FrostbiteSound
 moveWhileCharging: false
 shoot: {
   firstShotDelay: 70

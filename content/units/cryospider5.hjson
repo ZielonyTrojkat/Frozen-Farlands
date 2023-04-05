@@ -169,7 +169,7 @@ ejectEffect: none
             {
             "type": "mindustry.entities.abilities.ForceFieldAbility",
             "radius": 70,
-            "regen": 2,
+            "regen": 1,
             "max": 1000,
             "cooldown": 380,
             sides: 3
@@ -177,7 +177,7 @@ ejectEffect: none
             {
             "type": "mindustry.entities.abilities.ForceFieldAbility",
             "radius": 70,
-            "regen": 2,
+            "regen": 1,
             "max": 1000,
             "cooldown": 380,
             sides: 3

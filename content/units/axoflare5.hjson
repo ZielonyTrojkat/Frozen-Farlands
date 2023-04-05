@@ -28,7 +28,7 @@ radius: 4
 ]
     "faceTarget": true,
     buildSpeed: 1.5
-    buildRange: 120
+    buildRange: 130
 weapons: [
 {
 name: axoflare5-weapon
@@ -37,35 +37,36 @@ y: 13
 mirror: false
 heatColor: 84F491FF
 shoot: {
-shots: 10
-shotDelay: 10
-firstShotDelay: 25
+shots: 9
+shotDelay: 12
+firstShotDelay: 20
 }
 "shootStatus": "unmoving"
 "shootStatusDuration": 110
 parentizeEffects: true
 rotate: false
-reload: 150
+reload: 180
 recoil: 0
 shootSound: railgun
 ejectEffect: none
 bullet: {
     type: BasicBulletType
     speed: 4
-    lifetime: 60
-    damage: 40
+    lifetime: 70
+    damage: 60
     width: 16
     height: 16
     spin: 3
-    inaccuracy: 15
-    healAmount: 60
+    inaccuracy: 25
+    healAmount: 100
     homingPower: 0.15
-    homingDelay: 5
+    homingRange: 150
+    homingDelay: 15
     collidesTeam: true
     collides: true
     keepVelocity: false
     backColor: 64f450
-    frontColor: 2ddb4e  
+    frontColor: 41e860 
     smokeEffect: "shootSmallSmoke"
     ammoMultiplier: 1
                 "chargeEffect": {
@@ -75,9 +76,27 @@ bullet: {
                         {
                             "type": "ParticleEffect",
                             "particles": 1,
-                            "sizeFrom": 1,
+                            "sizeFrom": 0,
                             "sizeTo": 8,
                             "length": 0,
+                            "lifetime": 120,
+                            "colorFrom": "84F491FF",
+                            "colorTo": "84F491FF",
+                            "cone": 360
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            line: true
+                            "particles": 15,
+                            "sizeFrom": 0,
+                            "sizeTo": 8,
+                            offset: 60
+                            baseLength: -40
+                            "length": 40,
+                            lenFrom: 0
+                            lenTo: 5
+                            strokeFrom: 0
+                            strokeTo: 3
                             "lifetime": 120,
                             "colorFrom": "84F491FF",
                             "colorTo": "84F491FF",
@@ -88,7 +107,7 @@ bullet: {
                             "lifetime": 120,
                             "sizeFrom": 0,
                             "sizeTo": 18,
-                            "strokeFrom": 7,
+                            "strokeFrom": 5,
                             "strokeTo": 0,
                             "colorFrom": "62AE7FFF",
                             "colorTo": "84F491FF"
@@ -96,7 +115,7 @@ bullet: {
                         {
                             "type": "ParticleEffect",
                             "particles": 1,
-                            "sizeFrom": 2,
+                            "sizeFrom": 0,
                             "sizeTo": 17,
                             "length": 0,
                             "spin": 7,
@@ -124,7 +143,7 @@ bullet: {
                 "type": "WaveEffect",
                 "colorFrom": "64f450",
                 "colorTo": "2ddb4e",
-                "sizeFrom": 1,
+                "sizeFrom": 0,
                 "sizeTo": 6,
                 "lifetime": 10
                 strokeFrom: 5
@@ -136,6 +155,8 @@ bullet: {
     sprite: moon-mod-star2
     shrinkX: 0
     shrinkY: 0
+      weaveMag: 3
+      weaveScale: 5
     trailChance: 1
     trailEffect: {
     type: ParticleEffect
@@ -160,18 +181,20 @@ research: {
         }
     ]
 	requirements: [
-		yttrium/4400
+	yttrium/4400
     aluminium/3450
-		aerogel/3300
-		moonstone/2400
+	aerogel/3300
+	moonstone/2400
     diamond/1800
 	]
 }
 abilities: [
-  {
-    type: RepairFieldAbility
-    amount: 20
-    range: 50
-    reload: 90
-    }
+            {
+            "type": "ForceFieldAbility"
+            "radius": 60,
+            "regen": 1,
+            "max": 1000,
+            "cooldown": 380,
+            sides: 6
+            }
     ]

@@ -3,7 +3,7 @@ name: Restart
 "size": 7,
 "health": 11500,
 range: 700
-rotateSpeed: 20
+rotateSpeed: 0
 reload: 22
 burstSpacing: 3
 shootCone: 360
@@ -51,18 +51,41 @@ shoot: {
 }
 ammoTypes: {
   reinforced-cryofabric: {
-    bullet: {
-              type: BombBulletType
+        type: basicBulletType
         splashDamageRadius: 70
         splashDamage: 300
-                 "homingPower": 0.9,
-        "homingRange": 200,
-        instantDisappear: true
-        killShooter: true
-        hittable: false
-          status: fragmental-collapsion
-statusDuration: 250
+        "homingPower": 0.9,
+        "homingRange": 2000,
+        width: 25
+        height: 30
+    frontColor: b7e7ff
+    backColor: 80c7eb
+        lifetime: 200
+        collidesTiles: true
+        speed: 8
+        status: fragmental-collapsion
+        statusDuration: 250
         collidesAir: true
+    trailChance: 1
+    trailEffect: {
+              type: ParticleEffect
+              particles: 10
+              lifetime: 30
+              length: 15
+              sizeFrom: 4
+              sizeTo: 1
+              colorFrom: 36add6
+              colorTo: abe2f5
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+              offsetX: 3
+    }
+              weaveMag: 8
+      weaveScale: 4
         hitEffect: [
         {
           type: WaveEffect
@@ -88,7 +111,6 @@ statusDuration: 250
         }
         ]
         }
-    }
     }
     "shootEffect": {
         "type": "MultiEffect",

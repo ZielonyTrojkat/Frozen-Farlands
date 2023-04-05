@@ -7,6 +7,7 @@
     "health": 2950,
     "hitSize": 6,
     "armor": 3,
+    rotateSpeed: 2
     "itemCapacity": 40,
   "outlineColor": "b2b8c2",
     "engineOffset": 9,

@@ -1,16 +1,17 @@
     "type": "flying",
     "lowAltitude": true,
     "speed": 1,
-    "accel": 0.5,
-    "drag": 0.1,
+    "accel": 0.1,
+    "drag": 0.06,
     "flying": true,
     "health": 7950,
     "hitSize": 6,
     "armor": 5,
+    rotateSpeed: 1.5
     "itemCapacity": 70,
   "outlineColor": "b2b8c2",
-    "engineOffset": 10,
-    engineSize: 4
+    "engineOffset": 12,
+    engineSize: 5
     "faceTarget": true,
     buildSpeed: 1
     buildRange: 100
@@ -32,7 +33,7 @@
             "shootStatus": "unmoving",
             "shootSound": "railgun",
             "shootSoundVolume": 8,
-            "chargeSound": "lasercharge",
+            "chargeSound": "lasercharge2",
             "rotate": false,
             "cooldownTime": 200,
             "bullet": {
@@ -41,6 +42,7 @@
                 "lifetime": 40,
                 "width": 25,
                 "damage": 450,
+                recoil: 2
                 "colors": ["62AE7FFF", "84F491FF", "FFFFFF"],
                 "lightColor": "84F491FF",
                 "hitEffect": {

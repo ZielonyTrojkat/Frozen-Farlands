@@ -12,7 +12,7 @@ recoilAmount: 3
 consumes : {
   power: 5
 }
-loopSound: LeechSound
+loopSound: earthquake
 shootType: {
   type: PointLaserBulletType
   color: 7d0209

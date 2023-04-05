@@ -3,7 +3,7 @@ name: Restart
 "size": 7,
 "health": 11500,
 range: 700
-rotateSpeed: 0
+rotateSpeed: 20
 reload: 22
 burstSpacing: 3
 shootCone: 360
@@ -51,11 +51,45 @@ shoot: {
 }
 ammoTypes: {
   reinforced-cryofabric: {
-    ammoMultiplier: 1
-    displayAmmoMultiplier: false
-    spawnUnit: moon-mod-Restart-missle
-  }
-}
+    bullet: {
+              type: BombBulletType
+        splashDamageRadius: 70
+        splashDamage: 300
+                 "homingPower": 0.9,
+        "homingRange": 200,
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+          status: fragmental-collapsion
+statusDuration: 250
+        collidesAir: true
+        hitEffect: [
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 1
+          sizeTo: 70
+          strokeFrom: 5
+          strokeTo: 0
+          colorFrom: c0ecff
+          colorTo: c0ecff
+        }
+                {
+          type: ParticleEffect
+          lifetime: 40
+          sizeFrom: 1
+          sizeTo: 10
+          strokeFrom: 100
+          strokeTo: 0
+          colorFrom: c0ecff
+          colorTo: c0ecff
+          spin: 5
+          region: moon-mod-triangle
+        }
+        ]
+        }
+    }
+    }
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [

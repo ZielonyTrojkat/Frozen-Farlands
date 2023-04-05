@@ -71,6 +71,28 @@ drawer:{
          }
 ]
 }
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+                                          {
+              type: ParticleEffect
+              particles: 30
+              lifetime: 100
+              length: 30
+              sizeFrom: 3
+              sizeTo: 1
+              colorFrom: 8a94a6
+              colorTo: 6e7a8f
+              strokeFrom: 10
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              cone : 60
+              sizeInterp: pow2In
+              region: moon-mod-steam
+            }
+        ]
+    }
 requirements: [
     yttrium/400
     aluminium/300

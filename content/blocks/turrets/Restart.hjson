@@ -2,7 +2,7 @@ name: Restart
 "type": ItemTurret,
 "size": 7,
 "health": 11500,
-range: 700
+range: 800
 rotateSpeed: 0
 reload: 22
 burstSpacing: 3
@@ -14,6 +14,7 @@ shootY: 0
 moveWhileCharging: false
 customShadow: false
 buildVisibility: sandboxOnly
+squareSprite : false
 accurateDelay: false
     "smoothReloadSpeed": 1.2,
     "shootWarmupSpeed": 0.02,
@@ -53,6 +54,7 @@ ammoTypes: {
   reinforced-cryofabric: {
         type: basicBulletType
         splashDamageRadius: 70
+        damage : 350
         splashDamage: 300
         "homingPower": 0.9,
         "homingRange": 2000,
@@ -186,3 +188,4 @@ requirements: [
     reinforced-cryofabric/1445
   ]
 hidden: true
+playerControllable : false

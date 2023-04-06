@@ -14,7 +14,7 @@ plans: [
   unit: cryoflare5
   requirements: [
     moon-mod-cryoflare2/4
-    moon-mod-reinforced-cryofabric-large/10
+    moon-mod-reinforced-cryofabric-wall-large/10
   ]
   time: 2200
   }

@@ -8,7 +8,7 @@ category: defense
 requirements: [
   reinforced-cryofabric/24
 ]
-research: reinforced-cryodiamond-wall
+research: reinforced-cryofabric-wall
 researchCost: [
     reinforced-cryofabric/400
   ]

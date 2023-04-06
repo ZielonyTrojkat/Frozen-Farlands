@@ -3,6 +3,8 @@ hasShadow: true
 health: 150
 speed: 0.1
 displayedSpeed: 20
+junctionReplacement: yttrium-junction
+bridgeReplacement: yttrium-bridge
 requirements: [
   moonstone/3
   aluminium/2

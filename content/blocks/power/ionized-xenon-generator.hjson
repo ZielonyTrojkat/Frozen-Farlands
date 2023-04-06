@@ -37,7 +37,7 @@ consumes: {
      ionized-xenon/0.3
     ]
 }
-powerProduction: 50
+powerProduction: 60
 category: power
 requirements: [
   moonstone/400

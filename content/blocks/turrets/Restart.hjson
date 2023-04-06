@@ -20,7 +20,7 @@ accurateDelay: false
     "shootWarmupSpeed": 0.02,
     "minWarmup": 0.8,
 consumes: {
-  power: 1000
+  power: 36
 }
     "drawer": {
     "type": "drawTurret",

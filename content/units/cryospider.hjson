@@ -2,10 +2,10 @@
     outlineRadius: 3
   "type": "legs",
 	"speed": 0.8,
-	"hitSize": 10,
+	"hitSize": 7,
 	"health": 360,
 	"faceTarget": true,
-	"armor": 2,
+	"armor": 1,
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,

@@ -1,7 +1,7 @@
 	"outlineColor": "36363c",
   "type": "legs",
 	"speed": 0.7,
-	"hitSize": 10,
+	"hitSize": 14,
 	"health": 2860,
 	"faceTarget": true,
 	"armor": 4,

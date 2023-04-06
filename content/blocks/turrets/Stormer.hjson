@@ -74,13 +74,13 @@ drawer:{
     "shootEffect": {
         "type": "MultiEffect",
         "effects": [
-                                          {
+            {
               type: ParticleEffect
               particles: 30
               lifetime: 100
               length: 30
               sizeFrom: 3
-              sizeTo: 1
+              sizeTo: 0
               colorFrom: 8a94a6
               colorTo: 6e7a8f
               strokeFrom: 10

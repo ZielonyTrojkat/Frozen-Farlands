@@ -1,7 +1,7 @@
 	"outlineColor": "36363c",
   "type": "mech",
 	"speed": 0.5,
-	"hitSize": 10,
+	"hitSize": 11,
 	"health": 1020,
 	"faceTarget": true,
 	"armor": 3,

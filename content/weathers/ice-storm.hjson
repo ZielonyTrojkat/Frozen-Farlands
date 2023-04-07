@@ -12,7 +12,7 @@ opacityMultiplier: 0.75
 baseSpeed: 5
 sound: wind
 soundVol: 1.65
-force: 2
+force: 1
 attrs: {
   heat: 1.4
   water: -0.5

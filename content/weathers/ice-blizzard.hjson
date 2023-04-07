@@ -12,7 +12,7 @@ opacityMultiplier: 1
 baseSpeed: 15
 sound: windhowl
 soundVol: 1
-force: 4
+force: 2
 attrs: {
   heat: 1.4
   water: -0.5

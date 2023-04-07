@@ -5,7 +5,7 @@
     "drag": 0.05,
     "flying": true,
     "health": 500,
-    "hitSize": 3,
+    "hitSize": 14,
     "armor": 3,
     "itemCapacity": 80,
   "outlineColor": "36363c",

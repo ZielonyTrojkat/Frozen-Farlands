@@ -68,6 +68,41 @@ bullet: {
     backColor: 64f450
     frontColor: 41e860 
     smokeEffect: "shootSmallSmoke"
+      "fragVelocityMin": 0.3,
+      "fragVelocityMax": 1.5,
+      "fragBullets": 3,
+      despawnHit: true
+      "fragBullet": {
+        "speed": 3,
+        "collidesTiles": false,
+        "damage": 20,
+        "width": 6,
+        "heigth": 6,
+        lifetime: 15
+    trailChance: 1
+    trailEffect: {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    lifetime: 10
+    sizeFrom: 4
+    sizeTo: 0
+    colorFrom: 64f450
+    colorTo: 2ddb4e
+    region: particle
+  }
+    despawnHit: true
+    despawnEffect: {
+    type: WaveEffect
+    lifetime: 15
+    sizeFrom: 0
+    sizeTo: 8
+    strokeFrom: 6
+    strokeTo: 0
+    colorFrom: 64f450
+    colorTo: 2ddb4e
+  }
+      }
     ammoMultiplier: 1
                 "chargeEffect": {
                     "type": "multiEffect",
@@ -126,7 +161,7 @@ bullet: {
                         },
                     ]
                 }
-    despawnEffect: {
+    hitEffect: {
     type: WaveEffect
     lifetime: 15
     sizeFrom: 0

@@ -19,7 +19,7 @@
         {	
         "type": "DrawPistons"
         suffix: -piston1
-        sinMag: 10
+        sinMag: 9
         sinScl: 8
         angleOffset: 45
         sides: 4

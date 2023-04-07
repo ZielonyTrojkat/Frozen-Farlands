@@ -5,6 +5,30 @@ liquidCapacity: 60
 canOverdrive: false
 itemDuration: 180
 baseExplosiveness: 0
+  "drawer": {
+  "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+	   },
+        {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "arcalith",
+        "suffix": "-liquid"
+        },
+        {	
+        "type": "DrawPistons"
+        suffix: -piston1
+        sinMag: 5
+        sinScl: 10
+        sides: 4
+	      }
+        {	
+        "type": "DrawDefault"
+	       }
+    ]
+    },
 consumes: {
     "items": [
     cryogenium/1
@@ -13,7 +37,7 @@ consumes: {
       arcalith/0.2
     ]
 }
-outputLiquid: water/0.25
+outputLiquid: water/0.5
 powerProduction: 10
 category: power
 requirements: [

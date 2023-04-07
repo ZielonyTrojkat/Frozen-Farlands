@@ -1,0 +1,20 @@
+type: ParticleWeather
+color: ccc0eb
+noiseColor: 672ff5
+particleRegion: moon-mod-star
+sizeMax: 0
+sizeMin: 0
+density: 10000
+status: none
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.01
+baseSpeed: 0.03
+sound: The_Fortress_of_frostbite
+soundVol: 1.9
+force: 0
+attrs: {
+  heat: -100
+  water: -0.5
+  spores: -0.9
+}

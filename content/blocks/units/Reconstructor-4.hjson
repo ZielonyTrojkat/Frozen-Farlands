@@ -7,8 +7,7 @@ consumes: {
   power: 3
     items: {
       items: [
-        yttrium/60
-        aluminium/30
+        aluminium/40
         aerogel/30
       ]
     }

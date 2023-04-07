@@ -1,5 +1,5 @@
 type: ShockMine
-health: 30
+health: 50
 hasShadow: false
 damage: 0
 tileDamage: 10
@@ -23,7 +23,46 @@ collidesTiles: false
 absorbable: false
 hittable: false
 hitEffect: none
-despawnEffect: massiveExplosion
+despawnEffect: {
+    "type": "MultiEffect",
+	"effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
+                strokeFrom: 8
+                strokeTo: 0
+                "sizeFrom": 1,
+                "sizeTo": 20,
+                "lifetime": 20
+            }
+	{
+	"type": "ParticleEffect",
+    "particles": 10,
+    "length": 15,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "33cfff",
+    "colorTo": "0282fa",
+    "sizeFrom": 3,
+    "sizeTo": 0
+	},
+	{
+    "type": "ParticleEffect",
+    "particles": 10,
+    "length": 20,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "bdfbff",
+    "colorFrom": "bdfbff",
+    "colorTo": "1fcbff",
+    "sizeFrom": 5,
+    "sizeTo": 0
+	}
+	]
+}
 despawnSound: explosion
 hitColor: 65daf7
 backColor: 65daf7

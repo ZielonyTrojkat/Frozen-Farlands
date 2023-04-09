@@ -10,7 +10,7 @@
             }
         ]
     },
-    difficulty: 1000,
+    difficulty: 9,
     overrideLaunchDefaults: true
     addStartingItems: true
 captureWave: 101

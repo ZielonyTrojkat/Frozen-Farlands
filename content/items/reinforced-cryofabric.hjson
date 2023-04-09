@@ -5,4 +5,4 @@ name: ReinforcedCryoFabric
   "flammability": 0,
   "explosiveness": 0.5,
   "radioactivity": 0,
-parent: cryogenium
+research: cryogenium

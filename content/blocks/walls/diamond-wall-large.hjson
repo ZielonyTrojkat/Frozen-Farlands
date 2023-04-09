@@ -1,5 +1,4 @@
     "type": "Wall",
-    "buildCostMultiplier": 0.1,
     "health": 2700,
     "size": 2,
     category: defense

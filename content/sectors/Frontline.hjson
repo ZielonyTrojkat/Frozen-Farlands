@@ -9,7 +9,7 @@
                 preset: "Crash-landing"
             }
         ]
-    },
+    }
     difficulty: 10,
     overrideLaunchDefaults: true
     addStartingItems: true

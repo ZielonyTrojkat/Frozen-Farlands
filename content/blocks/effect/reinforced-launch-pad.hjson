@@ -19,7 +19,7 @@ research: {
     objectives: [
         {
             type: "SectorComplete",
-            preset: "Frontline"
+            preset: "Crash-landing"
         }
     ]
 },

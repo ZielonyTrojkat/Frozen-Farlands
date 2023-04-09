@@ -1,11 +1,11 @@
 type: item
 name: Diamond
 description: hfsaufwfhnuijijiefibh
-  "cost": 3,
+  "cost": 2,
   "color": "d4fffb",
   "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,
   "charge": 0
-  hardness: 4
+  hardness: 5
   research: moonstone

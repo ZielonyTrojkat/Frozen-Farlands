@@ -9,23 +9,23 @@ health: 450
   "drawMineItem": true,
   hasPower: true
   rotateSpeed: 6
-  "consumes": {
+  consumes: {
     power: 2
-    "liquid": {
-      "liquid": "xenon",
-      "amount": 0.09,
-      "optional": true,
-      "booster": true
+    liquid: {
+      liquid: xenon
+      amount: 0.09
+      optional: true
+      booster: true
     }
-  },
+  }
   requirements: [
     aluminium/50
-    cryogenium/45
+    cryogenium/40
     moonstone/30
   ]
   "category": "production",
 research: {
-    parent: "sickle-drill",
+    parent: "sickledrill",
     objectives: [
         {
             type: "OnSector",

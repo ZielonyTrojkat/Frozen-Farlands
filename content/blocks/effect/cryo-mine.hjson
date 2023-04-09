@@ -72,7 +72,15 @@ statusDuration: 60
 }
 category: effect
 requirements: [
-cryogenium/25
+cryogenium/20
 aluminium/10
 ]
-research: core-2
+research: {
+    parent: "repair-field",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Cryo-river"
+        }
+    ]
+},

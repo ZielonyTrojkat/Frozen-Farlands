@@ -11,7 +11,7 @@ allowLaunchSchematics: false
 allowLaunchLoadout: false
 updateLighting: false
     "orbitRadius": 10,
-    "prebuildBase": true,
+    "prebuildBase": false,
     "atmosphereRadIn": 0.01,
     "atmosphereRadOut": 0.3,
     "atmosphereColor": 4caed9,

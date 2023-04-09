@@ -17,6 +17,7 @@ requirements: [
     name: Frostbite
     requiresUnlock: false
     planet: Zilo
+    planet: Gheţar
     }
     alwaysUnlocked: true
 }

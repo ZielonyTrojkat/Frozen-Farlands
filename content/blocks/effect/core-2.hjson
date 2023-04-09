@@ -14,9 +14,10 @@ requirements: [
   "category": "effect",
    research: {
     root: true
-    name: Frostbite
+    name: Zilo
     requiresUnlock: false
     planet: Zilo
+    planet: Gheţar
     }
     alwaysUnlocked: true
 }

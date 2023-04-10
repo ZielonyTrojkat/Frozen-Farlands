@@ -14,7 +14,7 @@
     engineSize: 5
     "faceTarget": true,
     buildSpeed: 1
-    buildRange: 100
+    buildRange: 170
     "weapons": [ 
         {
             "name": "axoflare4-weapon",

@@ -13,10 +13,16 @@
     "engineOffset": 9,
     "faceTarget": true,
     buildSpeed: 0.5
-    buildRange: 100
-    mineTier: 3
+    buildRange: 150
+    mineTier: 4
     mineSpeed: 2
     mineRange: 60
+controller: MinerAI
+mineItems: [
+  yttrium
+  arcanite
+  moonstone
+]
 weapons: [
 {
 name: axoflare3-weapon

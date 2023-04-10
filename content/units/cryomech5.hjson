@@ -5,7 +5,7 @@
 	"health": 20360,
 	"faceTarget": true,
 	"armor": 14,
-	"range": 180,
+	"range": 280,
 	"targetAir": false,
 	"rotateSpeed": 1,
 "mechFrontSway": 0.5,
@@ -40,6 +40,7 @@ bullet: {
 type: ArtilleryBulletType
 width: 20
 height: 25
+damage: 150
 splashDamage: 150
 splashDamageRadius: 60
 speed: 3

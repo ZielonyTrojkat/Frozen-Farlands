@@ -1,8 +1,8 @@
 name: Zap
-"type": PowerTurret,
+"type": ItemTurret,
 "size": 1,
-"health": 300,
-range: 300,
+"health": 400,
+range: 250,
 rotateSpeed: 5,
 reload: 100
 burstSpacing: 1
@@ -10,21 +10,33 @@ shots: 1
 xRand: 1
 consumes: {
   power: 6
-  item: arcanthium
 }
+    "ammoPerShot": 2,
 recoilAmount: 3
 shootSound: ZapSound
-shootType: {
-type: LightningBulletType,
+    "ammoTypes": {
+        "arcanthium": {
+      type: lightningBulletType,
       "lightningLength": 30,
-      "lightningLengthRand": 30,
+      "lightningLengthRand": 20,
       damage: 300,
       buildingDamageMultiplier: 0.1
       "lightColor": "ffce8c",
-  lightningColor: ffea00
-status: unmoving
-statusDuration: 180
+      lightningColor: ffea00
+        lightningType: {
+      type: lightningBulletType,
+      "lightningLength": 3,
+      "lightningLengthRand": 5,
+      damage: 15,
+      hitEffect: none
+      splashDamageRadius: 15
+      "lightColor": "ffce8c",
+      lightningColor: ffea00
+      status: unmoving
+      statusDuration: 60
+        }
 }
+    }
 category: turret
 requirements: [
     yttrium/80

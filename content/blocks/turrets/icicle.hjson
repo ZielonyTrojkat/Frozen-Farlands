@@ -2,7 +2,7 @@ type: PointDefenseTurret
 size: 2
 reload: 15
 health: 800
-bulletDamage: 4
+bulletDamage: 10
 range: 200
 consumes: {
   power: 2.5

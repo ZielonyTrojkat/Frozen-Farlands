@@ -17,7 +17,7 @@ trailLength: 18
 missileAccelTime: 50
 lowAltitude: true
 fogRadius: 6
-health: 190
+health: 300
 allowedInPayloads: false
 useUnitCap: false
 playerControllable: false
@@ -27,6 +27,7 @@ createScorch: false
 abilities: [
   {
               type: MoveEffectAbility
+              y: -8
               effect: [
               {
               type: ParticleEffect
@@ -43,7 +44,6 @@ abilities: [
               spin: 5
               sizeInterp: pow2In
               region: moon-mod-triangle
-              offsetX: -12
               }
               ]
               }

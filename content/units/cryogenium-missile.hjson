@@ -27,6 +27,7 @@ createScorch: false
 abilities: [
   {
               type: MoveEffectAbility
+              y: -8
               effect: [
               {
               type: ParticleEffect
@@ -43,7 +44,6 @@ abilities: [
               spin: 5
               sizeInterp: pow2In
               region: moon-mod-triangle
-              offsetX: -12
               }
               ]
               }

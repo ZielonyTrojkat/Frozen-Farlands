@@ -13,6 +13,7 @@
     "engineOffset": 21,
     "engineSize": 6
     "faceTarget": true,
+    range: 350
 weapons: [
 {
 name: cryoflare5-launcher
@@ -28,6 +29,7 @@ layerOffset: -1
 shootSound: missileSmall
 ejectEffect: none
     "bullet": { 
+      maxRange: 400
     "colors":["00eeff", "00eeff", "FFFFFFF"],
       "type": "LaserBulletType",
         "spawnUnit": "cryo-missile"

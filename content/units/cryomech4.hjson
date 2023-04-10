@@ -5,7 +5,7 @@
 	"health": 9360,
 	"faceTarget": true,
 	"armor": 10,
-	"range": 180,
+	"range": 220,
 	"targetAir": false,
 	"rotateSpeed": 2,
 "mechFrontSway": 0.5,
@@ -37,11 +37,11 @@ ejectEffect: none
 bullet: {
 width: 13
 height: 19
-damage: 95
-splashDamage: 25
-splashDamageRadius: 25
+damage: 75
+splashDamage: 20
+splashDamageRadius: 20
 speed: 7
-lifetime: 65
+lifetime: 55
 backColor: 51e1e8
 frontColor: cdf8fa
 status: freezing

@@ -40,6 +40,7 @@ reload: 40
 recoil: 3
 shootSound: railgun
 ejectEffect: none
+shake: 3
     "bullet": { 
     "colors":["00eeff", "00eeff", "FFFFFFF"],
       "type": "LaserBulletType",
@@ -88,20 +89,33 @@ ejectEffect: none
     rotate: true
     "recoil": 2,
     "shootSound": "bolt",
+    shake: 4
     "bullet": { 
     "type": "artilleryBulletType",
     "sprite": "moon-mod-star",
     "collidesAir": true,
     "collides": true,
     "collidesTiles": true,
+    hitShake: 8
     "hitEffect": {
     "type": "MultiEffect",
 	"effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 30,
+    "sizeFrom": 0,
+    "sizeTo": 55,
+    "interp": "circleOut",
+    "strokeFrom": 30,
+    "strokeTo": 0,
+    "colorFrom": "bdfbff",
+    "colorTo": "1fcbff"
+    },
 	{
 	"type": "ParticleEffect",
     "line": true,
     "particles": 18,
-    "lifetime": 42,
+    "lifetime": 35,
     "baseLength": 40,
     "length": 70,
     "lenFrom": 6,
@@ -114,7 +128,7 @@ ejectEffect: none
 	"type": "ParticleEffect",
     "particles": 10,
     "length": 50,
-    "lifetime": 80,
+    "lifetime": 70,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
     "colorFrom": "33cfff",
@@ -126,7 +140,7 @@ ejectEffect: none
     "type": "ParticleEffect",
     "particles": 16,
     "length": 60,
-    "lifetime": 100,
+    "lifetime": 80,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
     "lightColor": "bdfbff",

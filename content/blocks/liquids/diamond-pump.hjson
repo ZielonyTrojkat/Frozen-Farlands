@@ -4,6 +4,10 @@ size: 3
 pumpAmount: 0.3
 squareSprite: false
 category: liquid
+hasPower: true
+consumes: {
+power: 0.60
+  }
 requirements: [
   yttrium/80
   aluminium/30

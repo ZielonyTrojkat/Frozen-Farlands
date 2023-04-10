@@ -5,7 +5,7 @@
 	"health": 3260,
 	"faceTarget": true,
 	"armor": 6,
-	"range": 120,
+	"range": 140,
 	"targetAir": false,
 	"rotateSpeed": 2.5,
 "mechFrontSway": 0.3,
@@ -38,7 +38,7 @@ width: 13
 height: 19
 damage: 40
 speed: 7
-lifetime: 45
+lifetime: 40
 frontColor: b2afb3
 backColor: d5d2d6
 status: freezing

@@ -11,27 +11,55 @@ xRand: 1
 consumes: {
   power: 6
 }
-    "ammoPerShot": 2,
+"ammoPerShot": 2,
 recoilAmount: 3
 shootSound: ZapSound
     "ammoTypes": {
-        "arcanthium": {
+        "arcanite": {
       type: lightningBulletType,
-      "lightningLength": 30,
-      "lightningLengthRand": 20,
-      damage: 300,
+      "lightningLength": 20,
+      "lightningLengthRand": 12,
+      damage: 80,
+      rangeChange: -96
+      status: electrified
+      statusDuration: 60
+      hitEffect: none
       buildingDamageMultiplier: 0.1
       "lightColor": "ffce8c",
       lightningColor: ffea00
         lightningType: {
       type: lightningBulletType,
       "lightningLength": 3,
+      "lightningLengthRand": 4,
+      damage: 20,
+      hitEffect: none
+      splashDamageRadius: 10
+      "lightColor": "ffce8c",
+      lightningColor: ffea00
+      status: electrified
+      statusDuration: 60
+        }
+}
+        "arcanthium": {
+      type: lightningBulletType,
+      "lightningLength": 30,
+      "lightningLengthRand": 20,
+      damage: 300,
+      status: unmoving
+      statusDuration: 60
+      hitEffect: none
+      buildingDamageMultiplier: 0.1
+      "lightColor": "ffce8c",
+      lightningColor: ff8000
+        lightningType: {
+      type: lightningBulletType,
+      "lightningLength": 4,
       "lightningLengthRand": 5,
       damage: 15,
       hitEffect: none
       splashDamageRadius: 15
       "lightColor": "ffce8c",
-      lightningColor: ffea00
+      lightningColor: ff8000
       status: unmoving
       statusDuration: 60
         }

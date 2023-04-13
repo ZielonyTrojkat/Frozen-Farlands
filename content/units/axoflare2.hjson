@@ -12,7 +12,14 @@
     "engineOffset": 6,
     "faceTarget": true,
     buildSpeed: 0.3
-    buildRange: 80
+    buildRange: 120
+    mineTier: 2
+    mineSpeed: 2
+    mineRange: 50
+mineItems: [
+  yttrium
+  arcanite
+]
 weapons: [
 {
 name: axoflare2-weapon

@@ -17,7 +17,7 @@
   ],
   "category": "units"
 research: {
-    parent: cryogenium-extractor
+    parent: Rereconstructor
     objectives: [
         {
             type: OnSector

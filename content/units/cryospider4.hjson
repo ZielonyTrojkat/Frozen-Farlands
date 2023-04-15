@@ -95,9 +95,10 @@ weapons: [
 research: {
     parent: "cryospider3",
     objectives: [
+      Assembler-2,
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Cryo-river"
         }
     ]
 },

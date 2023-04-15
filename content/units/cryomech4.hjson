@@ -51,5 +51,12 @@ statusDuration: 180
 ]
 research: {
     parent: "cryomech3",
+    objectives: [
+      Assembler-1,
+        {
+            type: "SectorComplete",
+            preset: "Cryo-river"
+        }
+    ]
 },
 researchCostMultiplier: 0

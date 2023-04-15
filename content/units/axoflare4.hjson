@@ -102,12 +102,13 @@
 research: {
     parent: "axoflare3",
     objectives: [
+      Assembler-4,
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Crash-landing"
         }
     ]
-}
+},
 abilities: [
   {
     type: RepairFieldAbility

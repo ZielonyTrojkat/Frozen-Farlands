@@ -6,7 +6,7 @@ power: 5
 }
 category: units
 research: {
-    parent: "Rereconstructor",
+    parent: "payload-constructor",
     objectives: [
         {
             type: "OnSector",

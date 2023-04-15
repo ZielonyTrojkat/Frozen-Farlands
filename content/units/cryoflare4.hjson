@@ -172,9 +172,10 @@ shake: 0
 research: {
     parent: "cryoflare3",
     objectives: [
+      Assembler-3,
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Crash-landing"
         }
     ]
 },

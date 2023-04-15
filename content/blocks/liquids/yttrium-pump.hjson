@@ -12,7 +12,7 @@ requirements: [
   yttrium/40
 ]
 research: {
-    parent: "yttrium-pipe",
+    parent: "core-2",
 }
 researchCost: [
     yttrium/150

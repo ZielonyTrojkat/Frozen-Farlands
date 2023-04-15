@@ -14,7 +14,6 @@
     mineTier: 2
     mineSpeed: 1.5
     mineRange: 40
-controller: MinerAI
 mineItems: [
   yttrium
   arcanite

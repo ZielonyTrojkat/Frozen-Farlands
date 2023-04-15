@@ -13,7 +13,7 @@ category: liquid
 junctionReplacement: moon-mod-yttrium-liquid-junction
 bridgeReplacement: moon-mod-yttrium-liquid-bridge
 research: {
-    parent: "core-2",
+    parent: "yttrium-pump",
     objectives: [
         {
             type: "OnSector",

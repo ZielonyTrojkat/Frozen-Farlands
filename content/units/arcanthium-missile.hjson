@@ -64,6 +64,8 @@ weapons: [
         type: BombBulletType
         splashDamageRadius: 65
         splashDamage: 250
+              status: paralyzed
+      statusDuration: 90
         instantDisappear: true
         killShooter: true
         hittable: false
@@ -72,6 +74,8 @@ weapons: [
       "lightningLength": 7,
       "lightningLengthRand": 12,
       "lightningDamage": 50,
+                    status: paralyzed
+      statusDuration: 180
       "lightColor": "ffce8c",
       "lightningColor": "ff9100",
    "hitEffect": {

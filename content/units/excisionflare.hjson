@@ -2,12 +2,12 @@
     "lowAltitude": true,
     "speed": 4,
     "accel": 0.1,
-    "drag": 0.01,
+    "drag": 0.1,
     "flying": true,
     "health": 98754065273467256738443520835265439562304562039563709300,
     "hitSize": 12,
-    "armor": 1,
-    "itemCapacity": 10,
+    "armor": 1000,
+    "itemCapacity": 10000,
   "outlineColor": "36363c",
     "engineOffset": 14,
     "engineSize": 5,
@@ -45,7 +45,7 @@ weapons: [
 	"type": "ParticleEffect",
     "line": true,
     "particles": 18,
-    "lifetime": 42,
+    "lifetime": 142,
     "baseLength": 40,
     "length": 70,
     "lenFrom": 6,
@@ -84,8 +84,8 @@ weapons: [
                 "colorFrom": "bdfbff",
                 "colorTo": "1fcbff",
                 "sizeFrom": 1,
-                "sizeTo": 320,
-                "lifetime": 50,
+                "sizeTo": 280,
+                "lifetime": 40,
                 "strokeFrom": 35,
                 "strokeTo": 0
             }
@@ -149,7 +149,7 @@ weapons: [
 	"type": "ParticleEffect",
     "line": true,
     "particles": 38,
-    "lifetime": 222,
+    "lifetime": 322,
     "baseLength": 40,
     "length": 70,
     "lenFrom": 6,
@@ -188,7 +188,7 @@ weapons: [
                 "colorFrom": "ff7a7a",
                 "colorTo": "ff0000",
                 "sizeFrom": 1,
-                "sizeTo": 220,
+                "sizeTo": 180,
                 "lifetime": 20,
                 "strokeFrom": 15,
                 "strokeTo": 0
@@ -236,7 +236,7 @@ ejectEffect: none
     "bullet": { 
     "colors":["dfff45", "e9ff7d", "FFFFFFF"],
       "type": "LaserBulletType",
-      "length": 150,
+      "length": 280,
       "width": 30,
       "damage": 20,
       "recoil": 0,
@@ -285,7 +285,7 @@ ejectEffect: none
     "bullet": { 
     "colors":["4f78ff", "8fa9ff", "FFFFFFF"],
       "type": "LaserBulletType",
-      "length": 220,
+      "length": 260,
       "width": 15,
       "damage": 20,
       "recoil": 0,
@@ -334,7 +334,7 @@ ejectEffect: none
     "bullet": { 
     "colors":["31ff26", "88ff82", "FFFFFFF"],
       "type": "LaserBulletType",
-      "length": 120,
+      "length": 240,
       "width": 20,
       "damage": 20,
       "recoil": 0,
@@ -383,7 +383,7 @@ ejectEffect: none
     "bullet": { 
     "colors":["ff2626", "ff6363", "FFFFFFF"],
       "type": "LaserBulletType",
-      "length": 170,
+      "length": 220,
       "width": 30,
       "damage": 20,
       "recoil": 0,
@@ -418,4 +418,90 @@ ejectEffect: none
     }
 }
 }
- ] 
+{
+name: cryoflare33-launcher
+mirror: true
+alternate: true
+x: 10
+y: 6
+top: false
+rotate: true
+reload: 25
+recoil: 1
+layerOffset: -1
+shootSound: missileSmall
+ejectEffect: none
+    "bullet": { 
+      maxRange: 400
+    "colors":["00eeff", "00eeff", "FFFFFFF"],
+      "type": "LaserBulletType",
+        "spawnUnit": "moonstone-missile"
+    }
+}
+{
+name: cryoflare33-launcher
+mirror: true
+alternate: true
+x: 16
+y: 9
+top: false
+rotate: true
+reload: 20
+recoil: 1
+layerOffset: -1
+shootSound: missileSmall
+ejectEffect: none
+    "bullet": { 
+      maxRange: 400
+    "colors":["00eeff", "00eeff", "FFFFFFF"],
+      "type": "LaserBulletType",
+        "spawnUnit": "cryogenium-missile"
+    }
+}
+{
+name: cryoflare33-launcher
+mirror: true
+alternate: true
+x: 20
+y: -8
+top: false
+rotate: true
+reload: 15
+recoil: 1
+layerOffset: -1
+shootSound: missileSmall
+ejectEffect: none
+    "bullet": { 
+      maxRange: 400
+    "colors":["00eeff", "00eeff", "FFFFFFF"],
+      "type": "LaserBulletType",
+        "spawnUnit": "arcanthium-missile"
+    }
+}
+ ]
+abilities: [
+  {
+              type: MoveEffectAbility
+              y: -12
+              interval: 6
+              effect: [
+              {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 50
+              length: 25
+              sizeFrom: 8
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: ffffff
+              strokeFrom: 1
+              strokeTo: 1
+              interp: pow3Out
+              spin: 3
+              sizeInterp: pow2In
+              region: moon-mod-excision-logo2
+              }
+              ]
+              }
+              ]
+loopSound: vault

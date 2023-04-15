@@ -9,9 +9,9 @@ status: none
 useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.75
-baseSpeed: 15
-sound: wind
-soundVol: 1.65
+baseSpeed: 10
+sound: clockwork
+soundVol: 0.85
 force: 2
 attrs: {
   heat: 1.4

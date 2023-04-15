@@ -9,12 +9,12 @@ status: none
 useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.75
-baseSpeed: 10
+baseSpeed: 8
 sound: clockwork
-soundVol: 0.85
-force: 2
+soundVol: 0.65
+force: 50
 attrs: {
-  heat: 1.4
+  heat: 1111.4
   water: -0.5
   spores: -0.9
 }

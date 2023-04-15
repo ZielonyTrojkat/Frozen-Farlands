@@ -45,8 +45,8 @@ shootSound: ZapSound
       "lightningLength": 30,
       "lightningLengthRand": 20,
       damage: 300,
-      status: unmoving
-      statusDuration: 60
+            status: paralyzed
+      statusDuration: 180
       hitEffect: none
       buildingDamageMultiplier: 0.1
       "lightColor": "ffce8c",
@@ -60,8 +60,8 @@ shootSound: ZapSound
       splashDamageRadius: 15
       "lightColor": "ffce8c",
       lightningColor: ff8000
-      status: unmoving
-      statusDuration: 60
+      status: paralyzed
+      statusDuration: 180
         }
 }
     }

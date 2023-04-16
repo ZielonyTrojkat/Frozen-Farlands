@@ -61,8 +61,6 @@ weapons: [
     "despawnEffect": "smokeCloud",
     "smokeEffect": "smokeCloud",
     "largeHit": true,
-    "status": "sapped",
-    "statusDuration": 50,
     "colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
     "hitEffect": {
     "type": "ParticleEffect",

@@ -1,0 +1,11 @@
+type: Wall
+ambientSound: The_Fortress_of_frostbite
+ambientSoundVolume: 1
+loopSound: The_Fortress_of_frostbite
+loopSoundVolume: 1
+buildVisibility: editorOnly
+forceDark: true
+targetable: false
+destructible: false
+breakable: false
+hasPower: false

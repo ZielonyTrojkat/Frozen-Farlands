@@ -8,7 +8,7 @@ density: 5000
 status: none
 useWindVector: true
 drawNoise: true
-opacityMultiplier: 1.0
+opacityMultiplier: 0.0
 baseSpeed: 3
 sound: Sullivan
 soundVol: 1.65

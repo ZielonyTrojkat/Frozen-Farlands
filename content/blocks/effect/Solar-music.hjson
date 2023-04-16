@@ -1,0 +1,8 @@
+type: SolarGenerator
+ambientSound: Sunlight_Rays
+ambientSoundVolume: 1
+buildVisibility: editorOnly
+forceDark: true
+targetable: false
+destructible: false
+breakable: false

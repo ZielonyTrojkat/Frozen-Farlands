@@ -1,8 +1,12 @@
-type: SolarGenerator
+type: LogicBlock
 ambientSound: Sunlight_Rays
-ambientSoundVolume: 1
+ambientSoundVolume: 1000
 buildVisibility: editorOnly
 forceDark: true
 targetable: false
 destructible: false
 breakable: false
+hasPower: false
+privileged: true
+category: logic
+isAir: true

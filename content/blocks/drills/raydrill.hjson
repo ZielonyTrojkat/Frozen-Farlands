@@ -7,6 +7,9 @@ health: 450
   "tier": 5,
   "drillTime": 200,
   "drawMineItem": true,
+  drillEffectChance: 1
+  drawRim: true
+  heatColor: 5ea1f2
   hasPower: true
   rotateSpeed: 6
   consumes: {
@@ -17,6 +20,20 @@ health: 450
       optional: true
       booster: true
     }
+  }
+  updateEffect: {
+    type: particleEffect
+        "particles": 18,
+    "length": 12,
+    "lifetime": 60,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "5ea1f2",
+    "colorTo": "ffffff",
+    "sizeFrom": 2,
+    "sizeTo": 0
+        region: moon-mod-triangle
+    spin: 5
   }
   requirements: [
     aluminium/50

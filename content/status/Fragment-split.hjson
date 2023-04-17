@@ -1,6 +1,4 @@
 {
-        name: Fragmentational Split,
-        details: "Triggered by a powerful electromagnetic charge reaction between electrons and protons that leads to a complete desintegration of the whole atom."
         effect: {
         type: ParticleEffect,
         particles: 1,

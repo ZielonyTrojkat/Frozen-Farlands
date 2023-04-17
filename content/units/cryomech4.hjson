@@ -46,6 +46,21 @@ backColor: 51e1e8
 frontColor: cdf8fa
 status: freezing
 statusDuration: 180
+    trailChance: 1
+	trailRotation: true
+    trailEffect: {
+    type: ParticleEffect
+	line: true
+    particles: 1
+    length: 0
+    lifetime: 10
+    sizeFrom: 5
+    sizeTo: 0
+    colorFrom: 51e1e8
+    colorTo: cdf8fa
+    region: particle
+	followParent: true
+  }
 }
 }
 ]

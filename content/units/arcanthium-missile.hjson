@@ -65,7 +65,7 @@ weapons: [
         splashDamageRadius: 65
         splashDamage: 250
               status: paralyzed
-      statusDuration: 90
+      statusDuration: 80
         instantDisappear: true
         killShooter: true
         hittable: false
@@ -75,7 +75,7 @@ weapons: [
       "lightningLengthRand": 12,
       "lightningDamage": 50,
                     status: paralyzed
-      statusDuration: 180
+      statusDuration: 60
       "lightColor": "ffce8c",
       "lightningColor": "ff9100",
    "hitEffect": {

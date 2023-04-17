@@ -1,27 +1,12 @@
-<<<<<<< Updated upstream
-type: LightBlock
-size: 1,
-name: chuj jebany
-hasPower: true
-powerProduction: 0.1
-category: power
-ambientSound: Distant
-ambientSoundVolume: 10000000000000
-buildVisibility: sandboxOnly
-=======
 type: LogicBlock
 ambientSound: Distant
 ambientSoundVolume: 1000
 buildVisibility: editorOnly
->>>>>>> Stashed changes
 forceDark: true
 targetable: false
 destructible: false
 breakable: false
-<<<<<<< Updated upstream
-=======
 hasPower: false
 privileged: true
 category: logic
 isAir: true
->>>>>>> Stashed changes

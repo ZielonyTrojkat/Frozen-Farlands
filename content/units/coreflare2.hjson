@@ -32,7 +32,7 @@ top: false
 rotate: true
 reload: 45
 recoil: 3
-    shootSound: PikeSound
+    shootSound: missile
     bullet: {
     type: MissileBulletType
       speed: 3

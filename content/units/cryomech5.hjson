@@ -47,8 +47,8 @@ speed: 3
 lifetime: 90
 frontColor: ff9959
 backColor: eb742a
-status: blasted
-statusDuration: 180
+status: paralyzed
+statusDuration: 70
 hitShake: 8
 hitSound: largeCannon
       "lightning": 4,

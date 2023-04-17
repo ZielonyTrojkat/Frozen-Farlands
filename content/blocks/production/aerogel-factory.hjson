@@ -2,6 +2,8 @@
   "description": "Produces Aerogel from water and xenon",
   "health": 450,
   "size": 3,
+  targetable: false
+  breakable: false
   "hasItems": true,
   "craftTime": 120,
   "craftEffect": "none",

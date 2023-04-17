@@ -1,7 +1,12 @@
-type: SolarGenerator
+type: LightBlock
+size: 1,
+name: chuj jebany
+hasPower: true
+powerProduction: 0.1
+category: power
 ambientSound: Distant
-ambientSoundVolume: 1
-buildVisibility: editorOnly
+ambientSoundVolume: 10000000000000
+buildVisibility: sandboxOnly
 forceDark: true
 targetable: false
 destructible: false

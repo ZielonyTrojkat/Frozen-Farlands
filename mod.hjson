@@ -1,21 +1,20 @@
 name: "moon mod"
-displayName: "Frozen Farlands"
-author: CY4N & Zielony Trójkąt
+displayName: "[#1ba8fa[]]Frozen Farlands[white[]]"
+author: "[#3bdbff[]]CY4N[white[]] & [#11d41e[]]Zielony Trójkąt[white[]]"
 description: "Welcome to the Frozen farlands,
 here, where there is no such thing called heat, Serpulo's Moon Awaits you!
 Zilo, a place colonized by Bushark the fraction from Tantros,
 Even if that's only a moon there are many new things, new resources, blocks, units, turrets, just everything.
 There is one more place we would like you to visit... Gheţar
-A Lonley Asteroid orbiting behind Zilo,
-Maybe it's a small place but it dosen't means it is going to be easy in there, but surely you'd be having fun...
+A Lonely Asteroid orbiting behind Zilo,
+Maybe it's a small place but it doesn't means it is going to be easy in there, but surely you'd be having fun...
 
 This mod contains custom soundtracks, please do not steal them... instead get a better vibe while playing
-Mod Created by CY4N & Zielony Trójkąt
-And Thanks to Świrek for helping us with code.
+And Thanks to [#8c0303[]]Świrek[white[]] for helping us with code.
 We hope you'll enjoy our mod
 This Isn't our last creation, we have a huge plans upcoming, if you are interested in our plans, concepts and updates join our discord server
-link: https://discord.gg/TQTW3mfYyf
-We do not expect any updates for this mod, it is finished"
+link: [[]blue]https://discord.gg/TQTW3mfYyf[[]white]
+We also have it on a disboard."
 version: "1.00"
 minGameVersion: "141.2"
 hidden: false

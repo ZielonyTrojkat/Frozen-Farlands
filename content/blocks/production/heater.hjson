@@ -3,8 +3,31 @@
   "health": 250,
   "size": 2,
   "hasItems": true,
+  ambientSound: steam
+  ambientSoundVolume: 0.10
   "craftTime": 30,
-  "craftEffect": "none",
+     craftEffect: {
+    "type": "MultiEffect",
+	"effects": [
+            {
+              type: ParticleEffect
+              particles: 2
+              lifetime: 100
+              length: 15
+              sizeFrom: 2
+              lightOpacity : 2
+              sizeTo: 0
+              colorFrom: ffffff
+              colorTo: ffffff
+              strokeFrom: 0.5
+              strokeTo: 0
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-steam
+            }
+	]
+  }
 	"drawer": {
 	"type": "DrawMulti",
         "drawers": [

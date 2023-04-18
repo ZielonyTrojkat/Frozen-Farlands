@@ -3,7 +3,7 @@ name: Moonstone
 description: Very cold material that is extracted from cryofluid, can be used as freezing weapon ammo.
   "cost": 3,
   "color": "83adf2",
-  "flammability": -1,
+  "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,
   "charge": 0

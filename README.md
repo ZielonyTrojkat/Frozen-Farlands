@@ -3,4 +3,4 @@
 This is our first mod, here's the link to discord server:
 https://discord.gg/QymKeVDfmD
 
-![farlands](https://user-images.githubusercontent.com/76790938/232841679-5cd34e1e-0081-4c0e-9e01-e0bc21e1dbf3.png)
+![miniatye](https://user-images.githubusercontent.com/76790938/232889316-4e83d2db-c1c2-4ddf-bf6f-20d852a915c4.png)

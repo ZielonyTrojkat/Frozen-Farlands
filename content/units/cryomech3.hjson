@@ -16,6 +16,7 @@
 	"immunities": [
 		"freezing"
 	],
+targetAir: true
 weapons: [
 {
 name: cryomech3-gun

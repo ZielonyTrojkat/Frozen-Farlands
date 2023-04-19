@@ -5,7 +5,7 @@
 	"health": 360,
 	"faceTarget": true,
 	"armor": 1,
-	"range": 180,
+	"range": 150,
 	"targetAir": false,
 	"rotateSpeed": 3,
 "mechFrontSway": 0.3,
@@ -17,6 +17,7 @@
 	"immunities": [
 		"freezing"
 	],
+targetAir: true
 weapons: [
 {
 name: cryomech-gun

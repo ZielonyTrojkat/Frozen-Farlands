@@ -17,6 +17,7 @@ mechStride: 14
 	"immunities": [
 		"freezing"
 	],
+targetAir: false
 weapons: [
 {
 name: cryomech5-gun

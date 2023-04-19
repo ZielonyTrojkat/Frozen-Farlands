@@ -6,7 +6,7 @@
 	"faceTarget": true,
 	"armor": 7,
 	"range": 160,
-	"targetAir": false,
+	"targetAir": true,
 	"rotateSpeed": 1,
             "legMoveSpace": 1,
             "legMaxLength": 1.2,

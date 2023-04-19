@@ -6,7 +6,6 @@
 	"faceTarget": true,
 	"armor": 6,
 	"range": 140,
-	"targetAir": false,
 	"rotateSpeed": 2.5,
 "mechFrontSway": 0.3,
 "mechSideSway": 0.3,

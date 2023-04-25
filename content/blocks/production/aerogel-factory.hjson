@@ -4,7 +4,29 @@
   "size": 3,
   "hasItems": true,
   "craftTime": 120,
-  "craftEffect": "none",
+ craftEffect: {
+    "type": "MultiEffect",
+	"effects": [
+            {
+              type: ParticleEffect
+              particles: 20
+              lifetime: 120
+              length: 15
+              sizeFrom: 2
+              lightOpacity : 2
+              sizeTo: 0
+              colorFrom: e1e8e8
+              colorTo: c8cfcf
+              strokeFrom: 0.5
+              strokeTo: 0
+              interp: pow3Out
+              spin: 5
+              clip: 15
+              sizeInterp: pow2In
+              region: moon-mod-steam
+            }
+	]
+  }
 	"drawer": {
 	"type": "DrawMulti",
         "drawers": [

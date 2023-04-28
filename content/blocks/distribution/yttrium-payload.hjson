@@ -9,7 +9,7 @@ requirements: [
   aluminium/5
 ]
 research: {
-    parent: "constructor-1",
+    parent: "Constructor-1",
     objectives: [
         {
             type: "OnSector",

@@ -11,14 +11,13 @@
 	"effects": [
             {
               type: ParticleEffect
-              particles: 2
+              particles: 10
               lifetime: 100
               length: 15
               sizeFrom: 2
-              lightOpacity : 2
-              sizeTo: 0
-              colorFrom: ffffff
-              colorTo: ffffff
+              sizeTo: 4
+              colorFrom: e1e8e8dd
+              colorTo: c8cfcf00
               strokeFrom: 0.5
               strokeTo: 0
               interp: pow3Out

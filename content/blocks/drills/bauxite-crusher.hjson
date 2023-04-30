@@ -1,6 +1,5 @@
 
   "type": "WallCrafter",
-  "localizedName": "Bauxite Crusher",
   "description": "Stronger wall crusher capable of mining bauxites",
   "size": 2,
   "category": "production",

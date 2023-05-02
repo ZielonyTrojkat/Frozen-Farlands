@@ -1,7 +1,6 @@
    "type": "Incinerator",
     "health": 100,
     "size": 1,
-    category: transport
          consumeEffect: {
     "type": "particleEffect",
 	"effects": [

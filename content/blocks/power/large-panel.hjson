@@ -10,7 +10,7 @@ requirements: [
   arcanthium/6
 ]
 research: {
-    parent: ATG
+    parent: solar
     objectives: [
         {
             type: "SectorComplete",

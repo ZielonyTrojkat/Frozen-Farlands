@@ -10,8 +10,8 @@ useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.0
 baseSpeed: 3
-sound: Sullivanostorm
-soundVol: 1.65
+sound: Sullivan
+soundVol: 1
 force: 2
 attrs: {
   heat: 1.4

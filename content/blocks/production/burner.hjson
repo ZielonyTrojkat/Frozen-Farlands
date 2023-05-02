@@ -1,0 +1,41 @@
+   "type": "Incinerator",
+    "health": 100,
+    "size": 1,
+    category: transport
+         consumeEffect: {
+    "type": "particleEffect",
+	"effects": [
+            {
+              type: ParticleEffect
+              particles: 2
+              lifetime: 100
+              length: 15
+              sizeFrom: 2
+              sizeTo: 4
+              colorFrom: 717f85
+              colorTo: 7e8c00
+              strokeFrom: 0.5
+              strokeTo: 0
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-steam
+            }
+	]
+  }
+  hasPower: true
+  power: 0.2
+    "consumes": {
+  "power": 0.1
+    }
+requirements: [
+  yttrium/16
+  arcanite/10
+  aluminium/4
+]
+research: yttrium-unloader
+researchCost: [
+    yttrium/200
+    arcanite/300
+    aluminium/50
+  ]

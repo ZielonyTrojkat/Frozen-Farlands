@@ -5,6 +5,8 @@ type: GenericCrafter
   hasItems: true
   craftTime: 100
   craftEffect: none
+  ambientSound: smelter
+  ambientSoundVolume: 0.10
 	drawer: {
 	type: DrawMulti
         drawers: [

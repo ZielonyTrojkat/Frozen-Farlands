@@ -1,0 +1,86 @@
+type: GenericCrafter
+  description: "The advanced version of aluminium foundry. Require more power and bauxite to make more aluminium + yttrium like byproduct"
+  scaledHealth: 40
+  size: 4
+  hasItems: true
+  craftTime: 100
+  craftEffect: none
+	drawer: {
+	type: DrawMulti
+        drawers: [
+        {
+        type: DrawDefault
+        }
+        {
+         type: DrawFlame
+    flameRadius: 4.6
+    flameRadiusIn: 2.0
+    flameRadiusScl: 3.5
+    flameRadiusMag: 2.0
+    flameRadiusInMag: 1.0
+	flameColor: ff8400
+	  }
+    {
+        type: DrawParticles
+        color: ff8400
+    alpha: 0.4
+    blending: additive
+    particleSize: 2
+    reverse: true
+    particleRad: 18
+    particles: 20
+    fadeMargin: 1
+    rotateScl: 7
+    particleLife: 80
+    }
+    {
+    type: DrawParticles
+    color: ffb361
+    alpha: 0.4
+    reverse: true
+    blending: additive
+    particleSize: 2.5
+    particleRad: 10
+    particles: 16
+    fadeMargin: 1
+    rotateScl: 7
+    particleLife: 100
+     }
+      {
+       type: DrawGlowRegion
+       suffix: -top 
+       glowScale: 10
+       color: ff8400
+     }
+    ]
+    }
+  hasPower: true
+  updateEffect: none
+  consumes: {
+  power: 2
+    items: [
+    bauxite/3
+    arcanite/2
+    ]
+  }
+  requirements: [
+    yttrium/260
+    aluminium/140
+    arcanite/100
+    aerogel/70
+    diamond/10
+  ]
+  category: crafting
+  outputItems: [
+    aluminium/4
+    yttrium/1
+    ]
+research: {
+    parent: aluminium-foundry
+    objectives: [
+        {
+            type: OnSector
+            preset: Cryo-river
+        }
+    ]
+}

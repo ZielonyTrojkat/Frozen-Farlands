@@ -10,7 +10,7 @@ requirements: [
   arcanthium/6
 ]
 research: {
-    parent: solar
+    parent: panel
     objectives: [
         {
             type: "SectorComplete",

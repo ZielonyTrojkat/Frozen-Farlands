@@ -20,7 +20,7 @@ drawer: {
   ]
 }
 consumes: {
-    powerBuffered: 6000
+    powerBuffered: 10000
 }
 category: power
 requirements: [

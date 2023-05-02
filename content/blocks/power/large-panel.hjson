@@ -5,7 +5,7 @@ hasPower: true
 powerProduction: 1.1
 category: power
 requirements: [
-  aliminium/40
+  aluminium/40
   aerogel/16
   arcanthium/6
 ]

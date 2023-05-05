@@ -3,7 +3,7 @@ controller: MissileAI
 flying: true
 speed: 9
 maxRange: 6
-lifetime: 100
+lifetime: 52
 hidden: true
 envEnabled: 17
 envDisabled: 0

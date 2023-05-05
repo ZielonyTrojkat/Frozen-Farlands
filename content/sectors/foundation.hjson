@@ -1,0 +1,14 @@
+    sector: 10,
+    planet: "Zilo",
+    research: {
+        parent: "Solar-peaks",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "Solar-peaks"
+            }
+        ]
+    },
+    difficulty: 6,
+    overrideLaunchDefaults: true
+    addStartingItems: true

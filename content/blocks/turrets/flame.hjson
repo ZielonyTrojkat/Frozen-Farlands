@@ -60,7 +60,7 @@ research: {
     objectives: [
         {
             type: SectorComplete
-            preset: Secret-passage
+            preset: fountadion
         }
     ]
 }

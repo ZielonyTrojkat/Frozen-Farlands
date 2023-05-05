@@ -13,7 +13,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Solar-peaks"
+            preset: "Secret-passage"
         }
     ]
 },

@@ -13,7 +13,14 @@ requirements: [
 ]
 research: {
     parent: "core-2",
-}
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Lonely-lake"
+        }
+    ]
+},
 researchCost: [
     yttrium/150
+    ice-shard/100
   ]

@@ -2,7 +2,7 @@ type: SolarGenerator
 size: 3,
 name: Large Solar
 hasPower: true
-powerProduction: 1.1
+powerProduction: 1.2
 category: power
 requirements: [
   aluminium/40

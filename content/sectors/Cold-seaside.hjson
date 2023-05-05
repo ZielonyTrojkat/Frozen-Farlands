@@ -1,15 +1,15 @@
-    sector: 18,
+    sector: 17,
     planet: "Zilo",
-    captureWave: 21
+    captureWave: 23
     research: {
-        parent: "Frosty-prelude",
+        parent: "Transit-cavern",
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "Frosty-prelude"
+                preset: "Transit-cavern"
             }
         ]
     },
-    difficulty: 1,
+    difficulty: 5,
     overrideLaunchDefaults: true
     addStartingItems: true

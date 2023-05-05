@@ -3,7 +3,7 @@
   "type": "Drill",
   "size": 2,
   "itemCapacity": 10,
-  "tier": 4,
+  "tier": 5,
   "drillTime": 320,
   "drawMineItem": true,
   rotateSpeed: 5

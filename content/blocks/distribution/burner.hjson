@@ -32,7 +32,15 @@ requirements: [
   arcanite/10
   aluminium/4
 ]
-research: yttrium-unloader
+research: {
+    parent: "yttrium-unloader",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Secret-passage"
+        }
+    ]
+},
 researchCost: [
     yttrium/200
     arcanite/300

@@ -1,6 +1,6 @@
   "type": "GenericCrafter",
-  "health": 250,
-  "size": 2,
+  "health": 450,
+  "size": 3,
   "hasItems": true,
   "craftTime": 60,
   "craftEffect": "none",
@@ -18,9 +18,9 @@
         },
         {	
         "type": "DrawPistons"
-        suffix: -piston1
-        sinMag: 9
-        sinScl: 8
+        suffix: -piston
+        sinMag: 12
+        sinScl: 14
         angleOffset: 45
         sides: 4
 	      }
@@ -32,9 +32,9 @@
   "hasPower": true,
   "hasLiquids": true,
   "updateEffect": "none",
-  liquidCapacity: 70
+  liquidCapacity: 150
   "consumes": {
-  "power": 0.80,
+  "power": 5,
     "items": [
       "arcanite/1"
     ],
@@ -43,21 +43,25 @@
     ],
   },
   "requirements": [
-    yttrium/30
-    arcanite/30
+    arcanite/160
+    aluminium/100
+    moonstone/80
+    arcanthium/60
   ],
   "category": "crafting",
-  "outputLiquid": "arcalith/0.61"
+  "outputLiquid": "arcalith/1.25"
 research: {
     parent: heater
     objectives: [
         {
-            type: "OnSector",
-            preset: "Lonely-lake"
+            type: "SectorComplete",
+            preset: "Solar-peaks"
         }
     ]
 },
 researchCost: [
-    yttrium/200
-    arcanite/200
+    arcanite/1600
+    aluminium/1200
+    moonstone/1000
+    arcanthium/400
   ]

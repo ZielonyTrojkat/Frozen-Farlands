@@ -24,7 +24,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Secret-passage"
+            preset: "Cold-seaside"
         }
     ]
 },

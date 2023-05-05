@@ -1,0 +1,24 @@
+type: StorageBlock
+size: 2
+health: 600
+itemCapacity: 100
+category: effect
+requirements: [
+  yttrium/50
+  aluminium/30
+  moonstone/30
+]
+  researchCost: [
+    yttrium/550
+    aluminium/400
+    moonstone/350
+  ]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Secret-passage"
+        }
+    ]
+},

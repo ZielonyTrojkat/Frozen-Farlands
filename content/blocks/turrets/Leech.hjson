@@ -22,13 +22,23 @@ shootType: {
 }
 category: turret
 requirements: [
-    yttrium/90
-    arcanite/70
-    moonstone/50
+    yttrium/60
+    arcanite/40
+    moonstone/40
+    aerogel/20
 ]
-research: Defragmentation
+research: {
+    parent: Defragmentation
+    objectives: [
+        {
+            type: OnSector
+            preset: Cold-seaside
+        }
+    ]
+}
 researchCost: [
     yttrium/800
     arcanite/650
     moonstone/450
+    aerogel/250
   ]

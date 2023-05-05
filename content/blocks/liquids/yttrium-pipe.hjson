@@ -6,8 +6,8 @@ requirements: [
   yttrium/2
   ice-shard/1
 ]
-liquidCapacity: 10
-liquidPressure: 10
+liquidCapacity: 6
+liquidPressure: 1
 botColor: 4a4b53
 category: liquid
 junctionReplacement: moon-mod-yttrium-liquid-junction

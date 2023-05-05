@@ -1,0 +1,26 @@
+type: LiquidRouter
+health: 350
+liquidCapacity: 500
+size: 2
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  ice-shard/30
+  yttrium/15
+  aluminium/10
+]
+research: {
+    parent: "yttrium-pipe",
+    objectives: [
+        {
+            type: "SectorComplete",
+            preset: "Cold-seaside"
+        }
+    ]
+},
+researchCost: [
+    yttrium/300
+    ice-shard/240
+    aluminium/120
+  ]

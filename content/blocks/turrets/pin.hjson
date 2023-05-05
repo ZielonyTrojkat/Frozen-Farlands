@@ -1,3 +1,5 @@
+name: Pin
+Description: Shoots single yttrium bullets at enemies.
 "type": ItemTurret,
 "size": 2,
 "health": 500,

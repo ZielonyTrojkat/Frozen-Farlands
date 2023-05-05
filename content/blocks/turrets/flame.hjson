@@ -1,5 +1,3 @@
-name: Flame
-Description: The old AA turret of bushark. On this moment not uses
 targetGround: false
 type: ItemTurret
 size: 3

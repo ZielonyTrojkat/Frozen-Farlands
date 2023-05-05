@@ -1,0 +1,64 @@
+targetGround: false
+type: ItemTurret
+size: 3
+health: 2300
+range: 300
+rotateSpeed: 14
+reload: 8
+burstSpacing: 1
+shots: 1
+xRand: 1
+recoilAmount: 3
+shootSound: shootAltLong
+ammoTypes: {
+    arcanite: {
+    type: BasicBulletType
+    speed: 1000
+    lifetime: 0
+    damage: 0
+    inaccuracy: 20
+    width: 0
+    height: 0
+    collidesTiles: false
+    hitEffect: none
+    spawnUnit: flame-missile
+  }
+}
+    shootEffect: {
+        type: MultiEffect
+        effects: [
+            {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 40
+              length: 20
+              sizeFrom: 3
+              sizeTo: 1
+              colorFrom: b2afb3
+              colorTo: d5d2d6
+              strokeFrom: 1
+              strokeTo: 1
+              interp: pow3Out
+              spin: 1
+              sizeInterp: pow2In
+              region: moon-mod-shell
+            }
+        ]
+    }
+category: turret
+requirements: [
+  yttrium/700
+    aerogel/400
+    aluminium/300
+    moonstone/220
+    arcanthium/100
+]
+research: {
+    parent: Stinger
+    objectives: [
+        {
+            type: SectorComplete
+            preset: foundation
+        }
+    ]
+}

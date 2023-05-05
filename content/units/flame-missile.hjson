@@ -3,7 +3,7 @@ controller: MissileAI
 flying: true
 speed: 9
 maxRange: 6
-lifetime: 74
+lifetime: 70
 hidden: true
 envEnabled: 17
 envDisabled: 0
@@ -77,6 +77,7 @@ weapons: [
           status: melting
 statusDuration: 200
         collidesGround: false
+        collidesGround: true
         hitEffect: [
         {
           type: WaveEffect

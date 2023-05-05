@@ -1,5 +1,3 @@
-name: Stinger
-Description: Pirces enemies with single spike-shaped bullet.
     "type": "ItemTurret",
     "size": 2,
     "health": 540,

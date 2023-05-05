@@ -68,9 +68,9 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 30
-        splashDamage: 50
-                 "homingPower": 0.9,
-        "homingRange": 200,
+        splashDamage: 5
+                 homingPower: 0.9
+        homingRange: 200
         instantDisappear: true
         killShooter: true
         hittable: false

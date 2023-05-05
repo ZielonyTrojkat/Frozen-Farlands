@@ -1,4 +1,3 @@
-name: Pin
 "type": ItemTurret,
 "size": 2,
 "health": 500,

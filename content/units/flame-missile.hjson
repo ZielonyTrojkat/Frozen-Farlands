@@ -77,7 +77,7 @@ weapons: [
           status: melting
 statusDuration: 200
         collidesGround: false
-        collidesGround: true
+        collidesAir: true
         hitEffect: [
         {
           type: WaveEffect

@@ -1,0 +1,107 @@
+type: missile
+controller: MissileAI
+flying: true
+speed: 9
+maxRange: 6
+lifetime: 70
+hidden: true
+envEnabled: 17
+envDisabled: 0
+outlines: false
+drawCell: false
+outlineColor: 2d2f39
+engineColor: ed853f
+trailColor: e99154
+engineSize: 0
+engineOffset: 10
+rotateSpeed: 70
+trailLength: 400
+missileAccelTime: 50
+lowAltitude: true
+fogRadius: 6
+health: 190
+collidesGround: false
+allowedInPayloads: false
+useUnitCap: false
+playerControllable: false
+physics: false
+createWreck: false
+createScorch: false
+abilities: [
+  {
+              type: MoveEffectAbility
+              effect: [
+              {
+              type: ParticleEffect
+              particles: 10
+              lifetime: 30
+              length: 15
+              sizeFrom: 4
+              sizeTo: 1
+              colorFrom: df7126
+              colorTo: ed853f
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+              offsetX: 3
+              }
+              ]
+              }
+              ]
+weapons: [
+    {
+        shootCone: 360
+          mirror: false
+          reload: 180
+          predictTarget: false
+          autoTarget: true
+          shootOnDeath: true
+          shootEffect: none
+          x: 0
+          y: 0
+          despawnHit: true
+          despawnEffect: none
+          
+          bullet:{
+        type: BombBulletType
+        splashDamageRadius: 30
+        splashDamage: 5
+                 homingPower: 0.9
+        homingRange: 200
+        instantDisappear: true
+        killShooter: true
+        hittable: false
+          status: melting
+statusDuration: 200
+        collidesGround: false
+        collidesAir: true
+        hitEffect: [
+        {
+          type: WaveEffect
+          lifetime: 30
+          sizeFrom: 1
+          sizeTo: 70
+          strokeFrom: 5
+          strokeTo: 0
+          colorFrom: e99154
+          colorTo: e99154
+        }
+                {
+          type: ParticleEffect
+          lifetime: 40
+          sizeFrom: 1
+          sizeTo: 10
+          strokeFrom: 100
+          strokeTo: 0
+          colorFrom: e99154
+          colorTo: e99154
+          spin: 5
+          region: moon-mod-triangle
+        }
+        ]
+        }
+    }
+]

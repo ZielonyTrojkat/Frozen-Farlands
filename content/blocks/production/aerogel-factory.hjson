@@ -1,5 +1,4 @@
   "type": "GenericCrafter",
-  "description": "Produces Aerogel from water and xenon",
   "health": 450,
   "size": 3,
   "hasItems": true,

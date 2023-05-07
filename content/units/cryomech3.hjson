@@ -50,8 +50,8 @@ research: {
     parent: "cryomech2",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Solar-peaks"
+            type: "SectorComplete",
+            preset: "Secret-passage"
         }
     ]
 	requirements: [

@@ -36,10 +36,10 @@
   "consumes": {
   "power": 5,
     "items": [
-      "arcanite/1"
+      "arcanite/2"
     ],
         "liquids": [
-      "water/0.25"
+      "water/0.9"
     ],
   },
   "requirements": [
@@ -49,7 +49,7 @@
     arcanthium/60
   ],
   "category": "crafting",
-  "outputLiquid": "arcalith/1.25"
+  "outputLiquid": "arcalith/1.85"
 research: {
     parent: heater
     objectives: [

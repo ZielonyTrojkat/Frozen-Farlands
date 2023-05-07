@@ -80,7 +80,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "Cryo-river"
+            preset: "Secret-passage"
         }
     ]
 },

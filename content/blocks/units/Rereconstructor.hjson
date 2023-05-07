@@ -32,8 +32,8 @@ research: {
     parent: "Constructor-1",
     objectives: [
         {
-            type: "OnSector",
-            preset: "Solar-peaks"
+            type: "SectorComplete",
+            preset: "Secret-passage"
         }
     ]
 },

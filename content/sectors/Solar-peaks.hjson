@@ -4,6 +4,11 @@
     research: {
         parent: "Secret-passage",
         objectives: [
+            Rereconstructor
+            {
+                type: "SectorComplete",
+                preset: "Cold-seaside"
+            }
             {
                 type: "SectorComplete",
                 preset: "Secret-passage"

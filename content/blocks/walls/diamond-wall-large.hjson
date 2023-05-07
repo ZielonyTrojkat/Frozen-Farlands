@@ -7,5 +7,5 @@ requirements: [
 ]
 research: diamond-wall
 researchCost: [
-    diamond/100
+    diamond/700
   ]

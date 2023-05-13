@@ -1,9 +1,10 @@
-    "generator": PlanetGenerator,
+    "generator": SerpuloPlanetGenerator,
     "parent": serpulo ,
     "name": Zilo,
     "accesible": true,
     "hasAtmosphere": true,
     "iconColor": 10d7e6,
+allowLaunchToNumbered: false
 allowWavesSimulation: false
 allowSectorSimulation: true
 allowSectorInvasion: false

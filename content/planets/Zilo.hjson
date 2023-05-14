@@ -1,29 +1,48 @@
-    "generator": SerpuloPlanetGenerator,
-    "parent": serpulo ,
-    "name": Zilo,
-    "accesible": true,
-    "hasAtmosphere": true,
-    "iconColor": 10d7e6,
-allowLaunchToNumbered: false
-allowWavesSimulation: false
-allowSectorSimulation: true
-allowSectorInvasion: false
-allowLaunchSchematics: false
-allowLaunchLoadout: false
-updateLighting: false
-    "orbitRadius": 10,
-    "prebuildBase": false,
-    "atmosphereRadIn": 0.01,
-    "atmosphereRadOut": 0.3,
-    "atmosphereColor": 4caed9,
-    "alwaysUnlocked": true,
-    "defaultCore": core-2,
-    clearSectorOnLose: true
-    "visible": true,
-    "startSector": 8, 
-    "sectorSize": 1,
-    "sectorSeed": 69,
-    landCloudColor: 9ef0ff
+{
+    generator: "PlanetGenerator",
+    parent: "serpulo",
+    iconColor: 10d7e6,
+    orbitRadius: 10,
+    hasAtmosphere: true,
+    updateLighting: false,
+    atmosphereRadIn: 0.01,
+    atmosphereRadOut: 0.3,
+    atmosphereColor: 4caed9,
+    drawOrbit: true,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-2",
+    sectorSeed: 69,
+    startSector: 8,
+    sectorSize: 1,
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+	allowLaunchToNumbered: false,
+    radius: 1,
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
 cloudMesh: {
   type: HexSkyMesh
   planet: Zilo
@@ -50,27 +69,4 @@ cloudMesh: {
       "scale": 2,
       "mag": 1
     }
-    hiddenItems: [
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "sand",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide",
-        "fissile-matter",
-        "dormant-cyst"
-         ],
+}

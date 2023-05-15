@@ -1,4 +1,3 @@
-{
     generator: "PlanetGenerator",
     parent: "serpulo",
     iconColor: 10d7e6,
@@ -69,4 +68,3 @@ cloudMesh: {
       "scale": 2,
       "mag": 1
     }
-}

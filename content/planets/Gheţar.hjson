@@ -1,17 +1,41 @@
-generator: AsteroidGenerator
-parent: serpulo
-"name": Gheţar,
-"iconColor": 1a236e,
-allowLaunchToNumbered: false
-orbitRadius: 12
-orbitSpacing: 6
-updateLighting: false
-atmosphereRadIn: 0
-atmosphereRadOut: 0
-atmosphereColor: 0faaf2
-drawOrbit: false
-accessible: true
-alwaysUnlocked: true
+    generator: "AsteroidGenerator",
+    parent: "serpulo",
+    iconColor: 1a236e,
+    orbitRadius: 12,
+    hasAtmosphere: false,
+    updateLighting: false,
+    drawOrbit: false,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-2",
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+	allowLaunchToNumbered: false,
+    radius: 1,
+    hiddenItems: [
+        "copper",
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ],
 mesh: {
   type: NoiseMesh
   divisions: 3

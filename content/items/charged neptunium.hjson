@@ -1,0 +1,10 @@
+type: item
+cost: 2,
+color: 00eeff,
+flammability: 0,
+explosiveness: 0,
+radioactivity: 100,
+charge: 1000
+frames: 3
+frameTime: 10
+research: lead

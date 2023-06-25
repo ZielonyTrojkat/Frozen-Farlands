@@ -1,3 +1,6 @@
 "type": "StaticWall",
 "itemDrop": "bauxite",
 "variants": 2,
+attributes: {
+  bauxite: 1
+}

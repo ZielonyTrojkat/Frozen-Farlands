@@ -47,7 +47,7 @@ cloudMesh: {
   planet: Zilo
   seed: 2
   speed: 3
-  radius: 0.1
+  radius: 0.05
   divisions: 5
   color: 52e5ff
   octaves: 2

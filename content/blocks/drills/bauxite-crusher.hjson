@@ -1,8 +1,8 @@
+
   "type": "WallCrafter",
   "description": "Stronger wall crusher capable of mining bauxites",
   "size": 2,
   "category": "production",
-  attribute: bauxite
  requirements: [
     yttrium/12
     arcanite/4

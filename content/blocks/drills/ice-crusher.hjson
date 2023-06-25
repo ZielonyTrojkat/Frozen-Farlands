@@ -3,7 +3,6 @@
   "description": "Ice Crusher.",
   "size": 2,
   "category": "production",
-  attribute: ice
   "requirements": [
     "yttrium/12",
   ],

@@ -34,7 +34,7 @@
         suffix: -bottom
         }
         {
-        "type": "DrawLiquidRegion"
+        "type": "DrawLiquidTile"
         suffix: -liquid
         drawLiquid: water
         }

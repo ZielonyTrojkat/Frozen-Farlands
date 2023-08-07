@@ -1,0 +1,30 @@
+  "type": "RepairTower",
+  "health": 300,
+  "size": 2,
+  "range": 100,
+  "hasPower": true,
+  hasLiquids: false
+  healAmount: 1.5
+  consumes: {
+    power: 5
+  }
+  category: units
+requirements: [
+    yttrium/30
+    cryogenium/20
+    aluminium/20
+]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Transit-cavern"
+        }
+    ]
+}
+researchCost: [
+    yttrium/240
+    cryogenium/90
+    aluminium/50
+  ]

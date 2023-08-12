@@ -1,0 +1,25 @@
+  "type": "LogicBlock",
+  "health": 200,
+  "size": 1,
+  "range": 80
+  category: logic
+requirements: [
+    arcanite/50
+    cryogenium/50
+    aluminium/20
+]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Secret-passage"
+        }
+    ]
+}
+researchCost: [
+    arcanite/500
+    cryogenium/500
+    aluminium/300
+  ]
+instructionsPerTick: 120

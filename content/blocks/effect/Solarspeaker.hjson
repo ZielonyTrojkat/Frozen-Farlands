@@ -11,6 +11,7 @@
   "hasPower": true,
   "hasLiquids": false,
   "updateEffect": "none",
+  buildVisibility: sandboxOnly
   "consumes": {
   "power": 1.70
   },

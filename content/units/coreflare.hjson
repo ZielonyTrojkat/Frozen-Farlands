@@ -28,7 +28,7 @@ type: ShootPattern
 shots: 1
 }
 top: false
-rotate: true
+rotate: false
 reload: 45
 recoil: 3
     shootSound: PikeSound

@@ -11,7 +11,6 @@ consumes: {
     ]
   }
 }
-buildVisibility: sandboxOnly
 requirements: [
   yttrium/1
 ]

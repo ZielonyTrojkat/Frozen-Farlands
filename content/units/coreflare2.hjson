@@ -29,7 +29,7 @@ type: ShootPattern
 shots: 1
 }
 top: false
-rotate: false
+rotate: true
 reload: 45
 recoil: 3
     shootSound: missile

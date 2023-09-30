@@ -21,3 +21,4 @@
   ],
   "category": "crafting",
   "research": "lead",
+  buildVisibility: sandboxOnly

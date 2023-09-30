@@ -4,7 +4,6 @@
   "health": 21372001911420,
   "ambientSound": Distant
   "ambientSoundVolume": 1000000
-  buildVisibility: sandboxOnly
   "pause": false
   "size": 2,
   "hasItems": false,

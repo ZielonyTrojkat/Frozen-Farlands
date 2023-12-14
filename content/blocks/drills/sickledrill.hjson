@@ -1,12 +1,14 @@
   "name": "Sickle Drill",
   "description": "Drill with sharper blades, mines faster",
   "type": "Drill",
+  hasLiquids: false
   "size": 2,
   "itemCapacity": 10,
-  "tier": 5,
-  "drillTime": 320,
+  "tier": 4,
+  "drillTime": 150,
   "drawMineItem": true,
   rotateSpeed: 5
+  liquidBoostIntensity: 1
   requirements: [
     yttrium/16
     aluminium/8

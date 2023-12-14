@@ -37,6 +37,30 @@ consumes: {
       arcalith/0.2
     ]
 }
+generateEffectRange: 1
+effectChance: 0.025
+generateEffect: {
+    type: RadialEffect
+    layer: 118
+    rotationSpacing: 60
+    amount: 6
+    lengthOffset: 6
+    effect: {
+      particles: 1
+      length: 90
+      lifetime: 400
+      cone: 20
+      baseRotation: 32
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+    }
+  }
 outputLiquid: water/0.5
 powerProduction: 10
 category: power

@@ -1,11 +1,13 @@
   "name": "Micro drill",
   "description": "Very small and weak drill, but strong in a big group"
   "type": "Drill",
+  hasLiquids: false
   "size": 1,
   "itemCapacity": 5,
   "tier": 2,
-  "drillTime": 900,
+  "drillTime": 320,
   "drawMineItem": false,
+  liquidBoostIntensity: 1
   requirements: [
     yttrium/5
   ]

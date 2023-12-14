@@ -19,7 +19,7 @@
         "yttrium": {
             "type": "shrapnelBulletType",
             "lifetime": 19,
-            "damage": 24,
+            "damage": 28,
             serrations: 4
             serrationSpacing: 16
             serrationLenScl: 20
@@ -37,7 +37,7 @@
         "cryogenium": {
             "type": "shrapnelBulletType",
             "lifetime": 25,
-            "damage": 35,
+            "damage": 40,
             status: freezing
             statusDuration: 30
             serrations: 6

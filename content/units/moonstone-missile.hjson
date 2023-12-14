@@ -67,7 +67,7 @@ weapons: [
         instantDisappear: true
         killShooter: true
         hittable: false
-        collidesAir: false
+        collidesAir: true
       "fragVelocityMin": 0.2,
       "fragVelocityMax": 1.0,
       "fragBullets": 8,

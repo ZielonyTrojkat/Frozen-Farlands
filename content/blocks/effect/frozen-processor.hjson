@@ -9,7 +9,7 @@ requirements: [
     aluminium/20
 ]
 research: {
-    parent: "core-2",
+    parent: "frozen-message",
     objectives: [
         {
             type: "OnSector",

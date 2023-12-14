@@ -31,6 +31,30 @@ consumes: {
     arcanite/1
     ]
 }
+generateEffectRange: 1
+effectChance: 0.02
+generateEffect: {
+    type: RadialEffect
+    layer: 118
+    rotationSpacing: 0
+    amount: 1
+    lengthOffset: 0
+    effect: {
+      particles: 1
+      length: 60
+      lifetime: 300
+      cone: 20
+      baseRotation: 32
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: 8c421f66
+      colorTo: 8c421f00
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+    }
+  }
 powerProduction: 0.75
 category: power
 requirements: [

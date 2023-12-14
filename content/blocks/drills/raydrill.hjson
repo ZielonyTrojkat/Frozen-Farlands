@@ -5,13 +5,14 @@
 health: 450
   "itemCapacity": 20,
   "tier": 5,
-  "drillTime": 200,
+  "drillTime": 120,
   "drawMineItem": true,
   drillEffectChance: 1
   drawRim: true
   heatColor: 5ea1f2
   hasPower: true
   rotateSpeed: 6
+  liquidBoostIntensity: 1.28
   consumes: {
     power: 2
     liquid: {

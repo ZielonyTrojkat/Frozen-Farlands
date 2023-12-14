@@ -3,7 +3,7 @@
 "health": 1500,
 range: 250
 rotateSpeed: 4
-reload: 50
+reload: 90
 burstSpacing: 3
 shots: 1
 xRand: 1
@@ -22,7 +22,7 @@ shootType: {
         "homingRange": 100,
     "lifetime" : 80,
     "speed": 3,
-    "damage": 220,
+    "damage": 240,
     "buildingDamageMultiplier": 1,
     "pierceBuilding": false,
     "pierce": true,

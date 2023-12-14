@@ -18,14 +18,15 @@ shootType: {
   color: 7d0209
   length: 140
   width: 24
-  damage: 8
+  damage: 7
+  buildingDamageMultiplier: 0.30
 }
 category: turret
 requirements: [
     yttrium/60
     arcanite/40
     moonstone/40
-    aerogel/20
+    aerogel/25
 ]
 research: {
     parent: Defragmentation

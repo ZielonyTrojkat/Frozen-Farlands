@@ -2,7 +2,7 @@ type: Conveyor
 hasShadow: true
 health: 80
 speed: 0.05
-displayedSpeed: 12
+displayedSpeed: 7
 junctionReplacement: yttrium-junction
 bridgeReplacement: yttrium-bridge
 requirements: [

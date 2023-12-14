@@ -1,0 +1,23 @@
+  "type": "MessageBlock",
+  "health": 250,
+  "size": 1,
+  category: logic
+requirements: [
+    yttrium/15
+    cryogenium/30
+]
+research: {
+    parent: "core-2",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Transit-cavern"
+        }
+    ]
+}
+researchCost: [
+    arcanite/500
+    cryogenium/500
+    aluminium/300
+  ]
+instructionsPerTick: 120

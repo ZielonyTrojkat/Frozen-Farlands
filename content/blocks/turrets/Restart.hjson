@@ -53,8 +53,8 @@ ammoTypes: {
   reinforced-cryofabric: {
         type: basicBulletType
         splashDamageRadius: 70
-        damage : 350
-        splashDamage: 300
+        damage : 420
+        splashDamage: 350
         "homingPower": 0.9,
         "homingRange": 2000,
         width: 25

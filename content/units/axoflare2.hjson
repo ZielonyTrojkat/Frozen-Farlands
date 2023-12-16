@@ -1,10 +1,10 @@
     "type": "flying",
     "lowAltitude": true,
-    "speed": 2,
+    "speed": 1.8,
     "accel": 0.1,
     "drag": 0.04,
     "flying": true,
-    "health": 150,
+    "health": 300,
     "hitSize": 10,
     "armor": 1,
     "itemCapacity": 20,
@@ -38,8 +38,8 @@ shootSound: MoonRaySound
 ejectEffect: none
 bullet: {
     type: BasicBulletType
-    speed: 5
-    lifetime: 50
+    speed: 4
+    lifetime: 40
     damage: 25
     width: 12
     height: 12

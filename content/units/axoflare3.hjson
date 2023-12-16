@@ -4,7 +4,7 @@
     "accel": 0.1,
     "drag": 0.07,
     "flying": true,
-    "health": 2950,
+    "health": 1400,
     "hitSize": 12,
     "armor": 2,
     rotateSpeed: 2
@@ -43,7 +43,7 @@ ejectEffect: none
 bullet: {
     type: BasicBulletType
     speed: 4
-    lifetime: 50
+    lifetime: 42
     damage: 40
     width: 10
     height: 10

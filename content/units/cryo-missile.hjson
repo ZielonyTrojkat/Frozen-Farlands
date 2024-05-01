@@ -24,8 +24,6 @@ playerControllable: false
 physics: false
 createWreck: false
 createScorch: false
-drawMinimap: false
-hoverable: false
 weapons: [
     {
         shootCone: 360

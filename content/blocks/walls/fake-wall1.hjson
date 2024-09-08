@@ -1,0 +1,21 @@
+type: Wall
+category: defense
+health: 500
+size: 1
+drawTeamOverlay: false
+forceDark: true
+mapColor: 243752
+useColor: false
+hasColor: true
+destroyBulletSameTeam: true
+destroyBullet: {
+  spawnUnit: attack-anthropod-T5
+}
+
+
+requirements: [
+  lead/6
+]
+researchCost: [
+  lead/100
+]

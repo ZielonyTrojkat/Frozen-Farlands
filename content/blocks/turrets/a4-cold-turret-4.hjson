@@ -1,0 +1,119 @@
+type: LaserTurret
+size: 5
+shootDuration: 240
+health: 3150
+range: 300
+liquidCapacity: 200
+hasLiquids: true
+consumes: {
+  power: 30
+"liquid": {
+	"liquid": "ionized-xenon",
+	"optional": false,
+	"update": false,
+	"amount": 0.4
+	}
+}
+rotateSpeed: 2
+reload: 60
+recoilAmount: 8
+restitution: 0.02
+shootSound: FrostbiteSound
+moveWhileCharging: false
+shoot: {
+  firstShotDelay: 70
+}
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 120
+    status: Fragment-split
+statusDuration: 400
+status: freezing
+statusDuration: 400
+  lifetime: 15
+  fadeTime: 5
+  length: 300
+  width: 5
+"colors":["007cbf", "18a7db", "00e5ff", "ffffff"],
+	"chargeEffect": {
+"type": "MultiEffect",
+    "effects": [
+{
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 5,
+    "length": 0,
+    "lifetime": 90,
+    "colorFrom": "00eaff",
+    "colorTo": "91f6ff",
+    "cone": 360
+	},
+    {
+    "type": "WaveEffect",
+    "lifetime": 75,
+    "sizeFrom": 50,
+    "sizeTo": 0,
+    "strokeFrom": 5,
+    "strokeTo": 0,
+    "colorFrom": "00eaff",
+    "colorTo": "91f6ff"
+}
+ {
+              type: ParticleEffect
+              particles: 20
+              lifetime: 340
+              length: 20
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: 9daeff00
+              colorTo: 9daeff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 3
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+]
+	},
+}
+"shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "66B1FF",
+                "colorTo": "000000",
+                "sizeFrom": 1,
+                "strokeFrom": 5,
+                "strokeTo": 1,
+                "sizeTo": 400,
+                "lifetime": 200
+            }
+        ]
+    },
+category: turret
+requirements: [
+    yttrium/1000
+    moonstone/800
+    cryogenium/650
+    diamond/500
+    reinforced-cryofabric/150
+  ]
+research: {
+    parent: "Alectro",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Frontline"
+        }
+    ]
+}
+researchCost: [
+    yttrium/4000
+    moonstone/2750
+    cryogenium/1850
+    diamond/1500
+    reinforced-cryofabric/500
+  ]

@@ -1,0 +1,15 @@
+type: Floor
+speedMultiplier: 0.5
+variants: 3
+status: T2-radioactivity
+statusDuration: 180
+cacheLayer: cryofluid
+overlayAlpha: 0.7
+isLiquid: true
+liquidDrop: water
+liquidMultiplier: 1
+supportsOverlay: true
+emitLight: true
+lightRadius: 40
+lightColor: 3c9eff55
+drownTime: 180

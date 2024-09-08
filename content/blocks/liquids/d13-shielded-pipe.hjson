@@ -1,0 +1,22 @@
+type: Conduit
+leaks: false
+health: 80
+hasPower: false
+requirements: [
+  yttrium/2
+  ice-shard/1
+]
+liquidCapacity: 15
+liquidPressure: 1
+botColor: 4a4b53
+category: liquid
+junctionReplacement: yttrium-liquid-junction
+bridgeReplacement: yttrium-liquid-bridge
+researchCost: [
+    yttrium/50
+    ice-shard/50
+  ]
+
+research: {
+  parent: d12-tialcrylic-pipe
+}

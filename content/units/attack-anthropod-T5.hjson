@@ -1,0 +1,312 @@
+type: legs
+hovering: true
+speed: 0.55
+rotateSpeed: 3
+accel: 0.1
+drag: 0.10
+health: 22070
+hitSize: 50
+armor: 12
+itemCapacity: 50
+range: 70
+outlineColor: 36363c
+  legCount: 6
+  legLength: 56
+  legExtension: -8
+  legPairOffset: 4
+  legBaseOffset: 14
+  legContinuousMove: false
+  legLengthScl: 1
+  legMaxLength: 2
+  legMoveSpace: 1.0
+  legSpeed: 0.2
+  rippleScale: 3.8
+  legSplashDamage: 156
+  legSplashRange: 20
+  allowLegStep: true
+
+
+weapons: [
+{
+name: sniper1-gun
+x: 0
+y: 0
+mirror: false
+shootY: 0
+shake: 0
+recoil: 0
+top: false
+rotate: false
+reload: 3600
+shootSound: bang
+ejectEffect: none
+bullet: {
+recoil: -10
+width: 0
+height: 0
+damage: 0
+speed: 1
+lifetime: 180
+hitShake: 2
+hitSound: spark
+}
+}
+
+
+{
+name: attack-mech-T1-gun
+x: 11.5
+y: -3
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 4
+}
+top: true
+rotate: true
+rotationLimit: 100
+rotateSpeed: 3
+shootCone: 50
+reload: 17
+recoil: 3
+shootSound: lasershoot
+ejectEffect: none
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.75
+    length: 150
+    damage: 25
+    shootEffect: shootSmall
+    hitColor: d6ffeb
+    color: d6ffeb
+    despawnEffect: none
+    width: 1
+    lifetime: 20
+    knockback: -12
+status: freezing
+statusDuration: 180
+}
+}
+
+{
+name: attack-mech-T1-gun
+x: 22.5
+y: 9
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 4
+}
+shootY: 2
+top: true
+rotate: true
+rotationLimit: 100
+rotateSpeed: 3
+shootCone: 50
+reload: 20
+recoil: 3
+shootSound: lasershoot
+ejectEffect: none
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.75
+    length: 150
+    damage: 25
+    shootEffect: shootSmall
+    hitColor: d6ffeb
+    color: d6ffeb
+    despawnEffect: none
+    width: 1
+    lifetime: 20
+    knockback: -12
+status: freezing
+statusDuration: 180
+}
+}
+
+
+    {
+      name: aaa
+      x: 0
+      y: 1
+      reload: 30
+      alternate: false
+      top: false
+      rotate: true
+      rotationLimit: 30
+      recoil: 3
+      shoot: {
+        type: ShootAlternate
+        spread: 16
+        barrels: 2
+        shots: 2
+      }
+      predictTarget: false
+      shootCone: 90
+      shake: 2
+      shootY: 4
+      shootSound: shotgun
+      cooldownTime: 120
+      bullet: {
+        type: LaserBulletType
+        length: 55
+        width: 28
+        damage: 150
+        lifetime: 15
+        lightColor: ff7048
+        sideAngle: 25
+        sideLength: 1
+        sideWidth: 1
+        colors: [
+          8acf9b
+          d6ffeb
+          FFFFFF
+        ]
+      }
+    }
+
+
+
+{
+name: ntt
+x: 0
+y: 0
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 1
+firstShotDelay: 120
+}
+shootY: 0
+top: true
+reload: 1500
+recoil: 0
+shake: 10
+shootSound: explosionbig
+ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    lifetime: 1
+    speed: 1
+    width: 0
+    height: 0
+    maxRange: 150
+    splashDamage: 350
+	  splashDamageRadius: 80	
+    despawnHit: true
+    fragBullets: 6
+    fragRandomSpread: 360
+    fragVelocityMin: 0.5
+    fragVelocityMax: 1
+    fragBullet: {
+      type: ArtilleryBulletType
+      lifetime: 120
+	    splashDamage: 80 
+	    splashDamageRadius: 30	
+      speed: 1
+      status: freezing
+      statusDuration: 100
+      width: 10
+      height: 10
+      trailColor: d6ffeb
+      backColor: 8acf9b
+      frontColor: d6ffeb
+      fragBullets: 1
+      fragBullet: {
+        type: BulletType
+        spawnUnit: attack-anthropod-T1
+      }
+    }
+hitEffect: {
+  type: MultiEffect
+  effects: [
+    {
+    type: WaveEffect
+    lifetime: 40
+    sizeFrom: 20
+    sizeTo: 70
+    interp: circleOut
+    strokeFrom: 15
+    strokeTo: 0
+    colorFrom: d6ffeb
+    colorTo: 8acf9b
+    }
+    {
+    type: ParticleEffect
+    lifetime: 80
+    particles: 20
+    cone: 360
+    length: 100
+    region: moon-mod-star3
+    baseLength: 0
+    interp: exp5Out
+    sizeInterp: pow5In
+    sizeFrom: 5
+    sizeTo: 0
+    strokeFrom: 3
+    strokeTo: 0
+    colorFrom: d6ffeb
+    colorTo: 8acf9b
+    spin: -6
+    }
+    {
+    type: ParticleEffect
+    line: true
+    lifetime: 80
+    particles: 30
+    cone: 360
+    length: 120
+    baseLength: 0
+    sizeFrom: 0
+    sizeTo: 15
+    lenFrom: 15
+    lenTo: 0
+    strokeFrom: 7
+    strokeTo: 0
+    colorFrom: d6ffeb
+    colorTo: 8acf9b
+    }
+    {
+    type: ParticleEffect
+    line: true
+    lifetime: 140
+    particles: 30
+    cone: 360
+    length: 100
+    baseLength: 0
+    sizeFrom: 0
+    sizeTo: 15
+    lenFrom: 15
+    lenTo: 0
+    strokeFrom: 6
+    strokeTo: 0
+    colorFrom: d6ffeb
+    colorTo: 8acf9b
+    }
+    {
+    type: WaveEffect
+    lifetime: 20
+    sizeFrom: 80
+    sizeTo: 75
+    strokeFrom: 3
+    strokeTo: 0
+    colorFrom: d6ffeb
+    colorTo: 8acf9b
+    }
+    {
+    type: WaveEffect
+    lifetime: 20
+    sizeFrom: 60
+    sizeTo: 55
+    strokeFrom: 3
+    strokeTo: 0
+    colorFrom: d6ffeb
+    colorTo: 8acf9b
+    }
+  ]
+}
+  }
+}
+]

@@ -1,0 +1,99 @@
+"type": PowerTurret,
+"size": 4,
+"health": 1500,
+range: 480
+rotateSpeed: 4.5
+reload: 200
+burstSpacing: 3
+shots: 1
+xRand: 1
+consumes: {
+  power: 16
+}
+recoilAmount: 3
+shootSound: AlectroSound
+"shoot": {
+  "firstShotDelay": 15
+}
+shootType: {
+  type: LaserBulletType
+  length: 480
+  damage: 300
+  buildingDamageMultiplier: 0.4
+    status: Fragment-split
+statusDuration: 400
+    	"chargeEffect": {
+      "type": "MultiEffect",
+    "effects": [
+    {
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 15,
+    "length": 40,
+    "baseLength": -40,
+    "cone": 40,
+    "interp": "pow4In",
+    "sizeInterp": "pow3Out",    
+    "strokeFrom": 0,
+    "strokeTo": 1,    
+    "lenFrom": 0,
+    "lenTo": 4,
+    "colorFrom": "66B1FF",
+    "colorTo": "ffffff"
+    }
+    ]
+      }
+},
+
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "66B1FF",
+                "colorTo": "000000",
+                "sizeFrom": 1,
+                "sizeTo": 1000,
+                "lifetime": 300
+            }
+             {
+              type: ParticleEffect
+              particles: 12
+              lifetime: 60
+              length: 20
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: 9daeff00
+              colorTo: 9daeff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    },
+category: turret
+requirements: [
+  yttrium/620
+  aluminium/440
+  moonstone/350
+  diamond/200
+]
+research: {
+    parent: "Defragmentation",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Cryo-river"
+        }
+    ]
+}
+researchCost: [
+    yttrium/3200
+    aluminium/1700
+    moonstone/1250
+    diamond/700
+  ]

@@ -1,0 +1,63 @@
+type: naval
+flying: false
+hitSize: 9
+omniMovement: false
+health: 400
+armor: 1
+speed: 0.5
+rotateSpeed: 4
+range: 80
+itemCapacity: 0
+outlineColor: 323236
+weapons: [
+ {
+    name: ship1-gun
+    rotate: true
+    rotateSpeed: 12
+    x: 4
+    y: 0
+    top: true
+    mirror: true
+    shootSound: small-laser-1
+    reload: 50
+    ignoreRotation: true
+    targetAir: true
+    recoil: 1
+    shoot: {
+     type: ShootPattern
+    shots: 1
+    }
+    chargeSound: short-laser-charge
+    bullet: {
+    type: LaserBulletType
+    colors: [bdf8ff, 8ceaff, 8ceaff]
+    width: 5
+    length: 60
+    damage: 20
+    lifetime: 15
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 1
+    chargeEffect: lightningCharge
+    shootEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 8
+    baseLength: 0
+    length: 14
+    lifetime: 30
+    lenFrom: 6
+    lenTo: 0
+    cone: 75
+    interp: circleOut
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: bdf8ff
+    colorTo: 8ceaff
+    }
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
+  }
+  }
+]
+

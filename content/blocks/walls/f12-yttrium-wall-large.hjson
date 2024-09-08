@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+health: 2000
+size: 2
+
+requirements: [
+  a1-yttrium/24
+]
+researchCost: [
+  a1-yttrium/100
+]
+
+research: {
+  parent: f11-yttrium-wall
+}

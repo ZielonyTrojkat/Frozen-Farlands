@@ -1,0 +1,25 @@
+type: ConsumeGenerator
+category: effect
+health: 100
+size: 1
+hasShadow: false
+liquidCapacity: 0.1
+explodeOnFull: true
+outputLiquid: nitrogen/0.001
+explosionPuddleLiquid: nitrogen
+explosionPuddleRange: 60
+explosionPuddleAmount: 30
+explosionPuddles: 10
+rebuildable: false
+destroySound: malignShoot
+destroyBulletSameTeam: true
+destroyBullet: {
+  spawnUnit: attack-anthropod-T1
+}
+
+requirements: [
+  lead/16
+]
+researchCost: [
+    lead/750
+]

@@ -1,0 +1,49 @@
+type: GenericCrafter
+category: crafting
+health: 400
+size: 3
+fogRadius: 1
+hasItems: true
+hasPower: false
+hasLiquids: false
+itemCapacity: 20
+ambientSound: hum
+ambientSoundVolume: 1
+craftTime: 180
+consumes: {
+  liquids: [
+  tialcrylite/0.2
+  ]
+  items: [
+    a1-yttrium/2
+  ]
+  }
+outputItems: [
+  b1-tialcrylic-shard/4
+]
+
+
+requirements: [
+  lead/40
+  ]
+research: lead
+researchCost: [
+  lead/1
+  ]
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: tialcrylite
+  padding: 2
+  }
+  {
+  type: DrawDefault
+  }
+  ]
+  }

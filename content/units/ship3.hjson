@@ -1,0 +1,100 @@
+type: naval
+flying: false
+hitSize: 18
+omniMovement: false
+health: 4000
+armor: 1
+speed: 0.4
+rotateSpeed: 3
+range: 80
+itemCapacity: 0
+outlineColor: 323236
+weapons: [
+ {
+    name: ship1-gun
+    rotate: true
+    rotateSpeed: 12
+    x: 8
+    y: 2
+    top: true
+    mirror: true
+    shootSound: pew
+    reload: 20
+    ignoreRotation: true
+    targetAir: true
+    recoil: 0.8
+    shoot: {
+     type: ShootSpread
+    shots: 1
+    spread: 7
+    }
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      backColor: 68969a
+      frontColor: a5c7c9
+      trailColor: 7bacb0
+      damage: 30
+      speed: 2
+      lifetime: 60
+      recoil: 0.0
+      width: 5
+      height: 7
+      trailWidth: 1.6
+      trailLength: 7
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+ {
+    name: ship3-gun-main
+    rotate: true
+    rotateSpeed: 4
+    x: 0
+    y: -5
+    top: true
+    mirror: false
+    shootSound: pew
+    reload: 60
+    ignoreRotation: true
+    targetAir: true
+    recoil: 0.8
+    shoot: {
+      type: shootHelix
+      shots: 1
+      mag: 0.8
+      offset: 0
+      scl: 4
+    }
+    bullet: {
+      type: ArtilleryBulletType
+      sprite: missile-large
+      backColor: c1c4c9
+      frontColor: dfe2e8
+      trailColor: edf0f5
+      damage: 50
+      speed: 2
+      lifetime: 100
+      recoil: 0.2
+      width: 5
+      height: 7
+      trailWidth: 1.6
+      trailLength: 7
+      lenght: 4
+      shootEffect: none
+      smokeEffect: shootSmallSmoke
+      fragBullet: {
+        speed: 3
+        collidesTiles: false
+        damage: 20
+        despawnHit: true
+        width: 4
+        heigth: 6
+        lifetime: 10
+        fragVelocityMin: 0.3
+      fragVelocityMax: 1.5
+      fragBullets: 1
+            }
+    }
+  }
+]

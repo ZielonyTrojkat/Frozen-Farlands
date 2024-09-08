@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+health: 500
+size: 1
+
+requirements: [
+  a1-yttrium/6
+]
+researchCost: [
+  a1-yttrium/100
+]
+
+research: {
+  parent: farlands-core1
+}

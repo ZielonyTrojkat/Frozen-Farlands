@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+health: 650
+size: 1
+
+requirements: [
+  b1-tialcrylic-shard/6
+]
+researchCost: [
+  b1-tialcrylic-shard/100
+]
+
+research: {
+  parent: f11-yttrium-wall
+}

@@ -6,17 +6,18 @@
     updateLighting: false,
     atmosphereRadIn: 0.01,
     atmosphereRadOut: 0.3,
-    atmosphereColor: 4caed9,
+    atmosphereColor: 39a4d3,
     drawOrbit: true,
     accessible: true,
     alwaysUnlocked: true,
     defaultCore: "core-2",
     sectorSeed: 69,
+    bloom: false
     startSector: 8,
     sectorSize: 2,
     clearSectorOnLose: true,
     allowSectorInvasion: false,
-	allowLaunchToNumbered: false,
+	allowLaunchToNumbered: true,
     radius: 1,
     hiddenItems: [
         "copper",
@@ -114,7 +115,7 @@ mesh: [
     cper: 1
     cscl: 1.8
     cthresh: 1
-    seed: 12
+    seed: 27
   }
   {
     type: NoiseMesh
@@ -130,7 +131,7 @@ mesh: [
     cper: 1
     cscl: 1.8
     cthresh: 1
-    seed: 12
+    seed: 27
   }
   {
     type: NoiseMesh
@@ -146,7 +147,7 @@ mesh: [
     cper: 1
     cscl: 0.7
     cthresh: 1
-    seed: 12
+    seed: 27
   }
   {
     type: NoiseMesh
@@ -162,6 +163,6 @@ mesh: [
     cper: 1
     cscl: 1.8
     cthresh: 1
-    seed: 12
+    seed: 27
   }
 ]

@@ -1,0 +1,22 @@
+{
+	"type": "CoreBlock",
+	"health": 3870,
+	"size": 3,
+	"absorbLasers": true,
+	"itemCapacity": 6000,
+	"unitCapModifier": 12,
+    "unitType": "coreflare",
+requirements: [
+  yttrium/1000
+  arcanite/600
+  ice-shard/200
+]
+  "category": "effect",
+   research: {
+    root: true
+    name: Zilo
+    requiresUnlock: false
+    planet: Zilo
+    }
+    alwaysUnlocked: true
+}

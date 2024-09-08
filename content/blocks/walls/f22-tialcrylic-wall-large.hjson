@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+health: 2600
+size: 2
+
+requirements: [
+  b1-tialcrylic-shard/24
+]
+researchCost: [
+  b1-tialcrylic-shard/100
+]
+
+research: {
+  parent: f21-tialcrylic-wall
+}

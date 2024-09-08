@@ -1,0 +1,18 @@
+type: CellLiquid
+gas: false
+explosiveness: 0.0
+flammability: 0.4
+temperature: 0.5
+viscosity: 0.9
+heatCapacity: 0.5
+
+cells: 9
+capPuddles: true
+color: 4f9ad8
+colorFrom: 317fac
+colorTo: 71c3f2
+removeScaling: 0.5
+
+research: {
+  parent: neptunite-slurry
+}

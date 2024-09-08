@@ -1,0 +1,218 @@
+type: naval
+flying: false
+hitSize: 12
+omniMovement: false
+health: 1500
+armor: 1
+speed: 0.45
+rotateSpeed: 4
+range: 80
+itemCapacity: 0
+outlineColor: 323236
+weapons: [
+ {
+    name: ship1-gun
+    rotate: true
+    rotateSpeed: 12
+    x: 6
+    y: -4
+    top: true
+    mirror: true
+    shootSound: small-laser-1
+    reload: 45
+    ignoreRotation: true
+    targetAir: true
+    recoil: 1
+    shoot: {
+     type: ShootPattern
+    shots: 1
+    }
+    chargeSound: short-laser-charge
+    bullet: {
+    type: LaserBulletType
+    colors: [bdf8ff, 8ceaff, 8ceaff]
+    width: 5
+    length: 80
+    damage: 40
+    lifetime: 15
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 1
+    chargeEffect: lightningCharge
+    shootEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 8
+    baseLength: 0
+    length: 14
+    lifetime: 30
+    lenFrom: 6
+    lenTo: 0
+    interp: circleOut
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: bdf8ff
+    colorTo: 8ceaff
+    }
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
+  }
+  }
+ {
+    name: ship2-gun-main
+    rotate: true
+    rotateSpeed: 10
+    x: 0
+    y: -1.5
+    top: true
+    mirror: false
+    shootSound: small-gun-1
+    reload: 60
+    ignoreRotation: true
+    targetAir: true
+    recoil: 0.8
+    shoot: {
+     type: ShootPattern
+    shots: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      backColor: 68969a
+      frontColor: a5c7c9
+      trailColor: 7bacb0
+      damage: 30
+      splashDamage: 30
+      splashDamageRadius: 30
+      splashDamagePierce: false
+      speed: 4
+      lifetime: 35
+      recoil: 0.0
+      width: 8
+      height: 10
+      trailLength: 10
+      trailWidth: 2.5
+      trailRotation: true
+      trailInterval: 1.5
+      trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      length: 0
+      lifetime: 15
+      region: darken-mod-trail1
+      lightColor: A9D8FFFF
+      colorFrom: 7bacb0
+      colorTo: 68969a
+      sizeFrom: 7
+      sizeTo: 0
+    }
+    shootEffect: {
+    type: WaveEffect
+    lifetime: 22
+    sizeFrom: 0
+    sizeTo: 9
+    interp: circleOut
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: bdf8ff
+    colorTo: 8ceaff
+    }
+    smokeEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 16
+        baseLength: 0
+        length: 40
+        lifetime: 40
+        lenFrom: 7
+        lenTo: 0
+        interp: circleOut
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: bdf8ff
+        colorTo: 8ceaff
+    }
+    despawnHit: true
+    despawnEffect: none
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 16
+        sizeTo: 13
+        interp: circleOut
+        strokeFrom: 6
+        strokeTo: 0
+        colorFrom: bdf8ff
+        colorTo: 8ceaff
+        }
+        {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 10
+        sizeTo: 6
+        interp: circleOut
+        strokeFrom: 5
+        strokeTo: 0
+        colorFrom: bdf8ff
+        colorTo: 8ceaff
+        }
+        {
+        type: ParticleEffect
+        line: true
+        particles: 16
+        baseLength: 0
+        length: 40
+        lifetime: 40
+        lenFrom: 7
+        lenTo: 0
+        interp: circleOut
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: bdf8ff
+        colorTo: 8ceaff
+        }
+      ]
+    }
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullets: 5
+      fragSpread: 72
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      backColor: 68969a
+      frontColor: a5c7c9
+      trailColor: 7bacb0
+      damage: 10
+      speed: 1
+      lifetime: 50
+      recoil: 0.0
+      width: 6
+      height: 8
+      trailLength: 10
+      trailWidth: 2
+      trailChance: -1
+      weaveScale: 6
+      weaveMag: 6
+    shootEffect: {
+    type: WaveEffect
+    lifetime: 25
+    sizeFrom: 0
+    sizeTo: 6
+    interp: circleOut
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: bdf8ff
+    colorTo: 8ceaff
+    }
+    despawnEffect: none
+    hitEffect: none
+      }
+    }
+  }
+]

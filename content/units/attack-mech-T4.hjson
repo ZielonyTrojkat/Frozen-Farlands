@@ -1,0 +1,143 @@
+"outlineColor": "36363c",
+  "type": "mech",
+	"speed": 0.3,
+	"hitSize": 18,
+	"health": 9360,
+	"faceTarget": true,
+	"armor": 10,
+	"range": 220,
+	"rotateSpeed": 2,
+"mechFrontSway": 0.5,
+"mechSideSway": 0.5,
+"mechStepParticles": true,
+"stepShake": 0.9,
+mechStride: 9
+	"hovering": false,
+	"immunities": [
+		"freezing"
+	],
+targetAir: true
+weapons: [
+{
+name: cutlass-gun
+x: 14
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 6
+shotDelay: 3
+}
+top: false
+rotate: false
+reload: 12
+recoil: 4
+shootSound: bang
+ejectEffect: none
+bullet: {
+width: 13
+height: 19
+damage: 75
+splashDamage: 20
+splashDamageRadius: 20
+speed: 7
+lifetime: 55
+backColor: 51e1e8
+frontColor: cdf8fa
+status: freezing
+statusDuration: 180
+    trailChance: 1
+	trailRotation: true
+    trailEffect: {
+    type: ParticleEffect
+	line: true
+    particles: 1
+    length: 0
+    lifetime: 10
+    sizeFrom: 5
+    sizeTo: 0
+    colorFrom: 51e1e8
+    colorTo: cdf8fa
+    region: particle
+	followParent: true
+            }
+    }
+  }
+  {
+    name: cutlass-striker
+    reload: 70
+    shootY: 17.75
+    shake: 5
+    recoil: 4
+    rotate: true
+    rotateSpeed: 1
+    mirror: false
+    alternate: false
+    x: 0
+    y: 0
+    shadow: 28
+    heatColor: f9350f
+    cooldownTime: 80
+    shootSound: mediumCannon
+    bullet: {
+      sprite: moon-mod-shell
+      speed: 12
+      damage: 180
+      width: 10
+      height: 13
+      lifetime: 18
+      hitSize: 6
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      pierceCap: 4
+      pierce: true
+      pierceBuilding: true
+      hitColor: feb380
+      backColor: feb380
+      trailColor: feb380
+      frontColor: ffffff
+      trailWidth: 3.1
+      trailLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      splashDamageRadius: 20
+      splashDamage: 50
+      maxRange: 240
+      fragOnHit: true
+      fragRandomSpread: 4
+      fragSpread: 30
+      fragBullets: 12
+      fragVelocityMin: 4
+      fragBullet: {
+        speed: 6
+        damage: 35
+        sprite: moon-mod-shrapnel
+        width: 5
+        height: 12
+        lifetime: 15
+        hitSize: 4
+        hitColor: feb380
+        backColor: feb380
+        trailColor: feb380
+        frontColor: ffffff
+        trailWidth: 1.8
+        trailLength: 6
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        splashDamageRadius: 12
+        splashDamage: 70
+  }
+}
+}
+]
+research: {
+    parent: "rapier",
+    objectives: [
+      Assembler-1,
+        {
+            type: "SectorComplete",
+            preset: "Cryo-river"
+        }
+    ]
+},
+researchCostMultiplier: 0

@@ -1,24 +1,8 @@
-name: "moon mod"
-displayName: "[#1ba8fa[]]Frozen Farlands[white[]]"
-author: "[#3bdbff[]]CY4N[white[]] & [#11d41e[]]Zielony Trójkąt[white[]]"
-description: "[yellow[]]Before you'll play this mod, let me tell you that [red[]]skill and patience are highly required.
-[yellow[]]You need to learn from your mistakes and lost battles in order to complete some sectors.[white[]]
-Welcome to the Frozen farlands,
-here, where there is no such thing called heat, Serpulo's Moon Awaits you!
-Zilo, a place colonized by Bushark the fraction from Tantros,
-Even if that's only a moon there are many new things, new resources, blocks, units, turrets, just everything.
-There is one more place we would like you to visit... Gheţar
-A Lonely Asteroid orbiting behind Zilo,
-Maybe it's a small place but it doesn't means it is going to be easy in there, but surely you'd be having fun...
-
-This mod contains custom soundtracks, please do not steal them... instead get a better vibe while playing
-And Thanks to [#8c0303[]]Świrek[white[]] for helping us with code.
-We hope you'll enjoy our mod
-This Isn't our last creation, we have a huge plans upcoming, if you are interested in our plans, concepts and updates join our discord server
-Our contributtors: [#36a855[]]RouterXdd[white[]], [#327db3[]]Silin Veredno[white[]] and [#dba642[]]Catana8735[white[]]
-link: [[]blue]https://discord.gg/TQTW3mfYyf[[]white]
-We also have it on a disboard."
-version: "1.3"
+name: "frozen farlands 2.0"
+displayName: "[#1ba8fa[]]Frozen Farlands 2.0[white[]]"
+author: "[#3bdbff[]]Hyperium[white[]] & [#11d41e[]]Zielony Trójkąt[white[]]"
+description: "ff 2.0 priv"
+version: "0.1"
 minGameVersion: "143.1"
 hidden: false
-subtitle: Stay tuned for Astral Abyss
+subtitle: ff 2.0

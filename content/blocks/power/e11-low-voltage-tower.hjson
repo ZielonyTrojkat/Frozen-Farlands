@@ -1,0 +1,25 @@
+type: PowerNode
+category: power
+health: 50
+size: 1
+fogRadius: 1
+hasPower: true
+outputsPower: true
+underBullets: true
+laserColor1: a5deff
+laserColor2: 3d85c6
+maxNodes: 6
+maxRange: 1
+laserRange: 8
+laserScale: 0.4
+
+requirements: [
+  lead/5
+]
+researchCost: [
+  lead/150
+]
+
+research: {
+  parent: farlands-core1
+}

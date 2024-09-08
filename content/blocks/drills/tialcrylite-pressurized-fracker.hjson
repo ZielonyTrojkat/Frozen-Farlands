@@ -1,0 +1,160 @@
+type: AttributeCrafter
+category: production
+health: 200
+size: 3
+fogRadius: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 120
+underBullets: false
+
+attribute: tialcrylite
+displayEfficiency: false
+minEfficiency: 9
+baseEfficiency: 0
+craftTime: 60
+outputLiquid: tialcrylite/0.2
+
+requirements: [
+  lead/20
+]
+research: {
+    parent: lead
+    objectives: [
+        {
+            type: OnSector
+            preset: origin
+        }
+    ]
+}
+researchCost: [
+    lead/750
+  ]
+
+craftTime: 300
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 90
+  rotationOffset: 45
+  amount: 4
+  lengthOffset: 7
+  effect: {
+    type: MultiEffect
+    effects: [
+      {
+    startDelay: 0
+    baseRotation: 0
+    length: 18
+    baseLength: 2
+    particles: 4
+    useRotation: true
+    sizeFrom: 0
+    sizeTo: 2.3
+    lifetime: 180
+    cone: 25
+    layer: 50
+    colorFrom: ffffff
+    colorTo: ffffff00
+    interp: pow2Out
+    sizeInterp: pow2Out
+      }
+      {
+    startDelay: 15
+    baseRotation: 0
+    length: 18
+    baseLength: 2
+    particles: 4
+    useRotation: true
+    sizeFrom: 0
+    sizeTo: 2.3
+    lifetime: 180
+    cone: 25
+    layer: 50
+    colorFrom: ffffff
+    colorTo: ffffff00
+    interp: pow2Out
+    sizeInterp: pow2Out
+      }
+      {
+    startDelay: 30
+    baseRotation: 0
+    length: 18
+    baseLength: 2
+    particles: 4
+    useRotation: true
+    sizeFrom: 0
+    sizeTo: 2.3
+    lifetime: 180
+    cone: 25
+    layer: 50
+    colorFrom: ffffff
+    colorTo: ffffff00
+    interp: pow2Out
+    sizeInterp: pow2Out
+      }
+      {
+    startDelay: 45
+    baseRotation: 0
+    length: 18
+    baseLength: 2
+    particles: 4
+    useRotation: true
+    sizeFrom: 0
+    sizeTo: 2.3
+    lifetime: 180
+    cone: 25
+    layer: 50
+    colorFrom: ffffff
+    colorTo: ffffff00
+    interp: pow2Out
+    sizeInterp: pow2Out
+      }
+            {
+    startDelay: 60
+    baseRotation: 0
+    length: 18
+    baseLength: 2
+    particles: 4
+    useRotation: true
+    sizeFrom: 0
+    sizeTo: 2.3
+    lifetime: 180
+    cone: 25
+    layer: 50
+    colorFrom: ffffff
+    colorTo: ffffff00
+    interp: pow2Out
+    sizeInterp: pow2Out
+      }
+    ]
+  }
+}
+
+
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  drawLiquid: tialcrylite
+  }
+  {
+  type: DrawDefault
+  }
+  {	
+  type: DrawPistons
+  sinMag: 4
+  sinScl: 20
+  angleOffset: 0
+  sides: 4
+	}
+  {
+  type: DrawRegion
+  suffix: -top
+  }
+  ]
+}

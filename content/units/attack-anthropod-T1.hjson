@@ -1,0 +1,122 @@
+type: legs
+hovering: true
+speed: 1.0
+rotateSpeed: 3
+accel: 0.1
+drag: 0.10
+health: 270
+hitSize: 5
+armor: 5
+itemCapacity: 50
+outlineColor: 36363c
+faceTarget: true
+  "legMoveSpace": 1,
+  "legMaxLength": 1.1,
+  "legMinLength": 0.2,
+  "legLengthScl": 0.96,
+  "legForwardScl": 1.1,
+  "legPhysicsLayer": false,
+  "legGroupSize": 4,
+  "legCount": 6,
+  "legExtension": -2,
+  "legContinuousMove": true,
+  "lockLegBase": true,
+  "rippleScale": 0.2,
+  "legBaseOffset": 5,
+  "legLength": 9,
+  "allowLegStep": true,
+
+
+weapons: [
+{
+name: sniper1-gun
+x: 0
+y: 0
+mirror: false
+shootY: 0
+shake: 0
+recoil: 0
+top: false
+rotate: false
+reload: 3600
+shootSound: spark
+ejectEffect: none
+hitEffect: none
+useAttackRange: false
+bullet: {
+recoil: -5
+width: 0
+height: 0
+damage: 0
+speed: 1
+lifetime: 120
+hitShake: 2
+}
+}
+
+
+    {
+      "name": "molten-weapon",
+      "x": 0,
+      "y": 2,
+      "mirror": false,
+      "top": true,
+      "recoil": 0,
+      "rotate": false,
+      "shootY": 0,
+      shootCone: 180
+      "rotateSpeed": 3,
+      "shootSound": "torch",
+      "alwaysContinuous": true,
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-glow",
+          "layer": -1,
+          "mirror": true,
+          "blending": "additive",
+          "color": "a0ecff",
+          "colorTo": "a0ecff",
+          "outline": false,
+          "progress": "warmup"
+        }
+      ],
+      "continuous": true,
+      "bullet": {
+        "type": "ContinuousFlameBulletType",
+        "colors": [
+          "639bffaa",
+          "0a6bd790",
+          "48c4ff",
+          "a0ecff",
+          "FFFFFFFF"
+        ],
+        "damage": 7,
+        "flareWidth": 3.5,
+        "flareLength": 16,
+        "flareColor": "a0ecff",
+        "width": 2.5,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 7,
+          "lifetime": 12,
+          "length": 40,
+          "cone": -360,
+          "strokeFrom": 2.5,
+          "strokeTo": 0,
+          "lenFrom": 8,
+          "lenTo": 0,
+          "colorFrom": "a0ecff",
+          "colorTo": "639bff"
+        },
+        "divisions": 20,
+        "length": 45,
+        "drawSize": 350,
+        "lifetime": 70,
+        "status": "melting",
+        "pierceCap": 0,
+        "statusDuration": 150
+      }
+    }
+]

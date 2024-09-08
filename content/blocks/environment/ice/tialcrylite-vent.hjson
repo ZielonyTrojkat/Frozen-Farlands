@@ -1,0 +1,29 @@
+type: SteamVent
+variants: 1
+parent: tialcrylite-floor
+blendGroup: tialcrylite-floor
+attributes: {
+  tialcrylite: 1
+}
+effect: {
+    type: RadialEffect
+    layer: 118
+    rotationSpacing: 0
+    amount: 0
+    lengthOffset: 1
+    effect: {
+      particles: 1
+      length: 30
+      lifetime: 260
+      cone: 20
+      baseRotation: 32
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 7
+      colorFrom: 87c3ff66
+      colorTo: 4c97e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+    }
+  }

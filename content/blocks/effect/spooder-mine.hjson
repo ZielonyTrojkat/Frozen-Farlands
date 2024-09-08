@@ -1,0 +1,52 @@
+type: ShockMine
+health: 50
+hasShadow: false
+damage: 0
+tileDamage: 10
+length: 0
+tendrils: 0
+shots: 1
+cooldown: 40
+bullet: {
+      spawnUnit: attack-anthropod-T1
+width: 7
+height: 7
+speed: 0
+lifetime: 1
+damage: 0
+splashDamage: 60
+splashDamageRadius: 24
+shrinkX: 2
+shrinkY: 2
+collides: false
+collidesAir: false
+collidesTiles: false
+absorbable: false
+hittable: false
+hitEffect: none
+rebuildable: false
+destroySound: malignShoot
+destroyBulletSameTeam: true
+destroyBullet: {
+  spawnUnit: attack-anthropod-T1
+}
+hitColor: 65daf7
+backColor: 65daf7
+frontColor: 59bdeb
+status: freezing
+statusDuration: 60
+}
+category: effect
+requirements: [
+cryogenium/20
+aluminium/10
+]
+research: {
+    parent: "repair-field",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Secret-passage"
+        }
+    ]
+},

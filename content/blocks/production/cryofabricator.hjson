@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
   "description": "Infuses materials into very durable material",
-  "health": 900,
-  "size": 4,
+  "health": 1900,
+  "size": 5,
   "hasItems": true,
   "craftTime": 150,
    "craftEffect": {

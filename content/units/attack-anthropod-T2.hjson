@@ -1,0 +1,26 @@
+type: legs
+hovering: true
+speed: 1.0
+rotateSpeed: 3
+accel: 0.1
+drag: 0.10
+health: 270
+hitSize: 5
+armor: 5
+itemCapacity: 50
+outlineColor: 36363c
+  "legMoveSpace": 1,
+  "legMaxLength": 1.1,
+  "legMinLength": 0.2,
+  "legLengthScl": 0.96,
+  "legForwardScl": 1.1,
+  "legPhysicsLayer": false,
+  "legGroupSize": 4,
+  "legCount": 6,
+  "legExtension": -2,
+  "legContinuousMove": true,
+  "lockLegBase": true,
+  "rippleScale": 0.2,
+  "legBaseOffset": 5,
+  "legLength": 9,
+  "allowLegStep": true,

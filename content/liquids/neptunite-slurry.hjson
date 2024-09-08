@@ -1,0 +1,14 @@
+
+gas: false
+explosiveness: 0.2
+flammability: 0.4
+temperature: 0.5
+viscosity: 0.9
+heatCapacity: 0.5
+
+capPuddles: true
+color: 4f9ad8
+
+research: {
+  parent: black-shale
+}

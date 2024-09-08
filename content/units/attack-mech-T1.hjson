@@ -1,0 +1,51 @@
+outlineColor: 36363c
+type: mech
+speed: 0.35
+hitSize: 14
+health: 380
+faceTarget: true
+armor: 6
+range: 140
+rotateSpeed: 2.5
+mechFrontSway: 0.3
+mechSideSway: 0.3
+mechStepParticles: true
+mechStepShake: 0.5
+hovering: false
+immunities: []
+targetAir: true
+weapons: [
+{
+name: attack-mech-T1-gun
+x: 5
+y: 0
+mirror: true
+shootSound: pew
+reload: 20
+ignoreRotation: true
+targetAir: true
+top: false
+recoil: 0.8
+shoot: {
+  type: ShootSpread
+  shots: 1
+  spread: 7
+  }
+  bullet: {
+    type: BasicBulletType
+    backColor: 68969a
+    frontColor: a5c7c9
+    trailColor: 7bacb0
+    damage: 30
+    speed: 3
+    lifetime: 60
+    recoil: 0.0
+    width: 5
+    height: 7
+    trailWidth: 1.6
+    trailLength: 7
+    shootEffect: none
+    smokeEffect: none
+  }
+}
+]

@@ -1,0 +1,14 @@
+type: CellLiquid
+gas: false
+explosiveness: 0.0
+flammability: 0.0
+temperature: 0.2
+viscosity: 0.6
+heatCapacity: 0.5
+
+cells: 5
+capPuddles: true
+color: 4f9ad8
+colorFrom: 317fac
+colorTo: 71c3f2
+removeScaling: 0.5

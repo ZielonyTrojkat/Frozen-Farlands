@@ -1,0 +1,74 @@
+"type": PowerTurret,
+description: shoots with a single long-ranged laser that splits enemies from inside
+"size": 2,
+"health": 800,
+range: 280
+rotateSpeed: 4.5
+reload: 130
+burstSpacing: 3
+shots: 1
+xRand: 1
+consumes: {
+  power: 3
+}
+recoilAmount: 3
+shootSound: DefragmentationSound
+shootType: {
+  type: LaserBulletType
+  length: 280
+  width: 20
+  damage: 100
+  status: Fragment-split
+statusDuration: 180
+  firstShotDelay: 1
+  shotDelay: 1
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "11dcf2",
+                "colorTo": "11dcf2",
+                "sizeFrom": 1,
+                "sizeTo": 150,
+                "lifetime": 50
+            }
+            {
+              type: ParticleEffect
+              particles: 10
+              lifetime: 50
+              length: 20
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: 9daeff00
+              colorTo: 9daeff
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+        ]
+    },
+}
+category: turret
+requirements: [
+  yttrium/45
+  arcanite/20
+  aluminium/15
+]
+research: {
+    parent: "Pike",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Transit-cavern"
+        }
+    ]
+},
+researchCost: [
+    yttrium/500
+    arcanite/350
+    aluminium/300
+  ]

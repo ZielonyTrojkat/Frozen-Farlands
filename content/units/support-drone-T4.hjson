@@ -1,0 +1,120 @@
+    "type": "flying",
+    "lowAltitude": true,
+    "speed": 1,
+    "accel": 0.1,
+    "drag": 0.06,
+    "flying": true,
+    "health": 7950,
+    "hitSize": 20,
+    "armor": 3,
+    rotateSpeed: 1.5
+    "itemCapacity": 70,
+  "outlineColor": "36363c",
+    "engineOffset": 19,
+    engineSize: 5
+    "faceTarget": true,
+    buildSpeed: 1
+    buildRange: 170
+    "weapons": [ 
+        {
+            "name": "axoflare4-weapon",
+            "mirror": false,
+            "top": false,
+            "x": 0,
+            "y": 4,
+            "shootStatusDuration": 40,
+            "shoot": {
+                "firstShotDelay": 40
+            },
+            parentizeEffects: true
+            "reload": 200,
+            "shake": 10,
+            "recoil": 0,
+            "shootStatus": "unmoving",
+            "shootSound": "railgun",
+            "shootSoundVolume": 8,
+            "chargeSound": "lasercharge2",
+            "rotate": false,
+            "cooldownTime": 200,
+            "bullet": {
+                "type": "LaserBulletType",
+                "length": 280,
+                "lifetime": 40,
+                "width": 25,
+                "damage": 450,
+                recoil: 2
+                "colors": ["62AE7FFF", "84F491FF", "FFFFFF"],
+                "lightColor": "84F491FF",
+                "hitEffect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 15,
+                    "lifetime": 20,
+                    "offset": 50,
+                    "cone": -360,
+                    "lenFrom": 5,
+                    "lenTo": 0,
+                    "colorFrom": "84F491FF",
+                    "colorTo": "62AE7FFF"
+                },
+                "chargeEffect": {
+                    "type": "multiEffect",
+                    "lifetime": 40,
+                    "effects": [
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 1,
+                            "sizeTo": 5,
+                            "length": 0,
+                            "lifetime": 40,
+                            "colorFrom": "84F491FF",
+                            "colorTo": "84F491FF",
+                            "cone": 360
+                        },
+                        {
+                            "type": "WaveEffect",
+                            "lifetime": 40,
+                            "sizeFrom": 0,
+                            "sizeTo": 17,
+                            "strokeFrom": 7,
+                            "strokeTo": 0,
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 2,
+                            "sizeTo": 13,
+                            "length": 0,
+                            "spin": 7,
+                            "lifetime": 40,
+                            "region": "moon-mod-star",                           
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                    ]
+                }
+            }
+        }
+    ],
+research: {
+    parent: "axoflare3",
+    objectives: [
+      Assembler-4,
+        {
+            type: "SectorComplete",
+            preset: "Crash-landing"
+        }
+    ]
+},
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 50
+    range: 70
+    reload: 120
+    }
+    ]
+researchCostMultiplier: 0

@@ -1,0 +1,224 @@
+type: GenericCrafter
+category: crafting
+health: 1500
+size: 3
+fogRadius: 3
+hasItems: true
+hasPower: false
+hasLiquids: true
+itemCapacity: 20
+liquidCapacity: 40
+ambientSound: hum
+ambientSoundVolume: 0.8
+craftTime: 30
+consumes: {
+  items: [
+  a2-bauxite/2
+  ]
+  }
+outputItem: b2-aluminium/1
+outputLiquid: slag/0.2
+
+research: {
+  parent: farlands-core1
+}
+
+requirements: [
+  lead/40
+  ]
+research: lead
+researchCost: [
+  lead/1
+  ]
+drawer: {
+type: DrawMulti
+  drawers: [
+  {
+  type: DrawRegion
+  suffix: -bottom
+  }
+  {
+  type: DrawFlame
+  flameRadius: 0.8
+  flameRadiusIn: 0.4
+  flameRadiusScl: 1.8
+  flameRadiusMag: 1.0
+  flameRadiusInMag: 1.0
+	flameColor: 74C2E8FF
+	}
+  {
+  type: DrawCrucibleFlame
+  circleSpace: 1
+  circleStroke: 3
+  flameRadius: 1
+  flameRadiusScl: 3
+  flameRadiusMag: 1
+	flameColor: fa7020
+  particleLife: 80
+  particleRad: 10
+  particles: 100
+  particleSize: 2
+  rotateScl: 0.5
+  }
+  {
+  type: DrawDefault
+  }
+  {
+  type: DrawGlowRegion
+  suffix: -top 
+  glowScale: 10
+  color: ff8400
+  }
+  ]
+  }
+
+craftEffect: [
+  {
+    type: RadialEffect
+    layer: 118
+    rotationSpacing: 60
+    amount: 6
+    lengthOffset: 4
+    effect: {
+      particles: 1
+      length: 110
+      lifetime: 400
+      cone: 20
+      baseRotation: 33
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: 787878aa
+      colorTo: 78787800
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+    }
+  }
+    {
+    type: RadialEffect
+    layer: 118
+    rotationSpacing: 60
+    amount: 6
+    lengthOffset: 3
+    effect: {
+      startDelay: 30
+      particles: 1
+      length: 110
+      lifetime: 400
+      cone: 20
+      baseRotation: 33
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: 787878aa
+      colorTo: 78787800
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+    }
+  }
+  {
+  type: RadialEffect
+  layer: 118
+  rotationSpacing: 30
+  amount: 12
+  lengthOffset: 3
+  effect: {
+    particles: 1
+    line: true
+    length: 15
+    lifetime: 45
+    cone: 20
+    useRotation: false
+    baseRotation: 90
+    lenFrom: 0
+    lenTo: 4
+    strokeFrom: 0.7
+    strokeTo: 0
+    colorFrom: ff823acc
+    colorTo: ff823a88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+    }
+  }
+    {
+  type: RadialEffect
+  layer: 118
+  rotationSpacing: 30
+  amount: 12
+  lengthOffset: 3
+  effect: {
+    particles: 1
+    line: true
+    length: 15
+    lifetime: 45
+    cone: 20
+    startDelay: 15
+    useRotation: false
+    baseRotation: 90
+    lenFrom: 0
+    lenTo: 4
+    strokeFrom: 0.7
+    strokeTo: 0
+    colorFrom: ff823acc
+    colorTo: ff823a88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+    }
+  }
+      {
+  type: RadialEffect
+  layer: 118
+  rotationSpacing: 30
+  amount: 12
+  lengthOffset: 3
+  effect: {
+    particles: 1
+    line: true
+    length: 15
+    lifetime: 45
+    cone: 20
+    startDelay: 30
+    useRotation: false
+    baseRotation: 90
+    lenFrom: 0
+    lenTo: 4
+    strokeFrom: 0.7
+    strokeTo: 0
+    colorFrom: ff823acc
+    colorTo: ff823a88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+    }
+  }
+      {
+  type: RadialEffect
+  layer: 118
+  rotationSpacing: 30
+  amount: 12
+  lengthOffset: 3
+  effect: {
+    particles: 1
+    line: true
+    length: 15
+    lifetime: 45
+    cone: 20
+    startDelay: 45
+    useRotation: false
+    baseRotation: 90
+    lenFrom: 0
+    lenTo: 4
+    strokeFrom: 0.7
+    strokeTo: 0
+    colorFrom: ff823acc
+    colorTo: ff823a88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+    }
+  }
+]

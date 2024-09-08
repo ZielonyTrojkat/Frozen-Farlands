@@ -1,0 +1,8 @@
+planet: Zilo
+sector: 8
+research: {
+    parent: crimson-core1
+}
+difficulty: 1
+alwaysUnlocked: true
+overrideLaunchDefaults: true

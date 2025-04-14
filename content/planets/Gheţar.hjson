@@ -10,7 +10,8 @@
     defaultCore: "core-2",
     clearSectorOnLose: true,
     allowSectorInvasion: false,
-	allowLaunchToNumbered: false,
+    allowLaunchToNumbered: false,
+    allowWaveSimulation: true,
     radius: 1,
     hiddenItems: [
         "copper",

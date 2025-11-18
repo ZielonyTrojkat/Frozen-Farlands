@@ -1,6 +1,7 @@
 type: item
 name: Yttrium
 description: A very common ore appearing on Zilo, is used in nearly all buildings.
+shownPlanets: [ghetar, zilo]
   "cost": 1,
   "color": "9c9c9c",
   "flammability": 0,

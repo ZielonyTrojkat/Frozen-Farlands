@@ -8,7 +8,7 @@ description: Ore that is rich in aluminium metal, can be smelted in aluminium fo
   "radioactivity": 0,
   "charge": 0,
   hardness: 2
-shownPlanets: [ghetar, zilo]
+shownPlanets: [Gheţar, Zilo]
 research: {
     parent: "yttrium",
     objectives: [

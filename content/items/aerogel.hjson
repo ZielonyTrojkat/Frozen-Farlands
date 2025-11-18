@@ -8,3 +8,4 @@ description: Very light material that can be used as material for building flyin
   "radioactivity": 0,
   "charge": 0
   research: aluminium
+shownPlanets: [ghetar, zilo]

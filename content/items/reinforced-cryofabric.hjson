@@ -7,3 +7,4 @@ name: ReinforcedCryoFabric
   "radioactivity": 0.10,
   hardness: 10
 research: cryogenium
+shownPlanets: [ghetar, zilo]

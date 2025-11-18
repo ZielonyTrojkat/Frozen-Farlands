@@ -8,3 +8,4 @@ description: A metal that is smelted from bauxite ores, is used in many mid-game
   "radioactivity": 0,
   "charge": 0
   research: bauxite
+shownPlanets: [ghetar, zilo]

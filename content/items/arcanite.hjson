@@ -9,3 +9,4 @@ description: Common ore that has high electric and electromagnetic capabilities,
   "charge": 0.5
   hardness: 2
   research: yttrium
+shownPlanets: [ghetar, zilo]

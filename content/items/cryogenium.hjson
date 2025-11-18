@@ -7,5 +7,5 @@ description: Very cold material that is extracted from cryofluid, can be used as
   "explosiveness": 0,
   "radioactivity": 0,
   "charge": 0
-shownPlanets: [ghetar, zilo]
+shownPlanets: [Gheţar, Zilo]
 research: ice-shard

@@ -7,3 +7,4 @@ description: It's just frozen water.
   "explosiveness": 0,
   "radioactivity": 0,
   research: yttrium
+shownPlanets: [ghetar, zilo]

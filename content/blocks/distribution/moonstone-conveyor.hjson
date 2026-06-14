@@ -14,7 +14,7 @@ research: {
     parent: "yttrium-bridge",
     objectives: [
         {
-            type: "SectorComplete",
+            type: "OnSector",
             preset: "Secret-passage"
         }
     ]
